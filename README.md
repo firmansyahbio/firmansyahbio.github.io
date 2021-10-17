@@ -17,7 +17,7 @@ Kinerja yang cepat membuat situs website lebih mudah di temukan oleh peramban je
 ### 5. Kecepatan
 Kinerja yang cepat membuat situs website lebih mudah di temukan oleh peramban jelajah
 > Bagian penting kecepatan seperti contoh berikut
-[• Audio](https://firmansyahbio.github.io/audio.mp3)
-[• Vidio](https://firmansyahbio.github.io/video.mp4)
+[ Audio](https://frasa.github.io/audio.mp3)
+[ Vidio](https://frasa.github.io/video.mp4)
 
 
