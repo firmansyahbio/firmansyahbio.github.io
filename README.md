@@ -15,7 +15,9 @@ Kinerja yang cepat membuat situs website lebih mudah di temukan oleh peramban je
 Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban jelajah Bagian penting kecepatan seperti contoh berikut
 ## Tautan Cepat
 >### Tag Uji 
-[ Audio](https://frasa.github.io/audio.mp3)<br/>
-[ Vidio](https://frasa.github.io/video.mp4)
+•[ Audio](https://frasa.github.io/audio.mp3)<br/>
+•[ Vidio](https://frasa.github.io/video.mp4)<br/>
+•[ Audio](https://frasa.github.io/audio.mp3)<br/>
+•[ Audio](https://frasa.github.io/audio.mp3)<br/>
 
 
