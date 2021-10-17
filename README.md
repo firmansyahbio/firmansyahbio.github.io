@@ -16,6 +16,8 @@ Kinerja yang cepat membuat situs website lebih mudah di temukan oleh peramban je
 > Bagian penting kecepatan 
 ### 5. Kecepatan
 Kinerja yang cepat membuat situs website lebih mudah di temukan oleh peramban jelajah
-> Bagian penting kecepatan
+> Bagian penting kecepatan seperti contoh berikut
+[• Audio](https://firmansyahbio.github.io/audio.mp3)
+[• Vidio](https://firmansyahbio.github.io/video.mp4)
 
 
