@@ -16,9 +16,9 @@ Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban 
 
 
 ## Alat Membangun
->### Uji Situs Di 
-•[ Mersure](https://firmansyahbio.github.io/frasa.github.io/audio.mp3)<br/>
-•[ Search Console](https://firmansyahbio.github.io/frasa.github.io/video.mp4)<br/>
+>### Mulai Menguji 
+•[ Measure](https://web.dev/measure/)<br/>
+•[ Search Console](https://search.google.com/frasa.github.io/video.mp4)<br/>
 •[ Web Data Struktur](https://firmansyahbio.github.io/frasa.github.io/audio.mp3)<br/>
 •[ Uji Web Inti](https://firmansyahbio.github.io/frasa.github.io/audio.mp3)<br/>
 
