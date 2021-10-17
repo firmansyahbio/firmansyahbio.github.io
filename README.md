@@ -1,10 +1,10 @@
 # Firmansyah
-Ini sebagai dari apa yang telah terbangun di dalam web pribadi saya tentang cara suatu hubungan kode bertaut paut di jalur lingkunya
+Ini sebagai dari apa yang telah terbangun di dalam web pribadi saya tentang cara suatu hubungan kode bertaut paut di jalur lingkunya<br/>
+[VISIT WEBSITE](https://firmansyahbio.blogspot.com)
 ## Daftar Bagian
 >### 1. Mengukur
 `Membangun` alur kerja yang `baik` dan benar Mengapa?
 Baca di halam web Saya 
-[Lihat Website](https://firmansyahbio.blogspot.com)
 >### 2. Kecepatan
 Kinerja yang cepat membuat `situs` website lebih mudah di temukan oleh peramban jelajah Bagian penting kecepatan
 >### 3. Kecepatan
