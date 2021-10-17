@@ -57,3 +57,27 @@ background: #ff00ff;
 transform: scale(1.2);
 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+.childow {
+  scroll-snap-align: center;
+  transition: .5s;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+  }
+  &:not (.active) {
+  transform: scale(0.95);
+    background: #eee;
+  }
+}
+.container-frasbox {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: none;
+}
+.radio-tile-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
