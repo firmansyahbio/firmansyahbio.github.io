@@ -21,9 +21,9 @@ Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban 
 •[ Audio](https://firmansyahbio.github.io/frasa.github.io/audio.mp3)<br/>
 ## Hosting Demo
 ### Referensi Tautan 
-[ IMAGE](https://firmansyahbio.github.io/frasa.github.io/audio.mp3)/
-[ AUDIO](https://firmansyahbio.github.io/frasa.github.io/video.mp4)/
-[ VIDEO](https://firmansyahbio.github.io/frasa.github.io/audio.mp3)/
-[ IKON](https://firmansyahbio.github.io/frasa.github.io/audio.mp3)/
+[ IMAGE](https://firmansyahbio.github.io/frasa.github.io/audio.mp3) /
+[ AUDIO](https://firmansyahbio.github.io/frasa.github.io/video.mp4) /
+[ VIDEO](https://firmansyahbio.github.io/frasa.github.io/audio.mp3) /
+[ IKON](https://firmansyahbio.github.io/frasa.github.io/audio.mp3) /
 
 
