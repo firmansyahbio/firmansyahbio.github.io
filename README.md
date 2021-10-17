@@ -20,7 +20,7 @@ Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban 
 •[ Measure](https://web.dev/measure/)<br/>
 •[ Search Console](search.google.com/search-console)<br/>
 •[ Test Data Struktur](https://search.google.com/test/rich-results)<br/>
-•[ Uji Web Inti](https://firmansyahbio.github.io/frasa.github.io/audio.mp3)<br/>
+•[ Validator Markup Schema](https://validator.schema.org/)<br/>
 
 
 ## Hosting Demo
