@@ -44,13 +44,13 @@ background: #ff00ff;
 .childow {
   width: 7rem;
   height: 7rem;
-  margin: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
   font-family: sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  background: #ddd;
+  background: #767EEB;
   flex: 0 0 auto;
 }
 .childow:hover {
