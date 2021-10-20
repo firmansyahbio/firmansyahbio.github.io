@@ -31,3 +31,8 @@ Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban 
 [ IKON](https://firmansyahbio.github.io/frasa.github.io/video.mp4) /
 
 [![.github/workflows/blankon.yml](https://github.com/Firmansyahbio/frasa.github.io/actions/workflows/blankon.yml/badge.svg?event=public)](https://github.com/Firmansyahbio/frasa.github.io/actions/workflows/blankon.yml)
+
+
+```bash
+$ gem install jekyll
+```
