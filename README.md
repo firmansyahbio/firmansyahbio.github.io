@@ -25,12 +25,12 @@ Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban 
 
 ## Hosting Demo
 ### Referensi `Tautan` 
-[ IMAGE](https://firmansyahbio.github.io/frasa.github.io/audio.mp3) /
-[ AUDIO](https://firmansyahbio.github.io/frasa.github.io/audio.mp3) /
-[ VIDEO](https://firmansyahbio.github.io/frasa.github.io/video.mp4) /
-[ IKON](https://firmansyahbio.github.io/frasa.github.io/video.mp4) /
+[ IMAGE](https://firmansyahbio.github.io/code/audio.mp3) /
+[ AUDIO](https://firmansyahbio.github.io/code/audio.mp3) /
+[ VIDEO](https://firmansyahbio.github.io/code/video.mp4) /
+[ IKON](https://firmansyahbio.github.io/code/video.mp4) /
 
-[![.github/workflows/blankon.yml](https://github.com/Firmansyahbio/frasa.github.io/actions/workflows/blankon.yml/badge.svg?event=public)](https://github.com/Firmansyahbio/frasa.github.io/actions/workflows/blankon.yml)
+[![.github/workflows/blankon.yml](https://github.com/Firmansyahbio/code/actions/workflows/blankon.yml/badge.svg?event=public)](https://github.com/Firmansyahbio/frasa.github.io/actions/workflows/blankon.yml)
 
 
 ```bash
