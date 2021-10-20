@@ -18,7 +18,7 @@ Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban 
 ## Alat Membangun
 >### Mulai Menguji 
 - [ Measure](https://web.dev/measure/)<br/>
-- [ Search Console](search.google.com/search-console)<br/>
+- [ Search Console](https://search.google.com/search-console)<br/>
 - [ Test Data Struktur](https://search.google.com/test/rich-results)<br/>
 - [ Validator Markup Schema](https://validator.schema.org/)<br/>
 
