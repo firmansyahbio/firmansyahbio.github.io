@@ -34,5 +34,5 @@ Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban 
 
 
 ```bash
-$ gem install jekyll
+$ gem install frasa
 ```
