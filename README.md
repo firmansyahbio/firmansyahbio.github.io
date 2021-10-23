@@ -15,7 +15,7 @@ Kinerja yang cepat membuat situs website lebih mudah di temukan oleh peramban je
 >### 5. Kecepatan
 Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban jelajah Bagian penting kecepatan seperti contoh berikut
 
-[ Home](home.html)<br/>
+[ EDITOR](editor.html)<br/>
 
 ## Alat Membangun
 >### Mulai Menguji 
