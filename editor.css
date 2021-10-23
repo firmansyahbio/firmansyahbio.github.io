@@ -1,0 +1,10 @@
+.save-file {
+padding: 10px 20px;
+border-radius: 0px 0px 0 0;
+border: 1px #111 solid;
+color: #fff;
+background: #4E4DED;
+}
+.save-file:hover {
+background: #767EEB;
+}
