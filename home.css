@@ -1,6 +1,9 @@
 body {
 background: #4E4EEB;
 }
+.header {
+text-align: center;
+}
 .container {
 background: #4E4EEB;
 }
