@@ -1,0 +1,36 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.5/ace.js"></script>
+<script src="https://firmansyahbio.github.io/code/editor.js"></script>
+<link href="https://firmansyahbio.github.io/code/editor.css" rel="stylesheet"/>
+  
+<button class="save-file" onclick='save()'>Save</button>
+<div id="editor"></div>
+<iframe id='preview'></iframe>
+
+  <script>
+var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.session.setMode("ace/mode/html");
+    editor.setValue('<!DOCTYPE html>\n<html>\n<head>\n<style>\n \n</style>\n</head>\n<body>\n \n \n</body>\n</html>');
+
+    editor.session.on('change', function(delta) {
+      var preview = document.getElementById('preview').contentWindow.document;
+      preview.open();
+      preview.writeln(editor.getValue());
+      preview.close();
+    });
+    function download(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+    editor.change();
+    function save() {
+      download('file.html', editor.getValue());
+    }</script>
