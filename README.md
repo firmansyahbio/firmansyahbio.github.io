@@ -1,5 +1,5 @@
 # Firmansyah
-[Code](https://firmansyahbio.github.io/code) ini sebagai dari apa yang telah terbangun di dalam web pribadi saya tentang cara suatu hubungan kode bertaut paut di jalur lingkunya<br/>
+[Code](https://firmansyahbio.github.io/code) ini sebagai dari frasa apa yang telah terbangun di dalam web pribadi saya tentang cara suatu hubungan kode bertaut di jalur lingkarnya<br/>
 
 [VIEW WEBSITE](https://firmansyahbio.blogspot.com)
 ## Daftar Bagian
