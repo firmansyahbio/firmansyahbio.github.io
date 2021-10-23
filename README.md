@@ -1,6 +1,7 @@
 # Firmansyah
-Ini sebagai dari apa yang telah terbangun di dalam web pribadi saya tentang cara suatu hubungan kode bertaut paut di jalur lingkunya<br/>
-[VISIT WEBSITE](https://firmansyahbio.blogspot.com)
+[Code](https://firmansyahbio.github.io/code) ini sebagai dari apa yang telah terbangun di dalam web pribadi saya tentang cara suatu hubungan kode bertaut paut di jalur lingkunya<br/>
+
+[VIEW WEBSITE](https://firmansyahbio.blogspot.com)
 ## Daftar Bagian
 >### 1. Mengukur
 `Membangun` alur kerja yang `baik` dan benar Mengapa?
