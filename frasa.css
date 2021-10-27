@@ -322,12 +322,12 @@ width: 0 ;
 }
  .output-demo {
   width: none;
-  margin-top: 20px;
+  margin-top: 5px;
   border: 1px #000;
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 4px;
-  height: 250px;
-  background: #b3ffff;
+  min-height: 250px;
+  background: #ffffff;
 }
 .frasa .inpol {
   margin-top: 20px;
