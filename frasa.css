@@ -125,22 +125,6 @@ background-attachment: fixed;
 max-width: 1250px;
 margin-top: 5px;
 }
-.frasa .codbar {
-display: block;
-margin-top: 5px;
-margin-bottom: 10px;
-}
-.frasa .t-code {
-display: block;
-width: 150px;
-color: #111;
-margin-left: 10px;
-margin-top: 6px;
-font-size: 19px;
-position: absolute;
-z-index: 10;
-letter-spacing: 3px;
-}
 .frasa .font-demo {
 font-size: 1.70em;
 text-align: left;
