@@ -221,17 +221,6 @@ transition: 500ms;
 margin-right: 80px;
 fill: white;
 }
-fieldset {
-border: 2px solid #111;
-border-radius: 5px;
-padding: 0 5px 5px;
-}
-legent {
-margin-left: 2px;
-margin-right: 2px;}
-.frasa .btn {
-padding: 10px 25px;
-}
 .frasa .btn-trans{
 display: flex;}
 .frasa .btn-df{
