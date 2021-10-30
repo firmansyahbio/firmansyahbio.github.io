@@ -1,10 +1,17 @@
 body {
-background: #4E4EEB;
+background: #ffffff;
 }
 .header {
+width: 100%;
+height: 60px;
+background: #4E4DED;
 text-align: center;
 }
 .container {
+margin: 5px;
+width: 100%;
+min-height: 100px;
+position: relative;
 background: #4E4EEB;
 }
 h1 a{
