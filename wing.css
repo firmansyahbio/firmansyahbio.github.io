@@ -1,4 +1,4 @@
-.wingcode {
+.frasa .wingcode {
 display: block;
 margin-top: 5px;
 margin-bottom: 10px;
@@ -90,4 +90,13 @@ width: 0;
    height: none;
    min-height: 250px;
  }
-
+/*=== Ini Adalah Wingroot ===*/
+.frasa .wingroot{
+   background: #fff;
+   margin: 0 auto 2em auto;
+   padding: 35px 30px;
+    }
+.wingroot p{
+   border-left: 2px solid #8EE5EE;
+   padding-left: 15px;
+}
