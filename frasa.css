@@ -284,6 +284,9 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   color: #000;
   position: relative;
   }
+.frasa blockquote {background-color: #ceecee; box-sizing: inherit; color: #666666; font-family: Merriweather, Georgia, serif; font-size: 16px; font-style: italic; margin: 0px 0px 1.5rem; padding: 20px 24px;}
+.frasa blockquote p { margin: 0px; padding: 0px; box-sizing: inherit; vertical-align: inherit;}
+.frasa blockquote p i {font-size: 20px;}
        /*==============================/
     /             CSS ELEMENT.                              / 
  /============================== */
