@@ -1550,68 +1550,7 @@ INI ADALAH CSS DEMO MOBILE
 margin-top: 10px;
 margin-bottom: 10px;
 }
-.demo-main-mobile {
-animation: slide-in .7s .5s ease both;
-margin: auto;
-width: none;
-max-width: 200px;
-min-height: 300px;
-max-height: 300px;
-display: flex;
-flex-direction: column;
-background: white;
-border-radius: 10px;
-padding: 1rem;
-position: relative;
-overflow: hidden;
-box-shadow:
--.4rem .8rem 2rem rgba(176,188,207,.5),
-    inset .2rem -.2rem .7rem rgba(188,188,212,.73),
-    inset 1rem -1rem 2rem rgba(10,197,137,.05);
-}
-.box-main-mobile-a {  
-width: 100%;
-height: 100%;
-min-height: 17rem;
-top: 0px;
-left: 0%;
-bottom: 0%;
-right: 0%;
-margin-top: 0px;
-margin-bottom: 0px;
-z-index: 1;
-display: flex;
-overflow: hidden;
-border-radius: 5px;
-border: 1px #111 solid;
-position: relative;
-flex-direction: column ;
-background-color: white ;
-}
-.box-main-mobile-b {
-height: 100% ;
-overflow: auto;   
-padding: 0em 0em 0em; 
-  }
-.box-main-mobile-b::-webkit-scrollbar {
-width: 0;
-  }
-.box-main-lcd {
-padding-left: 0px;
-padding-right: 0px;
-box-sizing: border-box;
-}
-.link-main-value {
-position: relative;
-display: block;
-width: none;
-height: 300px;
-margin-top: 0px;
-padding: 0;
-margin: 0;
-background: #fff;
-border: 0px #fff solid;
-  }
+
 /*====================================
  CSS LISTBOX CODE 
 ====================================*/
