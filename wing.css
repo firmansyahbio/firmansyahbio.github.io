@@ -56,28 +56,28 @@ pre[class*="language-"]{padding:1em;margin:0;overflow:auto;border:2px solid #000
 .token.important,.token.bold{font-weight:bold}
 .token.italic{font-style:italic}
 .token.entity{cursor:help}
-.language-view {
+.demo {
   height: none;
   overflow: auto ;   
   padding: 0; 
 }
-.language-view::-webkit-scrollbar {
+.demo::-webkit-scrollbar {
 width: 0;
  }
-.language-view {
+.demo {
   width:  96%;
   height: 250px;
   color: #111;
   margin-bottom: 15px;
 }
-.language-view {
+.demo {
    margin: 0px; 
    overflow: auto;
    margin-top: 0px;
-   border-top: 2px #000 solid;
-   border-left: 2px #000 solid;
-   border-right: 2px #000 solid;
-   border-bottom: 2px #000 solid;
+   border-top: 1px #ccc solid;
+   border-left: 1px #ccc solid;
+   border-right: 1px #ccc solid;
+   border-bottom: 1px #ccc solid;
    background: #ffffff;
    color: #111;
    display: block;
