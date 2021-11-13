@@ -66,26 +66,23 @@ width: 0;
  }
 .language-view {
   width:  96%;
-  padding: 5px;
-  display: block;
   height: 250px;
-  border-radius:  0px;
-  color: #fff;
   margin-bottom: 15px;
 }
 .language-view {
    margin: 0px; 
    overflow: auto;
    margin-top: 0px;
-   border-top: 0px #000 solid;
+   border-top: 2px #000 solid;
    border-left: 2px #000 solid;
    border-right: 2px #000 solid;
    border-bottom: 2px #000 solid;
    background-color: #ffffff;
+   color: #111;
    display: block;
    border-radius: 0px;
    box-sizing: border-box;
-   padding: 4px;
+   padding: 5px;
    width: 100%;
    height: none;
    min-height: 250px;
