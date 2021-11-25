@@ -1,19 +1,151 @@
-section {
-clear: both;
-padding: 0;
-margin: 0;
-}
 .docsmars {
-position: relative;
-top: 0px;
-max-width: 1300px;
-margin: 0px;
-padding: 0px;
+  position: relative;
+  top: 0px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px;
 }
-.docsmars .col {
-display: block;
-float: left;
-box-sizing: border-box;
-margin: 0% 0% 0% 0%;
+.col {
+  display: block;
+  float:left;
+  margin: 0% 0% 0% 0%;
 }
-.docsmars .col:first-child { margin-left: 0; }
+.col:first-child { margin-left: 0; }
+/*=====================================
+  DEFAULT ITEM
+=====================================*/
+.default .span_header {
+  width: 99.99%;
+}
+.default .span_nav {
+  width: 99.99%;
+}
+.default .span_section {
+  width: 99.99%;
+}
+.default .span_aside {
+  width: 99.99%;
+}
+.default .span_footer {
+  width: 99.99%;
+}
+/*=====================================
+  BILALU ITEM
+=====================================*/
+.bilalu .span_header {
+  width: 99.99%;
+}
+.bilalu .span_nav {
+  width: 99.99%;
+}
+.bilalu .span_section {
+  width: 69.98%;
+}
+.bilalu .span_aside {
+  width: 30%;
+}
+.bilalu .span_footer {
+  width: 99.99%;
+}
+/*=====================================
+  TEDONG ITEM
+=====================================*/
+.tedong .span_header {
+  width: 99.99%;
+}
+.tedong .span_nav {
+  width: 20%;
+}
+.tedong .span_section {
+  width: 49.98%;
+}
+.tedong .span_aside {
+  width: 30%;
+}
+.tedong .span_footer {
+  width: 99.99%;
+}
+/*=====================================
+  CILERA ITEM
+=====================================*/
+.cilera .span_header {
+  width: 99.99%;
+}
+.cilera .span_nav {
+  width: 99.99%;
+}
+.cilera .span_section {
+  width: 99.99%;
+}
+.cilera .span_aside {
+  width: 49.99%;
+}
+.cilera .span_footer {
+  width: 50%;
+}
+/*=====================================
+  LiPOFISH ITEM
+=====================================*/
+.lipofish .span_header {
+  width: 99.99%;
+}
+.lipofish .span_nav {
+  width: 49.99%;
+}
+.lipofish .span_section {
+  width: 50%;
+}
+.lipofish .span_aside {
+  width: 49.99%;
+}
+.lipofish .span_footer {
+  width: 50%;
+}
+/*=====================================
+  WAYDAY ITEM
+=====================================*/
+.wayday .span_header {
+  width: 49.99%;
+}
+.wayday .span_nav {
+  width: 50%;
+}
+.wayday .span_section {
+  width: 99.99%;
+}
+.wayday .span_aside {
+  width: 49.99%;
+}
+.wayday .span_footer {
+  width: 50%;
+}
+/*=====================================
+  TIBONI ITEM
+=====================================*/
+.tiboni .span_header {
+  width: 49.99%;
+}
+.tiboni .span_nav {
+  width: 50%;
+}
+.tiboni .span_section {
+  width: 99.99%;
+}
+.tiboni .span_aside {
+  width: 99.99%;
+}
+.tiboni .span_footer {
+  width: 99.99%;
+}
+  
+/*=====================================
+     MEDIA QUERIES
+=====================================*/
+@media only screen and (max-width: 900px) {
+.col{ margin: 0% 0% 0% 0%;}
+.docsmars .span_header,
+.docsmars .span_nav,
+.docsmars .span_section,
+.docsmars .span_aside,
+.docsmars .span_footer { width: 100%; }
+}
