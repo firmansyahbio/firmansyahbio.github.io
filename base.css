@@ -585,47 +585,8 @@ fill: white;
 /*====================================
         CSS BACK TO TOP
 ====================================*/
-#buttonbacktotop {
-display: inline-block;
-background-color: #4E4DED;
-width: 50px;
-height: 50px;
-text-align: center;
-border-radius: 5px;
-position: fixed;
-bottom: 65px;
-right: 10px;
-transition: background-color .3s, 
-opacity .5s, visibility .5s;
-opacity: 0;
-visibility: hidden;
-z-index: 1000;
-}
-#buttonbacktotop::after {
-content: "\f35b";
-font-family: FontAwesome;
-font-weight: normal;
-font-style: normal;
-font-size: 1.60em;
-line-height: 50px;
-color: #fff;
-}
-#buttonbacktotop:hover {
-cursor: pointer;
-background-color: #191919;
-}
-#buttonbacktotop:active {
-background-color: #767EEB;
-}
-#buttonbacktotop.show {
-opacity: 1;
-visibility: visible;
-}
-@media (min-width: 500px) {
-#buttonbacktotop {
-margin: 30px;
-  }
-}
+
+
 /*====================================
         CSS JAM WEBSITE
 ====================================*/
