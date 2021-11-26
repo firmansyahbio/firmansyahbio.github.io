@@ -1,44 +1,7 @@
 /*==================================
   CSS TOMBOL 
 ==================================*/
-.button {
-display: flex;
-}
-.button a{
-color: #fff;
-  }
-.button .btn {
-padding: 5px 20px;
-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
-  }
-.button .btn-df{
-background: #4E4DED;
-border: none;
-border-radius: 5px;
-color: white;
-position: relative;
-z-index: 1;
-}
-.button .btn-df::after{
-content: "";
-height: 0;
-width: 0;
-position: absolute;
-bottom: 0;
-left: 0;
-background: #000;
-border-radius: 5px;
-transition: .5s;
-z-index: -1;
-}
-.button .btn-df:hover::after{
-height: 100%;
-width: 100%;
-}
-.button .btn-df:hover{
-color: white!important;
-background: #ff00ff;
-}
+
 /*====================================
    CSS RADIO BOX INPUT CENTER 
 ===================================*/
