@@ -1,23 +1,8 @@
-.frasa .wingcode {
-display: block;
-margin-top: 5px;
-margin-bottom: 10px;
-box-sizing: border-box;
-}
-.wingcode cakra {
-display: block;
-width: auto;
-color: #111;
-margin-left: 10px;
-margin-top: 6px;
-font-size: 19px;
-position: absolute;
-z-index: 10;
-letter-spacing: 3px;
-}
-.code-header{text-align:right;background:#f8f8f8;border:2px solid #000;font-family:Helvetica,Arial,sans-serif;box-sizing:border-box}
+
+
+.code-header{text-align:right;background:#f8f8f8;border:1px solid #ccc;font-family:Helvetica,Arial,sans-serif;box-sizing:border-box}
   
-.code-header a{font-size:15px;display:inline-block;cursor:pointer;border-left:2px solid #000;box-sizing:border-box;padding:6px 13px}
+.code-header a{font-size:15px;display:inline-block;cursor:pointer;border-left:1px solid #ccc;box-sizing:border-box;padding:6px 13px}
   
 .code-header a:hover{background:#f3f3f3;transition:all 0.1s linear}
   
@@ -31,7 +16,7 @@ pre[class*="language-"]::selection,pre[class*="language-"]::selection,code[class
   
 @media print{code[class*="language-"],pre[class*="language-"]{text-shadow:none}}
   
-pre[class*="language-"]{padding:1em;margin:0;overflow:auto;border:2px solid #000;border-top:0;box-sizing:border-box}
+pre[class*="language-"]{padding:1em;margin:0;overflow:auto;border:1px solid #ccc;border-top:0;box-sizing:border-box}
   
 :not(pre)>code[class*="language-"],pre[class*="language-"]{background:#f8f8f8}
 :not(pre)>code[class*="language-"]{padding:.1em;border-radius:.3em;white-space:normal}
