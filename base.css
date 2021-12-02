@@ -2645,32 +2645,7 @@ position: absolute;
 top: 9px;
 left: -15px;
 }
-/*============================
- INI ADALAH CSS MENU HEADER 
-==============================*/
-.my-link {
-display: flex;
-padding: 8px;
-	}
-.my-link a {
-flex: 1 1 30%;
-padding: 5px;
-margin: 5px;
-border-radius: 5px;
-background: #ceecee;
-color: #111;
-text-align: center;
-font-size: 14px;
-font-weight: bold;
-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-z-index: 5;
-transition: all 0.2s;
-cursor: pointer;
-	}
-.my-link a:hover {
-transform: scale(1.2);
-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
+
 /*===================================
   List Css 
 ==============================*/
