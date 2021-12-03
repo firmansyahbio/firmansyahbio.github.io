@@ -182,12 +182,7 @@ color: #fff;
 /* =================================
 CSS SECTION FRASA FOOTER
 ================================== */
-.footer {
-background: url(https://dl.dropboxusercontent.com/s/1pplugbe77tg5hg/dice-25637.svg) no-repeat top center ;
-background-size: cover;
-background-attachment: fixed;
-height: 300px;
-}
+
 .ring-footer {
 margin: 0;
 padding: 0;
@@ -256,64 +251,7 @@ padding: 15px 0;
 #FooterSosial .sosial .behance
 {background:#00baff}
 #FooterSosial .sosial .codepen-io {background:#00baff}
-/* === FOOTER LINKS | 00003 |===*/
-.links {
-  background: #767EEB;
-  color: #616161;
-  font-size: 12px;
-  padding: 0px 0;
-}
-.links ul h3 {
-color: #fff;
-}
-.links-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 0px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2px;
-  align-items: flex-start;
-  justify-content: center;
-}
 
-.links li {
-  line-height: 2.8;
-}
-/*=== FOOTER FOOTBOX | 00004 |===*/
-.footbox {
-  background: #767EEB;
-  color: #616161;
-  font-size: 12px;
-  padding: 20px 0;
-}
-.footbox-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px 0 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.footbox div {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.footbox div i {
-  margin-right: 10px;
-}
-
-.footbox ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.footbox ul li a{
-  margin-right: 30px;
-  margin-bottom: 20px;
-}
 /* === FOOTER | MEDIA |===*/
 @media(max-width: 700px) {
 .links-inner {
