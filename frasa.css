@@ -331,3 +331,44 @@ padding-left: 5px;
   color: #4E4DED;
   margin-right: 10px;
 }
+
+/*==========================
+@ No        : S-0000006
+@ Docs      : Css
+@ Class     : ol.Olince
+@ Deskripsi : Frasa to Olince
+==========================*/
+.frasa ol.olince {
+  list-style: none;
+  counter-reset: list-counter;
+  margin:0px; padding:0px;
+}
+.frasa ol.olince li {
+  margin-bottom: 1rem;
+}
+.frasa ol.olince li strong{
+  position: absolute;
+  margin-left: 1.80em;
+  margin-top: -1.80em;
+  font-size: 25px;
+}
+.frasa ol.olince li p{
+  margin-left: 3em;
+}
+.frasa ol.olince > li {
+  counter-increment: list-counter;
+  margin-bottom: 1rem;
+}
+.frasa ol.olince > li::before {
+  content: counter(list-counter);
+  color: #767eeb;
+  font-weight: bold;
+  background-color: rgba(36, 49, 224, 0.27);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
