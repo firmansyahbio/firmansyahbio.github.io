@@ -245,3 +245,17 @@
   background: #110dd3;
   color: #ffffff;
 }
+
+/*==========================
+@ No        : S-0000003
+@ Docs      : Css
+@ Title     : Pintext
+@ Deskripsi : Frasa to Pintext
+==========================*/
+.frasa .pintext {
+padding-left: 15px;
+  }
+.frasa .pintext p {
+border-left: 1px #111 solid;
+padding-left: 5px;
+}
