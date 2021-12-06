@@ -312,3 +312,22 @@ padding-left: 5px;
 .frasa ul.counter li strong{
   font-size: 25px;
 }
+
+/*==========================
+@ No        : S-0000006
+@ Docs      : Css
+@ Class     : ul.Liticon
+@ Deskripsi : Frasa to Liticon
+==========================*/
+.frasa ul.liticon {
+  list-style: none;
+  padding: 0;
+}
+.frasa ul.liticon li {
+  color: #000;
+  line-height: 2.4rem;
+}
+.frasa ul.liticon li i {
+  color: #4E4DED;
+  margin-right: 10px;
+}
