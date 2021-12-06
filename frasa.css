@@ -1,1 +1,155 @@
+/*=====================================
+  Frasa To Flexbox
+=====================================*/
+.frasa .flexbox {
+  position: relative;
+  top: 0px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+.frasa .col {
+  display: block;
+  float:left;
+  margin: 0% 0% 0% 0%;
+}
+.frasa .col:first-child { margin-left: 0;}
+/*=====================================
+ ITEM SKIN-0
+=====================================*/
+.frasa .skin-0 .flex-1 {
+  width: 99.99%;
+}
+.frasa .skin-0 .flex-2 {
+  width: 99.99%;
+}
+.frasa .skin-0 .flex-3 {
+  width: 99.99%;
+}
+.frasa .skin-0 .flex-4 {
+  width: 99.99%;
+}
+.frasa .skin-0 .flex-5 {
+  width: 99.99%;
+}
+/*=====================================
+ ITEM SKIN-1
+=====================================*/
+.frasa .skin-1 .flex-1 {
+  width: 99.99%;
+}
+.frasa .skin-1 .flex-2 {
+  width: 99.99%;
+}
+.frasa .skin-1 .flex-3 {
+  width: 69.98%;
+}
+.frasa .skin-1 .flex-4 {
+  width: 30%;
+}
+.frasa .skin-1 .flex-5 {
+  width: 99.99%;
+}
+/*=====================================
+ ITEM SKIN-2
+=====================================*/
+.frasa .skin-2 .flex-1 {
+  width: 99.99%;
+}
+.frasa .skin-2 .flex-2 {
+  width: 20%;
+}
+.frasa .skin-3 .flex-3 {
+  width: 49.98%;
+}
+.frasa .skin-3 .flex-4 {
+  width: 30%;
+}
+.frasa .skin-3 .flex-5 {
+  width: 99.99%;
+}
+/*=====================================
+ ITEM SKIN-4
+=====================================*/
+.frasa .skin-4 .flex-1 {
+  width: 99.99%;
+}
+.frasa .skin-4 .flex-2 {
+  width: 99.99%;
+}
+.frasa .skin-4 .flex-3 {
+  width: 99.99%;
+}
+.frasa .skin-4 .flex-4 {
+  width: 49.99%;
+}
+.frasa .skin-4 .flex-5 {
+  width: 50%;
+}
+/*=====================================
+ TEM SKIN-5
+=====================================*/
+.frasa .skin-5 .flex-1 {
+  width: 99.99%;
+}
+.frasa .skin-5 .flex-2 {
+  width: 49.99%;
+}
+.frasa .skin-5 .flex-3 {
+  width: 50%;
+}
+.frasa .skin-5 .flex-4 {
+  width: 49.99%;
+}
+.frasa .skin-5 .flex-5 {
+  width: 50%;
+}
+/*=====================================
+  ITEM SKIN-6
+=====================================*/
+.frasa .skin-6 .flex-1 {
+  width: 49.99%;
+}
+.frasa .skin-6 .flex-2 {
+  width: 50%;
+}
+.frasa .skin-6 .flex-3 {
+  width: 99.99%;
+}
+.frasa .skin-6 .flex-4 {
+  width: 49.99%;
+}
+.frasa .skin-6 .flex-5 {
+  width: 50%;
+}
+/*=====================================
+ ITEM SKIN-7
+=====================================*/
+.frasa .skin-7 .flex-1 {
+  width: 49.99%;
+}
+.frasa .skin-7 .flex-2 {
+  width: 50%;
+}
+.frasa .skin-7 .flex-3 {
+  width: 99.99%;
+}
+.frasa .skin-7 .flex-4 {
+  width: 99.99%;
+}
+.frasa .skin-7 .flex-5 {
+  width: 99.99%;
+}
+  
+/*=====================================
+     MEDIA QUERIES
+=====================================*/
+@media only screen and (max-width: 900px) {
+.frasa .flexbox .col{margin: 0%;}
+.frasa .flexbox .flex-1,
+.frasa .flexbox .flex-2,
+.frasa .flexbox .flex-3,
+.frasa .flexbox .flex-4,
+.frasa .flexbox .flex-5 {width:100%;}
+}
 
