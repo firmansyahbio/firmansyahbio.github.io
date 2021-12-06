@@ -606,10 +606,6 @@ letter-spacing: 3px;
 font-size: 1em;
 }
 
-padding:10px;
-border-top:5px dotted none;
-}
-  
 .kirmandzgnShare svg path{fill:#fff}.kirmandzgnShare .total{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;flex-wrap:nowrap;
 color: #111;
 margin-right:15px;font-weight:500;font-size:16px}.kirmandzgnShare .total:before{content:'';width:23px;height:23px;margin-right:5px;align-self:center;background:url("data:image/svg+xml,%3CsvgviewBox='002424'xmlns='http://www.w3.org/2000/svg'%3E%3Cpathd='M18,16.08C17.24,16.0816.56,16.3816.04,16.85L8.91,12.7C8.96,12.479,12.249,12C9,11.768.96,11.538.91,11.3L15.96,7.19C16.5,7.6917.21,818,8A3,300,021,5A3,300,018,2A3,300,015,5C15,5.2415.04,5.4715.09,5.7L8.04,9.81C7.5,9.316.79,96,9A3,300,03,12A3,300,06,15C6.79,157.5,14.698.04,14.19L15.16,18.34C15.11,18.5515.08,18.7715.08,19C15.08,20.6116.39,21.9118,21.91C19.61,21.9120.92,20.6120.92,19A2.92,2.9200,018,16.08Z'fill='%2300887a'/%3E%3C/svg%3E") center no-repeat}
@@ -1150,21 +1146,10 @@ padding: 1rem;
 .frasa box p {
 box-sizing: inherit;
 color: #111;
-letter-spacing:
-0px; line-height: 25px;
+letter-spacing: 0px; 
+line-height: 25px;
 margin-top: 0px;
 padding: 5px 5px 5px 5px;
-}
-.frasa title-code {
-display: block;
-width: 150px;
-color: #111;
-margin-left: 10px;
-margin-top: 6px;
-font-size: 19px;
-position: absolute;
-z-index: 10;
-letter-spacing: 3px;
 }
 .frasa img {
 border-radius: 5px;
@@ -1275,20 +1260,7 @@ font-size: 4em;
 /*====================================
    CSS WEB-DEV BOX 
 ====================================*/
-.sitehome {
-  font-size: 10px;
-  position: relative;
-  display: block;
-  width: none;
-  top: -20px;
-  margin-left: 22px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-transfrom: uppercase;
-  }
-.sitehome a {
-color: #000;
-}
+
 .go-adventure {
     position: relative;
     float: left;
