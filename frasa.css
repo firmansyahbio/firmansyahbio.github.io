@@ -60,14 +60,32 @@
 .frasa .skin-2 .flex-2 {
   width: 20%;
 }
-.frasa .skin-3 .flex-3 {
+.frasa .skin-2 .flex-3 {
   width: 49.98%;
 }
-.frasa .skin-3 .flex-4 {
+.frasa .skin-2 .flex-4 {
   width: 30%;
 }
-.frasa .skin-3 .flex-5 {
+.frasa .skin-2 .flex-5 {
   width: 99.99%;
+}
+/*=====================================
+ ITEM SKIN-3
+=====================================*/
+.frasa .skin-3 .flex-1 {
+  width: 99.99%;
+}
+.frasa .skin-3 .flex-2 {
+  width: 99.99%;
+}
+.frasa .skin-3 .flex-3 {
+  width: 99.99%;
+}
+.frasa .skin-3 .flex-4 {
+  width: 49.99%;
+}
+.frasa .skin-3 .flex-5 {
+  width: 50%;
 }
 /*=====================================
  ITEM SKIN-4
