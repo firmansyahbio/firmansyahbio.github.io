@@ -272,3 +272,43 @@ padding-left: 5px;
   border: 1px #111 solid;
   box-sizing: border-box;
 }
+
+/*==========================
+@ No        : S-0000005
+@ Docs      : Css
+@ Class     : ul.Counter
+@ Deskripsi : Frasa to Counter
+==========================*/
+.frasa ul.counter {
+  list-style: none;
+  position: relative;
+  padding-left: 55px;
+}
+.frasa ul.counter::before {
+  content: "";
+  height: calc(100% - 100px);
+  width: 1px;
+  position: absolute;
+  top: 0;
+  left: 21px;
+  background: #4E4DED;
+}
+.frasa ul.counter li {
+  position: relative;
+}
+.frasa ul.counter li::before {
+  content: attr(data-counter);
+  position: absolute;
+  top: 0px;
+  left: -54px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid #4E4DED;
+  text-align: center;
+  background: #f9fafb;
+}
+.frasa ul.counter li strong{
+  font-size: 25px;
+}
