@@ -162,6 +162,7 @@
 .frasa .flexbox .flex-5 {width:100%;}
 }
 
+
 /*=====================================
   Frasa To Inote
 =====================================*/
@@ -187,28 +188,52 @@
   background: rgba(216, 58, 14, 0.44);
   text-align: center;
 }
+.frasa .slon-1 div {
+  background: #d83a0e;
+  color: #ffffff;
+}
 /*=== Inote ( Slon-2 ) ===*/
 .frasa .slon-2 {
   background: rgba(221, 196, 14, 0.45);
   text-align: center;
+}
+.frasa .slon-2 div {
+  background: #ddc40e;
+  color: #ffffff;
 }
 /*=== Inote ( Slon-3 ) ===*/
 .frasa .slon-3 {
   background: rgba(13, 211, 56, 0.4);
   text-align: center;
 }
+.frasa .slon-3 div {
+  background: #0dd338;
+  color: #ffffff;
+}
 /*=== Inote ( Slon-4 ) ===*/
 .frasa .slon-4 {
   background: rgba(15, 230, 223, 0.56);
   text-align: center;
+}
+.frasa .slon-4 div {
+  background: #0fe6df;
+  color: #ffffff;
 }
 /*=== Inote ( Slon-5 ) ===*/
 .frasa .slon-5 {
   background: rgba(171, 18, 135, 0.61);
   text-align: center;
 }
+.frasa .slon-5 div {
+  background: #ab1287;
+  color: #ffffff;
+}
 /*=== Inote ( Slon-6 ) ===*/
 .frasa .slon-6 {
   background: rgba(17, 13, 211, 0.57);
   text-align: center;
+}
+.frasa .slon-6 div {
+  background: #110dd3;
+  color: #ffffff;
 }
