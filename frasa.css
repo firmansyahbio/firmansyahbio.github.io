@@ -1,9 +1,9 @@
-/*==========================*/
+/*==========================
 @ No        : S-0000001
 @ Docs      : Css
 @ Title     : Flexbox
 @ Deskripsi : Frasa to Flexbox
-/*==========================*/
+==========================*/
 .frasa .flexbox {
   position: relative;
   top: 0px;
@@ -165,16 +165,19 @@
 .frasa .flexbox .flex-5 {width:100%;}
 }
 
-/*==========================*/
+/*==========================
 @ No        : S-0000002
 @ Docs      : Css
 @ Title     : Inote
 @ Deskripsi : Frasa to Inote
-/*==========================*/
+==========================*/
 .frasa .inote {
-  border-radius: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .frasa .inote p {
   margin: 5px 5px 5px 5px;
