@@ -15,9 +15,8 @@
   box-sizing: border-box;
 }
 .frasa .col:first-child { margin-left: 0;}
-/*=====================================
- ITEM SKIN-0
-=====================================*/
+
+/*=== Flexbox ( Skin-0 ) ===*/
 .frasa .skin-0 .flex-1 {
   width: 99.99%;
 }
@@ -33,9 +32,8 @@
 .frasa .skin-0 .flex-5 {
   width: 99.99%;
 }
-/*=====================================
- ITEM SKIN-1
-=====================================*/
+
+/*=== Flexbox ( Skin-1 ) ===*/
 .frasa .skin-1 .flex-1 {
   width: 99.99%;
 }
@@ -51,9 +49,8 @@
 .frasa .skin-1 .flex-5 {
   width: 99.99%;
 }
-/*=====================================
- ITEM SKIN-2
-=====================================*/
+
+/*=== Flexbox ( Skin-2 ) ===*/
 .frasa .skin-2 .flex-1 {
   width: 99.99%;
 }
@@ -69,9 +66,8 @@
 .frasa .skin-2 .flex-5 {
   width: 99.99%;
 }
-/*=====================================
- ITEM SKIN-3
-=====================================*/
+
+/*=== Flexbox ( Skin-3 ) ===*/
 .frasa .skin-3 .flex-1 {
   width: 99.99%;
 }
@@ -87,9 +83,8 @@
 .frasa .skin-3 .flex-5 {
   width: 50%;
 }
-/*=====================================
- ITEM SKIN-4
-=====================================*/
+
+/*=== Flexbox ( Skin-4 ) ===*/
 .frasa .skin-4 .flex-1 {
   width: 99.99%;
 }
@@ -105,9 +100,8 @@
 .frasa .skin-4 .flex-5 {
   width: 50%;
 }
-/*=====================================
- TEM SKIN-5
-=====================================*/
+
+/*=== Flexbox ( Skin-5 ) ===*/
 .frasa .skin-5 .flex-1 {
   width: 99.99%;
 }
@@ -123,9 +117,8 @@
 .frasa .skin-5 .flex-5 {
   width: 50%;
 }
-/*=====================================
-  ITEM SKIN-6
-=====================================*/
+
+/*=== Flexbox ( Skin-6 ) ===*/
 .frasa .skin-6 .flex-1 {
   width: 49.99%;
 }
@@ -141,9 +134,8 @@
 .frasa .skin-6 .flex-5 {
   width: 50%;
 }
-/*=====================================
- ITEM SKIN-7
-=====================================*/
+
+/*=== Flexbox ( Skin-7 ) ===*/
 .frasa .skin-7 .flex-1 {
   width: 49.99%;
 }
@@ -159,10 +151,8 @@
 .frasa .skin-7 .flex-5 {
   width: 99.99%;
 }
-  
-/*=====================================
-     MEDIA QUERIES
-=====================================*/
+
+/*=== Flexbox ( Media Query ) ===*/
 @media only screen and (max-width: 900px) {
 .frasa .flexbox .col{margin: 0%;}
 .frasa .flexbox .flex-1,
@@ -172,3 +162,53 @@
 .frasa .flexbox .flex-5 {width:100%;}
 }
 
+/*=====================================
+  Frasa To Inote
+=====================================*/
+.frasa .inote {
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.frasa .inote p {
+  margin: 5px 5px 5px 5px;
+}
+.frasa .inote div {
+  display: block;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+/*=== Inote ( Slon-1 ) ===*/
+.frasa .slon-1 {
+  background: rgba(216, 58, 14, 0.44);
+  text-align: center;
+}
+/*=== Inote ( Slon-2 ) ===*/
+.frasa .slon-2 {
+  background: rgba(221, 196, 14, 0.45);
+  text-align: center;
+}
+/*=== Inote ( Slon-3 ) ===*/
+.frasa .slon-3 {
+  background: rgba(13, 211, 56, 0.4);
+  text-align: center;
+}
+/*=== Inote ( Slon-4 ) ===*/
+.frasa .slon-4 {
+  background: rgba(15, 230, 223, 0.56);
+  text-align: center;
+}
+/*=== Inote ( Slon-5 ) ===*/
+.frasa .slon-5 {
+  background: rgba(171, 18, 135, 0.61);
+  text-align: center;
+}
+/*=== Inote ( Slon-6 ) ===*/
+.frasa .slon-6 {
+  background: rgba(17, 13, 211, 0.57);
+  text-align: center;
+}
