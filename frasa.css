@@ -1,7 +1,7 @@
 /*==========================
 @ No        : S-0000001
 @ Docs      : Css
-@ Title     : Flexbox
+@ Class     : Flexbox
 @ Deskripsi : Frasa to Flexbox
 ==========================*/
 .frasa .flexbox {
@@ -168,7 +168,7 @@
 /*==========================
 @ No        : S-0000002
 @ Docs      : Css
-@ Title     : Inote
+@ Class     : Inote
 @ Deskripsi : Frasa to Inote
 ==========================*/
 .frasa .inote {
@@ -249,7 +249,7 @@
 /*==========================
 @ No        : S-0000003
 @ Docs      : Css
-@ Title     : Pintext
+@ Class     : Pintext
 @ Deskripsi : Frasa to Pintext
 ==========================*/
 .frasa .pintext {
@@ -258,4 +258,17 @@ padding-left: 15px;
 .frasa .pintext p {
 border-left: 1px #111 solid;
 padding-left: 5px;
+}
+
+/*==========================
+@ No        : S-0000004
+@ Docs      : Css
+@ Class     : Boxtext
+@ Deskripsi : Frasa to Boxtext
+==========================*/
+.frasa .boxtext {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px #111 solid;
+  box-sizing: border-box;
 }
