@@ -1,4 +1,54 @@
 /*==========================
+@ No        : A-0000001
+@ Docs      : Css
+@ Class     : Title
+@ Deskripsi : H1 for H6
+==========================*/
+.frasa h1,h2,h3,h4,h5,h6 {
+  line-height: 1.10em;
+}
+.frasa h1,h2,h3,h4,h5,h6,a {
+  font-family: 'rubik', sans-serif;
+}
+.frasa h1 {
+  font-size: 45px;
+}
+.frasa h2 {
+  font-size: 35px;
+  margin-top: 2em;
+  font-weight: 600;
+  letter-spacing: 0.155em;
+  text-transform: uppercase;
+}
+.frasa h3 {
+  color: #4E4DED;
+  font-size: 28px;
+}
+.frasa h4 {
+  color: #191919;
+  font-size: 24px;
+}
+.frasa h5 {
+  color: #00baff;
+  font-size: 20px;
+}
+.frasa h6 {
+  color: #E83B3E;
+  font-size: 17px;
+}
+
+
+/*==========================
+@ No        : A-0000002
+@ Docs      : Css
+@ Class     : Deskripsi
+@ Deskripsi : Text for Paragraf
+==========================*/
+.frasa,span,p {
+  font-family: 'roboto', sans-serif;
+}
+
+/*==========================
 @ No        : S-0000001
 @ Docs      : Css
 @ Class     : Flexbox
@@ -164,6 +214,7 @@
 .frasa .flexbox .flex-4,
 .frasa .flexbox .flex-5 {width:100%;}
 }
+
 
 /*==========================
 @ No        : S-0000002
