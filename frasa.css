@@ -384,7 +384,7 @@ padding-left: 5px;
 }
 
 /*==========================
-@ No        : S-0000006
+@ No        : S-0000007
 @ Docs      : Css
 @ Class     : ol.Olince
 @ Deskripsi : Frasa to Olince
@@ -422,4 +422,51 @@ padding-left: 5px;
   align-items: center;
   border-radius: 50%;
   margin-bottom: 0.5rem;
+}
+
+/*==========================
+@ No        : S-0000008
+@ Docs      : Css
+@ Class     : Choose
+@ Deskripsi : Frasa to Choose
+==========================*/
+.frasa .choose {
+  transition: .4s;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.frasa .choose::before {
+  content: "";
+  left: 0;
+  right: 0;
+  width: 90%;
+  top: -130px;
+  height: 70%;
+  margin: auto;
+  border-radius: 50%;
+  position: absolute;
+  background:#fdebeb;
+}
+.frasa .choose:hover{
+  transform: translateY(-10px);
+}
+.frasa .choose:hover span i{
+  color: white;
+  background: #4E4DED;
+}
+.frasa .choose span i::before {
+  margin-left: 0;
+  font-size: 40px;
+}
+.frasa .choose span i {
+  width: 85px;
+  height: 85px;
+  color: #4E4DED;
+  transition: .6s;
+  line-height: 85px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
 }
