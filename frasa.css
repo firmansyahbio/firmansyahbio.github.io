@@ -470,3 +470,13 @@ padding-left: 5px;
   position: relative;
   display: inline-block;
 }
+
+/*==========================
+@ No        : S-0000009
+@ Docs      : Css
+@ Class     : Parallax
+@ Deskripsi : Frasa to Parallax
+==========================*/
+.top-parallax {
+background: no-repeat top center;
+}
