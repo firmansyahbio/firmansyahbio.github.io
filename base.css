@@ -1593,21 +1593,7 @@ color: #111;
 /*====================================
   CSS 5 MENU HEAD 
 ====================================*/
-.desk01,.desk02,.desk03,.desk04,.desk05{
-  border:0px solid #2575FC;
-  border-radius: 0px;
-  display:none;
-  flex-direction:column;
-  height:100%;
-  width:100%;
-  position:fixed;
-  z-index: 9999;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #f2f2f2;
-}
+
 .maindemo {
   border:0px solid #2575FC;
   border-radius: 0px;
@@ -1690,20 +1676,7 @@ border-radius: 5px;
 background: #fff;
 color: #000;
   }
-.ringvos {
-border: 1px solid rgb(204, 204, 204); margin: 5px; 
-overflow: auto; 
-width: none; height: none;
-background-color: rgb(255, 255, 255);
-}
-.ringbos {
-  width: 100%;
-  min-height: 900px;
-  background: #ceecee;
-  color: #fff;
-  padding: 5px;
-  box-sizing: border-box;
-}
+
 .ringmain {
 border: 0px solid rgb(204, 204, 204); margin: 5px; 
 overflow: auto; 
