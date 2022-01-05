@@ -1,1 +1,36 @@
-
+.updated {
+ right: 10px;
+ float: right;
+ margin-top: 15px;
+ margin-left: 1px;
+ margin-right: 35px;
+ position: relative;
+}
+.updated .Timeline {
+  display: flex;
+  min-height; 300px;
+  align-items: center;
+}
+.updated .event{
+  position: absolute;
+}
+.updated .event2Bubble {
+  position: absolute;
+  background-color: rgba(158, 158, 158, 0.1);
+  width: 139px;
+  height: 60px;
+  left: -105px;
+  top: 35px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64)
+}
+.updated .event2Bubble:after,
+.updated .event2Bubble:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom: 0;
+}
