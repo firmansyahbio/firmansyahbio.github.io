@@ -3,6 +3,46 @@
   display: flex;
   position: relative;
 }
+.prev-to-next .linkmore {
+position: relative;
+bottom: 3px;
+width: 80%;
+height: 40px;
+cursor: pointer;
+margin-bottom: none;
+background: none;
+border: none;
+display: flex;
+font-size: 15px;
+align-items: center;
+justify-content: center;
+}
+.prev-to-next .linkmore {
+background: #111;
+border-radius: 5px;
+color: white;
+}
+.prev-to-next .linkmore:hover {
+background: #7952b3;
+}
+.prev-to-next .linkmore-svg {
+width: 25px;
+height: 25px;
+}
+.prev-to-next .linkmore svg {
+position: absolute;
+margin-left: 50px;
+fill: transparent;
+transition: 500ms;
+}
+.prev-to-next .linkmore span {
+font-size: 20px;
+transition: 500ms;
+}
+.prev-to-next .linkmore:hover svg {
+fill: white;
+margin-left: 150px;
+}
 .prev-to-next .next {
   position: absolute;
   bottom: 3px;
