@@ -30,3 +30,40 @@
   width: 25px;
   height: 25px;
 }
+.prev-to-next .next svg {
+  position: absolute;
+  margin-left: 50px;
+  fill: transparent;
+  transition: 500ms;
+}
+.prev-to-next .next span {
+  font-size: 20px;
+  transition: 500ms;
+}
+.prev-to-next .next:hover svg {
+  fill: white;
+  margin-left: 80px;
+}
+.prev-to-next .prev {
+position: absolute;
+bottom: 3px;
+left: 10px;
+width: 40%;
+height: 40px;
+cursor: pointer;
+margin-top: 10px;
+background: none;
+border: none;
+display: flex;
+text-transfroms: uppercase;
+align-items: center;
+justify-content: center;
+}
+.prev-to-next .prev {
+background: #111;
+border-radius: 5px;
+color: white;
+}
+.prev-to-next .prev:hover {
+background: #7952b3;
+}
