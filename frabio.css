@@ -1,1 +1,32 @@
-
+.prev-to-next {
+  height: 80px;
+  display: flex;
+  position: relative;
+}
+.prev-to-next .next {
+  position: absolute;
+  bottom: 3px;
+  right: 10px;
+  width: 40%;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  display: flex;
+  text-transfroms: uppercase;
+  align-items: center;
+  justify-content: center;
+}
+.prev-to-next .next {
+  background: #111;
+  border-radius: 5px;
+  color: white;
+}
+.prev-to-next .next:hover {
+  background: #7952b3;
+}
+.prev-to-next .next-svg {
+  width: 25px;
+  height: 25px;
+}
