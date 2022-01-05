@@ -235,3 +235,16 @@ background-color: rgb(255, 255, 255);
   font-family: sant-serif;
   text-transform:capitalize; 
 }
+.ul-s {
+  display:flex;
+  margin-left:10px;
+  flex-direction:column;
+  border-left: 4px solid #767EEB;
+}
+.ul-s a{
+  color:#111;
+  padding:4px;
+  font-size:14px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
