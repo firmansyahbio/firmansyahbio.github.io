@@ -296,6 +296,42 @@
   background: #110dd3;
   color: #ffffff;
 }
+.frasa .inote .slon1:before {
+  font-family: FontAwesome;
+  text-align: center;
+  align-items: center;
+  content: "\f007";
+}
+.frasa .inote .slon2:before {
+  font-family: FontAwesome;
+  text-align: center;
+  align-items: center;
+  content: "\f007";
+}
+.frasa .inote .slon3:before {
+  font-family: FontAwesome;
+  text-align: center;
+  align-items: center;
+  content: "\f007";
+}
+.frasa .inote .slon4:before {
+  font-family: FontAwesome;
+  text-align: center;
+  align-items: center;
+  content: "\f007";
+}
+.frasa .inote .slon5:before {
+  font-family: FontAwesome;
+  text-align: center;
+  align-items: center;
+  content: "\f007";
+}
+.frasa .inote .slon6:before {
+  font-family: FontAwesome;
+  text-align: center;
+  align-items: center;
+  content: "\f007";
+}
 
 /*==========================
 @ No        : S-0000003
