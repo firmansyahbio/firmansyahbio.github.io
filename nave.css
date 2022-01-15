@@ -1,0 +1,95 @@
+.nave {
+  right: 15px;
+  z-index: 95;
+  width: 50px;
+  bottom: 15px;
+  height: 50px;
+  display: block;
+  position: fixed;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 0px #111 solid;
+}
+.nave a {
+color: #4E4DED;
+background: #00baff;
+  }
+.nave a:hover {
+color: #4E4DED;
+background: #767ebb;
+  }
+.nave a i {
+color: #4E4DED;
+  }
+.mask {
+  z-index: 21;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  width: inherit;
+  height: inherit;
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  background: #00baff;
+  padding: 0px 0px 0px 0px;
+  transition: all .1s ease-in-out 0s
+}
+
+.nave.active .mask {
+  background: #191919;
+  transform: rotate(-135deg)
+}
+
+.nave:after {
+  top: 0;
+  left: 0;
+  content: '';
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  position: absolute;
+  background: #fff;
+  transition: all .1s ease-in-out 0s
+}
+
+.nave.active:after {
+  top: -135px;
+  left: -135px;
+  width: 350px;
+  height: 350px
+}
+
+.nav-item-low {
+  top: 0;
+  left: 0;
+  z-index: 19;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-size: 25px;
+  transform: none;
+  line-height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  transition: all .3s cubic-bezier(.68, 1.55, .265, 1)
+}
+
+.nave.active .nav-count-1 {
+  transform: translate(10px, -110px)
+}
+
+.nave.active .nav-count-2 {
+  transform: translate(-45px, -90px)
+}
+
+.nave.active .nav-count-3 {
+  transform: translate(-90px, -45px)
+}
+
+.nave.active .nav-count-4 {
+  transform: translate(-110px, 10px)
+}
