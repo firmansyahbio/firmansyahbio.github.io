@@ -4,7 +4,7 @@
 });
 var App = {
 			init: function() {
-						this.datetime(), this.side.nav(), this.search.bar(), this.navigation(), this.hyperlinks(), setInterval("App.datetime();", 1e3)
+						this.datetime(), this.side.nav(), this.navigation(), this.hyperlinks(), setInterval("App.datetime();", 1e3)
 			},
 		datetime: function() {
 						var e = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
