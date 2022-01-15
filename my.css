@@ -266,3 +266,6 @@ grid-template-columns: repeat(2, 1fr);
     margin-bottom: 20px;
   }
 }
+.none {
+ display: none;
+  }
