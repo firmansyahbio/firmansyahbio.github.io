@@ -84,7 +84,7 @@
 }
 .footercup .footboxcup ul li a{
   margin-right: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 /* === FOOTER | MEDIA |===*/
 @media(max-width: 700px) {
@@ -97,6 +97,6 @@
     grid-template-columns: 1fr;
   }
   .links .links-inner ul {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 }
