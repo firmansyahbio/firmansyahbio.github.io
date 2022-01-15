@@ -42,6 +42,13 @@ background: #3d54fe;
 ::-webkit-scrollbar-corner {
 background: green;
 }
+.main-wrapper {
+border-radius: 4px;
+background-color: white;
+padding: 10px;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+position: relative;
+}
 /*===================================
 03 - CSS CELARASOME BAWAH HEADER
 ===================================*/
@@ -2076,9 +2083,7 @@ user-select:none;
 {height:0px;
 visibility:hidden;
 display:none}
-body {
-background:linear-gradient(180deg,#f1f3f4 0%,#f1f3f4 100%) #f1f3f4;color:#637381;
-}
+
 .bottom-lisensi {
 background: #191919;
 }
