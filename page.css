@@ -6,11 +6,3 @@ body .container .post .post-title {
   text-transform: uppercase;
   font-family: 'rubik', sans-serif;
 }
-body .centered-bottom {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 100%;
-  background: #ffffff;
-  box-sizing: border-box;
-  }
