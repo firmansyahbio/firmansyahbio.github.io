@@ -6,3 +6,6 @@ body .container .post .post-title {
   text-transform: uppercase;
   font-family: 'rubik', sans-serif;
 }
+.none {
+ display: none;
+  }
