@@ -544,10 +544,45 @@ background: no-repeat top center;
 /*==========================
 @ No        : S-0000011
 @ Docs      : Css
-@ Class     : last-updated
-@ Deskripsi : Last Updated
+@ Class     : item
+@ Deskripsi : Ul Item
 ==========================*/
-
+.frasa ul.item {
+  list-style: none;
+}
+.frasa ul.item li{
+   position: relative;
+}
+.frasa ul.item li::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #111;
+  position: absolute;
+  top: 9px;
+  left: -15px;
+ }
+.frasa ul.item li ul li::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #111;
+  position: absolute;
+  top: 9px;
+  left: -15px;
+ }
+.frasa ul.item li ul li ul li::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #111;
+  position: absolute;
+  top: 9px;
+  left: -15px;
+ }
 
 
 /*==================================
