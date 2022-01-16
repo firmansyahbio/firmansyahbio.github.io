@@ -20,11 +20,11 @@
 }
 .frasa h2 {
   color: #000080;
-  font-size: 42px;
+  font-size: 5em;
   margin-top: 2em;
   font-weight: 600;
   line-height: .80em;
-  letter-spacing: 0.155em;
+  letter-spacing: 3px;
 }
 .frasa h3 {
   color: #4E4DED;
