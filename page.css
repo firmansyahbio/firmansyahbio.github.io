@@ -31,6 +31,14 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   }
+.last-updated {
+  left: 0;
+  margin-left: 0;
+  border-radius: 0px;
+  background-color: #ceecee;
+  padding: 5px;
+  position: relative;
+}
 .last-updated .main-updated {
    color: #4E4DED;
   }
