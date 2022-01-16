@@ -150,7 +150,7 @@ color: #fff !important;
   text-align: left;
   position: relative;
   }
-.frasa__music duration {
+.frasa__music .duration {
   float: right;
   width: 100px;
   height: 20px;
@@ -159,6 +159,6 @@ color: #fff !important;
   }
 .titmar {
   width: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
