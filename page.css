@@ -42,3 +42,9 @@
 .last-updated .main-updated {
    color: #4E4DED;
   }
+.firmansyahbio {
+ margin-left: 15px;
+ margin-right: 15px;
+ display: block;
+ box-sizing: border-box;
+}
