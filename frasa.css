@@ -16,30 +16,31 @@
   font-family: 'Dongle', sans-serif;
 }
 .frasa h1 {
-  font-size: 6em;
+  font-size: 50px;
 }
 .frasa h2 {
   color: #000080;
-  font-size: 5em;
+  font-size: 42px;
   margin-top: 2em;
   font-weight: 600;
+  line-height: .80em;
   letter-spacing: 0.155em;
 }
 .frasa h3 {
   color: #4E4DED;
-  font-size: 4em;
+  font-size: 35px;
 }
 .frasa h4 {
   color: #191919;
-  font-size: 3em;
+  font-size: 30px;
 }
 .frasa h5 {
   color: #00baff;
-  font-size: 2em;
+  font-size: 25px;
 }
 .frasa h6 {
   color: #E83B3E;
-  font-size: 1em;
+  font-size: 20px;
 }
 
 
