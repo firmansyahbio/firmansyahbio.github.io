@@ -1,7 +1,8 @@
-body .container .post .post-title {
+.centered-bottom .container .post .post-title {
   font-size: 30px;
   margin-top: 0em;
   font-weight: 600;
+  text-align: center;
   letter-spacing: 0.145em;
   text-transform: uppercase;
   font-family: 'rubik', sans-serif;
