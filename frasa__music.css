@@ -145,14 +145,14 @@ color: #fff !important;
 }
 .frasa__music .timer {
   float: left;
-  width: 100px;
+  width: 60px;
   height: 20px;
   text-align: left;
   position: relative;
   }
 .frasa__music .duration {
   float: right;
-  width: 100px;
+  width: 60px;
   height: 20px;
   text-align: right;
   position: relative;
