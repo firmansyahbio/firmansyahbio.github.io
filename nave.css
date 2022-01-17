@@ -24,8 +24,8 @@ color: #767EEB;
 .mask {
   z-index: 21;
   color: #fff;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   width: inherit;
   height: inherit;
   cursor: pointer;
