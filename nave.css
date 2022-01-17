@@ -1,12 +1,12 @@
 .nave {
   right: 15px;
   z-index: 95;
-  width: 45px;
+  width: 40px;
   bottom: 55px;
-  height: 45px;
+  height: 40px;
   display: block;
   position: fixed;
-  line-height: 45px;
+  line-height: 40px;
   border-radius: 50%;
   border: 0px #111 solid;
 }
