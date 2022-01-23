@@ -22,7 +22,7 @@
   }
 .ifal-1 {
 border: 1px solid rgb(204, 204, 204); margin: 5px; 
-overflow: auto; 
+overflow: auto; border-radius: 5px;
 width: none; height: none;
 background-color: rgb(255, 255, 255);
 }
