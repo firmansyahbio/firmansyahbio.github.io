@@ -21,11 +21,22 @@
   text-align: center;
   margin-bottom: 0px;
   background: #29246a;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   letter-spacing: 0.125em;
   text-transform: uppercase;
   font-family: 'rubik', sans-serif;
 }
 
+@media only screen and (max-width: 1400px){
+.centered-bottom .container .post .post-title {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+.centered-bottom .container .post {
+  background: #fff;
+  }
+}
 .last-updated {
   width: none;
   height: none;
