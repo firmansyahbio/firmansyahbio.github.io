@@ -1,7 +1,47 @@
 /*================================*/
-   • CSS HEAD
-/*================= Head base ====*/
-
+  • CSS 000001
+/*================ Back to Top ===*/
+#buttonbacktotop {
+display: inline-block;
+background-color: #00baff;
+width: 40px;
+height: 40px;
+text-align: center;
+border-radius: 5px;
+position: fixed;
+bottom: 120px;
+right: 15px;
+transition: background-color .3s, 
+opacity .5s, visibility .5s;
+opacity: 0;
+visibility: hidden;
+z-index: 80;
+}
+#buttonbacktotop::after {
+content: "\f077";
+font-family: FontAwesome;
+font-weight: normal;
+font-style: normal;
+font-size: 1.60em;
+line-height: 40px;
+color: #fff;
+}
+#buttonbacktotop:hover {
+cursor: pointer;
+background-color: #333;
+}
+#buttonbacktotop:active {
+background-color: #555;
+}
+#buttonbacktotop.show {
+opacity: 1;
+visibility: visible;
+}
+@media (min-width: 500px) {
+#buttonbacktotop {
+margin: 30px;
+  }
+}
 /*===================================
 01 - CSS ANIMASI LOADING
 ===================================*/
