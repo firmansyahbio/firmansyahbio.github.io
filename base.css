@@ -50,6 +50,36 @@ box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 position: relative;
 }
 /*===================================
+ CSS BUTTON MORE
+===================================*/
+.clik-more {
+display: inline-block;
+padding: 8px 0px;
+font-size: 20px;
+/*margin: 3px;*/
+width: 100%;
+text-transform: uppercase;
+outline: none;color: #fff;
+background:linear-gradient(180deg,#f1f3f4 0%,#f1f3f4 100%) #f1f3f4;color:#637381;
+border: none;
+text-align: center;
+position: relative;
+border-radius: 3px;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+cursor: pointer;
+font-weight: bold;}
+.clik-more:hover {background-color: #1553b9}
+.clik-more:active {background-color: #1553b9;
+box-shadow: 5px 1px 20px 1px #ddd;
+transform: scale(0.96);
+-webkit-transition: all 0.3s;}
+.clik-more a:visited {color: #fff;
+text-decoration: none;}
+.clik-more a:link {color: #fff;
+text-decoration: none;
+outline: none;
+-webkit-transition: all 0.3s;}
+/*===================================
 03 - CSS CELARASOME BAWAH HEADER
 ===================================*/
 .celarasome {
