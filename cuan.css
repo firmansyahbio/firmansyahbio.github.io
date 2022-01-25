@@ -1,4 +1,23 @@
 .menu-cuan {border:1px solid #000; display:none; flex-direction:column; top: 0; left: 0; right: 0; justify-content:center; margin:auto;margin-top: 5%; height:80%; width: 90%; position:fixed; z-index: 200; bottom:0; top:0;left:0; background:#fff; border-radius:5px;}
+.nav-cuan {
+  width: 40px;
+  height: 40px;
+  background: #00BAFF;
+  display: block;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  margin:0;
+  padding: 0px;
+  position: fixed;
+  z-index: 150;
+  border-radius: 50%;
+  padding: 0px;
+  right: 15px;
+  bottom: 110px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
 .closecuan {
   width: 20px;
   height: 20px;
@@ -23,7 +42,7 @@
 .ifal-1 {
 border: 1px solid rgb(204, 204, 204); margin: 5px; 
 overflow: auto; border-radius: 5px;
-width: none; height: none;
+width: none; height: 100%;
 background-color: rgb(255, 255, 255);
 }
 .ifal-2 {
