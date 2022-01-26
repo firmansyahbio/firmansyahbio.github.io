@@ -6,17 +6,14 @@
 ==========================*/
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
 
-.frasa h1,h2,h3,h4,h5,h6 {
+.frasa h2,h3,h4,h5,h6 {
   line-height: 1.10em;
 }
-.frasa h1,h3,h4,h5,h6,a {
+.frasa h3,h4,h5,h6,a {
   font-family: 'rubik', sans-serif;
 }
 .frasa h2 {
   font-family: 'Dongle', sans-serif;
-}
-.frasa h1 {
-  font-size: 50px;
 }
 .frasa h2 {
   color: #000080;
@@ -42,7 +39,6 @@
   color: #E83B3E;
   font-size: 20px;
 }
-
 
 /*==========================
 @ No        : A-0000002
