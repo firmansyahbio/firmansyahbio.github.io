@@ -1,10 +1,10 @@
 /*=== CSS TEXT ===*/
 .text-left{text-align:left;}.text-center{text-align:center;}.text-right{text-align:right;}.text-justify{text-align:justify;}
 /*=== CSS MARGIN ===*/
-.mar-df{margin: 10px 10px 10px 10px;}
-.mar-lr-df{margin: 0px 10px 0px 10px;}
-.mar-tb-df{margin: 10px 0px 10px 0px;}
+.mar-df{margin:1em;1em;1em;1em;}
+.mar-lr-df,.mar-rl-df{margin:0em;1em;0em;1em;}
+.mar-tb-df,.mar-bt-df{margin:1em;0em;1em;0em;}
 /*=== CSS PADDING ===*/
-.pad-df{padding: 10px 10px 10px 10px;}
-.pad-lr-df{padding: 0px 10px 0px 10px;}
-.pad-tb-df{padding: 10px 0px 10px 0px;}
+.pad-df{padding:1em;1em;1em;1em;}
+.pad-lr-df,.pad-rl-df{padding:0em;1em;0em;1em;}
+.pad-tb-df,.pad-bt-df{padding:1em;0em;1em;0em;}
