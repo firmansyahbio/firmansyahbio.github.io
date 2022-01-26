@@ -3,6 +3,12 @@
   color: #616161;
   padding: 0px 0;
 }
+.footercup ul {
+  list-style: none;
+  }
+.footercup ul li{
+  list-style: none;
+  }
 .footbox ul,
 .links ul {list-style-type: none;}
 .links {
