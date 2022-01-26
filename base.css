@@ -1,1 +1,8 @@
-
+/*=== CSS MARGIN ===*/
+.mar-df{margin: 10px 10px 10px 10px;}
+.mar-lr-df{margin: 0px 10px 0px 10px;}
+.mar-tb-df{margin: 10px 0px 10px 0px;}
+/*=== CSS PADDING ===*/
+.pad-df{padding: 10px 10px 10px 10px;}
+.pad-lr-df{padding: 0px 10px 0px 10px;}
+.pad-tb-df{padding: 10px 0px 10px 0px;}
