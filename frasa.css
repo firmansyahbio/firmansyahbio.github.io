@@ -4,16 +4,11 @@
 @ Class     : Title
 @ Deskripsi : H1 for H6
 ==========================*/
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
-
 .frasa h1,h3,h4,h5,h6 {
   line-height: 1.10em;
 }
-.frasa h3,h4,h5,h6,a {
+.frasa h2,h3,h4,h5,h6,a {
   font-family: 'rubik', sans-serif;
-}
-.frasa h2 {
-  font-family: 'Dongle', sans-serif;
 }
 .frasa h1 {
   position: relative;
@@ -24,7 +19,6 @@
 .frasa h2 {
   font-size: 40px;
   color: #000080;
-  line-height: 1.20em;
   font-weight: 700;
   letter-spacing: -0.020em;
   margin-bottom: 2rem;
