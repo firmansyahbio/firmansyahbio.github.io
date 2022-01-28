@@ -4,7 +4,7 @@
 @ Class     : Title
 @ Deskripsi : H1 for H6
 ==========================*/
-.frasa h1,h3,h4,h5,h6 {
+.frasa h1,h2,,h3,h4,h5,h6 {
   line-height: 1.10em;
 }
 .frasa h2,h3,h4,h5,h6,a {
@@ -20,7 +20,7 @@
   font-size: 40px;
   color: #000080;
   font-weight: 700;
-  letter-spacing: -0.020em;
+  letter-spacing: 3px;
   margin-bottom: 2rem;
 }
 .frasa h3 {
