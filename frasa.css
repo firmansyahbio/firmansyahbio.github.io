@@ -39,7 +39,11 @@
   color: #E83B3E;
   font-size: 20px;
 }
-
+.frasa c {
+  padding: 2px 3px;
+  background: #cee;
+  border-radius: 3px;
+  }
 /*==========================
 @ No        : A-0000002
 @ Docs      : Css
