@@ -6,7 +6,7 @@
 ==========================*/
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
 
-.frasa h1,h2,h3,h4,h5,h6 {
+.frasa h1,h3,h4,h5,h6 {
   line-height: 1.10em;
 }
 .frasa h3,h4,h5,h6,a {
@@ -22,12 +22,12 @@
   font-family: "Cormorant Garamond", serif;
 }
 .frasa h2 {
+  font-size: 40px;
   color: #000080;
-  font-size: 6em;
-  margin-top: 2em;
-  font-weight: 600;
-  line-height: .80em;
-  letter-spacing: 3px;
+  line-height: 1.20em;
+  font-weight: 700;
+  letter-spacing: -0.020em;
+  margin-bottom: 2rem;
 }
 .frasa h3 {
   color: #4E4DED;
