@@ -23,6 +23,23 @@
   letter-spacing: 3px;
   margin-bottom: 2rem;
 }
+.frasa h2 span{
+  color: white;
+  background-color: #767EEB;
+  padding: 2px 3px;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    45deg,
+    linear-gradient(
+    to bottom,
+    hsl(var(--hue), 95%, 99%),
+    hsl(var(--hue), 95%, 84%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
 .frasa h3 {
   color: #4E4DED;
   font-size: 35px;
