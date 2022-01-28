@@ -1,4 +1,4 @@
-.firmansyahbio section.carapace {
+.firmansyahbio section.carapace {box-sizing: border-box;
   border-bottom: 3px #ccc solid;}
 /*=== CSS TEXT ===*/
 .text-left{text-align:left;}.text-center{text-align:center;}.text-right{text-align:right;}.text-justify{text-align:justify;}
