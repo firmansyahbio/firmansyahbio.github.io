@@ -10,3 +10,8 @@
 .pad-df{padding: 1em 1em 1em 1em;}
 .pad-lr-df,.pad-rl-df{padding: 0em 1em 0em 1em;}
 .pad-tb-df,.pad-bt-df{padding: 1em 0em 1em 0em;}
+/*=== CSS BACKGROUND ===*/
+.bg-df{background: #F9FAFB;}
+.bg-slateblue {color:white;background:slateblue;}
+.bg-deeppink {color:white;background:deeppink;}
+.bg-dodgerblue {color:white;background:dodgerblue;}
