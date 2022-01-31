@@ -13,14 +13,14 @@
 }
 .nave a {
 color: #ffffff;
-background: #00baff;
+background: #767EEB;
   }
 .nave a:hover {
 color: #ffffff;
 background: #4E4DED;
   }
 .nave a i:hover {
-color: #767EEB;
+color: #FFFFFF;
   }
 .mask {
   z-index: 21;
@@ -40,7 +40,7 @@ color: #767EEB;
 }
 
 .nave.active .mask {
-  background: #4E4DED;
+  background: #767EEB;
   transform: rotate(-135deg)
 }
 
@@ -52,7 +52,7 @@ color: #767EEB;
   height: inherit;
   border-radius: 50%;
   position: absolute;
-  background: #fff;
+  background: #4E4DED;
   transition: all .1s ease-in-out 0s
 }
 
