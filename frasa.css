@@ -61,12 +61,7 @@
   background: #cee;
   border-radius: 3px;
   }
-/*==========================
-@ No        : A-0000002
-@ Docs      : Css
-@ Class     : Deskripsi
-@ Deskripsi : Text for Paragraf
-==========================*/
+
 .frasa,span,p {
   font-family: 'roboto', sans-serif;
 }
@@ -78,6 +73,7 @@
   text-transform: uppercase;
   font-family: Andale Mono, monospace;
 }
+
 /*==========================
 @ No        : S-0000001
 @ Docs      : Css
