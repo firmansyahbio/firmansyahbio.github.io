@@ -70,7 +70,14 @@
 .frasa,span,p {
   font-family: 'roboto', sans-serif;
 }
-
+.frasa .span-text {
+  font-size: 1.200rem;
+  line-height: 1.765rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-family: Andale Mono, monospace;
+}
 /*==========================
 @ No        : S-0000001
 @ Docs      : Css
