@@ -84,4 +84,22 @@
 .last-article .main-article a {
    color: #fff;
   }
-
+.list-info-page {
+  width: none;
+  height: none;
+  color: #FFFFFF;
+  font-size: 10px;
+  margin-top: -30px;
+  margin-left: 0px;
+  position: absolute;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+.list-info-page {
+  left: 0;
+  margin-left: 0;
+  border-radius: 0px;
+  background-color: #4E4DED;
+  padding: 5px;
+  position: relative;
+}
