@@ -1,1 +1,81 @@
+.frasa p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #676767;
+}
+.frasa .p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #676767;
+}
+.frasa c {
+  padding: 2px 3px;
+  background: #cee;
+  border-radius: 3px;
+  }
+.frasa .span-text {
+  font-size: 1.200rem;
+  line-height: 1.765rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-family: Andale Mono, monospace;
+}
+.frasa h1,h2,,h3,h4,h5,h6 {
+  line-height: 1.10em;
+}
+.frasa h2,h3,h4,h5,h6,a {
+  font-family: 'rubik', sans-serif;
+}
+.frasa h1 {
+  position: relative;
+  color: #353535;
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+}
+.frasa h2 {
+  font-size: 40px;
+  color: #000080;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
+.frasa h2 span{
+  color: white;
+  background-color: #767EEB;
+  padding: 2px 3px;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    45deg,
+    linear-gradient(
+    to bottom,
+    hsl(var(--hue), 95%, 99%),
+    hsl(var(--hue), 95%, 84%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.frasa h3 {
+  color: #4E4DED;
+  font-size: 35px;
+}
+.frasa h4 {
+  color: #191919;
+  font-size: 30px;
+}
+.frasa h5 {
+  color: #00baff;
+  font-size: 25px;
+}
+.frasa h6 {
+  color: #E83B3E;
+  font-size: 20px;
+}
+.frasa,span {
+  font-family: 'roboto', sans-serif;
+}
 
