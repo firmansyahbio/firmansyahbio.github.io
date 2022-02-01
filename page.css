@@ -103,3 +103,40 @@
   padding: 5px;
   position: relative;
 }
+.pagetop {
+  left: 0;
+  width: none;
+  height: none;
+  color: #fff;
+  padding: 0px;
+  font-size: 10px;
+  margin-top: -30px;
+  margin-left: 0px;
+  margin-left: 0;
+  border-radius: 0px;
+  background-color: #FFF;
+  position: relative;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+.main-left {
+font-weight: bold;
+opacity: 0;
+animation: 1s anim-lightspeed-in ease forwards;
+}
+.main-left {
+animation-delay: 2.3s;
+}
+.main-left {
+animation-delay: 3.5s;
+}
+@keyframes anim-lightspeed-in {
+0% {
+transform: translateX(-200%);
+opacity: 1;
+}
+100% {
+transform: translateX(0);
+opacity: 1;
+  }
+}
