@@ -199,7 +199,41 @@ opacity: 0;
   display: inline-block;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
-
+/* CSS HEADRUP */
+.desk-up-troll {
+  top: 0;
+  padding: 10px;
+  font-size: 20px;
+  width: none;
+  height: 40px;
+  color: #fff;
+  display: block;
+  background: #767eeb;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+.closeMenu {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+  border: 1px #CEECEE solid;
+  margin-top: 0px;
+  margin-right: 5px;
+  color: #111;
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  float: right;
+  top: 5px;
+  right: 5px;
+  display: inline-block;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
 .menu-sec {
   top:0;
   right:0;
