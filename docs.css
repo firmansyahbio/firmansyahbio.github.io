@@ -112,3 +112,16 @@
 .docs ul.counter li strong{
     font-size: 22px;
 }
+/*=== CSS LITICON ===*/
+.docs ul.liticon {
+    list-style: none;
+    padding: 0;
+}
+.docs ul.liticon li {
+    color: #606060;
+    line-height: 2.4rem;
+}
+.docs ul.liticon li i {
+    color: #E83B3E;
+    margin-right: 10px;
+}
