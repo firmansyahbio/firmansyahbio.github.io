@@ -11,9 +11,12 @@
   color: #676767;
 }
 .frasa c {
-  padding: 2px 3px;
-  background: #cee;
-  border-radius: 3px;
+  opacity: 0.9;
+  padding: 3px 4px;
+  border-radius: 5px;
+  background: #f2f2f2;
+  color: #ff1010;
+  border: 1px #767EEB solid;
   }
 .frasa .span-text {
   font-size: 1.200rem;
