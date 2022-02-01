@@ -1,0 +1,25 @@
+body .container .post {
+  align-items: center;
+  display: block;
+  position: relative;
+}
+.headercup,
+.footercup {
+  display: block;
+}
+@media (max-width: 1400px){
+body .container .post {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: 0px;
+  display: block;
+  position: absolute;
+  border-radius: 0px;
+}
+.headercup,
+.footercup {
+  display: none;
+}
+}
