@@ -202,7 +202,7 @@ opacity: 0;
 
 .menu-sec {
   top:0;
-  left:0;
+  right:0;
   bottom:0;
   height:100%;
   z-index:200;
@@ -211,22 +211,13 @@ opacity: 0;
   position:fixed;
   background:#fff;
   flex-direction:column;
-  border-right:1px solid #2575FC;
+  border-left:1px solid #2575FC;
 }
 .menu-sec .warkitrole {
   padding: 0; 
   overflow: auto; 
   width: none; 
   height: 100%;
-}
-.forpost {
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  margin-top: 70px;
-  background: #fff;
-  position: relative;
 }
 .menu-sec h4 {
   color: #111;
@@ -236,19 +227,11 @@ opacity: 0;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.julukan-firman {
-  color: #fff;
-  bottom: 10px; 
-  font-size: 14px; 
-  position: relative;
-  font-family: sant-serif;
-  text-transform:capitalize; 
-}
 .ul-s {
   display:flex;
-  margin-left:10px;
+  margin-right:10px;
   flex-direction:column;
-  border-left: 4px solid #767EEB;
+  border-right: 4px solid #767EEB;
 }
 .ul-s a{
   color:#111;
