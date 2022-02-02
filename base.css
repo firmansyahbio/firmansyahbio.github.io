@@ -1,5 +1,5 @@
 .firmansyahbio section.carapace {box-sizing: border-box;
-  border-bottom: 3px #ccc solid;}
+  border-bottom: 1px #ccc solid;}
 /*=== CSS TEXT ===*/
 .text-left{text-align:left;}.text-center{text-align:center;}.text-right{text-align:right;}.text-justify{text-align:justify;}
 /*=== CSS MARGIN ===*/
