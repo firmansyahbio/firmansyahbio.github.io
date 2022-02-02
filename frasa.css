@@ -1,22 +1,21 @@
 .frasa p {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
-  color: #676767;
+  color: #111111;
 }
 .frasa .p {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
-  color: #676767;
+  color: #111111;
 }
 .frasa c {
-  opacity: 0.9;
   padding: 3px 4px;
   border-radius: 5px;
-  background: #f2f2f2;
+  background: #767EEB;
   color: #ff1010;
-  border: 1px #767EEB solid;
+  border: 0px #767EEB solid;
   }
 .frasa .span-text {
   font-size: 1.200rem;
