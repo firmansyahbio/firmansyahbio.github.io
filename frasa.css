@@ -80,4 +80,14 @@
 .frasa,span {
   font-family: 'roboto', sans-serif;
 }
-
+.frasa blockquote {
+  color: #29246a;
+  background: #cee;
+  border-radius: 5px;
+  padding: 15px 15px 15px 15px;
+  box-sizing: border-box;
+  }
+.frasa blockquote p.myquote {color: #29246a; font-family: "Didact Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 20px;}
+.frasa blockquote p.myquote i {
+  font-size: 35px;
+}
