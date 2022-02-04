@@ -103,6 +103,17 @@
   padding: 5px;
   position: relative;
 }
+list-label {
+  width: none;
+  height: none;
+  color: #CEECEE;
+  font-size: 10px;
+  margin-top: -30px;
+  margin-left: 0px;
+  position: absolute;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
 .list-label {
   left: 0;
   margin-left: 0;
@@ -110,7 +121,6 @@
   background-color: #4E4DED;
   padding: 5px;
   position: relative;
-  color: #ceecee;
 }
 .list-label a {
   color: #FFFFFF;
