@@ -4,9 +4,9 @@
   border-top: 0px #000 solid;
 }
 .updated {
- width: 30%;
+ width: 100%;
  height: 120px;
- left: 110px;
+ left: 120px;
  margin-top: 15px;
  margin-left: 0px;
  margin-right: 0px;
@@ -113,7 +113,7 @@
 }
 .updated .event2Author {
   top: 97px;
-  left: -80px;
+  left: -85px;
   width: 120px;
   color: #4E4DED;
   font-size: 8px;
