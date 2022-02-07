@@ -118,6 +118,7 @@
   width: 120px;
   color: #4E4DED;
   font-size: 8px;
+  font-weight: bold;
   position: absolute;
 }
 .eventforTime a {
