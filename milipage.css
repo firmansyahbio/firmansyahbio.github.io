@@ -41,9 +41,9 @@
   border-bottom: 0;
 }
 .updated .event2Bubble:before {
-  bottom: 59px;
+  bottom: 60px;
   left: 5px;
-  border-top-color: rgba(222, 222, 222, 0.66);
+  border-top-color: rgba(36, 49, 224, 0.27);
   border-width: 12px;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -52,9 +52,9 @@
   transform: rotate(180deg);
 }
 .updated .event2Bubble:after {
-  bottom: 57px;
+  bottom: 58px;
   left: 5px;
-  border-top-color: #F6F6F6;
+  border-top-color: #767eeb;
   border-width: 12px;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
