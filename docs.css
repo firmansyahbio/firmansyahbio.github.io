@@ -131,3 +131,14 @@
     color: #E83B3E;
     margin-right: 10px;
 }
+.carapace cakra {
+display: block;
+width: auto;
+color: #111;
+margin-left: 10px;
+margin-top: 6px;
+font-size: 19px;
+position: absolute;
+z-index: 10;
+letter-spacing: 3px;
+}
