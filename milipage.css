@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 .milipage {
   margin-top: 0px;
   border-bottom: 0px #ff0000 solid;
@@ -111,6 +112,21 @@
   font-size: 8px;
   font-weight: bold;
   position: absolute;
+}
+.event1Author .ttd-bio {
+  font-family: 'Neonderthaw', cursive;
+  }
+.event1Author .ttd-bio{
+  font-size: 8px;
+  color: #ff0052;
+  color: #8e2b88;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear,left top,left bottom,from(#ff0052),to(#8e2b88));
+ background: -o-gradient(linear,left top,left bottom,from(#ff0052),to(#8e2b88));
+ -webkit-background-clip: text;
+}
+.event1Author .ttd-bio:before { 
+ content: '';
 }
 .updated .event2Author {
   top: 97px;
