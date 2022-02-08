@@ -78,16 +78,6 @@
      background: linear-gradient(top, #eee, #ccc);
      border: 1px solid #bbb;
 }
-.cont-bardes {
-  height: 50px;
-  width: 100%;
-  display: block;
-  }
-.cont-bardes .olttext {
-  color: #111;
-  font-weight: bold;
-  font-size: 12px;
-  }
 .container-opcoes {
 width: none;
 margin: 5px;
@@ -138,7 +128,7 @@ cursor:pointer;
   }
 .mostra-container-cadastro {
 width: 100%;
-margin-left: -15px;
+margin-left: 0px;
 max-width: 100%;
 position: relative;
 overflow: hidden;
@@ -159,6 +149,9 @@ color: #fff;
   font-weight: 500;
   box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.05);
   cursor:pointer;
+}
+.main-comentar-btn .olttext {
+  font-size: 14px;
 }
 .main-backtop-btn {
   margin-top:20px;
