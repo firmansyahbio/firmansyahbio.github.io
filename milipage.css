@@ -150,8 +150,8 @@ color: #fff;
   box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.05);
   cursor:pointer;
 }
-.main-comentar-btn .olttext {
-  font-size: 14px;
+.container-opcoes .olttext {
+  font-size: 12px;
 }
 .main-backtop-btn {
   margin-top:20px;
