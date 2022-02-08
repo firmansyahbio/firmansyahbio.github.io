@@ -35,7 +35,7 @@
 .carapace h6 {
   font-size: 25px;
 }
-.frasa,span {
+.carapace ,span ,p {
   font-family: 'roboto', sans-serif;
 }
 .carapace blockquote {
