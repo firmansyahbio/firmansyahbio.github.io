@@ -55,18 +55,7 @@
 .carapace h2,h3,h4,h5,h6,a {
   font-family: 'rubik', sans-serif;
 }
-.carapace h1 {
-  position: relative;
-  font-size: 45px;
-  font-family: "Cormorant Garamond", serif;
-}
-.carapace h2 {
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 1.23em;
-  letter-spacing: 3px;
-  margin-bottom: 2rem;
-}
+
 .carapace h2 ing{
   color: white;
   background-color: #767EEB;
