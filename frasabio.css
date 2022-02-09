@@ -5,7 +5,7 @@
 .post .post-body .firmansyahbio .carapace h1 code {border-radius: 5px;}
 .post .post-body .firmansyahbio .carapace h2 {font-family: 'rubik', sans-serif;}
 .post .post-body .firmansyahbio .carapace h2 {font-size: 38px;font-weight: 700;line-height: 1.40em;letter-spacing: 3px;margin-bottom: 2rem;}
-.post .post-body .firmansyahbio .carapace h2 code {border-radius: 5px;}
+.post .post-body .firmansyahbio .carapace h2 code {box-sizing: border-box;padding: 3px 3px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .post .post-body .firmansyahbio .carapace h3 {font-family: "MD Primer Bold", Rubik, Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;}
 .post .post-body .firmansyahbio .carapace h3 {box-sizing: border-box;font-size: 2rem; letter-spacing: 0.03rem;font-weight:700; line-height: 1.1; scroll-margin-top: 100px;}
 .post .post-body .firmansyahbio .carapace h3 code {box-sizing: border-box; font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 25.208px; letter-spacing: -0.05rem; opacity: 0.5;}
