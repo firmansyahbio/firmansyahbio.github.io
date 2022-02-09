@@ -1,60 +1,4 @@
-.docs .btn {
-  font-size: 1.40em;
-  padding: 7px 12px;
-  border-radius: 5px;
-}
-.docs .btn_one {
-  display:flex;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  }
-.docs .btn-one{
-  background: #767eeb;
-  border-radius: 5px;
-  color: white;
-  width: none;
-  position: relative;
-  font-weight: bold;
-  border: 1px #4E4DED solid;
-  z-index: 1;
-}
-.docs .btn-one::after{
-  content: "";
-  height: 0;
-  width: 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: #4E4DED;
-  border-radius: 5px;
-  transition: .5s;
-  z-index: -1;
-}
-.docs .btn-one:hover::after{
-  height: 100%;
-  width: 100%;
-}
-.docs .btn-one:hover{
-  color: white!important;
-}
-.docs .btn-main{
-  position: relative;
-  display: block;
-  bottom: 0px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-weight: bold;
-  background: transparant;
-  text-align: center;
-  color: #111;
-  border: 1px #4E4DED solid;
-  width: none;
-  transition: all .4s ease-in;
-}
-.docs .btn-main:hover {
-  background: #767EEB;
-  color: white;
-  }
+
 /*=== CSS LABEL ===*/
 .docs .label {
   margin-top: 5px;
@@ -142,3 +86,7 @@ position: absolute;
 z-index: 10;
 letter-spacing: 3px;
 }
+.bg-df ul.liticon li {
+    color: #000;}
+.bg-df ul.liticon li i {
+    color: #4E4DED;}
