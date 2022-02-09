@@ -1,10 +1,14 @@
 .post .post-body .firmansyahbio section {clear: both;margin: 0;box-sizing: border-box;}
 .post .post-body .firmansyahbio .carapace {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
-.post .post-body .firmansyahbio .carapace h1 {font-size: 45px;font-family: "Cormorant Garamond", serif;}
+.post .post-body .firmansyahbio .carapace h1 {font-family: "Cormorant Garamond", serif;}
+.post .post-body .firmansyahbio .carapace h1 {font-size: 45px;}
 .post .post-body .firmansyahbio .carapace h1 code {}
+.post .post-body .firmansyahbio .carapace h2 {font-family: 'rubik', sans-serif;}
 .post .post-body .firmansyahbio .carapace h2 {font-size: 38px;font-weight: 700;line-height: 1.23em;letter-spacing: 3px;margin-bottom: 2rem;}
 .post .post-body .firmansyahbio .carapace h2 code {}
-.post .post-body .firmansyahbio .carapace h3 {box-sizing: border-box; font-family: "MD Primer Bold", Rubik, Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif; font-size: 2rem; letter-spacing: 0.03rem;font-weight:700; line-height: 1.1; scroll-margin-top: 100px;}
+.post .post-body .firmansyahbio .carapace h3 {font-family: "MD Primer Bold", Rubik, Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;}
+.post .post-body .firmansyahbio .carapace h3 {box-sizing: border-box;font-size: 2rem; letter-spacing: 0.03rem;font-weight:700; line-height: 1.1; scroll-margin-top: 100px;}
 .post .post-body .firmansyahbio .carapace h3 code {box-sizing: border-box; font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 25.208px; letter-spacing: -0.05rem; opacity: 0.5;}
-.post .post-body .firmansyahbio .carapace p {font-family: 'Lato', sans-serif;font-weight: 400;font-size: 16px;}
+.post .post-body .firmansyahbio .carapace p {font-family: 'Lato', sans-serif;}
+.post .post-body .firmansyahbio .carapace p {font-weight: 400;font-size: 16px;}
 .post .post-body .firmansyahbio .carapace p code {}
