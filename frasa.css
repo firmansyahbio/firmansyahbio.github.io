@@ -1,8 +1,4 @@
-.carapace p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-}
+
 .carapace .text {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -23,9 +19,7 @@
   text-transform: uppercase;
   font-family: Andale Mono, monospace;
 }
-.carapace h3 {
-  font-size: 35px;
-}
+
 .carapace h4 {
   font-size: 35px;
 }
@@ -52,9 +46,7 @@
 .carapace h1,h2,,h3,h4,h5,h6 {
   line-height: 1.10em;
 }
-.carapace h2,h3,h4,h5,h6,a {
-  font-family: 'rubik', sans-serif;
-}
+
 
 .carapace h2 ing{
   color: white;
