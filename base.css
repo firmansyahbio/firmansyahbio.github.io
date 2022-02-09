@@ -28,3 +28,8 @@
 .bg h6,.bg-df h6{color: #E83B3E;}
 .bg h2 hig,.bg-df h2 code{color: white;
   background-color: #767EEB;}
+/*=== CSS BODY DESIGN ===*/
+.bg-df .pinbox {
+  border-left: 7px #000080 solid;
+  background: #eaeef6;
+}
