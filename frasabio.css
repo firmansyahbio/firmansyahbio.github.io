@@ -2,7 +2,7 @@
 .post .post-body .firmansyahbio .carapace {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
 .post .post-body .firmansyahbio .carapace h1 {font-family: "Cormorant Garamond", serif;}
 .post .post-body .firmansyahbio .carapace h1 {font-size: 45px;}
-.post .post-body .firmansyahbio .carapace h1 code {}
+.post .post-body .firmansyahbio .carapace h1 code {border-radius: 5px;}
 .post .post-body .firmansyahbio .carapace h2 {font-family: 'rubik', sans-serif;}
 .post .post-body .firmansyahbio .carapace h2 {font-size: 38px;font-weight: 700;line-height: 1.23em;letter-spacing: 3px;margin-bottom: 2rem;}
 .post .post-body .firmansyahbio .carapace h2 code {}
