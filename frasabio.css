@@ -1,3 +1,4 @@
-.post .post-body .firmansyahbio .carapace {
-font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
-}
+.post .post-body .firmansyahbio section {clear: both;margin: 0;box-sizing: border-box;}
+.post .post-body .firmansyahbio .carapace {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
+.post .post-body .firmansyahbio .carapace {}
+
