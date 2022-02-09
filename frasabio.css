@@ -11,4 +11,4 @@
 .post .post-body .firmansyahbio .carapace h3 code {box-sizing: border-box; font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 25.208px; letter-spacing: -0.05rem; opacity: 0.5;}
 .post .post-body .firmansyahbio .carapace p {font-family: 'Lato', sans-serif;}
 .post .post-body .firmansyahbio .carapace p {font-weight: 400;font-size: 16px;}
-.post .post-body .firmansyahbio .carapace p code {}
+.post .post-body .firmansyahbio .carapace p code {line-height: 1em;font-family: courier;font-size: 20px;}
