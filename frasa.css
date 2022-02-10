@@ -5,7 +5,7 @@
 }
 :root {
   /* Background Default */
-  --bg-defa: #FFFFFF;
+  --bg-defa: #F9FAFB;
   /* Background Default */
   --bg-main: #F9FAFB;
   /* Background Default */
@@ -17,3 +17,4 @@
   /* Background Default */
   --bg-wols: #405070;
 }
+.bg-df {background: var(--bg-defa);}
