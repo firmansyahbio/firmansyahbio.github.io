@@ -1,1 +1,19 @@
-
+:root {
+  --cl-defa: #000000;
+  --cl-bink: #353535;
+  --cl-dewp: #000080;
+}
+:root {
+  /* Background Default */
+  --bg-defa: #FFFFFF;
+  /* Background Default */
+  --bg-main: #F9FAFB;
+  /* Background Default */
+  --bg-slow: #EAEEFF;
+  /* Background Default */
+  --bg-snop: #EAEEF6;
+  /* Background Default */
+  --bg-pops: #405070;
+  /* Background Default */
+  --bg-wols: #405070;
+}
