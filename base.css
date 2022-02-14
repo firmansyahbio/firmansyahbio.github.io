@@ -1,3 +1,4 @@
+body {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
 .bortom-df{border-bottom: 1px #ccc solid;}
 /*=== CSS TEXT ===*/
 .text-left{text-align:left;}.text-center{text-align:center;}.text-right{text-align:right;}.text-justify{text-align:justify;}
