@@ -37,95 +37,7 @@
   background: #fff;
   }
 }
-.last-updated {
-  width: none;
-  height: none;
-  color: #111;
-  font-size: 10px;
-  margin-top: -30px;
-  margin-left: 0px;
-  position: absolute;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  }
-.last-updated {
-  left: 0;
-  margin-left: 0;
-  border-radius: 0px;
-  background-color: #ceecee;
-  padding: 5px;
-  position: relative;
-}
-.last-updated .main-updated {
-   color: #4E4DED;
-  }
-.list-article {
-  width: none;
-  height: none;
-  color: #00BAFF;
-  font-size: 10px;
-  margin-top: -30px;
-  margin-left: 0px;
-  position: absolute;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  }
-.last-article {
-  left: 0;
-  margin-left: 0;
-  border-radius: 0px;
-  background-color: #4E4DED;
-  padding: 5px;
-  position: relative;
-}
-.last-article .main-article {
-   color: #fff;
-  }
-.last-article .main-article a {
-   color: #fff;
-  }
-.list-info-page {
-  width: none;
-  height: none;
-  color: #FFFFFF;
-  font-size: 10px;
-  margin-top: -30px;
-  margin-left: 0px;
-  position: absolute;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  }
-.list-info-page {
-  left: 0;
-  margin-left: 0;
-  border-radius: 0px;
-  background-color: #4E4DED;
-  padding: 5px;
-  position: relative;
-}
-list-label {
-  width: none;
-  height: none;
-  color: #CEECEE;
-  font-size: 10px;
-  margin-top: -30px;
-  margin-left: 0px;
-  position: absolute;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  }
-.list-label {
-  left: 0;
-  margin-left: 0;
-  border-radius: 0px;
-  background-color: #4E4DED;
-  padding: 5px;
-  position: relative;
-}
-.list-label a {
-  color: #FFFFFF;
-  }
-.pagetop {
+.list-info {
   left: 0;
   width: none;
   height: none;
@@ -141,6 +53,48 @@ list-label {
   letter-spacing: 2px;
   text-transform: uppercase;
   }
+.list-info-page {
+  width: none;
+  height: none;
+  color: #FFFFFF;
+  font-size: 10px;
+  margin-top: -30px;
+  margin-left: 0px;
+  position: absolute;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+.list-info-page {
+  left: 0;
+  margin-left: 0;
+  border-radius: 0px;
+  background-color: #4E4DED;
+  padding: 5px;
+  position: relative;
+}
+.list-info-post {
+  width: none;
+  height: none;
+  color: #CEECEE;
+  font-size: 10px;
+  margin-top: -30px;
+  margin-left: 0px;
+  position: absolute;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+.list-info-post {
+  left: 0;
+  margin-left: 0;
+  border-radius: 0px;
+  background-color: #4E4DED;
+  padding: 5px;
+  position: relative;
+}
+.list-info-post a {
+  color: #FFFFFF;
+  }
+
 .main-left {
 font-weight: bold;
 opacity: 0;
