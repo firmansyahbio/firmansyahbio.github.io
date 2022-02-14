@@ -22,3 +22,35 @@
 .post .post-body .firmansyahbio .carapace .btn-none{position: relative;display: block;margin-top: 5px;margin-bottom: 5px;font-weight: bold;text-align: center;width: none;transition: all .4s ease-in;}
 .post .post-body .firmansyahbio .carapace .btn-main{position: relative;display: block;margin-top: 5px;margin-bottom: 5px;font-weight: bold;text-align: center;width: none;transition: all .4s ease-in;}
 
+.firmansyahbio .carapace ol.olince {
+  list-style: none;
+  counter-reset: list-counter;
+  margin:0px; padding:0px;
+}
+.firmansyahbio .carapace ol.olince li {
+  margin-bottom: 1rem;
+}
+.firmansyahbio .carapace ol.olince li strong{
+  position: absolute;
+  margin-left: 1.80em;
+  margin-top: -1.80em;
+  font-size: 25px;
+}
+.firmansyahbio .carapace ol.olince li p{
+  margin-left: 3em;
+}
+.firmansyahbio .carapace ol.olince > li {
+  counter-increment: list-counter;
+  margin-bottom: 1rem;
+}
+.firmansyahbio .carapace ol.olince > li::before {
+  content: counter(list-counter);
+  font-weight: bold;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
