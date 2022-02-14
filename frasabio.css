@@ -1,5 +1,6 @@
 .post .post-body .firmansyahbio section {clear: both;margin: 0;box-sizing: border-box;}
 .post .post-body .firmansyahbio .carapace {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
+.post .post-body .firmansyahbio .carapace {font-family: 'Lato', sans-serif;font-weight: 400;font-size: 16px;}
 .post .post-body .firmansyahbio .carapace h1 {font-family: "Cormorant Garamond", serif;}
 .post .post-body .firmansyahbio .carapace h1 {font-size: 45px;line-height:1.10em}
 .post .post-body .firmansyahbio .carapace h1 code {border-radius: 5px;}
