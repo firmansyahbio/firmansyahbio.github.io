@@ -34,4 +34,57 @@
 .bg-df .btn-none:hover {color: white;background: #767EEB;border: 1px #4E4DED solid;}
 .bg-df .btn-main {color: white;background: #767EEB;border: 1px #4E4DED solid;}
 .bg-df .btn-main:hover {color: white;background: #000080;border: 1px #000 solid;}
-
+/*=== Inote ( Slon-1 ) ===*/
+.bg-df .slon-1 {
+  background: rgba(216, 58, 14, 0.44);
+}
+.bg-df .slon-1 div {
+  color: #ffffff;
+  text-align: center;
+  background: #d83a0e;
+}
+/*=== Inote ( Slon-2 ) ===*/
+.bg-df .slon-2 {
+  background: rgba(221, 196, 14, 0.45);
+}
+.bg-df .slon-2 div {
+  color: #ffffff;
+  text-align: center;
+  background: #ddc40e;
+}
+/*=== Inote ( Slon-3 ) ===*/
+.bg-df .slon-3 {
+  background: rgba(13, 211, 56, 0.4);
+}
+.bg-df .slon-3 div {
+  color: #ffffff;
+  text-align: center;
+  background: #0dd338;
+}
+/*=== Inote ( Slon-4 ) ===*/
+.bg-df .slon-4 {
+  background: rgba(15, 230, 223, 0.56);
+}
+.bg-df .slon-4 div {
+  color: #ffffff;
+  text-align: center;
+  background: #0fe6df;
+}
+/*=== Inote ( Slon-5 ) ===*/
+.bg-df .slon-5 {
+  background: rgba(171, 18, 135, 0.61);
+}
+.bg-df .slon-5 div {
+  color: #ffffff;
+  text-align: center;
+  background: #ab1287;
+}
+/*=== Inote ( Slon-6 ) ===*/
+.bg-df .slon-6 {
+  background: rgba(17, 13, 211, 0.57);
+}
+.bg-df .slon-6 div {
+  color: #ffffff;
+  text-align: center;
+  background: #110dd3;
+}
