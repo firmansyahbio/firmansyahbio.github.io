@@ -88,3 +88,7 @@
   text-align: center;
   background: #110dd3;
 }
+.bg-df ol.olince > li::before {
+  color: #767eeb;
+  background-color: rgba(36, 49, 224, 0.27);
+  }
