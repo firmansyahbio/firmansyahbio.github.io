@@ -7,7 +7,7 @@
   /* Background Default */
   --bg-defa: #F9FAFB;
   /* Background Default */
-  --bg-main: #F9FAFB;
+  --bg-main: #EAEEF6;
   /* Background Default */
   --bg-slow: #EAEEFF;
   /* Background Default */
@@ -18,3 +18,6 @@
   --bg-wols: #405070;
 }
 .bg-df {background: var(--bg-defa);}
+.bg-df .pinbox {border-left: 7px #000080 solid; background: var(--bg-main);}
+.bg-df p code {color: #ff1010;background: var(--bg-main);}
+
