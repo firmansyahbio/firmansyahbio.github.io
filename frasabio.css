@@ -34,6 +34,7 @@
 .bg-df .btn-none:hover {color: white;background: #767EEB;border: 1px #4E4DED solid;}
 .bg-df .btn-main {color: white;background: #767EEB;border: 1px #4E4DED solid;}
 .bg-df .btn-main:hover {color: white;background: #000080;border: 1px #000 solid;}
+/* CSS Inote */
 /*=== Inote ( Slon-1 ) ===*/
 .bg-df .slon-1 {
   background: rgba(216, 58, 14, 0.44);
@@ -88,7 +89,21 @@
   text-align: center;
   background: #110dd3;
 }
+/* CSS Olince */
 .bg-df ol.olince > li::before {
   color: #767eeb;
   background-color: rgba(36, 49, 224, 0.27);
+  }
+
+/* CSS Choose */
+.bg-df .choose::before {
+  background:#4E4DED;
+}
+.bg-df .choose:hover span i{
+  color: white;
+  background: #767EEB;
+}
+.bg-df .choose span i {
+  color: #4E4DED;
+  background: white;
   }
