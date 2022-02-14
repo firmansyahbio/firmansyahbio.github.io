@@ -18,6 +18,16 @@
   --bg-wols: #405070;
 }
 .bg-df {background: var(--bg-defa);}
+/*=== CSS BODY DESIGN ===*/
+.bg-df p{color: #111111;}
+.bg-df .p{color: #111111;}
+.bg-df h1{color: #353535;}
+.bg-df h2{color: #000080;}
+.bg-df h3{color: #000000;}
+.bg-df h4{color: #191919;}
+.bg-df h5{color: #00baff;}
+.bg-df h6{color: #E83B3E;}
+.bg-df h2 code{color: white;background-color: #767EEB;}
 .bg-df .pinbox {border-left: 7px #000080 solid; background: var(--bg-main);}
 .bg-df p code {color: #ff1010;background: var(--bg-main);}
 
