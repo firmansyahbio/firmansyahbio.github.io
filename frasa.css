@@ -30,4 +30,7 @@
 .bg-df h2 code{color: white;background-color: #767EEB;}
 .bg-df .pinbox {border-left: 7px #000080 solid; background: var(--bg-main);}
 .bg-df p code {color: #ff1010;background: var(--bg-main);}
-
+.bg-df .btn-none {color: #4E4DED;border: 1px #4E4DED solid;}
+.bg-df .btn-none:hover {color: white;background: #767EEB;border: 1px #4E4DED solid;}
+.bg-df .btn-main {color: white;background: #767EEB;border: 1px #4E4DED solid;}
+.bg-df .btn-main:hover {color: white;background: #000080;border: 1px #000 solid;}
