@@ -120,3 +120,158 @@
   position: relative;
   display: inline-block;
 }
+/* CSS Flexbox */
+.carapace .flexbox {position: relative;top: 0;max-width: 100%;margin: 0 auto;padding: 0;}
+.carapace .flexbox hr{border: 0.01rem #fff solid;}
+.carapace .flexbox .mix {
+  float:left;
+  margin: 0% 0% 0% 0%;
+  box-sizing: border-box;
+}
+.carapace .flexbox .mix:first-child { margin-left: 0;}
+
+/*=== Flexbox ( Skin-0 ) ===*/
+.carapace .skin-0 .flex-1 {
+  width: 99.99%;
+}
+.carapace .skin-0 .flex-2 {
+  width: 99.99%;
+}
+.carapace .skin-0 .flex-3 {
+  width: 99.99%;
+}
+.carapace .skin-0 .flex-4 {
+  width: 99.99%;
+}
+.carapace .skin-0 .flex-5 {
+  width: 99.99%;
+}
+
+/*=== Flexbox ( Skin-1 ) ===*/
+.carapace .skin-1 .flex-1 {
+  width: 99.99%;
+}
+.carapace .skin-1 .flex-2 {
+  width: 99.99%;
+}
+.carapace .skin-1 .flex-3 {
+  width: 70%;
+}
+.carapace .skin-1 .flex-4 {
+  width: 30%;
+}
+.carapace .skin-1 .flex-5 {
+  width: 99.99%;
+}
+
+/*=== Flexbox ( Skin-2 ) ===*/
+.carapace .skin-2 .flex-1 {
+  width: 99.99%;
+}
+.carapace .skin-2 .flex-2 {
+  width: 20%;
+}
+.carapace .skin-2 .flex-3 {
+  width: 49.98%;
+}
+.carapace .skin-2 .flex-4 {
+  width: 30%;
+}
+.carapace .skin-2 .flex-5 {
+  width: 99.99%;
+}
+
+/*=== Flexbox ( Skin-3 ) ===*/
+.carapace .skin-3 .flex-1 {
+  width: 99.99%;
+}
+.carapace .skin-3 .flex-2 {
+  width: 99.99%;
+}
+.carapace .skin-3 .flex-3 {
+  width: 99.99%;
+}
+.carapace .skin-3 .flex-4 {
+  width: 49.99%;
+}
+.carapace .skin-3 .flex-5 {
+  width: 50%;
+}
+
+/*=== Flexbox ( Skin-4 ) ===*/
+.carapace .skin-4 .flex-1 {
+  width: 99.99%;
+}
+.carapace .skin-4 .flex-2 {
+  width: 99.99%;
+}
+.carapace .skin-4 .flex-3 {
+  width: 99.99%;
+}
+.carapace .skin-4 .flex-4 {
+  width: 49.99%;
+}
+.carapace .skin-4 .flex-5 {
+  width: 50%;
+}
+
+/*=== Flexbox ( Skin-5 ) ===*/
+.carapace .skin-5 .flex-1 {
+  width: 99.99%;
+}
+.carapace .skin-5 .flex-2 {
+  width: 49.99%;
+}
+.carapace .skin-5 .flex-3 {
+  width: 50%;
+}
+.carapace .skin-5 .flex-4 {
+  width: 49.99%;
+}
+.carapace .skin-5 .flex-5 {
+  width: 50%;
+}
+
+/*=== Flexbox ( Skin-6 ) ===*/
+.carapace .skin-6 .flex-1 {
+  width: 49.99%;
+}
+.carapace .skin-6 .flex-2 {
+  width: 50%;
+}
+.carapace .skin-6 .flex-3 {
+  width: 99.99%;
+}
+.carapace .skin-6 .flex-4 {
+  width: 49.99%;
+}
+.carapace .skin-6 .flex-5 {
+  width: 50%;
+}
+
+/*=== Flexbox ( Skin-7 ) ===*/
+.carapace .skin-7 .flex-1 {
+  width: 49.99%;
+}
+.carapace .skin-7 .flex-2 {
+  width: 50%;
+}
+.carapace .skin-7 .flex-3 {
+  width: 99.99%;
+}
+.carapace .skin-7 .flex-4 {
+  width: 99.99%;
+}
+.carapace .skin-7 .flex-5 {
+  width: 99.99%;
+}
+
+/*=== Flexbox ( Media Query ) ===*/
+@media only screen and (max-width: 900px) {
+.carapace .flexbox .mix{margin: 0;}
+.carapace .flexbox .flex-1,
+.carapace .flexbox .flex-2,
+.carapace .flexbox .flex-3,
+.carapace .flexbox .flex-4,
+.carapace .flexbox .flex-5 {width:100%;}
+}
