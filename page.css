@@ -72,6 +72,9 @@
   padding: 5px;
   position: relative;
 }
+.list-info-page a {
+  color: #FFFFFF;
+  }
 .list-info-post {
   width: none;
   height: none;
@@ -93,7 +96,7 @@
 }
 .list-info-post a {
   color: #FFFFFF;
-  }
+}
 
 .main-left {
 font-weight: bold;
