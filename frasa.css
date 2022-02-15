@@ -13,7 +13,7 @@
 .post .post-body .firmansyahbio .carapace h4 {font-family: 'Dongle' , sans-serif;font-size: 26px;margin-bottom: 0px;bottom:0px;line-height: 1.10em;font-weight: bold;}
 .post .post-body .firmansyahbio .carapace p {font-family: 'Lato', sans-serif;}
 .post .post-body .firmansyahbio .carapace p {font-weight: 400;font-size: 16px;}
-.post .post-body .firmansyahbio .carapace p code {box-sizing: border-box; line-height: 1em;font-family: courier;font-size: 20px; padding: 2px 3px; border-radius: 5px; opacity: 0.5;}
+.post .post-body .firmansyahbio .carapace p code {border-radius:3px;box-sizing: border-box;letter-spacing:.02rem;line-height:1.4;text-shadow:0 1px white;font-family:Consolas,Monaco,'Fredoka One',cursive;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}
 .post .post-body .firmansyahbio .carapace .span-text {font-size: 1.200rem;line-height: 1.200rem;font-weight: bold;margin-top: 20px;font-family: Andale Mono, monospace;}
 .post .post-body .firmansyahbio .carapace .pinbox {padding:10px;margin-top:5px;margin-bottom:5px;border-top-right-radius:5px;border-bottom-right-radius: 5px;}
 .post .post-body .firmansyahbio .carapace ul.liticon {list-style: none;padding: 0;}
