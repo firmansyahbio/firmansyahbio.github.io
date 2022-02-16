@@ -1,3 +1,38 @@
+.centered-bottom .container .post .post-title {
+  color: #29246a;
+  font-size: 50px;
+  padding-top: 5px;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-bottom: 5px;
+  text-align: left;
+  letter-spacing: 0.125em;
+  line-height: 1.10em;
+  font-weight: bold;
+  text-transform: none;
+  font-family: 'Dongle' , sans-serif;
+}
+.listron {
+  left: 0;
+  width: 30%;
+  height: 10px;
+  color: #ff0000;
+  padding: 0px;
+  font-size: 10px;
+  margin-top: -20px;
+  margin-left: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #FF0000;
+  position: relative;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+.padding-main {
+  padding: 0em;
+  padding-top: 1em;
+  }
+@media only screen and (max-width: 30em){
 .centered-bottom {
   margin: 0;
   padding: 0;
@@ -6,35 +41,27 @@
   box-sizing: border-box;
   }
 .centered-bottom .container {
-  width: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  }
+.centered-bottom .container .post{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   }
 .centered-bottom .container .post .post-title {
-  color: #ffffff;
-  font-size: 30px;
-  margin-top: 0em;
-  font-weight: 600;
-  padding-top: 25px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 25px;
-  text-align: center;
-  margin-bottom: 0px;
-  background: #29246a;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  letter-spacing: 0.125em;
-  text-transform: uppercase;
-  font-family: 'rubik', sans-serif;
-}
-
-@media only screen and (max-width: 1400px){
-.centered-bottom .container .post .post-title {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
   }
-.centered-bottom .container .post {
-  background: #fff;
+.padding-main {
+  padding: 1em;
   }
 }
 .list-info {
