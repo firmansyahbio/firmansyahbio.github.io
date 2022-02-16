@@ -1,16 +1,8 @@
 .centered-bottom .container .post .post-title {
-  color: #29246a;
-  font-size: 50px;
   padding-top: 5px;
   padding-left: 0em;
   padding-right: 0em;
   padding-bottom: 5px;
-  text-align: left;
-  letter-spacing: 0.125em;
-  line-height: 1.10em;
-  font-weight: bold;
-  text-transform: none;
-  font-family: 'Dongle' , sans-serif;
 }
 .listron {
   left: 0;
