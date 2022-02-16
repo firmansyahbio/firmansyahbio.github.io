@@ -39,7 +39,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   }
-.padding-main {
+.bg-df {
   padding: 0em;
   padding-top: 1em;
   }
@@ -71,7 +71,7 @@
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   }
-.padding-main {
+.bg-df {
   padding: 1em;
   }
 }
