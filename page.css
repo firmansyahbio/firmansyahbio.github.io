@@ -23,21 +23,18 @@
   }
 }
 .container .post {background: #eaeef6;}
-.listron {
+.listtron {
   left: 0;
-  width: 30%;
+  width: none;
   height: 10px;
-  color: #ff0000;
-  padding: 0px;
-  font-size: 10px;
   margin-top: -20px;
-  margin-left: 0px;
+  margin-left: 0;
+  border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   background-color: #FF0000;
   position: relative;
-  letter-spacing: 2px;
-  text-transform: uppercase;
   }
 .bg-df {
   padding: 0em;
@@ -71,6 +68,12 @@
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   }
+.listtron {
+  width: 30%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 5px;
 .bg-df {
   padding: 1em;
   }
