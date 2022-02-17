@@ -51,6 +51,8 @@
   margin-right: 5px;
   color: #ff1010;
   }
+.linkscup ul li span.diverti {position:relative;font-size:11px;
+top: -16px; width:none;color:000080;}
 .linkscup ul a {
   color: #000;
   font-size: 15px;
