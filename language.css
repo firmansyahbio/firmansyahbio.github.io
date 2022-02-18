@@ -6,6 +6,8 @@
   
 .msg-alert{position:fixed;top:65px;left:20px;background:#333;z-index:1000;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:15px;padding:8px 12px;border-radius:5px}
 
+.language-css, .language-html, .language-javascript {user-select:none;-ms-user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none}
+
 code[class*="language-"],pre[class*="language-"]{font-size:14px;letter-spacing:.02rem;line-height:1.4;color:black;background:none;text-shadow:0 1px white;font-family:Consolas,Monaco,'Fredoka One',cursive;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}
   
 pre[class*="language-"]::-moz-selection,pre[class*="language-"]::-moz-selection,code[class*="language-"]::-moz-selection,code[class*="language-"]::-moz-selection{text-shadow:none;background:#111}
