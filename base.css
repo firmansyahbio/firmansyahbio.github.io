@@ -1,4 +1,17 @@
 body {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
+.hero-image {
+animation: slide-in .7s .5s ease both;
+}
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .bortom-df{border-bottom: 1px #ccc solid;}
 /*=== CSS TEXT ===*/
 .text-left{text-align:left;}.text-center{text-align:center;}.text-right{text-align:right;}.text-justify{text-align:justify;}
@@ -13,8 +26,5 @@ body {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue
 /*=== CSS BACKGROUND ===*/
 .bg-co{background: #EAEEFF;}
 .bg-cc{background: #EAEEF6;}
-.bg-slateblue {color:white;background:slateblue;}
-.bg-deeppink {color:white;background:deeppink;}
-.bg-dodgerblue {color:white;background:dodgerblue;}
 
 /*=== CSS BODY DESIGN ===*/
