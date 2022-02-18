@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Skranji:700');
+.container .post .post-title {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
 .container .post .post-title {
   color: #767eeb;
   font-weight: 700;
@@ -10,7 +10,6 @@
   margin-bottom: 0px;
   line-height: 1.10em;
   text-shadow: 0 2px white, 0 3px #666;
-  font-family: 'Skranji', 'Trebuchet MS', Verdana, sans-serif;
 }
 @media only screen and (max-width: 60em) {
 .container .post .post-title {
