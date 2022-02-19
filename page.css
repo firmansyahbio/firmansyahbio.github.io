@@ -11,17 +11,7 @@
   line-height: 1.10em;
   text-shadow: 0 2px white, 0 3px #666;
 }
-.container .post .post-body:before {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  margin-top: -15px;
-  border-color: #eaeef6;
-  margin-left: 0px;
-  border-top-color: #eaeef6;
-  border-width: 50px;
-  border-bottom: 0px #ff0000 solid;
-}
+
 @media only screen and (max-width: 60em) {
 .container .post .post-title {
   font-size: 3.50em;
