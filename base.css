@@ -28,3 +28,14 @@ animation: slide-in .7s .5s ease both;
 .bg-cc{background: #EAEEF6;}
 
 /*=== CSS BODY DESIGN ===*/
+.firmansyahbio .base {
+  padding: 0em 1em 0em 0em;
+ }
+@media only screen and (max-width: 60em) {
+
+}
+@media only screen and (max-width: 30em) {
+.firmansyahbio .base {
+  padding: 1em 1em 1em 1em;
+  }
+}
