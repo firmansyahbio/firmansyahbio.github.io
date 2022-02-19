@@ -107,3 +107,39 @@
   color: #4E4DED;
   background: white;
   }
+/*=== CSS Music ( music_pro ) ===*/
+.carapace .music_pro {
+  background-color: rgba(36, 49, 224, 0.27);
+  }
+.carapace .music_pro #myProgress {
+  background: #fff; 
+  }
+.carapace .music_pro #myBar {
+  background: #ff0101;
+  }
+.carapace .music_pro .btn-ctn .btn-action {
+  background: #4E4DED;
+  color: #ffffff;
+}
+.carapace .music_pro .infos-ctn > div {
+  color: #ffffff;
+  }
+.carapace .music_pro .titmusic{
+  color: #fff;
+  }
+.carapace .music_pro .playlist-track-ctn{
+  background: #4E4DED;
+  border: 1px solid #000000;
+  }
+.carapace .music_pro .playlist-info-track,
+.carapace .music_pro .playlist-duration {
+color: #ffffff;
+  }
+.carapace .music_pro .active-track{
+background: #767EEB;
+color: #ffffff !important;
+border: 1px solid #ffffff;
+}
+.carapace .music_pro .fas{
+  color: #fff;
+}
