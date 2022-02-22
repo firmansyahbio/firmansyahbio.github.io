@@ -430,3 +430,29 @@ color: #fff !important;
   margin-left: 0px;
   margin-right: 0px;
 }
+/*=== CSS Quote ===*/
+.firmansyahbio .carapace .quote_pro blockquote {
+  padding-right: 0px;
+  margin-left: 30px;
+  }
+.firmansyahbio .carapace .quote_pro blockquote:before {
+  font-family: FontAwesome;
+  margin-top: -8px;
+  margin-left: -25px;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  content: "\f10d";
+}
+.firmansyahbio .carapace .quote_pro blockquote p {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.20em;
+  text-align: left;
+  position: relative;
+}
+.firmansyahbio .carapace .quote_pro blockquote i.name {
+  font-size: 12px;
+  font-weight: italic;
+  }
