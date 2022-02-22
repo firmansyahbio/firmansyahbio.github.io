@@ -1,12 +1,33 @@
-/* Newsletter */ 
-#FirmansyahNewsletter {width:100%; min-width:300px; height:auto; border-top: 1px #000 solid; border-radius:0px; display: block; margin:auto; line-height:40px; padding:0px} 
-#FirmansyahNewsletter .email__ {padding:15px 15px 5px;} 
-#FirmansyahNewsletter .email {font-weight: 600;margin:auto; color:#000;} 
-#FirmansyahNewsletter .email:before {content:''; width:50px; height:50px; display:block; text-align:center; margin:auto; border-radius:100px; transition:all .3s ease; -webkit-animation:FirmansyahBio 5s 0s ease-in-out infinite; -webkit-transform-origin:50% 4px; -moz-animation:FirmansyahBio 5s 0s ease-in-out infinite; -moz-transform-origin:50% 4px; animation:FirmansyahBio 5s 0s ease-in-out infinite; transform-origin:50% 4px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z' fill='%234E4DED'/%3E%3C/svg%3E") center center / 50px no-repeat;}
 .footercup {
   color: #616161;
   padding: 0px 0;
 }
+/* Footer Flexuser */
+.footercup .flexuser {position: relative;top: 0;max-width: 100%;margin: 0 auto;padding: 0; height:200px;border-top: 1px #ccc solid;}
+.footercup .flexuser hr{border: 0.01rem #fff solid;}
+.footercup .flexuser .fix {
+  float:left;
+  margin: 0% 0% 0% 0%;
+  box-sizing: border-box;
+}
+.footercup .flexuser .fix:first-child { margin-left: 0;}
+.footercup .flexuser .boxuser_1 {
+  width: 49.99%;
+}
+.footercup .flexuser .boxuser_2 {
+  width: 50%;
+}
+@media only screen and (max-width: 900px) {
+.footercup .flexuser {height:500px;}
+.footercup .flexuser .fix{margin: 0;}
+.footercup .flexuser .boxuser_1,
+.footercup .flexuser .boxuser_2 {width:100%;}
+}
+#FirmansyahNewsletter {width:100%; min-width:300px; height:auto; border-top: 1px #000 solid; border-radius:0px; display: block; margin:auto; line-height:40px; padding:0px} 
+#FirmansyahNewsletter .email__ {padding:15px 15px 5px;} 
+#FirmansyahNewsletter .email {font-weight: 600;margin:auto; color:#000;} 
+#FirmansyahNewsletter .email:before {content:''; width:50px; height:50px; display:block; text-align:center; margin:auto; border-radius:100px; transition:all .3s ease; -webkit-animation:FirmansyahBio 5s 0s ease-in-out infinite; -webkit-transform-origin:50% 4px; -moz-animation:FirmansyahBio 5s 0s ease-in-out infinite; -moz-transform-origin:50% 4px; animation:FirmansyahBio 5s 0s ease-in-out infinite; transform-origin:50% 4px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z' fill='%234E4DED'/%3E%3C/svg%3E") center center / 50px no-repeat;}
+
 .footercup ul {
   list-style: none;
   }
