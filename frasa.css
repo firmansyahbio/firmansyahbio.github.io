@@ -290,7 +290,7 @@
   content: "\22";
 }
 /*=== CSS Music ( music_pro ) ===*/
-.firmansyahbio .music .music_pro {
+.firmansyahbio .carapace .music_pro {
   border-radius: 5px;
   width: none;
   padding: 5px;
@@ -298,11 +298,11 @@
   margin-top: 0px;
   box-sizing: border-box;
 }
-.firmansyahbio .music .music_pro .btn-ctn {
+.firmansyahbio .carapace .music_pro .btn-ctn {
   display: flex;
   padding: 8px;
 }
-.firmansyahbio .music .music_pro .btn-ctn .btn-action {
+.firmansyahbio .carapace .music_pro .btn-ctn .btn-action {
   flex: 1 1 30%;
   padding: 5px;
   margin: 5px;
@@ -318,49 +318,49 @@
   transition: all 0.2s;
   cursor: pointer;
 }
-.firmansyahbio .music .music_pro #myProgress {
+.firmansyahbio .carapace .music_pro #myProgress {
 width: 100%;
 cursor: pointer;
 border-radius: 10px;
 }
-.firmansyahbio .music .music_pro #myBar {
+.firmansyahbio .carapace .music_pro #myBar {
 width: 1%;
 height: 2px;
 border-radius: 10px;
 }
-.firmansyahbio .music .music_pro .player-box {
+.firmansyahbio .carapace .music_pro .player-box {
   width: none;
   height: none;
   }
-.firmansyahbio .music .music_pro .btn-ctn,.firmansyahbio .music .music_pro .infos-ctn {
+.firmansyahbio .carapace .music_pro .btn-ctn,.firmansyahbio .carapace .music_pro .infos-ctn {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
-.firmansyahbio .music .music_pro .infos-ctn{
+.firmansyahbio .carapace .music_pro .infos-ctn{
 padding-top: 10px;
 }
-.firmansyahbio .music .music_pro .btn-ctn > div {
+.firmansyahbio .carapace .music_pro .btn-ctn > div {
  padding: 0%;
  margin-top: 10px;
  margin-bottom: 10px;
 }
-.firmansyahbio .music .music_pro .infos-ctn > div {
+.firmansyahbio .carapace .music_pro .infos-ctn > div {
  margin-bottom: 8px;
 }
-.firmansyahbio .music .music_pro .first-btn {
+.firmansyahbio .carapace .music_pro .first-btn {
   margin-left: 5px;
 }
-.firmansyahbio .music .music_pro .duration{
+.firmansyahbio .carapace .music_pro .duration{
   margin-left: 5px;
 }
-.firmansyahbio .music .music_pro .titmusic{
+.firmansyahbio .carapace .music_pro .titmusic{
   margin-left: 10px;
   width: 90%;
   text-align: center;
 }
-.firmansyahbio .music .music_pro .playlist-track-ctn{
+.firmansyahbio .carapace .music_pro .playlist-track-ctn{
 display: flex;
 height: none;
 width: none;
@@ -375,57 +375,57 @@ overflow-y: hidden;
 left: 0;
 box-sizing: border-box;
 }
-.firmansyahbio .music .music_pro .playlist-track-ctn > div{
+.firmansyahbio .carapace .music_pro .playlist-track-ctn > div{
   margin: 3px 10px 3px 3px;
 }
-.firmansyahbio .music .music_pro .playlist-info-track{
+.firmansyahbio .carapace .music_pro .playlist-info-track{
 width: 100%;
 position: relative;
 top: 0px;
 left: -5px;
 }
-.firmansyahbio .music .music_pro .playlist-info-track,
-.firmansyahbio .music .music_pro .playlist-duration{
+.firmansyahbio .carapace .music_pro .playlist-info-track,
+.firmansyahbio .carapace .music_pro .playlist-duration{
   padding-top: 0px;
   padding-bottom: 7px;
   font-size: 17px;
   pointer-events: none;
 }
-.firmansyahbio .music .music-pro .playlist-ctn{
+.firmansyahbio .carapace .music-pro .playlist-ctn{
  width: none;
  box-sizing: border-box;
  padding-bottom: 0px;
  display: block;
 }
-.firmansyahbio .music .music_pro .active-track{
+.firmansyahbio .carapace .music_pro .active-track{
   font-weight: bold;
   }
-.firmansyahbio .music .music_pro .active-track >.firmansyahbio .music .music_pro .playlist-info-track,.active-track >.firmansyahbio .music .music_pro .playlist-duration,.active-track >.firmansyahbio .music .music_pro .playlist-btn-play{
+.firmansyahbio .carapace .music_pro .active-track >.firmansyahbio .carapace .music_pro .playlist-info-track,.active-track >.firmansyahbio .carapace .music_pro .playlist-duration,.active-track >.firmansyahbio .carapace .music_pro .playlist-btn-play{
 color: #fff !important;
 }
-.firmansyahbio .music .music_pro .playlist-btn-play{
+.firmansyahbio .carapace .music_pro .playlist-btn-play{
   pointer-events: none;
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.firmansyahbio .music .music_pro .fas{
+.firmansyahbio .carapace .music_pro .fas{
   font-size: 15px;
   }
-.firmansyahbio .music .music_pro .timer {
+.firmansyahbio .carapace .music_pro .timer {
   float: left;
   width: 60px;
   height: 20px;
   text-align: left;
   position: relative;
   }
-.firmansyahbio .music .music_pro .duration {
+.firmansyahbio .carapace .music_pro .duration {
   float: right;
   width: 60px;
   height: 20px;
   text-align: right;
   position: relative;
   }
-.firmansyahbio .music .music_pro .titmar {
+.firmansyahbio .carapace .music_pro .titmar {
   width: 100%;
   margin-left: 0px;
   margin-right: 0px;
