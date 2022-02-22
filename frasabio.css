@@ -19,127 +19,127 @@
 }
 .bg-df {background: var(--bg-defa);}
 /*=== CSS BODY DESIGN ===*/
-.bg-df p{color: #174EA6;}
-.bg-df h1{color: #353535;}
-.bg-df h2{color: #000080;}
-.bg-df h3{color: #000000;}
-.bg-df h4{color: #aeaafe;}
-.bg-df h5{color: #00baff;}
-.bg-df h6{color: #E83B3E;}
-.bg-df .p{color: #111111;}
-.bg-df h2 code{color: white;background-color: #767EEB;}
-.bg-df .pinbox {border-left: 7px #000080 solid; background: var(--bg-main);}
-.bg-df p code {color: #ff1010;background: var(--bg-main);}
-.bg-df .btn-none {color: #4E4DED;border: 1px #4E4DED solid;}
-.bg-df .btn-none:hover {color: white;background: #767EEB;border: 1px #4E4DED solid;}
-.bg-df .btn-main {color: white;background: #767EEB;border: 1px #4E4DED solid;}
-.bg-df .btn-main:hover {color: white;background: #000080;border: 1px #000 solid;}
+.note p{color: #174EA6;}
+.note h1{color: #353535;}
+.note h2{color: #000080;}
+.note h3{color: #000000;}
+.note h4{color: #aeaafe;}
+.note h5{color: #00baff;}
+.note h6{color: #E83B3E;}
+.note .p{color: #111111;}
+.note h2 code{color: white;background-color: #767EEB;}
+.note .pinbox {border-left: 7px #000080 solid; background: var(--bg-main);}
+.note p code {color: #ff1010;background: var(--bg-main);}
+.note .btn-none {color: #4E4DED;border: 1px #4E4DED solid;}
+.note .btn-none:hover {color: white;background: #767EEB;border: 1px #4E4DED solid;}
+.note .btn-main {color: white;background: #767EEB;border: 1px #4E4DED solid;}
+.note .btn-main:hover {color: white;background: #000080;border: 1px #000 solid;}
 /* CSS Inote */
 /*=== Inote ( Slon-1 ) ===*/
-.bg-df .slon-1 {
+.note .slon-1 {
   background: rgba(216, 58, 14, 0.44);
 }
-.bg-df .slon-1 div {
+.note .slon-1 div {
   color: #ffffff;
   text-align: center;
   background: #d83a0e;
 }
 /*=== Inote ( Slon-2 ) ===*/
-.bg-df .slon-2 {
+.note .slon-2 {
   background: rgba(221, 196, 14, 0.45);
 }
-.bg-df .slon-2 div {
+.note .slon-2 div {
   color: #ffffff;
   text-align: center;
   background: #ddc40e;
 }
 /*=== Inote ( Slon-3 ) ===*/
-.bg-df .slon-3 {
+.note .slon-3 {
   background: rgba(13, 211, 56, 0.4);
 }
-.bg-df .slon-3 div {
+.note .slon-3 div {
   color: #ffffff;
   text-align: center;
   background: #0dd338;
 }
 /*=== Inote ( Slon-4 ) ===*/
-.bg-df .slon-4 {
+.note .slon-4 {
   background: rgba(15, 230, 223, 0.56);
 }
-.bg-df .slon-4 div {
+.note .slon-4 div {
   color: #ffffff;
   text-align: center;
   background: #0fe6df;
 }
 /*=== Inote ( Slon-5 ) ===*/
-.bg-df .slon-5 {
+.note .slon-5 {
   background: rgba(171, 18, 135, 0.61);
 }
-.bg-df .slon-5 div {
+.note .slon-5 div {
   color: #ffffff;
   text-align: center;
   background: #ab1287;
 }
 /*=== Inote ( Slon-6 ) ===*/
-.bg-df .slon-6 {
+.note .slon-6 {
   background: rgba(17, 13, 211, 0.57);
 }
-.bg-df .slon-6 div {
+.note .slon-6 div {
   color: #ffffff;
   text-align: center;
   background: #110dd3;
 }
 /* CSS Olince */
-.bg-df ol.olince > li::before {
+.note ol.olince > li::before {
   color: #767eeb;
   background-color: rgba(36, 49, 224, 0.27);
   }
 
 /* CSS Choose */
-.bg-df .choose::before {
+.note .choose::before {
   background:#4E4DED;
 }
-.bg-df .choose:hover span i{
+.note .choose:hover span i{
   color: white;
   background: #767EEB;
 }
-.bg-df .choose span i {
+.note .choose span i {
   color: #4E4DED;
   background: white;
   }
 /*=== CSS Music ( music_pro ) ===*/
-.carapace .music_pro {
+.music .music_pro {
   background-color: rgba(36, 49, 224, 0.27);
   }
-.carapace .music_pro #myProgress {
+.music .music_pro #myProgress {
   background: #fff; 
   }
-.carapace .music_pro #myBar {
+.music .music_pro #myBar {
   background: #ff0101;
   }
-.carapace .music_pro .btn-ctn .btn-action {
+.music .music_pro .btn-ctn .btn-action {
   background: #4E4DED;
   color: #ffffff;
 }
-.carapace .music_pro .infos-ctn > div {
+.music .music_pro .infos-ctn > div {
   color: #ffffff;
   }
-.carapace .music_pro .titmusic{
+.music .music_pro .titmusic{
   color: #fff;
   }
-.carapace .music_pro .playlist-track-ctn{
+.music .music_pro .playlist-track-ctn{
   background: #4E4DED;
   border: 1px solid #000000;
   }
-.carapace .music_pro .playlist-info-track,
-.carapace .music_pro .playlist-duration {
+.music .music_pro .playlist-info-track,
+.music .music_pro .playlist-duration {
 color: #ffffff;
   }
-.carapace .music_pro .active-track{
+.music .music_pro .active-track{
 background: #767EEB;
 color: #ffffff !important;
 border: 1px solid #ffffff;
 }
-.carapace .music_pro .fas{
+.music .music_pro .fas{
   color: #fff;
 }
