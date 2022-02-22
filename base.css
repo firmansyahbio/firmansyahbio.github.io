@@ -26,7 +26,32 @@ animation: slide-in .7s .5s ease both;
 /*=== CSS BACKGROUND ===*/
 .bg-co{background: #EAEEFF;}
 .bg-cc{background: #EAEEF6;}
-
+.listtron {
+  left: 0;
+  width: none;
+  height: 10px;
+  margin-top: -20px;
+  margin-left: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #FF0000;
+  position: relative;
+  }
+.listtrof {
+  left: 0;
+  width: none;
+  height: 10px;
+  margin-top: -20px;
+  margin-left: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #EAEEF6;
+  position: relative;
+  }
 /*=== CSS BODY DESIGN ===*/
 .firmansyahbio .base {
   padding: 1em 0em 0em 0em;
@@ -37,5 +62,13 @@ animation: slide-in .7s .5s ease both;
 @media only screen and (max-width: 30em) {
 .firmansyahbio .base {
   padding: 1em 1em 1em 1em;
+  }
+.listtron,
+.listtrof {
+  width: 40%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 5px;
   }
 }
