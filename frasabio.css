@@ -20,6 +20,7 @@
 .bg-df {background: var(--bg-defa);}
 /*=== CSS BODY DESIGN ===*/
 .note p{color: #174EA6;}
+.note p a {color: deeppink;}
 .note h1{color: #353535;}
 .note h2{color: #000080;}
 .note h3{color: #000000;}
