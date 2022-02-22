@@ -143,3 +143,6 @@ border: 1px solid #ffffff;
 .music .music_pro .fas{
   color: #fff;
 }
+/*=== CSS Quote ===*/
+.firmansyahbio .quote .quote_pro blockquote p {color: gray;}
+.firmansyahbio .quote .quote_pro blockquote:before {color: #ff0000;}
