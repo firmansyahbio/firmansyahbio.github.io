@@ -280,186 +280,40 @@
 .carapace .flexbox .flex-5 {width:100%;}
 }
 /*=== Ditto ( CSS Ditto ) ===*/
-.firmansyahbio .carapace .ditto {
-  padding-right: 20px;
-  margin-left: 30px;
-  }
-.firmansyahbio .carapace .ditto:before {
-  font-family: FontAwesome;
-  margin-left: -30px;
-  font-size: 90px;
-  line-height: 1em;
-  position: absolute;
-  content: "\22";
-}
+.firmansyahbio .carapace .ditto {padding-right: 20px;margin-left: 30px;}
+.firmansyahbio .carapace .ditto:before {font-family: FontAwesome;margin-left: -30px;font-size: 90px;line-height: 1em;position: absolute;content: "\22";}
 /*=== CSS Music ( music_pro ) ===*/
-.firmansyahbio .carapace .music_pro {
-  border-radius: 5px;
-  width: none;
-  padding: 5px;
-  margin: auto;
-  margin-top: 0px;
-  box-sizing: border-box;
-}
-.firmansyahbio .carapace .music_pro .btn-ctn {
-  display: flex;
-  padding: 8px;
-}
-.firmansyahbio .carapace .music_pro .btn-ctn .btn-action {
-  flex: 1 1 30%;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 5px;
-  text-align: center;
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  font-size: 10px;
-  font-weight: bold;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  z-index: 5;
-  transition: all 0.2s;
-  cursor: pointer;
-}
-.firmansyahbio .carapace .music_pro #myProgress {
-width: 100%;
-cursor: pointer;
-border-radius: 10px;
-}
-.firmansyahbio .carapace .music_pro #myBar {
-width: 1%;
-height: 2px;
-border-radius: 10px;
-}
-.firmansyahbio .carapace .music_pro .player-box {
-  width: none;
-  height: none;
-  }
-.firmansyahbio .carapace .music_pro .btn-ctn,.firmansyahbio .carapace .music_pro .infos-ctn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.firmansyahbio .carapace .music_pro .infos-ctn{
-padding-top: 10px;
-}
-.firmansyahbio .carapace .music_pro .btn-ctn > div {
- padding: 0%;
- margin-top: 10px;
- margin-bottom: 10px;
-}
-.firmansyahbio .carapace .music_pro .infos-ctn > div {
- margin-bottom: 8px;
-}
-.firmansyahbio .carapace .music_pro .first-btn {
-  margin-left: 5px;
-}
-.firmansyahbio .carapace .music_pro .duration{
-  margin-left: 5px;
-}
-.firmansyahbio .carapace .music_pro .titmusic{
-  margin-left: 10px;
-  width: 90%;
-  text-align: center;
-}
-.firmansyahbio .carapace .music_pro .playlist-track-ctn{
-display: flex;
-height: none;
-width: none;
-overflow: hidden;
-margin-top: 3px;
-padding-top: 5px;
-border-radius: 5px;
-cursor: pointer;
-scroll-snap-type: x mandatory;
-overflow-x: scroll;
-overflow-y: hidden;
-left: 0;
-box-sizing: border-box;
-}
-.firmansyahbio .carapace .music_pro .playlist-track-ctn > div{
-  margin: 3px 10px 3px 3px;
-}
-.firmansyahbio .carapace .music_pro .playlist-info-track{
-width: 100%;
-position: relative;
-top: 0px;
-left: -5px;
-}
-.firmansyahbio .carapace .music_pro .playlist-info-track,
-.firmansyahbio .carapace .music_pro .playlist-duration{
-  padding-top: 0px;
-  padding-bottom: 7px;
-  font-size: 17px;
-  pointer-events: none;
-}
-.firmansyahbio .carapace .music-pro .playlist-ctn{
- width: none;
- box-sizing: border-box;
- padding-bottom: 0px;
- display: block;
-}
-.firmansyahbio .carapace .music_pro .active-track{
-  font-weight: bold;
-  }
-.firmansyahbio .carapace .music_pro .active-track >.firmansyahbio .carapace .music_pro .playlist-info-track,.active-track >.firmansyahbio .carapace .music_pro .playlist-duration,.active-track >.firmansyahbio .carapace .music_pro .playlist-btn-play{
-color: #fff !important;
-}
-.firmansyahbio .carapace .music_pro .playlist-btn-play{
-  pointer-events: none;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.firmansyahbio .carapace .music_pro .fas{
-  font-size: 15px;
-  }
-.firmansyahbio .carapace .music_pro .timer {
-  float: left;
-  width: 60px;
-  height: 20px;
-  text-align: left;
-  position: relative;
-  }
-.firmansyahbio .carapace .music_pro .duration {
-  float: right;
-  width: 60px;
-  height: 20px;
-  text-align: right;
-  position: relative;
-  }
-.firmansyahbio .carapace .music_pro .titmar {
-  width: 100%;
-  margin-left: 0px;
-  margin-right: 0px;
-}
+.firmansyahbio .carapace .music_bio {border-radius: 5px;width: none;padding: 5px;margin: auto;margin-top: 0px;box-sizing: border-box;}
+.firmansyahbio .carapace .music_bio .btn-ctn {display: flex;padding: 8px;}
+.firmansyahbio .carapace .music_bio .btn-ctn .btn-action {flex: 1 1 30%;padding: 5px;margin: 5px;border-radius: 5px;text-align: center;display: inline-block;width: 15px;height: 15px;font-size: 10px;font-weight: bold;box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);z-index: 5;transition: all 0.2s;cursor: pointer;}
+.firmansyahbio .carapace .music_bio #myProgress {width: 100%;cursor: pointer;border-radius: 10px;}
+.firmansyahbio .carapace .music_bio #myBar {width: 1%;height: 2px;border-radius: 10px;}
+.firmansyahbio .carapace .music_bio .player-box {width: none;height: none;}
+.firmansyahbio .carapace .music_bio .btn-ctn,.firmansyahbio .carapace .music_bio .infos-ctn {display: flex;align-items: center;justify-content: center;position: relative;}
+.firmansyahbio .carapace .music_bio .infos-ctn{padding-top: 10px;}
+.firmansyahbio .carapace .music_bio .btn-ctn > div {padding: 0%;margin-top: 10px;margin-bottom: 10px;}
+.firmansyahbio .carapace .music_bio .infos-ctn > div {margin-bottom: 8px;}
+.firmansyahbio .carapace .music_bio .first-btn {margin-left: 5px;}
+.firmansyahbio .carapace .music_bio .duration{margin-left: 5px;}
+.firmansyahbio .carapace .music_bio .titmusic{margin-left: 10px;width: 90%;text-align: center;}
+.firmansyahbio .carapace .music_bio .playlist-track-ctn{display: flex;height: none;width: none;overflow: hidden;margin-top: 3px;padding-top: 5px;border-radius: 5px;cursor: pointer;scroll-snap-type: x mandatory;overflow-x: scroll;overflow-y: hidden;left: 0;box-sizing: border-box;}
+.firmansyahbio .carapace .music_bio .playlist-track-ctn > div{margin: 3px 10px 3px 3px;}
+.firmansyahbio .carapace .music_bio .playlist-info-track{width: 100%;position: relative;top: 0px;left: -5px;}
+.firmansyahbio .carapace .music_bio .playlist-info-track,
+.firmansyahbio .carapace .music_bio .playlist-duration{padding-top: 0px;padding-bottom: 7px;font-size: 17px;pointer-events: none;}
+.firmansyahbio .carapace .music_bio .playlist-ctn{width: none;box-sizing: border-box;padding-bottom: 0px;display: block;}
+.firmansyahbio .carapace .music_bio .active-track{font-weight: bold;}
+.firmansyahbio .carapace .music_bio .active-track >.firmansyahbio .carapace .music_bio .playlist-info-track,.active-track >.firmansyahbio .carapace .music_bio .playlist-duration,.active-track >.firmansyahbio .carapace .music_bio .playlist-btn-play{color: #fff !important;}
+.firmansyahbio .carapace .music_bio .playlist-btn-play{pointer-events: none;padding-top: 0px;padding-bottom: 0px;}
+.firmansyahbio .carapace .music_bio .fas{font-size: 15px;}
+.firmansyahbio .carapace .music_bio .timer {float: left;width: 60px;height: 20px;text-align: left;position: relative;}
+.firmansyahbio .carapace .music_bio .duration {float: right;width: 60px;height: 20px;text-align: right;position: relative;}
+.firmansyahbio .carapace .music_bio .titmar {width: 100%;margin-left: 0px;margin-right: 0px;}
 /*=== CSS Quote ===*/
-.firmansyahbio .carapace .quote_pro blockquote {
-  padding-right: 0px;
-  margin-left: 30px;
-  }
-.firmansyahbio .carapace .quote_pro blockquote:before {
-  font-family: FontAwesome;
-  margin-top: -8px;
-  margin-left: -25px;
-  font-size: 20px;
-  font-weight: bold;
-  position: absolute;
-  content: "\f10d";
-}
-.firmansyahbio .carapace .quote_pro blockquote p {
-  font-weight: bold;
-  margin-bottom: 15px;
-  font-size: 20px;
-  line-height: 1.20em;
-  text-align: left;
-  position: relative;
-}
-.firmansyahbio .carapace .quote_pro blockquote i.name {
-  font-size: 12px;
-  font-weight: italic;
-  }
-
+.firmansyahbio .carapace .quotes_bio blockquote {padding-right: 0px;margin-left: 30px;}
+.firmansyahbio .carapace .quotes_bio blockquote:before {font-family: FontAwesome;margin-top: -8px;margin-left: -25px;font-size: 20px;font-weight: bold;position: absolute;content: "\f10d";}
+.firmansyahbio .carapace .quotes_bio blockquote p {font-weight: bold;margin-bottom: 15px;font-size: 20px;line-height: 1.20em;text-align: left;position: relative;}
+.firmansyahbio .carapace .quotes_bio blockquote i.name {font-size: 12px;font-weight: italic;}
 /*=== Media Only 60em ===*/
 @media only screen and (max-width: 60em) {
 
