@@ -2,6 +2,47 @@
   color: #616161;
   padding: 0px 0;
 }
+.card_id {
+  display: inline-block;
+  float: center;
+  width: 100%;
+  height: none;
+  background-color: #eaeef6;
+  border-radius: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 10px 5px 10px;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+.card_id .face_id {
+  display: flex;
+  align-items: center;
+}
+.card_id .face_id a > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5%;
+  border: 1px #191919 solid;
+  box-shadow: 0px 2px 8px 2px rgb(0 0 0 / 8%);
+}
+.card_id .text_name {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.card_id .text_name a{
+  color: #4E4DED;
+  font-weight: bold;
+  font-size: 25px;
+  }
+.card_id .pro_info {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  font-size; 15px;
+  color: #111;
+  line-height: 1.7;
+  font-weight: 300;
+}
 /* Footer Flexuser */
 .footercup .flexuser {position: relative;top: 0;max-width: 100%;margin: 0 auto;padding: 0; height:200px;border-top: 1px #ccc solid;}
 .footercup .flexuser hr{border: 0.01rem #fff solid;}
