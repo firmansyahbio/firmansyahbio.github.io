@@ -172,39 +172,39 @@
   background: white;
   }
 /*=== CSS Music ( music_pro ) ===*/
-.music .music_pro {
+.audio .music_bio {
   background-color: rgba(36, 49, 224, 0.27);
   }
-.music .music_pro #myProgress {
+.audio .music_bio #myProgress {
   background: #fff; 
   }
-.music .music_pro #myBar {
+.audio .music_bio #myBar {
   background: #ff0101;
   }
-.music .music_pro .btn-ctn .btn-action {
+.audio .music_bio .btn-ctn .btn-action {
   background: #4E4DED;
   color: #ffffff;
 }
-.music .music_pro .infos-ctn > div {
+.audio .music_bio .infos-ctn > div {
   color: #ffffff;
   }
-.music .music_pro .titmusic{
+.audio .music_bio .titmusic{
   color: #fff;
   }
-.music .music_pro .playlist-track-ctn{
+.audio .music_bio .playlist-track-ctn{
   background: #4E4DED;
   border: 1px solid #000000;
   }
-.music .music_pro .playlist-info-track,
-.music .music_pro .playlist-duration {
+.audio .music_bio .playlist-info-track,
+.audio .music_bio .playlist-duration {
 color: #ffffff;
   }
-.music .music_pro .active-track{
+.audio .music_bio .active-track{
 background: #767EEB;
 color: #ffffff !important;
 border: 1px solid #ffffff;
 }
-.music .music_pro .fas{
+.audio .music_bio .fas{
   color: #fff;
 }
 /*=== CSS Quote ===*/
