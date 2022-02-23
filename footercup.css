@@ -43,6 +43,35 @@
   line-height: 1.7;
   font-weight: 300;
 }
+.bott_info {
+  display: flex;
+  justify-content: space-between;
+}
+.bott_info .check {
+  width: none;
+  font-size: 15px;
+}
+.bott_info .date {
+  color: #4E4DED;
+  font-size: 15px;
+}
+.deskrip-text-id {
+  padding: 10px;
+  width: none;
+  font-size: 17px;
+  text-align: center;
+  box-sizing: border-box;
+  }
+.deskrip-text-id p {
+  color: #000;
+  font-size: 17px;
+  }
+.deskrip-text-id p i {
+  color: #ff0000;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  }
 /* Footer Flexuser */
 .footercup .flexuser {position: relative;top: 0;max-width: 100%;margin: 0 auto;padding: 0; height:200px;border-top: 1px #ccc solid;}
 .footercup .flexuser hr{border: 0.01rem #fff solid;}
