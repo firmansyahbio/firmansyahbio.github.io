@@ -1,27 +1,28 @@
-.post .post-body .firmansyahbio section {clear: both;margin: 0;box-sizing: border-box;}
-.post .post-body .firmansyahbio .carapace {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
-.post .post-body .firmansyahbio .carapace {font-family: 'Lato', sans-serif;font-weight: 400;font-size: 16px;}
-.post .post-body .firmansyahbio .carapace h1 {font-family: "Cormorant Garamond", serif;}
-.post .post-body .firmansyahbio .carapace h1 {font-size: 45px;line-height:1.10em}
-.post .post-body .firmansyahbio .carapace h1 code {border-radius: 5px;}
-.post .post-body .firmansyahbio .carapace h2 {font-family: 'rubik', sans-serif;}
-.post .post-body .firmansyahbio .carapace h2 {font-size: 38px;font-weight: 700;line-height: 1.40em;letter-spacing: 3px;margin-bottom: 2rem;}
-.post .post-body .firmansyahbio .carapace h2 code {box-sizing: border-box;padding: 3px 3px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
-.post .post-body .firmansyahbio .carapace h3 {font-family: "MD Primer Bold", Rubik, Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;}
-.post .post-body .firmansyahbio .carapace h3 {box-sizing: border-box;font-size: 2rem; letter-spacing: 0.03rem;font-weight:700; line-height: 1.1; scroll-margin-top: 100px;}
-.post .post-body .firmansyahbio .carapace h3 code {box-sizing: border-box; font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 25.208px; letter-spacing: -0.05rem; opacity: 0.5;}
-.post .post-body .firmansyahbio .carapace h4 {font-family: 'Dongle' , sans-serif;font-size: 26px;margin-bottom: 0px;bottom:0px;line-height: 1.10em;font-weight: bold;}
-.post .post-body .firmansyahbio .carapace p {font-family: 'Lato', sans-serif;}
-.post .post-body .firmansyahbio .carapace p {font-weight: 400;font-size: 16px;}
-.post .post-body .firmansyahbio .carapace p code {border-radius:3px;box-sizing: border-box;padding:2px 3px;letter-spacing:.02rem;line-height:1.4;text-shadow:0 1px white;font-family:Consolas,Monaco,'Fredoka One',cursive;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}
-.post .post-body .firmansyahbio .carapace .span-text {font-size: 1.200rem;line-height: 1.200rem;font-weight: bold;margin-top: 20px;font-family: Andale Mono, monospace;}
-.post .post-body .firmansyahbio .carapace .pinbox {padding:10px;margin-top:5px;margin-bottom:5px;border-top-right-radius:5px;border-bottom-right-radius: 5px;}
-.post .post-body .firmansyahbio .carapace ul.liticon {list-style: none;padding: 0;}
-.post .post-body .firmansyahbio .carapace ul.liticon li {line-height: 2.4rem;}
-.post .post-body .firmansyahbio .carapace ul.liticon li i {margin-right: 10px;}
-.post .post-body .firmansyahbio .carapace .btn {padding: 7px 12px;border-radius: 5px;}
-.post .post-body .firmansyahbio .carapace .btn-none{position: relative;display: block;margin-top: 5px;margin-bottom: 5px;font-weight: bold;text-align: center;width: none;transition: all .4s ease-in;}
-.post .post-body .firmansyahbio .carapace .btn-main{position: relative;display: block;margin-top: 5px;margin-bottom: 5px;font-weight: bold;text-align: center;width: none;transition: all .4s ease-in;}
+.firmansyahbio section {margin: 0;box-sizing: border-box;}
+.firmansyahbio .carapace .text_bio {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
+.firmansyahbio .carapace .text_bio {font-family: 'Lato', sans-serif;font-weight: 400;font-size: 16px;}
+.firmansyahbio .carapace .text_bio h1 {font-family: "Cormorant Garamond", serif;}
+.firmansyahbio .carapace .text_bio h1 {font-size: 45px;line-height:1.10em}
+.firmansyahbio .carapace .text_bio h1 code {border-radius: 5px;}
+.firmansyahbio .carapace .text_bio h2 {font-family: 'rubik', sans-serif;}
+.firmansyahbio .carapace .text_bio h2 {font-size: 38px;font-weight: 700;line-height: 1.40em;letter-spacing: 3px;margin-bottom: 2rem;}
+.firmansyahbio .carapace .text_bio h2 code {box-sizing: border-box;padding: 3px 3px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
+.firmansyahbio .carapace .text_bio h3 {font-family: "MD Primer Bold", Rubik, Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;}
+.firmansyahbio .carapace .text_bio h3 {box-sizing: border-box;font-size: 2rem; letter-spacing: 0.03rem;font-weight:700; line-height: 1.1; scroll-margin-top: 100px;}
+.firmansyahbio .carapace .text_bio h3 code {box-sizing: border-box; font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 25.208px; letter-spacing: -0.05rem; opacity: 0.5;}
+.firmansyahbio .carapace .text_bio h4 {font-family: 'Dongle' , sans-serif;font-size: 26px;margin-bottom: 0px;bottom:0px;line-height: 1.10em;font-weight: bold;}
+.firmansyahbio .carapace .text_bio p {font-family: 'Lato', sans-serif;}
+.firmansyahbio .carapace .text_bio p {font-weight: 400;font-size: 16px;}
+.firmansyahbio .carapace .text_bio p code {border-radius:3px;box-sizing: border-box;padding:2px 3px;letter-spacing:.02rem;line-height:1.4;text-shadow:0 1px white;font-family:Consolas,Monaco,'Fredoka One',cursive;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}
+.firmansyahbio .carapace .text_bio .span-text {font-size: 1.200rem;line-height: 1.200rem;font-weight: bold;margin-top: 20px;font-family: Andale Mono, monospace;}
+.firmansyahbio .carapace .text_bio .pinbox {padding:10px;margin-top:5px;margin-bottom:5px;border-top-right-radius:5px;border-bottom-right-radius: 5px;}
+.firmansyahbio .carapace .text_bio ul.liticon {list-style: none;padding: 0;}
+.firmansyahbio .carapace .text_bio ul.liticon li {line-height: 2.4rem;}
+.firmansyahbio .carapace .text_bio ul.liticon li i {margin-right: 10px;}
+.firmansyahbio .carapace .text_bio .btn {padding: 7px 12px;border-radius: 5px;}
+.firmansyahbio .carapace .text_bio .btn-none{position: relative;display: block;margin-top: 5px;margin-bottom: 5px;font-weight: bold;text-align: center;width: none;transition: all .4s ease-in;}
+.firmansyahbio .carapace .text_bio .btn-main{position: relative;display: block;margin-top: 5px;margin-bottom: 5px;font-weight: bold;text-align: center;width: none;transition: all .4s ease-in;}
+
 
 .firmansyahbio .carapace ol.olince {
   list-style: none;
