@@ -459,3 +459,15 @@ color: #fff !important;
   font-size: 12px;
   font-weight: italic;
   }
+
+/*=== Media Only 60em ===*/
+@media only screen and (max-width: 60em) {
+
+}
+/*=== Media Only 30em ===*/
+@media only screen and (max-width: 30em) {
+.firmansyahbio .hr {
+  padding-left: 1em;
+  padding-right: 1em;
+  }
+}
