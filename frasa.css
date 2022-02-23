@@ -1,4 +1,5 @@
 .firmansyahbio section {margin: 0;box-sizing: border-box;}
+.firmansyahbio .listpage {left: 0;width: none;margin: 0;height: 20px;margin-top: -20px;margin-left: 0;padding-left: 0em;padding-right: 0em;background-color: #eaeef6;position: relative;}
 .firmansyahbio .carapace .text_bio {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
 .firmansyahbio .carapace .text_bio {font-family: 'Lato', sans-serif;font-weight: 400;font-size: 16px;}
 .firmansyahbio .carapace .text_bio h1 {font-family: "Cormorant Garamond", serif;}
