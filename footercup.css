@@ -5,8 +5,8 @@
 .footercup .liptop {
   width: none;
   box-sizing: border-box;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 0.50em;
+  padding-right: 0.50em;
 }
 .card_id {
   display: inline-block;
