@@ -49,6 +49,21 @@
   line-height: 1.7;
   font-weight: 300;
 }
+.card_id .contact_box_id {
+  display: flex;
+  padding: 8px;
+  }
+.card_id .contact_box_id a {
+  flex: 1 1 30%;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background: #4E4DED;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
 .bott_info {
   display: flex;
   justify-content: space-between;
