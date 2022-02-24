@@ -12,7 +12,7 @@ animation: slide-in .7s .5s ease both;
     transform: translateY(0);
   }
 }
-.bortom-df{border-bottom: 1px #ccc solid;}
+
 /*=== CSS TEXT ===*/
 .text-left{text-align:left;}.text-center{text-align:center;}.text-right{text-align:right;}.text-justify{text-align:justify;}
 /*=== CSS MARGIN ===*/
@@ -24,8 +24,7 @@ animation: slide-in .7s .5s ease both;
 .pad-lr-df,.pad-rl-df{padding: 0em 1em 0em 1em;}
 .pad-tb-df,.pad-bt-df{padding: 1em 0em 1em 0em;}
 /*=== CSS BACKGROUND ===*/
-.bg-co{background: #EAEEFF;}
-.bg-cc{background: #EAEEF6;}
+
 .listtron {
   left: 0;
   width: none;
@@ -39,55 +38,18 @@ animation: slide-in .7s .5s ease both;
   background-color: #4E4DED;
   position: relative;
   }
-.listtrof {
-  left: 0;
-  width: none;
-  height: 10px;
-  margin-top: -20px;
-  margin-left: 0;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  background-color: #EAEEF6;
-  position: relative;
-  }
-.listpost {
-  display: flex;
-  margin-top: -20px;
-  background: #eaeef6;
-  position: relative;
-  justify-content: space-between;
-  border-bottom: 3px #111 solid;
-}
-.listpost .date {
-  width: none;
-  padding: 5px;
-}
-.listpost .name {
-  color: #ff1010;
-  padding: 5px;
-}
+
 /*=== CSS BODY DESIGN ===*/
 .firmansyahbio .base {
   padding: 1em 0em 0em 0em;
  }
 @media only screen and (max-width: 60em) {
-
+.firmansyahbio .base {
+  padding: 1em 1em 1em 1em;
+  }
 }
 @media only screen and (max-width: 30em) {
 .firmansyahbio .base {
   padding: 1em 1em 1em 1em;
-  }
-.firmansyahbio .listpage {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-.listtrof {
-  width: 40%;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 5px;
   }
 }
