@@ -94,7 +94,7 @@
   margin-right: 5px;
   }
 /* Footer Flexuser */
-.footercup .flexuser {position: relative;top: 0;max-width: 100%;margin: 0 auto;padding: 0; height:200px;}
+.footercup .flexuser {position: relative;top: 0;max-width: 100%;margin: 0 auto;padding: 0; height:250px;}
 .footercup .flexuser hr{border: 0.01rem #fff solid;}
 .footercup .flexuser .fix {
   float:left;
@@ -109,7 +109,7 @@
   width: 65%;
 }
 @media only screen and (max-width: 900px) {
-.footercup .flexuser {height:500px;}
+.footercup .flexuser {height:550px;}
 .footercup .flexuser .fix{margin: 0;}
 .footercup .flexuser .boxuser_1,
 .footercup .flexuser .boxuser_2 {width:100%;}
