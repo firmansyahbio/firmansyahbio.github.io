@@ -41,6 +41,11 @@
   font-weight: bold;
   font-size: 25px;
   }
+.card_id .face_id .text_name .desk_name{
+  color: #000080;
+  font-size: 15px;
+  font-weight: 300;
+}
 .card_id .pro_info {
   margin-left: 0px;
   margin-bottom: 20px;
