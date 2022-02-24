@@ -301,7 +301,7 @@
 .firmansyahbio .carapace .music_bio .playlist-info-track{width: 100%;position: relative;top: 0px;left: -5px;}
 .firmansyahbio .carapace .music_bio .playlist-info-track,
 .firmansyahbio .carapace .music_bio .playlist-duration{padding-top: 0px;padding-bottom: 7px;font-size: 17px;pointer-events: none;}
-.firmansyahbio .carapace .music_bio .playlist-ctn{width: none;box-sizing: border-box;padding-bottom: 0px;display: block;}
+.firmansyahbio .carapace .music-bio .playlist-ctn{width: none;box-sizing: border-box;padding-bottom: 0px;display: block;}
 .firmansyahbio .carapace .music_bio .active-track{font-weight: bold;}
 .firmansyahbio .carapace .music_bio .active-track >.firmansyahbio .carapace .music_bio .playlist-info-track,.active-track >.firmansyahbio .carapace .music_bio .playlist-duration,.active-track >.firmansyahbio .carapace .music_bio .playlist-btn-play{color: #fff !important;}
 .firmansyahbio .carapace .music_bio .playlist-btn-play{pointer-events: none;padding-top: 0px;padding-bottom: 0px;}
