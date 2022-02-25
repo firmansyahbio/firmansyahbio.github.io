@@ -165,7 +165,7 @@
   background: #65c2ed;
 }
 .linkscup ul h3 {
-  color: #aeaafe;
+  color: #4E4DED;
   font-size: 1em;
   font-weight: bold;
   line-height: .70em;
@@ -174,8 +174,8 @@
   margin-right: 5px;
   color: #4E4DED;
   }
-.linkscup ul li span.diverti {position:relative;font-size:11px;
-top: -16px; width:none;color:000080;}
+.linkscup ul li span.diverti {position:relative;font-weight:bold;font-size:11px;
+top: -16px; width:none;color:aeaafe;}
 .linkscup ul a {
   color: #000;
   font-size: 15px;
