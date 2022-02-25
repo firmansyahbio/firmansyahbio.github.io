@@ -24,116 +24,31 @@
 .firmansyahbio .carapace .text_bio .btn {padding: 7px 12px;border-radius: 5px;}
 .firmansyahbio .carapace .text_bio .btn-none{position: relative;display: block;margin-top: 5px;margin-bottom: 5px;font-weight: bold;text-align: center;width: none;transition: all .4s ease-in;}
 .firmansyahbio .carapace .text_bio .btn-main{position: relative;display: block;margin-top: 5px;margin-bottom: 5px;font-weight: bold;text-align: center;width: none;transition: all .4s ease-in;}
-
-
-.firmansyahbio .carapace ol.olince {
-  list-style: none;
-  counter-reset: list-counter;
-  margin:0px; padding:0px;
-}
-.firmansyahbio .carapace ol.olince li {
-  margin-bottom: 1rem;
-}
-.firmansyahbio .carapace ol.olince li strong{
-  position: absolute;
-  margin-left: 1.80em;
-  margin-top: -1.80em;
-  font-size: 25px;
-}
-.firmansyahbio .carapace ol.olince li p{
-  margin-left: 3em;
-}
-.firmansyahbio .carapace ol.olince > li {
-  counter-increment: list-counter;
-  margin-bottom: 1rem;
-}
-.firmansyahbio .carapace ol.olince > li::before {
-  content: counter(list-counter);
-  font-weight: bold;
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  margin-bottom: 0.5rem;
-}
+.firmansyahbio .carapace .row {display: inline-block;}
+.firmansyahbio .carapace .waves {margin-top: -11px;width: none;height: none;display: block;box-sizing: border-box;}
+.firmansyahbio .carapace ol.olince {list-style: none;counter-reset: list-counter;margin:0px; padding:0px;}
+.firmansyahbio .carapace ol.olince li {margin-bottom: 1rem;}
+.firmansyahbio .carapace ol.olince li strong{position: absolute;margin-left: 1.80em;margin-top: -1.80em;font-size: 25px;}
+.firmansyahbio .carapace ol.olince li p{margin-left: 3em;}
+.firmansyahbio .carapace ol.olince > li {counter-increment: list-counter;margin-bottom: 1rem;}
+.firmansyahbio .carapace ol.olince > li::before {content: counter(list-counter);font-weight: bold;width: 2rem;height: 2rem;display: flex;justify-content: center;align-items: center;border-radius: 50%;margin-bottom: 0.5rem;}
 /* CSS Counter */
-.carapace ul.counter {
-  list-style: none;
-  position: relative;
-  padding-left: 55px;
-}
-.carapace ul.counter::before {
-  content: "";
-  height: calc(100% - 100px);
-  width: 1px;
-  position: absolute;
-  top: 0;
-  left: 21px;
-}
-.carapace ul.counter li {
-  position: relative;
-}
-.carapace ul.counter li::before {
-  content: attr(data-counter);
-  position: absolute;
-  top: 0px;
-  left: -54px;
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
-  border-radius: 50%;
-  text-align: center;
-}
-.carapace ul.counter li strong{
-  font-size: 25px;
-}
-
+.carapace ul.counter {list-style: none;position: relative;padding-left: 55px;}
+.carapace ul.counter::before {content: "";height: calc(100% - 100px);width: 1px;position: absolute;top: 0;left: 21px;}
+.carapace ul.counter li {position: relative;}
+.carapace ul.counter li::before {content: attr(data-counter);position: absolute;top: 0px;left: -54px;height: 40px;width: 40px;line-height: 40px;border-radius: 50%;text-align: center;}
+.carapace ul.counter li strong{font-size: 25px;}
 /* CSS Choose */
-.carapace .choose {
-  transition: .4s;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-}
-.carapace .choose::before {
-  content: "";
-  left: 0;
-  right: 0;
-  width: 90%;
-  top: -130px;
-  height: 70%;
-  margin: auto;
-  border-radius: 50%;
-  position: absolute;
-}
-.carapace .choose:hover{
-  transform: translateY(-10px);
-}
-.carapace .choose span i::before {
-  margin-left: 0;
-  font-size: 40px;
-}
-.carapace .choose span i {
-  width: 85px;
-  height: 85px;
-  transition: .6s;
-  line-height: 85px;
-  border-radius: 50%;
-  position: relative;
-  display: inline-block;
-}
+.carapace .choose {transition: .4s;overflow: hidden;position: relative;text-align: center;}
+.carapace .choose::before {content: "";left: 0;right: 0;width: 90%;top: -130px;height: 70%;margin: auto;border-radius: 50%;position: absolute;}
+.carapace .choose:hover{transform: translateY(-10px);}
+.carapace .choose span i::before {margin-left: 0;font-size: 40px;}
+.carapace .choose span i {width: 85px;height: 85px;transition: .6s;line-height: 85px;border-radius: 50%;position: relative;display: inline-block;}
 /* CSS Flexbox */
 .carapace .flexbox {position: relative;top: 0;max-width: 100%;margin: 0 auto;padding: 0;}
 .carapace .flexbox hr{border: 0.01rem #fff solid;}
-.carapace .flexbox .mix {
-  float:left;
-  margin: 0% 0% 0% 0%;
-  box-sizing: border-box;
-}
+.carapace .flexbox .mix {float:left;margin: 0% 0% 0% 0%;box-sizing: border-box;}
 .carapace .flexbox .mix:first-child { margin-left: 0;}
-
 /*=== Flexbox ( Skin-0 ) ===*/
 .carapace .skin-0 .flex-1 {
   width: 99.99%;
