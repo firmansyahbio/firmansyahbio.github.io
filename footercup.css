@@ -70,6 +70,11 @@
   font-size: 15px;
   font-weight: bold;
 }
+.card_id .bott_info a.date {
+  font-weight: 600;
+  font-family: 'Neonderthaw', cursive;
+  text-shadow: 0 2px white, 0 3px #666;
+}
 .bott_info {
   display: flex;
   justify-content: space-between;
