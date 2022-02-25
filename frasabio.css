@@ -107,6 +107,9 @@ height: none;
   text-align: center;
   background: #110dd3;
 }
+.firmansyahbio .note .waves {
+  background: #4E4DED;
+}
 /* CSS Olince */
 .note .mars ol.olince > li::before {
   color: #767eeb;
