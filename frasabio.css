@@ -24,6 +24,8 @@
 
 
 /*=== Inote ( Slon-1 ) ===*/
+.carapace .waves {box-sizing:border-box;padding: 0.50em 0.50em 0.50em 0.50em;}
+
 .note .march .slon-1 {
   background: rgba(216, 58, 14, 0.44);
 }
