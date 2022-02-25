@@ -25,79 +25,29 @@
 
 /*=== Inote ( Slon-1 ) ===*/
 .carapace .waves {box-sizing:border-box;padding: 0.50em 0.50em 0.50em 0.50em;}
-
-.note .march .slon-1 {
-  background: rgba(216, 58, 14, 0.44);
-}
-.note .march .slon-1 div {
-  color: #ffffff;
-  text-align: center;
-  background: #d83a0e;
-}
+.note .march .slon-1 {background: rgba(216, 58, 14, 0.44);}
+.note .march .slon-1 div {color: #ffffff;text-align: center;background: #d83a0e;}
 /*=== Inote ( Slon-2 ) ===*/
-.note .mars .slon-2 {
-  background: rgba(221, 196, 14, 0.45);
-}
-.note .mars .slon-2 div {
-  color: #ffffff;
-  text-align: center;
-  background: #ddc40e;
-}
+.note .march .slon-2 {background: rgba(221, 196, 14, 0.45);}
+.note .march .slon-2 div {color: #ffffff;text-align: center;background: #ddc40e;}
 /*=== Inote ( Slon-3 ) ===*/
-.note .mars .slon-3 {
-  background: rgba(13, 211, 56, 0.4);
-}
-.note .mars .slon-3 div {
-  color: #ffffff;
-  text-align: center;
-  background: #0dd338;
-}
+.note .march .slon-3 {background: rgba(13, 211, 56, 0.4);}
+.note .march .slon-3 div {color: #ffffff;text-align: center;background: #0dd338;}
 /*=== Inote ( Slon-4 ) ===*/
-.note .mars .slon-4 {
-  background: rgba(15, 230, 223, 0.56);
-}
-.note .mars .slon-4 div {
-  color: #ffffff;
-  text-align: center;
-  background: #0fe6df;
-}
+.note .march .slon-4 {background: rgba(15, 230, 223, 0.56);}
+.note .march .slon-4 div {color: #ffffff;text-align: center;background: #0fe6df;}
 /*=== Inote ( Slon-5 ) ===*/
-.note .mars .slon-5 {
-  background: rgba(171, 18, 135, 0.61);
-}
-.note .mars .slon-5 div {
-  color: #ffffff;
-  text-align: center;
-  background: #ab1287;
-}
+.note .march .slon-5 {background: rgba(171, 18, 135, 0.61);}
+.note .march .slon-5 div {color: #ffffff;text-align: center;background: #ab1287;}
 /*=== Inote ( Slon-6 ) ===*/
-.note .mars .slon-6 {
-  background: rgba(17, 13, 211, 0.57);
-}
-.note .mars .slon-6 div {
-  color: #ffffff;
-  text-align: center;
-  background: #110dd3;
-}
-
+.note .march .slon-6 {background: rgba(17, 13, 211, 0.57);}
+.note .march .slon-6 div {color: #ffffff;text-align: center;background: #110dd3;}
 /* CSS Olince */
-.note .mars ol.olince > li::before {
-  color: #767eeb;
-  background-color: rgba(36, 49, 224, 0.27);
-  }
-
+.note .march ol.olince > li::before {color: #767eeb;background-color: rgba(36, 49, 224, 0.27);}
 /* CSS Choose */
-.note .mars .choose::before {
-  background:#4E4DED;
-}
-.note .mars .choose:hover span i{
-  color: white;
-  background: #767EEB;
-}
-.note .mars .choose span i {
-  color: #4E4DED;
-  background: white;
-  }
+.note .march .choose::before {background:#4E4DED;}
+.note .march .choose:hover span i{color: white;background: #767EEB;}
+.note .march .choose span i {color: #4E4DED; background: white;}
 /*=== CSS Music ( music_pro ) ===*/
 .audio .music_bio {
   background-color: rgba(36, 49, 224, 0.27);
