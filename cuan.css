@@ -93,7 +93,7 @@
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
 .ifal-1 {
-border: 1px solid rgb(204, 204, 204); margin: 5px; 
+border: 1px solid rgba(36, 49, 224, 0.27); margin: 5px; 
 overflow: auto; border-radius: 5px;
 width: none; height: 100%;
 background-color: rgb(255, 255, 255);
