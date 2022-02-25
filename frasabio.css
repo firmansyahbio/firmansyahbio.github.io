@@ -20,7 +20,7 @@
 .bg-df {background: var(--bg-defa);}
 /*=== CSS BODY DESIGN ===*/
 .note .mars {color: #111111;}
-.note .mars p{color: #174EA6;}
+.note .mars p{color: gray;}
 .note .mars p a {color: #ff1493;}
 .note .mars p code {color: #ff1010;background: var(--bg-main);}
 .note .mars h1{color: #353535;}
