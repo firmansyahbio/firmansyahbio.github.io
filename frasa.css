@@ -16,6 +16,7 @@
 .firmansyahbio .carapace .text_bio p {font-family: 'Lato', sans-serif;}
 .firmansyahbio .carapace .text_bio p {font-weight: 400;font-size: 16px;}
 .firmansyahbio .carapace .text_bio p code {border-radius:3px;box-sizing: border-box;padding:2px 3px;letter-spacing:.02rem;line-height:1.4;text-shadow:0 1px white;font-family:Consolas,Monaco,'Fredoka One',cursive;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}
+.firmansyahbio .carapace .text_bio hr {width: 100%;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
 .firmansyahbio .carapace .text_bio .span-text {font-size: 1.200rem;line-height: 1.200rem;font-weight: bold;margin-top: 20px;font-family: Andale Mono, monospace;}
 .firmansyahbio .carapace .text_bio .pinbox {padding:10px;margin-top:5px;margin-bottom:5px;border-top-right-radius:5px;border-bottom-right-radius: 5px;}
 .firmansyahbio .carapace .text_bio ul.liticon {list-style: none;padding: 0;}
