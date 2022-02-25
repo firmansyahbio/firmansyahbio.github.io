@@ -17,157 +17,111 @@
   /* Background Default */
   --bg-wols: #405070;
 }
-.js-scroll {
-  opacity: 0;
-  transition: opacity 500ms;
+.bg_parall_00{background: url(https://unsplash.it/500/500/) no-repeat top center;}.bg_parall_01{background: url(https://unsplash.it/501/501/) no-repeat top center;}.bg_parall_02{background: url(https://unsplash.it/502/502/) no-repeat top center;}.bg_parall_03{background: url(https://unsplash.it/503/503/) no-repeat top center;}.bg_parall_04{background: url(https://unsplash.it/504/504/) no-repeat top center;}.bg_parall_05{background: url(https://unsplash.it/505/505/) no-repeat top center;}.bg_parall_06{background: url(https://unsplash.it/506/506/) no-repeat top center;}.bg_parall_07{background: url(https://unsplash.it/507/507/) no-repeat top center;}.bg_parall_08{background: url(https://unsplash.it/508/508/) no-repeat top center;}.bg_parall_09{background: url(https://unsplash.it/509/509/) no-repeat top center;}.bg_parall_10{background: url(https://unsplash.it/510/510/) no-repeat top center;}
+.bg_parall_00,.bg_parall_01,.bg_parall_02,.bg_parall_03,.bg_parall_04,.bg_parall_05,.bg_parall_06,.bg_parall_07,.bg_parall_08,.bg_parall_09,.bg_parall_10 {
+background-size: cover;
+background-attachment: fixed;
+height: none;
 }
-.js-scroll.scrolled {
-  opacity: 1;
-}
-.scrolled.fade-in {
-  animation: fade-in 1s ease-in-out both;
-}
-.scrolled.fade-in-bottom {
-  animation: fade-in-bottom 1s ease-in-out both;
-}
-.scrolled.slide-left {
-  animation: slide-in-left 1s ease-in-out both;
-}
-.scrolled.slide-right {
-  animation: slide-in-right 1s ease-in-out both;
-}
-@keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(100px);
-    transform: translateX(100px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes fade-in-bottom {
-  0% {
-    -webkit-transform: translateY(50px);
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+.js-scroll {opacity: 0;transition: opacity 500ms;}
+.js-scroll.scrolled {opacity: 1;}
+.scrolled.fade-in {animation: fade-in 1s ease-in-out both;}
+.scrolled.fade-in-bottom {animation: fade-in-bottom 1s ease-in-out both;}
+.scrolled.slide-left {animation: slide-in-left 1s ease-in-out both;}
+.scrolled.slide-right {animation: slide-in-right 1s ease-in-out both;}
+@keyframes slide-in-left {0% {-webkit-transform: translateX(-100px);transform: translateX(-100px);opacity: 0;}100% {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}}
+@keyframes slide-in-right {0% {-webkit-transform: translateX(100px);transform: translateX(100px);opacity: 0;}100% {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}}
+@keyframes fade-in-bottom {0% {-webkit-transform: translateY(50px); transform: translateY(50px); opacity: 0;}100% {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}
+@keyframes fade-in {0% {opacity: 0;}100% {opacity: 1;}}
+
 .bg-df {background: var(--bg-defa);}
 /*=== CSS BODY DESIGN ===*/
-.note p{color: #174EA6;}
-.note p a {color: #ff1493;}
-.note h1{color: #353535;}
-.note h2{color: #000080;}
-.note h3{color: #000000;}
-.note h4{color: #aeaafe;}
-.note h5{color: #00baff;}
-.note h6{color: #E83B3E;}
-.note .p{color: #111111;}
-.note h2 code{color: white;background-color: #767EEB;}
-.note .pinbox {border-left: 7px #000080 solid; background: var(--bg-main);}
-.note p code {color: #ff1010;background: var(--bg-main);}
-.note .btn-none {color: #4E4DED;border: 1px #4E4DED solid;}
-.note .btn-none:hover {color: white;background: #767EEB;border: 1px #4E4DED solid;}
-.note .btn-main {color: white;background: #767EEB;border: 1px #4E4DED solid;}
-.note .btn-main:hover {color: white;background: #000080;border: 1px #000 solid;}
+.note .mars {color: #111111;}
+.note .mars p{color: #174EA6;}
+.note .mars p a {color: #ff1493;}
+.note .mars p code {color: #ff1010;background: var(--bg-main);}
+.note .mars h1{color: #353535;}
+.note .mars h2{color: #000080;}
+.note .mars h3{color: #000000;}
+.note .mars h4{color: #aeaafe;}
+.note .mars h5{color: #00baff;}
+.note .mars h6{color: #E83B3E;}
+.note .mars h2 code {color: #FFF;background: #767EEB;}
+.note .mars .pinbox {border-left: 7px #000080 solid; background: var(--bg-main);}
+.note .mars .btn-none {color: #4E4DED;border: 1px #4E4DED solid;}
+.note .mars .btn-none:hover {color: white;background: #767EEB;border: 1px #4E4DED solid;}
+.note .mars .btn-main {color: white;background: #767EEB;border: 1px #4E4DED solid;}
+.note .mars .btn-main:hover {color: white;background: #000080;border: 1px #000 solid;}
 /* CSS Inote */
 /*=== Inote ( Slon-1 ) ===*/
-.note .slon-1 {
+.note .mars .slon-1 {
   background: rgba(216, 58, 14, 0.44);
 }
-.note .slon-1 div {
+.note .mars .slon-1 div {
   color: #ffffff;
   text-align: center;
   background: #d83a0e;
 }
 /*=== Inote ( Slon-2 ) ===*/
-.note .slon-2 {
+.note .mars .slon-2 {
   background: rgba(221, 196, 14, 0.45);
 }
-.note .slon-2 div {
+.note .mars .slon-2 div {
   color: #ffffff;
   text-align: center;
   background: #ddc40e;
 }
 /*=== Inote ( Slon-3 ) ===*/
-.note .slon-3 {
+.note .mars .slon-3 {
   background: rgba(13, 211, 56, 0.4);
 }
-.note .slon-3 div {
+.note .mars .slon-3 div {
   color: #ffffff;
   text-align: center;
   background: #0dd338;
 }
 /*=== Inote ( Slon-4 ) ===*/
-.note .slon-4 {
+.note .mars .slon-4 {
   background: rgba(15, 230, 223, 0.56);
 }
-.note .slon-4 div {
+.note .mars .slon-4 div {
   color: #ffffff;
   text-align: center;
   background: #0fe6df;
 }
 /*=== Inote ( Slon-5 ) ===*/
-.note .slon-5 {
+.note .mars .slon-5 {
   background: rgba(171, 18, 135, 0.61);
 }
-.note .slon-5 div {
+.note .mars .slon-5 div {
   color: #ffffff;
   text-align: center;
   background: #ab1287;
 }
 /*=== Inote ( Slon-6 ) ===*/
-.note .slon-6 {
+.note .mars .slon-6 {
   background: rgba(17, 13, 211, 0.57);
 }
-.note .slon-6 div {
+.note .mars .slon-6 div {
   color: #ffffff;
   text-align: center;
   background: #110dd3;
 }
 /* CSS Olince */
-.note ol.olince > li::before {
+.note .mars ol.olince > li::before {
   color: #767eeb;
   background-color: rgba(36, 49, 224, 0.27);
   }
 
 /* CSS Choose */
-.note .choose::before {
+.note .mars .choose::before {
   background:#4E4DED;
 }
-.note .choose:hover span i{
+.note .mars .choose:hover span i{
   color: white;
   background: #767EEB;
 }
-.note .choose span i {
+.note .mars .choose span i {
   color: #4E4DED;
   background: white;
   }
