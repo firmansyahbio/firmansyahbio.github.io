@@ -1,8 +1,8 @@
 .container .post .post-title {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
 .container .post .post-title {
-  color: #4500FF;
-  font-weight: 700;
-  font-size: 4.50em;
+  color: #020385;
+  font-weight: 600;
+  font-size: 3.50em;
   padding-top: 5px;
   padding-left: 0em;
   padding-right: 0em;
@@ -13,7 +13,7 @@
 
 @media only screen and (max-width: 60em) {
 .container .post .post-title {
-  font-size: 3.50em;
+  font-size: 2.50em;
   }
 .centered-bottom {
   margin: 0;
@@ -45,7 +45,7 @@
 }
 @media only screen and (max-width: 30em) {
 .container .post .post-title {
-  font-size: 2.50em;
+  font-size: 1.50em;
   }
 }
 .container .post {background: #eaeef6;}
