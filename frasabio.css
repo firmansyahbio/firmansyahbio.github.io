@@ -17,23 +17,6 @@
   /* Background Default */
   --bg-wols: #405070;
 }
-.bg_parall_00{background: url(https://unsplash.it/500/500/) no-repeat top center;}.bg_parall_01{background: url(https://unsplash.it/501/501/) no-repeat top center;}.bg_parall_02{background: url(https://unsplash.it/502/502/) no-repeat top center;}.bg_parall_03{background: url(https://unsplash.it/503/503/) no-repeat top center;}.bg_parall_04{background: url(https://unsplash.it/504/504/) no-repeat top center;}.bg_parall_05{background: url(https://unsplash.it/505/505/) no-repeat top center;}.bg_parall_06{background: url(https://unsplash.it/506/506/) no-repeat top center;}.bg_parall_07{background: url(https://unsplash.it/507/507/) no-repeat top center;}.bg_parall_08{background: url(https://unsplash.it/508/508/) no-repeat top center;}.bg_parall_09{background: url(https://unsplash.it/509/509/) no-repeat top center;}.bg_parall_10{background: url(https://unsplash.it/510/510/) no-repeat top center;}
-.bg_parall_00,.bg_parall_01,.bg_parall_02,.bg_parall_03,.bg_parall_04,.bg_parall_05,.bg_parall_06,.bg_parall_07,.bg_parall_08,.bg_parall_09,.bg_parall_10 {
-background-size: cover;
-background-attachment: fixed;
-height: none;
-}
-.js-scroll {opacity: 0;transition: opacity 500ms;}
-.js-scroll.scrolled {opacity: 1;}
-.scrolled.fade-in {animation: fade-in 1s ease-in-out both;}
-.scrolled.fade-in-bottom {animation: fade-in-bottom 1s ease-in-out both;}
-.scrolled.slide-left {animation: slide-in-left 1s ease-in-out both;}
-.scrolled.slide-right {animation: slide-in-right 1s ease-in-out both;}
-@keyframes slide-in-left {0% {-webkit-transform: translateX(-100px);transform: translateX(-100px);opacity: 0;}100% {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}}
-@keyframes slide-in-right {0% {-webkit-transform: translateX(100px);transform: translateX(100px);opacity: 0;}100% {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}}
-@keyframes fade-in-bottom {0% {-webkit-transform: translateY(50px); transform: translateY(50px); opacity: 0;}100% {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}
-@keyframes fade-in {0% {opacity: 0;}100% {opacity: 1;}}
-
 .bg-df {background: var(--bg-defa);}
 /*=== CSS BODY DESIGN ===*/
 .note .mars {color: #111111;}
