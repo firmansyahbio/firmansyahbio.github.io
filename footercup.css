@@ -49,7 +49,7 @@
 .card_id .pro_info {
   margin-left: 0px;
   margin-bottom: 20px;
-  font-size; 15px;
+  font-size: 15px;
   color: #111;
   line-height: 1.7;
   font-weight: 300;
@@ -160,14 +160,14 @@
   background: #65c2ed;
 }
 .linkscup ul h3 {
-  color: #4e4ded;
+  color: #aeaafe;
   font-size: 1em;
   font-weight: bold;
   line-height: .70em;
 }
 .linkscup ul h3 i {
   margin-right: 5px;
-  color: #ff1010;
+  color: #4E4DED;
   }
 .linkscup ul li span.diverti {position:relative;font-size:11px;
 top: -16px; width:none;color:000080;}
