@@ -1,48 +1,33 @@
-:root {
-  --cl-defa: #000000;
-  --cl-bink: #353535;
-  --cl-dewp: #000080;
-}
-:root {
-  /* Background Default */
-  --bg-defa: #EAEEF6;
-  /* Background Default */
-  --bg-main: #e8f0fe;
-  /* Background Default */
-  --bg-slow: #EAEEFF;
-  /* Background Default */
-  --bg-snop: #EAEEF6;
-  /* Background Default */
-  --bg-pops: #405070;
-  /* Background Default */
-  --bg-wols: #405070;
-}
-.bg-df {background: var(--bg-defa);}
-/*=== CSS NOTE MARS ===*/
-.note .mars {color: #111111;}
-.note .mars p{color: gray;}
-.note .mars p a {color: #ff1493;}
-.note .mars p code {color: #ff1010;background: var(--bg-main);}
-.note .mars h1{color: #353535;}
-.note .mars h2{color: #000080;}
-.note .mars h3{color: #000000;}
-.note .mars h4{color: #aeaafe;}
-.note .mars h5{color: #00baff;}
-.note .mars h6{color: #E83B3E;}
-.note .mars h2 code {color: #FFF;background: #767EEB;}
-.note .mars hr {border: 5px #aeaafe solid;}
-.note .mars .pinbox {border-left: 7px #000080 solid; background: var(--bg-main);}
-.note .mars .btn-none {color: #4E4DED;border: 1px #4E4DED solid;}
-.note .mars .btn-none:hover {color: white;background: #767EEB;border: 1px #4E4DED solid;}
-.note .mars .btn-main {color: white;background: #767EEB;border: 1px #4E4DED solid;}
-.note .mars .btn-main:hover {color: white;background: #000080;border: 1px #000 solid;}
-/* CSS Inote */
+/*=== CSS NOTE MARCH ===*/
+.note .march {background: #EAEEF6;}
+.note .march p{color: gray;}
+.note .march p a {color: #ff1493;}
+.note .march p code {color: #ff1010;background: var(--bg-main);}
+.note .march h1 {color: #353535;}
+.note .march h2 {color: #000080;}
+.note .march h2 code {color: #FFF;background: #767EEB;}
+.note .march h3{color: #4E4DED;}
+.note .march h4{color: #AEAAFE;}
+.note .march h5{color: #00baff;}
+.note .march h6{color: #E83B3E;}
+.note .march hr {border: 5px #aeaafe solid;}
+.note .march .pinbox {border-left: 7px #000080 solid; background: #e8f0fe;}
+.note .march .btn-none {color: #4E4DED;border: 1px #4E4DED solid;}
+.note .march .btn-none:hover {color: white;background: #767EEB;border: 1px #4E4DED solid;}
+.note .march .btn-main {color: white;background: #767EEB;border: 1px #4E4DED solid;}
+.note .march .btn-main:hover {color: white;background: #000080;border: 1px #000 solid;}
+/*=== CSS NOTE NISSA ===*/
+.note .nissa {background: #ff1493;}
+/*=== CSS NOTE WAVES ===*/
+.note .waves {background: #4E4DED;}
+
+
 
 /*=== Inote ( Slon-1 ) ===*/
-.note .mars .slon-1 {
+.note .march .slon-1 {
   background: rgba(216, 58, 14, 0.44);
 }
-.note .mars .slon-1 div {
+.note .march .slon-1 div {
   color: #ffffff;
   text-align: center;
   background: #d83a0e;
@@ -92,9 +77,7 @@
   text-align: center;
   background: #110dd3;
 }
-.firmansyahbio .note .waves {
-  background: #4E4DED;
-}
+
 /* CSS Olince */
 .note .mars ol.olince > li::before {
   color: #767eeb;
