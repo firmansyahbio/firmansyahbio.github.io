@@ -11,7 +11,8 @@
   line-height: 1.10em;
   animation: slide-in .7s .5s ease both;
 }
-
+.start {animation: slide-in .7s .5s ease both;
+}
 @keyframes slide-in {
   from {
     opacity: 0;
