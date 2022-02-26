@@ -15,7 +15,7 @@
 .PapaTheo .Carapace .Docs__Post h1 {
   font-size: 45px;
   font-weight: 900;
-  line-height: 1.10em;
+  line-height: 1.40em;
   font-family: 'Lato', sans-serif;
   }
 .PapaTheo .Carapace .Docs__Post h2 {
@@ -54,6 +54,7 @@
   line-height: 1.40em;
   font-family: 'Lato', sans-serif;
   }
+.PapaTheo .Carapace .Docs__Post h1 code {box-sizing: border-box;padding: 4px 4px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .PapaTheo .Carapace .Docs__Post h2 code {box-sizing: border-box;padding: 3px 3px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .PapaTheo .Carapace .Docs__Post p code {padding: 2px 2px;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .PapaTheo .Carapace .Docs__Post p a {padding: 1px 1px;box-sizing:border-box;}
