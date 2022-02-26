@@ -1,9 +1,11 @@
+/*===°===°===°===°===°===°===°===°===°===°
+===°===°===°===°===°===°===°===°===°===°*/
 /*=====================
-@ NAME      :
+@ NAME      : COLOR
 @ CLASS     :
 @ DOCUMENT  :
 @ MAIN DOCS :
-=°===°===°===°===°===°===°===°===°===°===*/
+===°===°===°====°==°===°===°===°===°===°===*/
 .PapaTheo .Note .March h1{color:#000080;}
 .PapaTheo .Note .March h2{color:#0033CC;}
 .PapaTheo .Note .March h3{color:#4E4DED;}
@@ -16,3 +18,18 @@
 .PapaTheo .Note .March h2 code {background:#767eeb;color:#fff;}
 .PapaTheo .Note .March p a {color:#ff00ff;}
 .PapaTheo .Note .March p code {background:#767eeb;color:#fff;}
+
+.Note .March .Pin__Pink
+{border-left: 6px #ff00ff solid;}
+.Note .March .Pin__Navy
+{border-left: 6px #000080 solid;}
+.Note .March .Pin__Orange
+{border-left: 6px #ff6600 solid;}
+.Note .March .Pin__Red
+{border-left: 6px #ff033e solid;}
+.Note .March .Pin__Green  
+{border-left: 6px #4CAF50 solid;}
+.Note .March .Pin__Blue  
+{border-left: 6px #0000FF solid;}
+.Note .March .Pin__Black  
+{border-left: 6px #000000 solid;}
