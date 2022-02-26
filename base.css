@@ -1,1 +1,18 @@
-
+/*=====================
+@ NAME      :
+@ CLASS     :
+@ DOCUMENT  :
+@ MAIN DOCS :
+=°===°===°===°===°===°===°===°===°===°===*/
+.PapaTheo .Note .March h1{color:#000080;}
+.PapaTheo .Note .March h2{color:#0033CC;}
+.PapaTheo .Note .March h3{color:#4E4DED;}
+.PapaTheo .Note .March h4{color:#6666FF;}
+.PapaTheo .Note .March h5{color:#Ff00ff;}
+.PapaTheo .Note .March h6{color:#9966cc;}
+.PapaTheo .Note .March p,
+.PapaTheo .Note .March .Text{color:#020385;}
+.PapaTheo .Note .March h1 code {background:#4E4DED;color:#FFFFFF;}
+.PapaTheo .Note .March h2 code {background:#767eeb;color:#fff;}
+.PapaTheo .Note .March p a {color:#ff00ff;}
+.PapaTheo .Note .March p code {background:#767eeb;color:#fff;}
