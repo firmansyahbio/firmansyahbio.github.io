@@ -1,3 +1,59 @@
+body {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
+.hero-image {
+animation: slide-in .7s .5s ease both;
+}
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*=== CSS TEXT ===*/
+.text-left{text-align:left;}.text-center{text-align:center;}.text-right{text-align:right;}.text-justify{text-align:justify;}
+/*=== CSS MARGIN ===*/
+.mar-df{margin: 1em 1em 1em 1em;}
+.mar-lr-df,.mar-rl-df{margin: 0em 1em 0em 1em;}
+.mar-tb-df,.mar-bt-df{margin: 1em 0em 1em 0em;}
+/*=== CSS PADDING ===*/
+.pad-df{padding: 1em 1em 1em 1em;}
+.pad-lr-df,.pad-rl-df{padding: 0em 1em 0em 1em;}
+.pad-tb-df,.pad-bt-df{padding: 1em 0em 1em 0em;}
+/*=== CSS BACKGROUND ===*/
+
+.listtron {
+  left: 0;
+  width: none;
+  height: 10px;
+  margin-top: -20px;
+  margin-left: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #4E4DED;
+  position: relative;
+  }
+
+/*=== CSS BODY DESIGN ===*/
+.firmansyahbio .base {
+  padding: 1em 0em 0em 0em;
+ }
+@media only screen and (max-width: 60em) {
+.firmansyahbio .base {
+  padding: 1em 1em 1em 1em;
+  }
+}
+@media only screen and (max-width: 30em) {
+.firmansyahbio .base {
+  padding: 1em 1em 1em 1em;
+  }
+}
+
 /*=== CSS NOTE MARCH ===*/
 .note .march {background: #EAEEF6;}
 .note .march p{color: gray;}
