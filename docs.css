@@ -54,10 +54,29 @@
   line-height: 1.40em;
   font-family: 'Lato', sans-serif;
   }
+.PapaTheo .Carapace .Docs__Post .Text {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  }
 .PapaTheo .Carapace .Docs__Post h1 code {box-sizing: border-box;padding: 4px 4px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .PapaTheo .Carapace .Docs__Post h2 code {box-sizing: border-box;padding: 3px 3px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .PapaTheo .Carapace .Docs__Post p code {padding: 2px 2px;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .PapaTheo .Carapace .Docs__Post p a {padding: 1px 1px;box-sizing:border-box;}
+/*==========================
+@ NAME       : Position Text
+@ DOCS       : Css
+@ CLASS      : Text__###
+@ REL TOTAL  : 4 Element
+==========================*/
+.PapaTheo .Carapace .Text__Left {
+  text-align: left;}
+.PapaTheo .Carapace .Text__Right {
+  text-align: right;}
+.PapaTheo .Carapace .Text__Center {
+  text-align: center;}
+.PapaTheo .Carapace .Text__Justify {
+  text-align: justify;}
 /*==========================
 @ NAME       : Pin__
 @ DOCS       : Css
