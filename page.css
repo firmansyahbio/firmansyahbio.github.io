@@ -9,6 +9,18 @@
   padding-bottom: 5px;
   margin-bottom: 0px;
   line-height: 1.10em;
+  animation: slide-in .7s .5s ease both;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media only screen and (max-width: 60em) {
