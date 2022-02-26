@@ -35,7 +35,7 @@
   line-height: 1.10em;
   font-family: 'Lato', sans-serif;
   }
-PapaTheo .Carapace .Docs__Post h6 {
+.PapaTheo .Carapace .Docs__Post h6 {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.10em;
@@ -60,6 +60,13 @@ PapaTheo .Carapace .Docs__Post h6 {
 .PapaTheo .Base {
   padding: 1em 0em 0em 0em;
  }
+
+/*==========================
+@ NAMA CLS     : PapaTheo
+@ FILE TYPE    : Media Only
+@ FILE DOKUMEN : 60em
+@ FILE ARCHIVE : Max 30em / Max 60em /
+==========================*/
 @media only screen and (max-width: 60em) {
 .PapaTheo .Base {
   padding: 1em 1em 1em 1em;
@@ -67,7 +74,15 @@ PapaTheo .Carapace .Docs__Post h6 {
 .PapaTheo .hr {
   padding-left: 1em;
   padding-right: 1em;
+  }
 }
+
+/*==========================
+@ NAMA CLS     : PapaTheo
+@ FILE TYPE    : Media Only
+@ FILE DOKUMEN : 30em
+@ FILE ARCHIVE : Max 30em / Max 60em /
+==========================*/
 @media only screen and (max-width: 30em) {
 .PapaTheo .Base {
   padding: 1em 1em 1em 1em;
