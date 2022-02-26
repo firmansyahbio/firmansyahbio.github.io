@@ -1,4 +1,11 @@
 /*==========================
+@ NAMA         : PapaTheo
+@ DOCS ID      : Css
+@ TYPE CLASS   : Head
+@ REL DOCUMENT : Carapace
+===========================*/
+.PapaTheo section {margin: 0;box-sizing: border-box;}
+/*==========================
 @ PT-IP      : Carapace
 @ PT-TYPE    : Note
 @ PT-CLASS   : Docs__Post
