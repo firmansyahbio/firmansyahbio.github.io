@@ -58,11 +58,26 @@
 .PapaTheo .Carapace .Docs__Post p code {padding: 2px 2px;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .PapaTheo .Carapace .Docs__Post p a {padding: 1px 1px;box-sizing:border-box;}
 /*==========================
-@ PT-IP      : Carapace
-@ PT-TYPE    : @Media Only Screen And
+@ NAME       : Pin__
+@ DOCS       : Css
 @ PT-CLASS   : max-width
-@ PT-ARCHIVE : Max 30em / Max 60em /
+@ REL ARC    : 
 ==========================*/
+.Carapace .Docs__Post .Pin__Pink,
+.Carapace .Docs__Post .Pin__Navy,
+.Carapace .Docs__Post .Pin__Orange,
+.Carapace .Docs__Post .Pin__Blue,
+.Carapace .Docs__Post .Pin__Black,
+.Carapace .Docs__Post .Pin__Green,
+.Carapace .Docs__Post .Pin__Red,
+.Carapace .Docs__Post .Pin__Yellow {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;}
+/*=============================================*/
 /*=== CSS IP(PT) Base ===*/
 .PapaTheo .Base {
   padding: 1em 0em 0em 0em;
