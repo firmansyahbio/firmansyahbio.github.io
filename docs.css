@@ -50,3 +50,30 @@ PapaTheo .Carapace .Docs__Post h6 {
 .PapaTheo .Carapace .Docs__Post h2 code {box-sizing: border-box;padding: 3px 3px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .PapaTheo .Carapace .Docs__Post p code {padding: 2px 2px;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .PapaTheo .Carapace .Docs__Post p a {padding: 1px 1px;box-sizing:border-box;}
+/*==========================
+@ PT-IP      : Carapace
+@ PT-TYPE    : @Media Only Screen And
+@ PT-CLASS   : max-width
+@ PT-ARCHIVE : Max 30em / Max 60em /
+==========================*/
+/*=== CSS IP(PT) Base ===*/
+.PapaTheo .Base {
+  padding: 1em 0em 0em 0em;
+ }
+@media only screen and (max-width: 60em) {
+.PapaTheo .Base {
+  padding: 1em 1em 1em 1em;
+  }
+.PapaTheo .hr {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+@media only screen and (max-width: 30em) {
+.PapaTheo .Base {
+  padding: 1em 1em 1em 1em;
+  }
+.PapaTheo .hr {
+  padding-left: 1em;
+  padding-right: 1em;
+  }
+}
