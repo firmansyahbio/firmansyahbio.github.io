@@ -138,6 +138,17 @@ border-radius:10px;
 -webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
 box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
 }
+/*==========================
+@ NAME       : Counter
+@ DOCS       : Css
+@ PT-CLASS   : Bar
+@ SINTEKSIS  : Skill
+==========================*/
+.Carapace ul.Counter {list-style: none;position: relative;padding-left: 55px;}
+.Carapace ul.Counter::before {content: "";height: calc(100% - 100px);width: 1px;position: absolute;top: 0;left: 21px;}
+.Carapace ul.Counter li {position: relative;}
+.Carapace ul.Counter li::before {content: attr(data-counter);position: absolute;top: 0px;left: -54px;height: 40px;width: 40px;line-height: 40px;border-radius: 50%;text-align: center;}
+.Carapace ul.Counter li strong{position:relative;top: 10px;font-size: 25px;}
 /*=============================================*/
 /*=== CSS IP(PT) Base ===*/
 .PapaTheo .Base {
