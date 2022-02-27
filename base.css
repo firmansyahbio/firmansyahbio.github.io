@@ -18,9 +18,10 @@
 .PapaTheo .Note .March h2 code {background:#767eeb;color:#fff;}
 .PapaTheo .Note .March p a {color:#ff00ff;}
 .PapaTheo .Note .March p code {background:#767eeb;color:#fff;}
-.PapaTheo .Note .March .Demo {
-background: #ccc;
-}
+.PapaTheo .Note .March .Demo {background: #ccc;}
+.PapaTheo .Note .March ul.Counter::before {background: #4E4DED;}
+.PapaTheo .Note .March ul.Counter li::before {background: #f9fafb;border: 1px solid #4E4DED;}
+.PapaTheo .Note .March .Pin {border-left: 6px #ff00ff solid;}
 .Note .March .Pin__Pink
 {border-left: 6px #ff00ff solid;}
 .Note .March .Pin__Navy
