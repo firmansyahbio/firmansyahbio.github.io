@@ -86,7 +86,8 @@
 .Carapace .Docs__Post .Pin__Black,
 .Carapace .Docs__Post .Pin__Green,
 .Carapace .Docs__Post .Pin__Red,
-.Carapace .Docs__Post .Pin__Yellow {
+.Carapace .Docs__Post .Pin__Yellow,
+.Carapace .Docs__Post .Pin {
   margin-left: 10px;
   margin-right: 10px;
   padding-left: 15px;
