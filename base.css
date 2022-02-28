@@ -1,5 +1,21 @@
 /*===°===°===°===°===°===°===°===°===°===°
+@ NAME     : POST BODY
+@ CLASS    : TITLE , PARAGRAF, TEXT
+@ DOCUMENT : 1 FILE
 ===°===°===°===°===°===°===°===°===°===°*/
+.post .post-body .mini_top_size {
+  left: 0;
+  width: none;
+  height: 20px;
+  margin-top: -21px;
+  margin-left: 23px;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
 /*==========================
 @ NAMA         : Docs Post
 @ DOCUMENT     : Css
