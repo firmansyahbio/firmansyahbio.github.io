@@ -1,9 +1,27 @@
 /*==========================
-@ NAMA         : PapaTheo
+@ NAMA         : Docs Post
 @ DOCS ID      : Css
 @ TYPE CLASS   : Head
 @ REL DOCUMENT : Carapace
 ===========================*/
+.post .post-body p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: left;
+  color: grey;
+  font-family: 'Lato', sans-serif;
+}
+.post .post-body h6 {
+  opacity: 0.9;
+  font-size: 20px;
+  margin-bottom: -5px;
+  line-height: 1.6;
+  font-weight: bold;
+  color: #aeaafe;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  }
 .PapaTheo section {margin: 0;box-sizing: border-box;}
 /*==========================
 @ PT-IP      : Carapace
