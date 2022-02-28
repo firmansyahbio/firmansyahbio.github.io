@@ -29,6 +29,7 @@
 @ DOCUMENT     : Css
 @ TYPE CLASS   : Head
 ===========================*/
+.scroll,
 .hero-image {animation: slide-in .7s .5s ease both;
 }
 @keyframes slide-in {
