@@ -131,24 +131,15 @@
 @ PT-CLASS   : max-width
 @ REL ARC    : 
 ==========================*/
-.Carapace .Docs__Post .Pin__Pink,
-.Carapace .Docs__Post .Pin__Navy,
-.Carapace .Docs__Post .Pin__Orange,
-.Carapace .Docs__Post .Pin__Blue,
-.Carapace .Docs__Post .Pin__Black,
-.Carapace .Docs__Post .Pin__Green,
-.Carapace .Docs__Post .Pin__Red,
-.Carapace .Docs__Post .Pin__Yellow,
-.Carapace .Docs__Post .Pin {
+
+.post .post-body .pinleft {
   margin-left: 10px;
   margin-right: 10px;
   padding-left: 15px;
   box-sizing: border-box;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;}
-.PapaTheo .Carapace .Docs__Post .Demo__View {
-  box-sizing: border-box;
-  padding: 1em 1em 1em 1em;}
+
 
 /*==========================
 @ NAME       : Skill
@@ -204,7 +195,7 @@ box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
 .post .post-body ul.counter::before {content: "";height: calc(100% - 100px);width: 1px;position: absolute;top: 0;left: 21px;}
 .post .post-body ul.counter li {position: relative;}
 .post .post-body ul.counter li::before {content: attr(data-counter);position: absolute;top: 0px;left: -54px;height: 40px;width: 40px;line-height: 40px;border-radius: 50%;text-align: center;}
-.post .post-body ul.counter li strong{position:relative;top: 10px;font-size: 25px;}
+.post .post-body ul.counter li strong{font-size: 25px;}
 /*=============================================*/
 
 
@@ -231,13 +222,8 @@ box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
 @ FILE ARCHIVE : Max 30em / Max 60em /
 ==========================*/
 @media only screen and (max-width: 30em) {
-.PapaTheo .Base {
-  padding: 1em 1em 1em 1em;
-  }
-.PapaTheo .hr {
-  padding-left: 1em;
-  padding-right: 1em;
-  }
+
+
 }
 
 /*=====================
@@ -274,7 +260,7 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 @ NAME      : COLOR
 @ CLASS     :
 @ DOCUMENT  :
-@ MAIN DOCS :
+@llllk
 ===°===°===°====°==°===°===°===°===°===°===*/
 .PapaTheo .Note .March h1{color:#000080;}
 .PapaTheo .Note .March h2{color:#0033CC;}
