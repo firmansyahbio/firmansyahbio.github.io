@@ -156,7 +156,7 @@
 @ PT-CLASS   : Bar
 @ SINTEKSIS  : Skill
 ==========================*/
-.Carapace .Docs__Post ul.Skill { 
+.post .post-body ul.skill { 
 list-style: none;
 font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 width: 100%;
@@ -165,7 +165,7 @@ position: relative;
 line-height: 2em;
 padding: 30px 0;
 }
-.Carapace .Docs__Post ul.Skill li { 
+.post .post-body ul.skill li { 
 margin-bottom:50px; 
 background:#e9e5e2;
 background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
@@ -180,12 +180,12 @@ border-radius:10px;
 -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
 box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
 }
-.Carapace .Docs__Post ul.Skill li span.Name { 
+.post .post-body ul.skill li span.name { 
   position:relative; 
   top:-25px;
   margin-left: 10px;
 }
-.Carapace .Docs__Post ul.Skill li span.Bar { 
+.post .post-body ul.skill li span.bar { 
 height:18px; 
 margin:1px 2px;  
 position:absolute;
@@ -313,6 +313,7 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 @ DOCUMENT     : Css
 @ TYPE CLASS   : Footer
 ===========================*/
+.footercup {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
 .footercup {
   color: #616161;
   padding: 0px 0;
