@@ -23,6 +23,8 @@
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   }
+.post .post-body p code {padding: 2px 2px;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
+.post .post-body p code {background: #767eeb; color: #fff;}
 .PapaTheo section {margin: 0;box-sizing: border-box;}
 /*==========================
 @ NAMA         : Tema Blogger Default
