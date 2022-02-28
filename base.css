@@ -5,23 +5,7 @@
 @ DOCUMENT     : Css
 @ TYPE CLASS   : Head
 ===========================*/
-.post .post-body p {
-  font-size: 16px;
-  margin-bottom: 30px;
-  color: grey;
-  font-family: 'Lato', sans-serif;
-}
-.post .post-body h6 {
-  opacity: 0.9;
-  font-size: 20px;
-  margin-bottom: -5px;
-  line-height: 1.6;
-  font-weight: bold;
-  color: #aeaafe;
-  box-sizing: border-box;
-  text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
-  }
+
 .post .post-body .PapaTheo {
   font-size: 16px;
   color: grey;
