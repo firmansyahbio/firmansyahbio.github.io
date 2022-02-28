@@ -5,6 +5,7 @@
 @ CLASS     : CODE PIN
 @ DOCUMENT  : 0002
 ===°===°===°====°==°===°===°===*/
+.post .post-body cakra{display: block;width:auto;color: #111;margin-left: 10px;margin-top: 6px;font-size: 16px;position: absolute;z-index: 10;letter-spacing: 3px;}
 .code-header{border-top-left-radius:5px;border-top-right-radius:5px;text-align:right;background:#f8f8f8;border:1px solid #4E4DED;font-family:Helvetica,Arial,sans-serif;box-sizing:border-box}
 .code-header a{border-top-right-radius:5px;font-size:15px;display:inline-block;cursor:pointer;border-left:1px solid #4E4DED;box-sizing:border-box;padding:6px 13px}
 .code-header a:hover{background:#f3f3f3;transition:all 0.1s linear}
