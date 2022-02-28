@@ -8,7 +8,6 @@
 .post .post-body p {
   font-size: 16px;
   margin-bottom: 30px;
-  text-align: left;
   color: grey;
   font-family: 'Lato', sans-serif;
 }
@@ -23,6 +22,11 @@
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   }
+.post .post-body .PapaTheo {
+  font-size: 16px;
+  color: grey;
+  font-family: 'Lato', sans-serif;
+}
 .post .post-body p code {padding: 2px 2px;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .post .post-body p code {background: #767eeb; color: #fff;}
 .PapaTheo section {margin: 0;box-sizing: border-box;}
