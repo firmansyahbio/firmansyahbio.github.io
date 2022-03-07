@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /*===°===°===°===°===°===°===°===°===°===°
 @ NAME     : POST BODY
 @ CLASS    : TITLE , PARAGRAF, TEXT
@@ -20,19 +21,19 @@
 .post .post-body .PapaTheo .mini_top_size {
   color: #000000;
   }
+.post .post-body p {
+  color: #0D013D;
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+.post .post-body p code {padding: 2px 2px;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
+.post .post-body p code {background: #767eeb; color: #fff;}
 /*==========================
 @ NAMA         : Docs Post
 @ DOCUMENT     : Css
 @ TYPE CLASS   : Head
 ===========================*/
-
-.post .post-body .PapaTheo {
-  font-size: 16px;
-  color: grey;
-  font-family: 'Lato', sans-serif;
-}
-.post .post-body p code {padding: 2px 2px;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
-.post .post-body p code {background: #767eeb; color: #fff;}
 .PapaTheo section {margin: 0;box-sizing: border-box;}
 /*==========================
 @ NAMA         : Tema Blogger Default
@@ -57,7 +58,6 @@
 @ DOCUMENT     : Css
 @ TYPE CLASS   : Head
 ===========================*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 .PapaTheo .Carapace .Docs__Post h1 {
   font-size: 62px;
   font-weight: bold;
