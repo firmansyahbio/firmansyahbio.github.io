@@ -21,6 +21,15 @@
 .post .post-body .PapaTheo .mini_top_size {
   color: #000000;
   }
+/*=== H2 Post ===*/
+.post .post-body h2 {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 2.7rem;
+  margin: 18px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+/*=== Paragraf Post ===*/
 .post .post-body p {
   color: #000000;
   font-size: 16px;
