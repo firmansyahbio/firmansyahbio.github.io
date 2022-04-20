@@ -1,8 +1,8 @@
-.firmansyahbio .carapace_quote blockquote {
+.post .post-body .carapace_quote blockquote {
   padding-right: 0px;
   margin-left: 30px;
   }
-.firmansyahbio .carapace_quote blockquote:before {
+.post .post-body .carapace_quote blockquote:before {
   font-family: FontAwesome;
   margin-top: -8px;
   margin-left: -25px;
@@ -12,7 +12,7 @@
   position: absolute;
   content: "\f10d";
 }
-.carapace_quote blockquote p {
+.post .post-body .carapace_quote blockquote p {
   font-weight: bold;
   margin-bottom: 15px;
   font-size: 20px;
@@ -21,7 +21,7 @@
   text-align: left;
   position: relative;
 }
-.firmansyahbio .carapace_quote blockquote i.name {
+.post .post-body .carapace_quote blockquote i.name {
   font-size: 12px;
   font-weight: italic;
   }
