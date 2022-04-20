@@ -244,7 +244,10 @@ box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
 .post .post-body ul.counter li::before {content: attr(data-counter);background: #f9fafb;border: 1px solid #4E4DED; position: absolute;top: 0px;left: -54px;height: 40px;width: 40px;line-height: 40px;border-radius: 50%;text-align: center;}
 .post .post-body ul.counter li strong{font-size: 25px;}
 /*=============================================*/
-
+.post .post-body .container_quotes blockquote { padding-right: 0px; margin-left: 30px;}
+.post .post-body .container_quotes blockquote:before { font-family: FontAwesome; margin-top: -8px; margin-left: -25px; color: #ff0000; font-size: 20px; font-weight: bold; position: absolute; content: "\f10d";}
+.post .post-body .container_quotes blockquote p { font-weight: bold; margin-bottom: 15px; font-size: 20px; line-height: 1.20em; color: gray; text-align: left; position: relative;}
+.post .post-body .container_quotes blockquote i.name {font-size: 12px;font-weight: italic;}
 
 /*==========================
 @ NAMA CLS     : PapaTheo
