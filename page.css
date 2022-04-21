@@ -1,15 +1,6 @@
 .container .post .post-title {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
 .container .post .post-title {
-  color: #020385;
-  font-weight: 600;
-  font-size: 3.50em;
-  padding-top: 5px;
-  padding-left: 0em;
-  padding-right: 0em;
-  padding-bottom: 5px;
-  margin-bottom: 0px;
-  line-height: 1.10em;
-  animation: slide-in .7s .5s ease both;
+
 }
 .start {animation: slide-in .7s .5s ease both;
 }
@@ -51,10 +42,7 @@
   box-sizing: border-box;
   }
 .centered-bottom .container .post .post-title {
-  padding-left: 0.50em;
-  padding-right: 0.50em;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  padding-left: 0.30em;
   }
 }
 @media only screen and (max-width: 30em) {
@@ -91,10 +79,7 @@
   box-sizing: border-box;
   }
 .centered-bottom .container .post .post-title {
-  padding-left: 0.50em;
-  padding-right: 0.50em;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  padding-left: 0.30em;
   }
 
 .bg-df {
