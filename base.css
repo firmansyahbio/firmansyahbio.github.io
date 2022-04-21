@@ -610,7 +610,7 @@ top: -16px; width:none;color:aeaafe;}
 /* === FOOTER | MEDIA |===*/
 .footercup .copyright {
   margin-left: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   }
 .footercup .copyright .list-copyright {font-size: 11px;color:#000;}
 .footercup .copyright .list-copyright a {color: #4E4DED;}
