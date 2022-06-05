@@ -286,6 +286,7 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 .footercup {
   color: #616161;
   padding: 0px 0;
+  border-top: 3px #cecece solid;
 }
 .footercup .liptop {
   width: none;
