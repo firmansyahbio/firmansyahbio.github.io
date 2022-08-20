@@ -112,7 +112,7 @@
 @ CLASS   : WebJam
 ==========================*/
 
-.WebJam {color: #ffffff; width: none; height:20px; font-size: 13px; padding: 6px;font-weight:bold; display:block;}
+.WebJam {color: #ffffff; width: none; height:20px; font-size: 13px; padding: 6px;font-weight:bold; display:block; margin-left:15px;}
 .WebJam a {color: #ffffff;}
 
 /*==========================
