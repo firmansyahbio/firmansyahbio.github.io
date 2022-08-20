@@ -11,6 +11,7 @@
 @ VALUES    : 6 Css
 @ DOCUMENT  : C-00-0-001
 ===========================*/
+.post .post-body h1, h2, h3, h4, h5, h6 {color: #aeaafe;}
 .post .post-body h1 {font-size: 64px;line-height: 1.40em;font-family: 'Source Sans Pro', sans-serif;}
 .post .post-body h2 {font-size: 48px;line-height: 2.7rem;margin: 18px 0;font-family: 'Source Sans Pro', sans-serif;}
 .post .post-body h3 {font-size: 40px;line-height: 1.10em;font-family: 'Source Sans Pro', sans-serif;}
