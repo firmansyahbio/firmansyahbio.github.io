@@ -6,11 +6,13 @@
 @ DOCUMENT : 1 FILE
 ===°===°===°===°===°===°===°===°===°===°*/
 .post .post-body .mini_top_size {left: 0;width: none;height: 20px;color: #000000;margin-top: -21px;margin-left: 23px;font-size: 12px;font-weight: bold;position: relative;text-transform: uppercase;letter-spacing: 4px;font-family: 'Source Sans Pro', sans-serif;}
+
 /*==========================
 @ NAMA      : H1 to H6
 @ VALUES    : 6 Css
 @ DOCUMENT  : C-00-0-001
 ===========================*/
+
 .post .post-body h1, h2, h3, h4, h5, h6 {color: #aeaafe;}
 .post .post-body h1 {font-size: 64px;line-height: 1.40em;font-family: 'Source Sans Pro', sans-serif;}
 .post .post-body h2 {font-size: 48px;line-height: 2.7rem;margin: 18px 0;font-family: 'Source Sans Pro', sans-serif;}
@@ -18,23 +20,31 @@
 .post .post-body h4 {font-size: 32px;line-height: 1.10em;font-family: 'Source Sans Pro', sans-serif;}
 .post .post-body h5 {font-size: 24px;line-height: 1.10em;font-family: 'Source Sans Pro', sans-serif;}
 .post .post-body h6 {font-size: 20px;line-height: 1.10em;font-family: 'Source Sans Pro', sans-serif;}
+
 /*=== H1 to H6 Code ===*/
+
 .post .post-body h1 code {background:#767eeb;color:#fff;box-sizing: border-box;padding: 4px 4px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .post .post-body h2 code {background:#767eeb;color:#fff;box-sizing: border-box;padding: 3px 3px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
+
 /*=== Paragraf Post ===*/
+
 .post .post-body p {color: #000000;font-size: 16px;margin-bottom: 30px;font-family: 'Source Sans Pro', sans-serif;}
 .post .post-body p code {padding: 2px 2px;background:#767eeb;color:#fff;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
+
 /*==========================
 @ NAMA      : Text Position
 @ VALUES    : 20 Css
 @ DOCUMENT  : C-00-0-001
 ===========================*/
+
 .PapaTheo section {margin: 0;box-sizing: border-box;}
+
 /*==========================
 @ NAMA         : Tema Blogger Default
 @ DOCUMENT     : Css
 @ TYPE CLASS   : Head
 ===========================*/
+
 .scroll,
 .hero-image {animation: slide-in .7s .5s ease both;
 }
@@ -48,21 +58,24 @@
     transform: translateY(0);
   }
 }
+
 /*==========================
-@ NAMA      : Text Position
-@ VALUES    : 20 Css
-@ DOCUMENT  : C-00-0-001
+@ NAMA    : Text Position
+@ DOCS    : 20 Css
+@ CLASS   : C-00-0-001
 ===========================*/
+
 .post .post-body .text_left {text-align: left;}
 .post .post-body .text_right {text-align: right;}
 .post .post-body .text_center {text-align: center;}
 .post .post-body .text_justify {text-align: justify;}
+
 /*==========================
-@ NAME       : Position Text
-@ DOCS       : Css
-@ CLASS      : Text__###
-@ REL TOTAL  : 4 Element
+@ NAME    : Position Text
+@ DOCS    : Css
+@ CLASS   : Text__###
 ==========================*/
+
 .js-scroll {opacity: 0;transition: opacity 500ms;}
 .js-scroll.scrolled {opacity: 1;}
 .scrolled.fade-in {animation: fade-in 1s ease-in-out both;}
@@ -73,19 +86,16 @@
 @keyframes slide-in-right {0% {-webkit-transform: translateX(100px);transform: translateX(100px);opacity: 0;}100% {-webkit-transform: translateX(0);transform: translateX(0);opacity: 1;}}
 @keyframes fade-in-bottom {0% {-webkit-transform: translateY(50px); transform: translateY(50px); opacity: 0;}100% {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}
 @keyframes fade-in {0% {opacity: 0;}100% {opacity: 1;}}
+
 /*==========================
-@ NAME       : WebJam
-@ DOCS       : Css
-@ CLASS      : WebJam
+@ NAME    : WebJam
+@ DOCS    : Css
+@ CLASS   : WebJam
 ==========================*/
-.WebJam {color: #000000; width: none; height:20px; font-size: 13px; padding: 6px;font-weight:bold; display:block;}
-.WebJam a {color: #000000;}
-.deroller > ul {
-list-style: none;
-font-size: 1.30em;
-padding: 0;
-margin: 0px 0px 0px 0px;
-}
+
+.WebJam {color: #ffffff; width: none; height:20px; font-size: 13px; padding: 6px;font-weight:bold; display:block;}
+.WebJam a {color: #ffffff;}
+
 /*==========================
 @ NAME       : Music
 @ DOCS       : Css
