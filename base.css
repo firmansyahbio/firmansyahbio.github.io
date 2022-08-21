@@ -112,8 +112,8 @@
 @ CLASS   : WebJam
 ==========================*/
 
-.WebJam {color: #ffffff; width: none; height:20px; font-size: 13px; padding: 6px;font-weight:bold; display:block; margin-left:15px;}
-.WebJam a {color: #ffffff;}
+.WebJam {color: #000; width: none; height:20px; font-size: 13px; padding: 6px;font-weight:bold; display:block; margin-left:15px;}
+.WebJam a {color: #000;}
 
 /*==========================
 @ NAME       : Sidebar Container Link
@@ -126,13 +126,13 @@
   padding: 1.0rem;
   text-decoration: none;
   font-size: 1.30rem;
-  color: #FFF;
+  color: #000;
   border-bottom: 0px solid #414141;
   }
-
+/*
 .sidebar-container div.tabl_link a:hover {
   background: linear-gradient(60deg, rgba(84,58,283,1) 0%, rgba(0,172,293,1) 100%);
-  }
+  }*/
 
 .sidebar-container div.tabl_link a svg {
   position: absolute;
@@ -145,7 +145,7 @@
 
 .sidebar-container div.tabl_link a:hover .svg_icon{
   right: 10px;
-  fill: white;
+  fill: black;
   }
 
 /*==========================
@@ -197,6 +197,7 @@
   border-left: 6px #020385 solid;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;}
+
 /*==========================
 @ NAME       : Skill
 @ DOCS       : Css
@@ -227,11 +228,13 @@ border-radius:10px;
 -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
 box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
 }
+
 .post .post-body ul.skill li span.name { 
   position:relative; 
   top:-25px;
   margin-left: 10px;
 }
+
 .post .post-body ul.skill li span.bar { 
 height:18px; 
 margin:1px 2px;  
@@ -241,17 +244,20 @@ border-radius:10px;
 -webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
 box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
 }
+
 /*==========================
 @ NAME       : Counter
 @ DOCS       : Css
 @ PT-CLASS   : Bar
 @ SINTEKSIS  : Skill
 ==========================*/
+
 .post .post-body ul.counter {list-style: none;position: relative;padding-left: 55px;}
 .post .post-body ul.counter::before {content: "";background: #4E4DED;height: calc(100% - 100px);width: 1px;position: absolute;top: 0;left: 21px;}
 .post .post-body ul.counter li {position: relative;}
 .post .post-body ul.counter li::before {content: attr(data-counter);background: #f9fafb;border: 1px solid #4E4DED; position: absolute;top: 0px;left: -54px;height: 40px;width: 40px;line-height: 40px;border-radius: 50%;text-align: center;}
 .post .post-body ul.counter li strong{font-size: 25px;}
+
 /*=============================================*/
 .post .post-body .container_quotes blockquote { padding-right: 0px; margin-left: 30px;}
 .post .post-body .container_quotes blockquote:before { font-family: FontAwesome; margin-top: -8px; margin-left: -25px; color: #ff0000; font-size: 20px; font-weight: bold; position: absolute; content: "\f10d";}
@@ -287,8 +293,8 @@ box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
 
 /*=====================
 @ NAME      : LANGUAGE NURICH
-@ CLASS     : CODE PIN
-@ DOCUMENT  : 0002
+@ DOCS      : CODE PIN
+@ CLASS     : Language Html,CSS,Js
 ===°===°===°====°==°===°===°===*/
 .post .post-body cakra{display: block;width:auto;color: #111;margin-left: 10px;margin-top: 6px;font-size: 16px;position: absolute;z-index: 10;letter-spacing: 3px;}
 .code-header{border-top-left-radius:5px;border-top-right-radius:5px;text-align:right;background:#f8f8f8;border:1px solid #4E4DED;font-family:Helvetica,Arial,sans-serif;box-sizing:border-box}
@@ -315,11 +321,13 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 .token.important,.token.bold{font-weight:bold}
 .token.italic{font-style:italic}
 .token.entity{cursor:help}
+
 /*=====================
 @ NAME      : COLOR
 @ CLASS     :
 @ DOCUMENT  :
 ===°===°===°====°==°===°===°===°===°===°===*/
+
 .PapaTheo .Note .March h1{color:#000080;}
 .PapaTheo .Note .March h2{color:#0033CC;}
 .PapaTheo .Note .March h3{color:#4E4DED;}
