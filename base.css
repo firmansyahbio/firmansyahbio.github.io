@@ -319,7 +319,7 @@ box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
 @ DOCS      : CODE PIN
 @ CLASS     : Language Html,CSS,Js
 ===°===°===°====°==°===°===°===*/
-.post .post-body cakra{display: block;width:auto;color: #111;margin-left: 10px;margin-top: 6px;font-size: 16px;position: absolute;z-index: 10;letter-spacing: 3px;}
+.post .post-body cakra{display: block;width:auto;color: #111;margin-left: 10px;margin-top: 6px;font-size: 16px;position: absolute;z-index: 10;letter-spacing: 3px;font-family: 'Lato', sans-serif;}
 .code-header{border-top-left-radius:5px;border-top-right-radius:5px;text-align:right;background:#f8f8f8;border:1px solid #4E4DED;font-family:Helvetica,Arial,sans-serif;box-sizing:border-box}
 .code-header a{border-top-right-radius:5px;font-size:15px;display:inline-block;cursor:pointer;border-left:1px solid #4E4DED;box-sizing:border-box;padding:6px 13px}
 .code-header a:hover{background:#f3f3f3;transition:all 0.1s linear}
