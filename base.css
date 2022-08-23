@@ -38,6 +38,28 @@
 .post .post-body p code {padding: 2px 2px;background:#767eeb;color:#fff;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 
 /*==========================
+@ NAMA    : Tag audio
+@ DOCS    : Css
+@ CLASS   : audio
+===========================*/
+
+
+/*==========================
+@ NAMA    : Tag hr
+@ DOCS    : Css
+@ CLASS   : Tag hr
+===========================*/
+
+.post .post-body hr {
+  width: 100%;
+  border: 1px #aeaafe solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  }
+
+/*==========================
 @ NAMA      : Text Position
 @ VALUES    : 20 Css
 @ DOCUMENT  : C-00-0-001
@@ -64,6 +86,7 @@
     transform: translateY(0);
   }
 }
+
 /*==========================
 @ NAMA    : No Copy Paste
 @ DOCS    : Css
