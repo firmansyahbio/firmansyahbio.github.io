@@ -384,10 +384,11 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 
 
 /*==========================
-@ NAMA         : Foutercup
-@ DOCUMENT     : Css
-@ TYPE CLASS   : Footer
+@ NAMA    : Footer
+@ DOCS    : Css
+@ CLASS   : footercup
 ===========================*/
+
 .footercup {font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;}
 .footercup {
   color: #616161;
@@ -413,6 +414,61 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
   background-color: #4E4DED;
   position: relative;
   }
+
+/*=== 2. Paragrapy Sintesis ===*/
+.footercup .paragraph__sintesis__apriori .wave-container,
+.paragraph__sintesis__apriori .wave-top, .paragraph__sintesis__apriori .wave-bottom {
+  background: #eaeef6;
+  max-width: 100%;
+  margin: 0 auto;
+  }
+.footercup .paragraph__sintesis__apriori .wave-top,
+.footercup .paragraph__sintesis__apriori .wave-bottom {
+  width: 100%;
+  }
+.footercup .paragraph__sintesis__apriori .wave-top > svg,
+.footercup .paragraph__sintesis__apriori .wave-bottom > svg {
+  display: block;
+  }
+
+.footercup .paragraph__sintesis__apriori .wave-container {
+  position: relative;
+  z-index: 6;
+  }
+.footercup .paragraph__sintesis__apriori .wave-top {
+  margin-bottom: -5px;
+  }
+.footercup .paragraph__sintesis__apriori .wave-bottom {
+  margin-top: -5px;
+  }
+
+.footercup .paragraph__sintesis__apriori .wave-container, 
+.footercup .paragraph__sintesis__apriori .wave-top, 
+.footercup .paragraph__sintesis__apriori .wave-bottom {
+  position: relative;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+  }
+/*
+.wave-bottom {
+  background: #fff;
+}*/
+.footercup .paragraph__sintesis__apriori .wave-container {
+  background: #aeaafe;
+  }
+/*.wave-top {
+  background: #fff;
+}*/
+.footercup .paragraph__sintesis__apriori .wave-container .deskrip-text-id .sintesis_apriori {
+          
+  }
+.footercup .paragraph__sintesis__apriori .wave-container .deskrip-text-id p{
+  color: #fff;
+  margin: 7rem 1.25rem 2.5rem 1.25rem;
+  }
+
+
 .card_id {
   display: inline-block;
   float: center;
