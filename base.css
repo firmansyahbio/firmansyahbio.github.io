@@ -152,10 +152,10 @@
   color: #000;
   border-bottom: 0px solid #414141;
   }
-/*
+
 .sidebar-container div.tabl_link a:hover {
-  background: linear-gradient(60deg, rgba(84,58,283,1) 0%, rgba(0,172,293,1) 100%);
-  }*/
+  background: #EAEEF6;
+  }
 
 .sidebar-container div.tabl_link a svg {
   position: absolute;
