@@ -172,6 +172,107 @@
   }
 
 /*==========================
+@ NAMA    : Button Prev and Next
+@ DOCS    : Css
+@ CLASS   : .prev-and-next
+===========================*/
+
+.post .post-body .prev-and-next {
+  height: 50px;
+  display: block;
+  position: relative;
+  }
+  
+.post .post-body .prev-and-next a svg {
+  width: 20px;
+  height: 20px;
+  }
+  
+.post .post-body .prev-and-next a.klik-next {
+  position: absolute;
+  bottom: 3px;
+  right: 5px;
+  width: 40%;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+.post .post-body .prev-and-next a.klik-next {
+  background: #000000;
+  border-radius: 5px;
+  color: white;
+  }
+  
+.post .post-body .prev-and-next a.klik-next:hover {
+  background: #4E4DED;
+  }
+  
+.post .post-body .prev-and-next a.klik-next svg {
+  position: absolute;
+  margin-left: 50px;
+  fill: transparent;
+  transition: 500ms;
+  }
+  
+.post .post-body .prev-and-next a.klik-next span {
+  transition: 500ms;
+  }
+  
+.post .post-body .prev-and-next a.klik-next:hover svg {
+  margin-left: 85px;
+  fill: white;
+  }
+  
+.post .post-body .prev-and-next a.klik-prev {
+  position: absolute;
+  bottom: 3px;
+  left: 5px;
+  width: 40%;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.post .post-body .prev-and-next a.klik-prev {
+  background: #111;
+  border-radius: 5px;
+  color: white;
+  }
+
+.post .post-body .prev-and-next a.klik-prev:hover {
+  background: #4E4DED;
+  }
+
+.post .post-body .prev-and-next a.klik-prev svg {
+  position: absolute;
+  margin-right: 50px;
+  fill: transparent;
+  transition: 500ms;
+  }
+
+.post .post-body .prev-and-next a.klik-prev span {
+  transition: 500ms;
+  }
+
+.post .post-body .prev-and-next a.klik-prev:hover svg {
+  margin-right: 80px;
+  fill: white;
+}
+
+/*==========================
 @ NAME       : Music
 @ DOCS       : Css
 @ CLASS      : music_bio
