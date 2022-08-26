@@ -24,10 +24,10 @@
 /*=== H1 to H6 Size ===*/
 .post .post-body h1 {font-size: 64px;line-height: 1.40em;font-family: 'Source Sans Pro', sans-serif;}
 .post .post-body h2 {font-size: 48px;line-height: 1.30em;font-family: 'Source Sans Pro', sans-serif;}
-.post .post-body h3 {font-size: 40px;line-height: 1.10em;font-family: 'Source Sans Pro', sans-serif;}
+.post .post-body h3 {font-size: 40px;line-height: 1.20em;font-family: 'Source Sans Pro', sans-serif;}
 .post .post-body h4 {font-size: 32px;line-height: 1.10em;font-family: 'Source Sans Pro', sans-serif;}
-.post .post-body h5 {font-size: 24px;line-height: 1.10em;font-family: 'Source Sans Pro', sans-serif;}
-.post .post-body h6 {font-size: 20px;line-height: 1.10em;font-family: 'Source Sans Pro', sans-serif;}
+.post .post-body h5 {font-size: 24px;line-height: 1.00em;font-family: 'Source Sans Pro', sans-serif;}
+.post .post-body h6 {font-size: 20px;line-height: 0.90em;font-family: 'Source Sans Pro', sans-serif;}
 
 /*=== H1 to H6 Code ===*/
 .post .post-body h1 code {background:#767eeb;color:#fff;box-sizing: border-box;padding: 4px 4px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
