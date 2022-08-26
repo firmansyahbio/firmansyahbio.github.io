@@ -406,27 +406,6 @@ box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
 .post .post-body .container_quotes blockquote p { font-weight: bold; margin-bottom: 15px; font-size: 20px; line-height: 1.20em; color: gray; text-align: left; position: relative;}
 .post .post-body .container_quotes blockquote i.name {font-size: 12px;font-weight: italic;}
 
-/*==========================
-@ NAMA    : Media
-@ DOCS    : Css
-@ CLASS   : Ukuran lebih kecil
-===========================*/
-
-/*== Lebar Ukuran 60 em atau lebih kecil ==*/
-@media(max-width: 60em) {
-.footercup {
-  margin-bottom: 0px;
-  }
-}
-
-/*== Lebar Ukuran 30 em atau lebih kecil ==*/
-@media(max-width: 30em) {
-
-
-}
-
-
-
 /*=====================
 @ NAME      : LANGUAGE NURICH
 @ DOCS      : CODE PIN
@@ -827,3 +806,26 @@ top: -16px; width:none;color:aeaafe;}
 .footercup .copyright .list-copyright a {color: #4E4DED;}
 
 
+
+/*===B===A===R===I===S===°===S===K===A===T===*/
+
+
+/*==========================
+@ NAMA    : Media
+@ DOCS    : Css
+@ CLASS   : Ukuran lebih kecil
+===========================*/
+
+/*== Lebar Ukuran 60 em atau lebih kecil ==*/
+@media(max-width: 60em) {
+.footercup {
+  margin-bottom: 0px;
+  }
+}
+
+/*== Lebar Ukuran 30 em atau lebih kecil ==*/
+@media(max-width: 30em) {
+.footercup {
+  margin-bottom: 0px;
+  }
+}
