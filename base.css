@@ -407,37 +407,32 @@ box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
 .post .post-body .container_quotes blockquote i.name {font-size: 12px;font-weight: italic;}
 
 /*==========================
-@ NAMA CLS     : PapaTheo
-@ FILE TYPE    : Media Only
-@ FILE DOKUMEN : 60em
-@ FILE ARCHIVE : Max 30em / Max 60em /
-==========================*/
+@ NAMA    : Media
+@ DOCS    : Css
+@ CLASS   : Ukuran lebih kecil
+===========================*/
+
+/*== Lebar Ukuran 60 em atau lebih kecil ==*/
 @media only screen and (max-width: 60em) {
-.PapaTheo .Base {
-  padding: 1em 1em 1em 1em;
-  }
-.PapaTheo .hr {
-  padding-left: 1em;
-  padding-right: 1em;
+.footercup {
+  margin-bottom: 0px;
   }
 }
 
-/*==========================
-@ NAMA CLS     : PapaTheo
-@ FILE TYPE    : Media Only
-@ FILE DOKUMEN : 30em
-@ FILE ARCHIVE : Max 30em / Max 60em /
-==========================*/
+/*== Lebar Ukuran 30 em atau lebih kecil ==*/
 @media only screen and (max-width: 30em) {
 
 
 }
+
+
 
 /*=====================
 @ NAME      : LANGUAGE NURICH
 @ DOCS      : CODE PIN
 @ CLASS     : Language Html,CSS,Js
 ===°===°===°====°==°===°===°===*/
+
 .post .post-body cakra{display: block;width:auto;color: #111;margin-left: 10px;margin-top: 6px;font-size: 16px;position: absolute;z-index: 10;letter-spacing: 3px;font-family: 'Lato', sans-serif;}
 .code-header{border-top-left-radius:5px;border-top-right-radius:5px;text-align:right;background:#f8f8f8;border:1px solid #4E4DED;font-family:Helvetica,Arial,sans-serif;box-sizing:border-box}
 .code-header a{border-top-right-radius:5px;font-size:15px;display:inline-block;cursor:pointer;border-left:1px solid #4E4DED;box-sizing:border-box;padding:6px 13px}
@@ -512,7 +507,8 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 .footercup {
   color: #616161;
   padding: 0px 0;
-  border-top: 3px #cecece solid;
+  margin-bottom: 100px;
+  border-top: 5px #cecece solid;
 }
 .footercup .liptop {
   width: none;
