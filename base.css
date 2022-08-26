@@ -413,14 +413,14 @@ box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
 ===========================*/
 
 /*== Lebar Ukuran 60 em atau lebih kecil ==*/
-@media only screen and (max-width: 60em) {
+@media(max-width: 60em) {
 .footercup {
   margin-bottom: 0px;
   }
 }
 
 /*== Lebar Ukuran 30 em atau lebih kecil ==*/
-@media only screen and (max-width: 30em) {
+@media(max-width: 30em) {
 
 
 }
