@@ -131,10 +131,47 @@
 .post .post-body .text_justify {text-align: justify;}
 
 /*==========================
-@ NAME    : Position Text
+@ NAMA    : Animasi
 @ DOCS    : Css
-@ CLASS   : Text__###
-==========================*/
+@ CLASS   : Design Class
+===========================*/
+
+.post .post-body .mini_top_size,
+.post .post-title {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/*==========================
+@ NAMA    : Tag audio
+@ DOCS    : Css
+@ CLASS   : audio
+===========================*/
 
 .js-scroll {opacity: 0;transition: opacity 500ms;}
 .js-scroll.scrolled {opacity: 1;}
