@@ -512,6 +512,27 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 .Note .March .Pin__Black  
 {border-left: 6px #000000 solid;}
 
+/*==========================
+@ NAMA    : Sidebar
+@ DOCS    : Css
+@ CLASS   : .sidebar-container
+===========================*/
+
+.sidebar-container .contact_box_id {
+  display: flex;
+  padding: 8px;
+  }
+.sidebar-container .contact_box_id a{
+  flex: 1 1 30%;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background: #4E4DED;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
 
 /*==========================
 @ NAMA    : Footer
