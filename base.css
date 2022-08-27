@@ -364,13 +364,14 @@
   border-bottom: 1px solid rgba(0, 0, 0, .2)
   }
 .container_torial_bar .list_item a {
-  background-image: linear-gradient (top to bottom, rgba(255,255,255,.2), rgba(255,255,255, 1)); 
-  font-family: 'lato';
-  padding: 7px;
-  border-left: 5px #767EEB solid;
   flex: 2;
   width: 100%;
+  padding: 7px;
   color: dark grey;
+  font-family: 'lato';
+  box-sizing:border-box;
+  border-left: 5px #767EEB solid;
+  background-image: linear-gradient (top to bottom, rgba(255,255,255,.2), rgba(255,255,255, 1));
   }
 .container_torial_bar .list_item a:hover {
   background-color: #ddd;
