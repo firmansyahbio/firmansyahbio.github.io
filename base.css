@@ -329,6 +329,80 @@
 .post .post-body .music_bio .titmar {width: 100%;margin-left: 0px;margin-right: 0px;}
 
 /*==========================
+@ NAME    : Container Design 
+@ DOCS    : Css
+@ CLASS   : container_
+==========================*/
+.container_torial_bar .list_title_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  background-color: #767EEB;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "lato";
+  font-weight: 300;
+  box-shadow: 0px 6px 10px rgba(0,0,0,.3);
+  :hover {
+    transform: translateY(-1px);
+    }
+  }
+.container_torial_bar .list_item {
+  overflow-y: auto;
+  height: 500px;
+  }
+.container_torial_bar .list_item a:link {
+  text-decoration: none;
+  cursor: pointer;
+  }
+.container_torial_bar .list_item a{
+  display: flex;
+  max-width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, .2)
+  }
+.container_torial_bar .list_item a {
+  background-image: linear-gradient (top to bottom, rgba(255,255,255,.2), rgba(255,255,255, 1)); 
+  font-family: 'lato';
+  padding: 7px;
+  border-left: 5px #767EEB solid;
+  flex: 2;
+  width: 100%;
+  color: dark grey;
+  }
+.container_torial_bar .list_item a:hover {
+  background-color: #ddd;
+  color: #ff0000;
+  border-left: 5px #4E4DED solid;
+  }
+.container_torial_bar .footer_more {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30px;
+  background-color: #767EEB;
+  padding: 5px;
+  width: 100%;
+  color: #fff;
+  font-family: "lato";
+  font-weight: 300;
+  font-size: 12px;
+  }
+.container_torial_bar .footer_more a{
+  color: #fff;
+  }
+.container_torial_bar .footer_bottom {
+  width: 100%;
+  height: 6px;
+  background-color: #4E4DED;
+  border-radius: 0 0 0px 0px;
+  }
+
+/*==========================
 @ NAME       : Pin__
 @ DOCS       : Css
 @ PT-CLASS   : max-width
