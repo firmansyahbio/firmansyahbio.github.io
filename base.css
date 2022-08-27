@@ -14,12 +14,12 @@
 ===========================*/
 
 /*=== H1 to H6 Color ===*/
-.post .post-body h1 {color: #aeaafe;}
-.post .post-body h2 {color: #aeaafe;}
-.post .post-body h3 {color: #aeaafe;}
-.post .post-body h4 {color: #aeaafe;}
-.post .post-body h5 {color: #aeaafe;}
-.post .post-body h6 {color: #aeaafe;}
+.post .post-body h1 {color: #767EEB;}
+.post .post-body h2 {color: #767EEB;}
+.post .post-body h3 {color: #767EEB;}
+.post .post-body h4 {color: #767EEB;}
+.post .post-body h5 {color: #767EEB;}
+.post .post-body h6 {color: #767EEB;}
 
 /*=== H1 to H6 Size ===*/
 .post .post-body h1 {font-size: 64px;line-height: 1.40em;font-family: 'Source Sans Pro', sans-serif;}
