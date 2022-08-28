@@ -227,9 +227,10 @@
   }
   
 .post .post-body .prev-and-next a.klik-next {
-  background: #000000;
-  border-radius: 5px;
   color: white;
+  border-radius: 5px;
+  background: #767EEB;
+  font-family: 'Source Sans Pro', sans-serif;
   }
   
 .post .post-body .prev-and-next a.klik-next:hover {
@@ -269,9 +270,10 @@
   }
 
 .post .post-body .prev-and-next a.klik-prev {
-  background: #111;
-  border-radius: 5px;
   color: white;
+  border-radius: 5px;
+  background: #767EEB;
+  font-family: 'Source Sans Pro', sans-serif;
   }
 
 .post .post-body .prev-and-next a.klik-prev:hover {
