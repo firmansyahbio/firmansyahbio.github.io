@@ -118,6 +118,47 @@
   padding: 10px;
   color: #fff;
   }
+/*==========================
+@ NAMA    : Button See More
+@ DOCS    : Css
+@ CLASS   : .click-more
+===========================*/
+.post .post-body .click-more {
+  display:flex;
+  }
+.post .post-body .click-more .btn-more { 
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 25px;
+}
+.post .post-body .click-more .default-btn{
+  background: #767EEB;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.post .post-body .click-more .default-btn::after{
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #434DED;
+  border-radius: 5px;
+  transition: .5s;
+  z-index: -1;
+}
+.post .post-body .click-more .default-btn:hover::after{
+  height: 100%;
+  width: 100%;
+}
+.post .post-body .click-more .default-btn:hover{
+  color: white!important;
+}
 
 /*==========================
 @ NAMA    : Text Position
