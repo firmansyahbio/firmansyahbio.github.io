@@ -376,6 +376,10 @@
 @ DOCS    : Css
 @ CLASS   : container_
 ==========================*/
+
+/*========================================
+@ CLASS : container_torial_bar
+=========================================*/
 .container_torial_bar .list_title_box {
   display: flex;
   align-items: center;
@@ -444,6 +448,68 @@
   height: 6px;
   background-color: #4E4DED;
   border-radius: 0 0 0px 0px;
+  }
+
+/*========================================
+@ CLASS : container_photo
+=========================================*/
+/* --- Grid --- */
+.post .post-body .container_photo .photo_image [value="grid"]:checked ~ main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 1rem;
+  }
+/* --- Multicolumn --- */
+.post .post-body .container_photo .photo_image [value="multicolumn"]:checked ~ main {
+  display: block;
+  columns: 12rem;
+  gap: 1rem;
+  }
+.post .post-body .container_photo .photo_image [value="multicolumn"]:checked ~ main figure {
+  margin-bottom: 1rem;
+  break-inside: avoid;
+  }
+/* --- Flexbox, row direction --- */
+.post .post-body .container_photo .photo_image
+[value="flexbox"]:checked ~ main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  }
+.post .post-body .container_photo .photo_image
+[value="flexbox"]:checked ~ main figure {
+  flex: 1 1 12rem;
+  }
+  
+.post .post-body .container_photo .photo_image main {
+  margin: 1rem 0;
+  }
+.post .post-body .container_photo .photo_image main figure {
+  margin: 5px;
+  }
+.post .post-body .container_photo .photo_image main figure img { 
+  width: 100%; 
+  display: block;
+  border-radius: 0 0 5px 5px;
+  }
+.post .post-body .container_photo .photo_image main figure figcaption {
+  padding: 0.5rem 1rem 0.4rem;
+  background: #4E4DED;
+  /*background: linear-gradient(60deg, rgba(84,58,283,1) 0%, rgba(0,172,293,1) 100%);*/
+  color: #ffffff;
+  border-radius: 5px 5px 0 0;
+  text-align: left;
+  }
+.post .post-body .container_photo .photo_image input {
+  margin: 0;
+  }
+.post .post-body .container_photo .photo_image label {
+  font-size: 19px;
+  color: #767EEB;
+  font-weight: bold;
+  text-align: left;
+  margin: 0 1.1rem 0 0.1rem;
   }
 
 /*==========================
