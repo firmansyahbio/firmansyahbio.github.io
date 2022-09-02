@@ -102,11 +102,32 @@
 }
 
 /*==========================
+@ NAMA    : Button See More
+@ DOCS    : Css
+@ CLASS   : .click-more
+===========================*/
+.post .post-body .btn { 
+  font-weight: bold;
+  padding: 10px 25px;
+}
+.post .post-body .btn{
+  background: #767EEB;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.post .post-body .btn:hover {
+  transition: .5s;
+  background: #434DED;
+  color: white!important;
+  }
+/*==========================
 @ NAMA    : Box Border Left
 @ DOCS    : Css
 @ CLASS   : .soleram
 ===========================*/
-
 .post .post-body .soleram p{
   background: #767EEB;
   font-family: Pacifico;
