@@ -475,44 +475,44 @@
 @ CLASS : container_photo
 =========================================*/
 /* --- Grid --- */
-.post .post-body .container_photo .photo_image [value="grid"]:checked ~ main {
+.post .post-body .container_photos .photos_post [value="grid"]:checked ~ main {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
   gap: 1rem;
   }
 /* --- Multicolumn --- */
-.post .post-body .container_photo .photo_image [value="multicolumn"]:checked ~ main {
+.post .post-body .container_photos .photos_post [value="multicolumn"]:checked ~ main {
   display: block;
   columns: 12rem;
   gap: 1rem;
   }
-.post .post-body .container_photo .photo_image [value="multicolumn"]:checked ~ main figure {
+.post .post-body .container_photos .photos_post [value="multicolumn"]:checked ~ main figure {
   margin-bottom: 1rem;
   break-inside: avoid;
   }
 /* --- Flexbox, row direction --- */
-.post .post-body .container_photo .photo_image [value="flexbox"]:checked ~ main {
+.post .post-body .container_photos .photos_post [value="flexbox"]:checked ~ main {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   }
-.post .post-body .container_photo .photo_image [value="flexbox"]:checked ~ main figure {
+.post .post-body .container_photos .photos_post [value="flexbox"]:checked ~ main figure {
   flex: 1 1 12rem;
   }
   
-.post .post-body .container_photo .photo_image main {
+.post .post-body .container_photos .photos_post main {
   margin: 1rem 0;
   }
-.post .post-body .container_photo .photo_image main figure {
+.post .post-body .container_photos .photos_post main figure {
   margin: 5px;
   }
-.post .post-body .container_photo .photo_image main figure img { 
+.post .post-body .container_photos .photos_post main figure img { 
   width: 100%; 
   display: block;
   border-radius: 0 0 5px 5px;
   }
-.post .post-body .container_photo .photo_image main figure figcaption {
+.post .post-body .container_photos .photos_post main figure figcaption {
   padding: 0.5rem 1rem 0.4rem;
   background: #4E4DED;
   /*background: linear-gradient(60deg, rgba(84,58,283,1) 0%, rgba(0,172,293,1) 100%);*/
@@ -521,10 +521,10 @@
   text-align: left;
   font-family: 'Source Sans Pro', sans-serif;
   }
-.post .post-body .container_photo .photo_image input {
+.post .post-body .container_photos .photos_post input {
   margin: 0;
   }
-.post .post-body .container_photo .photo_image label {
+.post .post-body .container_photos .photos_post label {
   font-size: 19px;
   color: #767EEB;
   font-weight: bold;
