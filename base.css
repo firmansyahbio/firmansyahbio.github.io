@@ -1,41 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-/*===°===°===°===°===°===°===°===°===°===°
-@ NAME     : POST BODY
-@ CLASS    : TITLE , PARAGRAF, TEXT
-@ DOCUMENT : 1 FILE
-===°===°===°===°===°===°===°===°===°===°*/
+/*===°===°===°===°===°===°===°===°===°===°===°===°===°===°==*/
+
 .post .post-body .mini_top_size {left: 0;width: none;height: 20px;color: #000000;margin-top: -21px;margin-left: 23px;font-size: 12px;font-weight: bold;position: relative;text-transform: uppercase;letter-spacing: 4px;font-family: 'Source Sans Pro', sans-serif;}
 
 /*==========================
-@ NAMA      : H1 to H6
-@ VALUES    : 6 Css
-@ DOCUMENT  : C-00-0-001
+@ NAMA    : Post Group
+@ DOCS    : Css
+@ CLASS   : .post-body
 ===========================*/
+/*=== Post ===*/
+.post {}
 
-/*=== H1 to H6 Color ===*/
-.post .post-body h1 {color: #767EEB;}
-.post .post-body h2 {color: #767EEB;}
-.post .post-body h3 {color: #767EEB;}
-.post .post-body h4 {color: #767EEB;}
-.post .post-body h5 {color: #767EEB;}
-.post .post-body h6 {color: #767EEB;}
+/*=== Post Font Family ===*/
+.post .post-body {font-family: 'Source Sans Pro', sans-serif;}
 
-/*=== H1 to H6 Size ===*/
-.post .post-body h1 {font-size: 64px;line-height: 1.40em;font-family: 'Source Sans Pro', sans-serif;}
-.post .post-body h2 {font-size: 48px;line-height: 1.30em;font-family: 'Source Sans Pro', sans-serif;}
-.post .post-body h3 {font-size: 40px;line-height: 1.20em;font-family: 'Source Sans Pro', sans-serif;}
-.post .post-body h4 {font-size: 32px;line-height: 1.10em;font-family: 'Source Sans Pro', sans-serif;}
-.post .post-body h5 {font-size: 24px;line-height: 1.00em;font-family: 'Source Sans Pro', sans-serif;}
-.post .post-body h6 {font-size: 20px;line-height: 0.90em;font-family: 'Source Sans Pro', sans-serif;}
+/*=== H1 to H6 ===*/
+.post .post-body h1 {font-size: 64px;color: #767EEB;line-height: 1.40em;font-family: 'Source Sans Pro', sans-serif;}
+.post .post-body h2 {font-size: 48px;color: #767EEB;line-height: 1.30em;font-family: 'Source Sans Pro', sans-serif;}
+.post .post-body h3 {font-size: 40px;color: #767EEB;line-height: 1.20em;font-family: 'Source Sans Pro', sans-serif;}
+.post .post-body h4 {font-size: 32px;color: #767EEB;line-height: 1.10em;font-family: 'Source Sans Pro', sans-serif;}
+.post .post-body h5 {font-size: 24px;color: #767EEB;line-height: 1.00em;font-family: 'Source Sans Pro', sans-serif;}
+.post .post-body h6 {font-size: 20px;color: #767EEB;line-height: 0.90em;font-family: 'Source Sans Pro', sans-serif;}
 
-/*=== H1 to H6 Code ===*/
+/*=== H1 to H6 Tag Code ===*/
 .post .post-body h1 code {background:#767eeb;color:#fff;box-sizing: border-box;padding: 4px 4px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 .post .post-body h2 code {background:#767eeb;color:#fff;box-sizing: border-box;padding: 3px 3px;border-radius: 5px;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
 
-/*=== Paragraf Post ===*/
+/*=== Paragraf and Tag Code ===*/
 .post .post-body p {color: #000000;font-size: 16px;margin-bottom: 30px;font-family: 'Source Sans Pro', sans-serif;}
 .post .post-body p code {padding: 2px 2px;background:#767eeb;color:#fff;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;}
+
+/*=== Paragraf and Tag Code ===*/
 
 /*==========================
 @ NAMA    : Tag audio
