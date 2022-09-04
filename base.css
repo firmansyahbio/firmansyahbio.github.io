@@ -51,7 +51,7 @@
 @ DOCS    : Css
 @ CLASS   : Tag hr
 ===========================*/
-
+/*=== Tag hr ===*/
 .post .post-body hr {
   width: 100%;
   border: 1px #aeaafe solid;
@@ -60,6 +60,11 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   }
+
+/*=== ul.list_icon_left ===*/
+.post .post-body ul.list_icon_left {list-style: none;padding: 0;}
+.post .post-body ul.list_icon_left li {color: #000;line-height: 2.4rem;}
+.post .post-body ul.list_icon_left li i {color: #767EEB;margin-right: 10px;}
 
 /*==========================
 @ NAMA      : Text Position
