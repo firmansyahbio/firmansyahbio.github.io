@@ -40,31 +40,29 @@
 /*=== Paragraf and Tag Code ===*/
 
 /*==========================
-@ NAMA    : Tag audio
+@ NAMA    : Tag Default 
 @ DOCS    : Css
-@ CLASS   : audio
-===========================*/
-
-
-/*==========================
-@ NAMA    : Tag hr
-@ DOCS    : Css
-@ CLASS   : Tag hr
+@ CLASS   : Tag Gaya
 ===========================*/
 /*=== Tag hr ===*/
-.post .post-body hr {
-  width: 100%;
-  border: 1px #aeaafe solid;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  }
+.post .post-body hr {width: 100%;border: 1px #aeaafe solid;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+
+/*==========================
+@ NAMA    : List Gaya Group
+@ DOCS    : Css
+@ CLASS   : Tag ul
+===========================*/
+/*=== ul.list_icon_left ===*/
+.post .post-body .list ul {list-style: none;}
+.post .post-body .list ul li{position: relative;}
+.post .post-body .list ul li::before {content: "";height: 10px;width: 10px;border-radius: 50%;border: 1px #4E4DED solid;background: #767EEB;position: absolute;top: 6px;left: -20px;}
+.post .post-body .list ul ul li::before {content: "";height: 10px;width: 10px;border-radius: 50%;border: 1px #4E4DED solid;background: rgba(36, 49, 224, 0.27);position: absolute;top: 6px;left: -20px;}
+.post .post-body .list ul ul ul li::before {content: "";height: 10px;width: 10px;border-radius: 2%;border: 1px #4E4DED solid;background: transparent;position: absolute;top: 6px;left: -20px;}
 
 /*=== ul.list_icon_left ===*/
-.post .post-body ul.list_icon_left {list-style: none;padding: 0;}
-.post .post-body ul.list_icon_left li {color: #000;line-height: 2.4rem;}
-.post .post-body ul.list_icon_left li i {color: #767EEB;margin-right: 10px;}
+.post .post-body .list_icon ul {list-style: none;padding: 0;}
+.post .post-body .list_icon ul li {color: #000;line-height: 2.4rem;}
+.post .post-body .list_icon ul li i {color: #767EEB;margin-right: 10px;}
 
 /*==========================
 @ NAMA      : Text Position
