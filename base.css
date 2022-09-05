@@ -449,8 +449,8 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 .card_id .face_id {display: flex;align-items: center;}
 .card_id .face_id a > img {width: 70px;height: 70px;border-radius: 5%;border: 1px #191919 solid;box-shadow: 0px 2px 8px 2px rgb(0 0 0 / 8%);}
 .card_id .text_name {font-weight: bold;margin-left: 10px;}
-.card_id .text_name a{color: #000000;font-weight: bold;font-size: 22px;}
-.card_id .face_id .text_name .desk_name{color: #000000;font-size: 15px;font-weight: 300;}
+.card_id .text_name a{color: #4E4DED;font-weight: bold;font-size: 22px;}
+.card_id .face_id .text_name .desk_name{color: #767EEB;font-size: 15px;font-weight: 300;}
 .card_id .pro_info {margin-left: 0px;margin-bottom: 20px;font-size: 15px;color: #111;line-height: 1.7;font-weight: 300;}
 
 /*=== WebJam ===*/
