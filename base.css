@@ -505,217 +505,39 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 @-moz-keyframes FirmansyahBio{0% { -moz-transform: rotate(0); } 1% { -moz-transform: rotate(30deg); } 3% { -moz-transform: rotate(-28deg); } 5% { -moz-transform: rotate(34deg); } 7% { -moz-transform: rotate(-32deg); } 9% { -moz-transform: rotate(30deg); } 11% { -moz-transform: rotate(-28deg); } 13% { -moz-transform: rotate(26deg); } 15% { -moz-transform: rotate(-24deg); } 17% { -moz-transform: rotate(22deg); } 19% { -moz-transform: rotate(-20deg); } 21% { -moz-transform: rotate(18deg); } 23% { -moz-transform: rotate(-16deg); } 25% { -moz-transform: rotate(14deg); } 27% { -moz-transform: rotate(-12deg); } 29% { -moz-transform: rotate(10deg); } 31% { -moz-transform: rotate(-8deg); } 33% { -moz-transform: rotate(6deg); } 35% { -moz-transform: rotate(-4deg); } 37% { -moz-transform: rotate(2deg); } 39% { -moz-transform: rotate(-1deg); } 41% { -moz-transform: rotate(1deg); } 43% { -moz-transform: rotate(0); } 100% { -moz-transform: rotate(0); } }
 @keyframes FirmansyahBio{0% { transform: rotate(0); } 1% { transform: rotate(30deg); } 3% { transform: rotate(-28deg); } 5% { transform: rotate(34deg); } 7% { transform: rotate(-32deg); } 9% { transform: rotate(30deg); } 11% { transform: rotate(-28deg); } 13% { transform: rotate(26deg); } 15% { transform: rotate(-24deg); } 17% { transform: rotate(22deg); } 19% { transform: rotate(-20deg); } 21% { transform: rotate(18deg); } 23% { transform: rotate(-16deg); } 25% { transform: rotate(14deg); } 27% { transform: rotate(-12deg); } 29% { transform: rotate(10deg); } 31% { transform: rotate(-8deg); } 33% { transform: rotate(6deg); } 35% { transform: rotate(-4deg); } 37% { transform: rotate(2deg); } 39% { transform: rotate(-1deg); } 41% { transform: rotate(1deg); } 43% { transform: rotate(0); } 100% { transform: rotate(0); } }
 
+/*=== 4.Footer Box > My Links ===*/
+.footer_box .my_links {width:none;}
+.footer_box .my_links .links_title {text-align: center;font-weight:bold; margin-top: 15px;padding: 5px;box-sizing:border-box; font-size: 23px;}
+.footer_box .my_links .links_inner {max-width: 1100px;margin: 0 auto;padding: 0px 0px;display: grid;grid-template-columns: repeat(4, 1fr);grid-gap: 2px;align-items: flex-start;justify-content: center;}
+.footer_box .my_links .links_inner ul li {list-style: none; line-height: .95em;} 
+.footer_box .my_links .links_inner ul li h3 {color: #767EEB;font-size: 1em;font-weight: bold;line-height: .70em;}
+.footer_box .my_links .links_inner ul li h3 i {margin-right: 5px;color: #767EEB;}
+.footer_box .my_links .links_inner ul li span.diverti {position:relative;font-weight:bold;font-size:11px;top: -16px; width:none;color:aeaafe;}
+.footer_box .my_links .links_inner ul li a {color: #000;font-size: 15px;}
+   /*--- My Links | Media | ---*/
+@media(max-width: 700px) {
+.footer_box .my_links .links_inner {
+  grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width: 500px) {
+.footer_box .my_links .links_inner {
+  grid-template-columns: 1fr;
+  }
+.footer_box .my_links .links_inner ul {
+  margin-bottom: 25px;
+  }
+}
+
 /*=== 4.Footer Box > Copyright ===*/
 .footer_box .copyright {margin-left: 25px;margin-bottom: 0px;}
 .footer_box .copyright .list-copyright {font-size: 11px;color:#000;}
 .footer_box .copyright .list-copyright a {color: #4E4DED;}
 
-/*=== Hapus semua sampe bawah ===*/
-.footercup {color: #616161;padding: 0px 0px;margin-bottom: 0px;border-top: 0px #cecece solid;font-family: 'Source Sans Pro', sans-serif;}
-.footercup .liptop {width: none;box-sizing: border-box;padding-left: 0.50em;padding-right: 0.50em;}
-.foutercup .liptop .listtron {left: 0;width: none;height: 10px;margin-top: -20px;margin-left: 0;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;background-color: #4E4DED;position: relative;}
 
-/*=== Paragrapy Sintesis ===*/
-.footercup .paragraph__sintesis__apriori .wave-container,
-.paragraph__sintesis__apriori .wave-top, .paragraph__sintesis__apriori .wave-bottom {background: #eaeef6;max-width: 100%;margin: 0 auto;}
-.footercup .paragraph__sintesis__apriori .wave-top,
-.footercup .paragraph__sintesis__apriori .wave-bottom {width: 100%;}
-.footercup .paragraph__sintesis__apriori .wave-top > svg,
-.footercup .paragraph__sintesis__apriori .wave-bottom > svg {display: block;}
-.footercup .paragraph__sintesis__apriori .wave-container {position: relative;z-index: 6;}
-.footercup .paragraph__sintesis__apriori .wave-top {margin-bottom: -5px;}
-.footercup .paragraph__sintesis__apriori .wave-bottom {margin-top: -5px;}
-.footercup .paragraph__sintesis__apriori .wave-container, 
-.footercup .paragraph__sintesis__apriori .wave-top, 
-.footercup .paragraph__sintesis__apriori .wave-bottom {position: relative;color: #FFF;text-align: center;overflow: hidden;}
-.footercup .paragraph__sintesis__apriori .wave-container {background: #767EEB;}
-.footercup .paragraph__sintesis__apriori .wave-container .deskrip-text-id .sintesis_apriori {          }
-.footercup .paragraph__sintesis__apriori .wave-container .deskrip-text-id p{color: #fff;margin: 7rem 1.25rem 2.5rem 1.25rem;}
+/*===B===A===R===I===S===
 
-/*======= Hapus Aja Nanti ===*/
-.card_id .bott_info a.date {
-  font-weight: 600;
-  font-family: 'Neonderthaw', cursive;
-  text-shadow: 0 2px white, 0 3px #666;
-}
-.bott_info {
-  display: flex;
-  justify-content: space-between;
-}
-.bott_info .check {
-  width: none;
-  font-size: 15px;
-}
-.bott_info .date {
-  color: #4E4DED;
-  font-size: 15px;
-}
-.deskrip-text-id {
-  padding: 10px;
-  width: none;
-  font-size: 17px;
-  text-align: center;
-  box-sizing: border-box;
-  }
-.deskrip-text-id p {
-  color: grey;
-  font-size: 17px;
-  }
-.deskrip-text-id p i {
-  color: #ff0000;
-  font-size: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
-  }
-/* Footer Flexuser */
-.footercup .flexuser {position: relative;top: 0;max-width: 100%;margin: 0 auto;padding: 0; height:250px;}
-.footercup .flexuser hr{border: 0.01rem #fff solid;}
-.footercup .flexuser .fix {
-  float:left;
-  margin: 0% 0% 0% 0%;
-  box-sizing: border-box;
-}
-.footercup .flexuser .fix:first-child { margin-left: 0;}
-.footercup .flexuser .boxuser_1 {
-  width: 34.99%;
-}
-.footercup .flexuser .boxuser_2 {
-  width: 65%;
-}
-@-moz-keyframes FirmansyahBio{0% { -moz-transform: rotate(0); } 1% { -moz-transform: rotate(30deg); } 3% { -moz-transform: rotate(-28deg); } 5% { -moz-transform: rotate(34deg); } 7% { -moz-transform: rotate(-32deg); } 9% { -moz-transform: rotate(30deg); } 11% { -moz-transform: rotate(-28deg); } 13% { -moz-transform: rotate(26deg); } 15% { -moz-transform: rotate(-24deg); } 17% { -moz-transform: rotate(22deg); } 19% { -moz-transform: rotate(-20deg); } 21% { -moz-transform: rotate(18deg); } 23% { -moz-transform: rotate(-16deg); } 25% { -moz-transform: rotate(14deg); } 27% { -moz-transform: rotate(-12deg); } 29% { -moz-transform: rotate(10deg); } 31% { -moz-transform: rotate(-8deg); } 33% { -moz-transform: rotate(6deg); } 35% { -moz-transform: rotate(-4deg); } 37% { -moz-transform: rotate(2deg); } 39% { -moz-transform: rotate(-1deg); } 41% { -moz-transform: rotate(1deg); } 43% { -moz-transform: rotate(0); } 100% { -moz-transform: rotate(0); } }
-@keyframes FirmansyahBio{0% { transform: rotate(0); } 1% { transform: rotate(30deg); } 3% { transform: rotate(-28deg); } 5% { transform: rotate(34deg); } 7% { transform: rotate(-32deg); } 9% { transform: rotate(30deg); } 11% { transform: rotate(-28deg); } 13% { transform: rotate(26deg); } 15% { transform: rotate(-24deg); } 17% { transform: rotate(22deg); } 19% { transform: rotate(-20deg); } 21% { transform: rotate(18deg); } 23% { transform: rotate(-16deg); } 25% { transform: rotate(14deg); } 27% { transform: rotate(-12deg); } 29% { transform: rotate(10deg); } 31% { transform: rotate(-8deg); } 33% { transform: rotate(6deg); } 35% { transform: rotate(-4deg); } 37% { transform: rotate(2deg); } 39% { transform: rotate(-1deg); } 41% { transform: rotate(1deg); } 43% { transform: rotate(0); } 100% { transform: rotate(0); } } 
-@media only screen and (max-width: 900px) {
-.footercup .flexuser {height:550px;}
-.footercup .flexuser .fix{margin: 0;}
-.footercup .flexuser .boxuser_1,
-.footercup .flexuser .boxuser_2 {width:100%;}
-}
-.sosial-notifikasi {width:100%; min-width:300px; height:auto; border-top: 0px #000 solid; border-radius:0px; display: block; margin:auto; line-height:40px; padding:0px} 
-.sosial-notifikasi .lonceng__ {padding:15px 15px 5px;text-align:center;} 
-.sosial-notifikasi .lonceng {font-weight: 600;margin:auto; color:#000;} 
-.sosial-notifikasi .lonceng:before {content:''; width:50px; height:50px; display:block; text-align:center; margin:auto; border-radius:100px; transition:all .3s ease; -webkit-animation:FirmansyahBio 5s 0s ease-in-out infinite; -webkit-transform-origin:50% 4px; -moz-animation:FirmansyahBio 5s 0s ease-in-out infinite; -moz-transform-origin:50% 4px; animation:FirmansyahBio 5s 0s ease-in-out infinite; transform-origin:50% 4px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z' fill='%234E4DED'/%3E%3C/svg%3E") center center / 50px no-repeat;}
-
-.footercup ul {
-  list-style: none;
-  }
-.footercup ul li{
-  list-style: none;
-  }
-.footbox ul,
-.links ul {list-style-type: none;}
-.links {
-  color: #616161;
-  font-size: 14px;
-  padding: 0px 0;
-}
-/* Social Icons */
-.footercup .socialcap {
-  text-align: center;
-}
-.footercup .socialcap a {
-  width: 25px;
-  color: #fff;
-  height: 25px;
-  padding: 5px;
-  font-size: 20px;
-  margin-left: 3px;
-  margin-top: 6px;
-  border-radius: 5px;
-  background: #767eeb;
-  display: inline-block;
-  vertical-align: middle;
-  
-}
-.footercup .socialcap a:hover {
-  background: #65c2ed;
-}
-.linkscup ul h3 {
-  color: #767EEB;
-  font-size: 1em;
-  font-weight: bold;
-  line-height: .70em;
-}
-.linkscup ul h3 i {
-  margin-right: 5px;
-  color: #767EEB;
-  }
-.linkscup ul li span.diverti {position:relative;font-weight:bold;font-size:11px;
-top: -16px; width:none;color:aeaafe;}
-.linkscup ul a {
-  color: #000;
-  font-size: 15px;
-}
-.linkscup li {
-  line-height: .95em;
-}
-.links-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 0px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2px;
-  align-items: flex-start;
-  justify-content: center;
-}
-/*=== FOOTER FOOTBOX | 00004 |===*/
-.footercup .footboxcup {
-  color: #000;
-  font-size: 14px;
-  padding: 20px 0;
-}
-.footercup .footboxcup a{
- color: #000;
-}
-.footbox-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 10px 0 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.footercup .footboxcup div {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-.footercup .footboxcup div i {
-  margin-right: 10px;
-}
-.footercup .footboxcup ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-.footercup .footboxcup ul li a{
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-/* === FOOTER | MEDIA |===*/
-@media(max-width: 700px) {
-.links-inner {
-  grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media(max-width: 500px) {
-.links-inner {
-    grid-template-columns: 1fr;
-  }
-  .links .links-inner ul {
-    margin-bottom: 25px;
-  }
-}
-/* === FOOTER | MEDIA |===*/
-.footercup .copyright {
-  margin-left: 25px;
-  margin-bottom: 0px;
-  }
-.footercup .copyright .list-copyright {font-size: 11px;color:#000;}
-.footercup .copyright .list-copyright a {color: #4E4DED;}
-
-
-
-/*===B===A===R===I===S===°===S===K===A===T===*/
+===M===E===D===I===A===*/
 
 /*==========================
 @ NAMA    : Media
@@ -725,14 +547,10 @@ top: -16px; width:none;color:aeaafe;}
 
 /*== Lebar Ukuran 60 em atau lebih kecil ==*/
 @media(max-width: 60em) {
-.footercup {
-  margin-bottom: 0px;
-  }
+
 }
 
 /*== Lebar Ukuran 30 em atau lebih kecil ==*/
 @media(max-width: 30em) {
-.footercup {
-  margin-bottom: 0px;
-  }
+
 }
