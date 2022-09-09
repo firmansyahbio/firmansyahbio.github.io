@@ -347,6 +347,52 @@
 .post .post-body .container_quotes blockquote p { font-weight: bold; margin-bottom: 15px; font-size: 20px; line-height: 1.20em; color: gray; text-align: left; position: relative;}
 .post .post-body .container_quotes blockquote i.name {font-size: 12px;font-weight: italic;}
 
+/*=== .container_design ===*/
+.container_design .choose {
+  transition: .4s;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+}
+.container_design .choose::before {
+  content: "";
+  height: 70%;
+  width: 90%;
+  border-radius: 50%;
+  position: absolute;
+  top: -130px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background: rgba(36, 49, 224, 0.27);
+}
+.container_design .choose:hover{
+  background: #fff;
+  transform: translateY(-10px);
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+}
+.container_design .choose:hover span i{
+  color: white;
+  background: #4E4DED;
+}
+.container_design .choose span i::before {
+margin-left: 0;
+font-size: 40px;
+}
+.container_design .choose span i {
+height: 85px;
+width: 85px;
+line-height: 85px;
+background: white;
+border-radius: 50%;
+color: #767EEB;
+position: relative;
+transition: .6s;
+display: inline-block;
+}
 /*==========================
 @ NAME       : Skill
 @ DOCS       : Css
