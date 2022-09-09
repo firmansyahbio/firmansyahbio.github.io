@@ -62,6 +62,59 @@ aside a {
   -ms-user-select: none;
   user-select: none;
 }
+.toggle-bar,
+.toggle-bar::before,
+.toggle-bar::after,
+.toggle-wrap.active .toggle-bar,
+.toggle-wrap.active .toggle-bar::before,
+.toggle-wrap.active .toggle-bar::after {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.toggle-bar {
+  width: 38px;
+  margin: 10px 0;
+  position: relative;
+border-radius: 5px;
+  border-top: 6px solid #fff;
+  display: block;
+}
+.toggle-bar::before,
+.toggle-bar::after {
+  content: "";
+  display: block;
+  background: #fff;
+border-radius: 5px;
+  height: 6px;
+  width: 38px;
+  position: absolute;
+  top: -16px;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: 13%;
+  -webkit-transform-origin: 13%;
+  transform-origin: 13%;
+}
+.toggle-bar::after {
+  top: 4px;
+}
+.toggle-wrap.active .toggle-bar {
+  border-top: 6px solid transparent;
+}
+.toggle-wrap.active .toggle-bar::before {
+border-radius: 5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.toggle-wrap.active .toggle-bar::after {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
 .header {
 position: fixed;
 top: 0%;
