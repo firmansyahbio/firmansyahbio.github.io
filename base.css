@@ -537,6 +537,54 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 .footer_box .copyright .list-copyright {font-size: 11px;color:#000;}
 .footer_box .copyright .list-copyright a {color: #4E4DED;}
 
+/*==========================
+@ NAMA    : Share Group
+@ DOCS    : Css
+@ CLASS   : footercup
+===========================*/
+/*=== 1.Share > Share Dialog ===*/
+.share-dialog {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transform: translate(0px, 0px);
+}
+.share-dialog {
+  display: none;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0 8px 16px rgba(0,0,0,.15);
+  z-index: -1;
+  border: 0px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.share-dialog.is-open {
+  display: block;
+  z-index: 9999;
+}
+
+.share-dialog svg.close-button {height: 30px;width: 30px;}
+.share-dialog h3.dialog_title {
+  color: #767EEB;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Encode Sans', sans-serif;
+  }
+.share-dialog .share_deskripsi_error {
+  width: none;
+  height: none;
+  text-align: center;
+  background: #fff;
+}
+.share-dialog .share_deskripsi_error p{
+  font-size: 12px;
+  color: #000;
+  font-family: 'Encode Sans', sans-serif;
+}
+.share-dialog .share_deskripsi_error a{color:pink;font-size: 15px; text-transform:uppercase;font-family: 'Encode Sans', sans-serif;}
 
 /*===B===A===R===I===S===
 
