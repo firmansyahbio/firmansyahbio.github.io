@@ -36,7 +36,7 @@
 
 /*=== Paragraf and Tag Code ===*/
 .post .post-body p {color: #000000;font-size: 16px;margin-bottom: 30px;font-family: 'Source Sans Pro', sans-serif;}
-.post .post-body p code {padding: 2px 2px;background:#767eeb;color:#fff;border-radius:2px;box-sizing:border-box;font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+.post .post-body p code {padding: 2px 2px;background:#767eeb;color:#fff;border-radius:2px;box-sizing:border-box;font-family: 'Monospace', sans-serif;box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;}
 
 /*=== Paragraf and Tag Code ===*/
 
