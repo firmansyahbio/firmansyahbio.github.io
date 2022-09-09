@@ -543,48 +543,18 @@ pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4
 @ CLASS   : footercup
 ===========================*/
 /*=== 1.Share > Share Dialog ===*/
-.share-dialog {
-  position: fixed;
-  top: 0%;
-  left: 0%;
-  transform: translate(0px, 0px);
-}
-.share-dialog {
-  display: none;
-  width: 100%;
-  max-width: 100%;
-  box-shadow: 0 8px 16px rgba(0,0,0,.15);
-  z-index: -1;
-  border: 0px solid #ddd;
-  padding: 15px;
-  border-radius: 5px;
-  background-color: #fff;
-  box-sizing: border-box;
-}
-.share-dialog.is-open {
-  display: block;
-  z-index: 9999;
-}
-
+.share-dialog {position: fixed;top: 0%;left: 0%;transform: translate(0px, 0px);}
+.share-dialog {display: none;width: 100%;max-width: 100%;box-shadow: 0 8px 16px rgba(0,0,0,.15);z-index: -1;border: 0px solid #ddd;padding: 15px;border-radius: 5px;background-color: #fff;box-sizing: border-box;}
+.share-dialog.is-open {display: block;z-index: 9999;}
 .share-dialog svg.close-button {height: 30px;width: 30px;}
-.share-dialog h3.dialog_title {
-  color: #767EEB;
-  font-size: 25px;
-  text-align: center;
-  font-family: 'Encode Sans', sans-serif;
-  }
-.share-dialog .share_deskripsi_error {
-  width: none;
-  height: none;
-  text-align: center;
-  background: #fff;
-}
-.share-dialog .share_deskripsi_error p{
-  font-size: 12px;
-  color: #000;
-  font-family: 'Encode Sans', sans-serif;
-}
+.share-dialog h3.dialog_title {color: #767EEB;font-size: 25px;text-align: center;font-family: 'Encode Sans', sans-serif;}
+.share-dialog .share_deskripsi_error {width: none;height: none;text-align: center;background: #fff;}
+.share-dialog .share_deskripsi_error p{font-size: 12px;color: #000;font-family: 'Encode Sans', sans-serif;}
 .share-dialog .share_deskripsi_error a{color:pink;font-size: 15px; text-transform:uppercase;font-family: 'Encode Sans', sans-serif;}
+.share-dialog .link_url {display: block;font-size: 18px;width: 100%;justify-content: center;align-items: center;padding: 5px 10px;border-radius: 5px;background-color: #eee;box-sizing: border-box;}
+.share-dialog .copy_url {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-family: 'Encode Sans', sans-serif;}
+.share-dialog a.btn {padding: 5px 10px;border: none;border-radius: 5px;font-size: 12px;text-decoration: none;font-weight: bold;border: 1px #111 solid;transition: all 0.1s ease-in;font-family: 'Encode Sans', sans-serif;}
+.share-dialog a.btn:hover {color: #FFF;background: #4E4DED;border: 1px solid currentColor;}
 
 /*===B===A===R===I===S===
 
