@@ -115,6 +115,20 @@ border-radius: 5px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
+/*=== Section Bar ===*/
+.container_01 {
+width: 100%;
+min-height: 600px;
+position: relative;
+background: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+}
+.container_03 {
+width: 100%;
+min-height: 600px;
+position: relative;
+background: linear-gradient(-20deg, #ff1010 0%, #000080 100%);
+}
 .header {
 position: fixed;
 top: 0%;
