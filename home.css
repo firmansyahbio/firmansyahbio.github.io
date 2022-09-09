@@ -4,6 +4,64 @@ padding: 0%;
 width: 100%;
 background: #ffffff;
 }
+nav {
+  padding: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  position: fixed;
+  background: #00baff;
+  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.6), 0 -0.2rem 0.2rem rgba(255, 255, 255, 0.3);
+}
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+hgroup {
+  float: left;
+  margin: 2px 2px 2px 10px;
+}
+aside {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background-color: #757575;
+  color: #fff;
+  left: -300px;
+  top: 0;
+  bottom: 0;
+  z-index: 5000;
+  box-sizing: border-box;
+  padding-top: 70px;
+  transition: all 0.4s ease;
+}
+aside.active {
+  left: 0;
+}
+aside a {
+  display: block;
+  padding: .60em;
+  text-decoration: none;
+  font-size: 1em;
+  color: #fff;
+  border-bottom: 1px solid #414141;
+}
+.toggle-wrap {
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+
+  /*disable selection*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 .header {
 position: fixed;
 top: 0%;
