@@ -73,7 +73,7 @@
 @ VALUES    : 20 Css
 @ DOCUMENT  : C-00-0-001
 ===========================*/
-.blog-name {text-shadow: 0 1px white, 0 2px #666;}
+.blog-name {text-shadow: 0 .1em white, 0 .1em #666;}
 .PapaTheo section {margin: 0;box-sizing: border-box;}
 
 /*==========================
