@@ -75,7 +75,7 @@
 @ DOCUMENT  : C-00-0-001
 ===========================*/
 .PapaTheo section {margin: 0;box-sizing: border-box;}
-
+.blog-name {letter-spacing: 3px; text-shadow: 0 0.03em white, 0 0.04em #111;}
 /*==========================
 @ NAMA         : Tema Blogger Default
 @ DOCUMENT     : Css
