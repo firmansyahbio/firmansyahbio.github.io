@@ -8,8 +8,6 @@
 @ DOCS    : Css
 @ CLASS   : .post-body
 ===========================*/
-/*=== Post ===*/
-
 
 /*=== Post Font Family ===*/
 .post .post-title {opacity: 0.9;line-height: 1.6;font-weight: bold;box-sizing: border-box;text-transform: uppercase;font-family: 'Source Sans Pro', sans-serif;}
