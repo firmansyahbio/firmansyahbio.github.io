@@ -15,9 +15,7 @@ Kinerja yang cepat membuat situs website lebih mudah di temukan oleh peramban je
 >### 5. Kecepatan
 Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban jelajah Bagian penting kecepatan seperti contoh berikut
 
-<a href="https://github.com/Firmansyahbio/code/blob/main/LICENSE">
-  <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="APACHE License">
- </a>
+
 
 [ EDITOR](editor.html)<br/>
 
