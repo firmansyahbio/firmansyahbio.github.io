@@ -1,5 +1,5 @@
 # Firmansyah
-[Website](https://firmansyahbio.github.io) ini sebagai bagian untuk membangun alur kerja yang baik, Cepat, Dan bersih untuk sebuah proyek programming.
+[Website](https://firmansyahbio.github.io) ini sebagai bagian untuk membangun alur kerja yang baik, Cepat, Dan bersih dalam sebuah proyek programming.
 [Firmansyah](https://firmansyahbio.blogspot.com)
 ## Daftar Bagian
 >### 1. Mengukur
