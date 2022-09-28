@@ -1,7 +1,6 @@
 # Firmansyah
-[Website](https://firmansyahbio.github.io) ini sebagai dari frasa apa yang telah terbangun di dalam web pribadi saya tentang cara suatu hubungan kode bertaut di jalur lingkarnya<br/>
-
-[VIEW WEBSITE](https://firmansyahbio.blogspot.com)
+[Website](https://firmansyahbio.github.io) ini sebagai bagian dari membangun alur kerja yang baik, Cepat, Dan bersih untuk sebuah proyek programming.
+[Firmansyah](https://firmansyahbio.blogspot.com)
 ## Daftar Bagian
 >### 1. Mengukur
 `Membangun` alur kerja yang `baik` dan benar Mengapa?
