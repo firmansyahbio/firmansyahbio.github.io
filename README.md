@@ -17,10 +17,10 @@ Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban 
 
 
 
-[ EDITOR](editor.html)<br/>
+[EDITOR](editor.html)<br/>
 
-## Alat Membangun
->### Mulai Menguji 
+## Alat
+>### Penguji web
 - [ Measure](https://web.dev/measure/)<br/>
 - [ Search Console](https://search.google.com/search-console)<br/>
 - [ Test Data Struktur](https://search.google.com/test/rich-results)<br/>
