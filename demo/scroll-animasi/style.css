@@ -1,11 +1,12 @@
 .viewbox {
   width: 100%;
+  margin: 15px;
   height: 600px;
-  display: block;
   padding: 15px;
-  box-sizing: border-box;
+  display: block;
   text-align: center;
   position: relative;
+  box-sizing: border-box;
   }
 .box_green {
   color: white;
