@@ -1,3 +1,7 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+  }
 .viewbox {
   width: 100%;
   margin: 15px;
