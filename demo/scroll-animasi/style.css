@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
   }
 .viewbox {
-  width: 100%;
+  width: none;
   margin: 15px;
   height: 600px;
   padding: 15px;
