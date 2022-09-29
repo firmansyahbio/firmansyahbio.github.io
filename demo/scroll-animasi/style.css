@@ -1,13 +1,13 @@
 body {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   }
 .viewbox {
-  width: none;
+  width: 80%;
   margin-top: 15px;
   height: 600px;
   padding: 15px;
-  display: block;
   text-align: center;
   box-sizing: border-box;
   }
