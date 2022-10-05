@@ -1,3 +1,149 @@
 body {
   background-image: linear-gradient(-210deg, #E3FDF5 50%, #FFE6FA 50%);
   }
+
+.navigator {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  display: block;
+  left: 0;
+  top: 0;
+  z-index: 800;
+  box-shadow: 0px 0px 5px #444;
+}
+.main-logo {
+  cursor: pointer;
+  position: absolute;
+  width: none;
+  height: 40px;
+  text-align: center;
+  float: left;
+  top: 5px;
+  left: 10px;
+  z-index: 2;
+  display: block;
+  padding: 2px;
+  box-sizing: border-box;
+  font-size: 2.20em;
+  color: #111;
+}
+.main-logo a {
+  color: #4e4ded;
+  text-decoration: none;
+  font-family: 'Lato' , sans-serif;
+}
+.text-logo {
+  font-size: 2.30em;
+  color: #111;
+}
+.menu-btn {
+  cursor: pointer;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  padding-top: 5px;
+  top: 5px;
+  left: 10px;
+  z-index: 2;
+  display: none;
+  border: 0.04em #cecece solid;
+}
+.menu-btn i{
+  color: #ccc;
+  }
+.main-nav {
+  margin-left: 200px;
+  }
+.main-menu a {
+  color: #111;
+  font-size: 20px;
+  margin-left: 10px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  }
+.main-nav {
+  float: right;
+  position: absolute;
+  z-index: 9000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -20px;
+  height: 50px;
+  padding: 10px 0;
+  font-size: 13px;
+  top: 10px;
+}
+.main-nav ul {
+  display: flex;
+  list-style: none;
+}
+.main-nav ul li {
+  padding: 0 5px;
+}
+.main-nav ul li a {
+  padding-bottom: 2px;
+}
+.main-nav ul li a:hover {
+  border-bottom: 2px solid #262626;
+}
+.main-nav ul.main-menu {
+  flex: 1;
+  margin-left: 10px;
+}
+@media(max-width: 900px) {
+.menu-btn {
+    display: block;
+  }
+.menu-btn:hover {
+    opacity: 0.5;
+  }
+.main-nav ul.right-menu {
+    margin-right: 50px;
+  }
+.main-nav {
+  z-index: 10;
+  margin-left: 0px;
+  }
+.main-menu a {
+  color: #111;
+  margin-left: 0px;
+  }
+.main-logo {
+ left: 60px;
+  }
+.main-nav ul.main-menu {
+  display: block;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 50;
+  background: #f2f2f2;
+  margin-top: 50px;
+  width: 50%;
+  height: 100%;
+  border-right: #ccc 1px solid;
+  opacity: 0.9;
+  padding: 30px;
+  transform: translateX(-500px);
+  transition: transform 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
+  }
+.main-nav ul.main-menu li {
+  padding: 10px 3px 10px 3px;
+  border-bottom: #ccc solid 1px;
+  font-size: 14px;
+  }
+.main-nav ul.main-menu li:last-child {
+  border-bottom: 0;
+  }
+.main-nav ul.main-menu.show {
+  transform: translateX(-20px);
+  }
+}
