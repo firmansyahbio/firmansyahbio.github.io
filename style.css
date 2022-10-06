@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); 
 body {
   background-image: linear-gradient(-210deg, #E3FDF5 50%, #FFE6FA 50%);
@@ -37,11 +38,7 @@ body {
   font-size: 2.00em;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: 'Lato' , sans-serif;
-}
-.text-logo {
-  font-size: 2.30em;
-  color: #111;
+  font-family: 'Delius Unicase' , cursive;
 }
 .menu-btn {
   cursor: pointer;
