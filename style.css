@@ -56,17 +56,24 @@ body {
 }
 .menu-btn i{
   color: #ccc;
-  }
+}
 .main-nav {
   margin-left: 200px;
-  }
+}
+.main-menu svg{
+  margin-bottom: -8px;
+  width: 30px;
+  height: 30px;
+  fill: none;
+  position: relative;
+}
 .main-menu a {
   color: #111;
   font-size: 20px;
   margin-left: 10px;
   letter-spacing: 2px;
   text-decoration: none;
-  }
+}
 .main-nav {
   float: right;
   position: absolute;
