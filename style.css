@@ -54,8 +54,10 @@ body {
   display: none;
   border: 0.04em #cecece solid;
 }
-.menu-btn i{
-  color: #ccc;
+.menu-btn svg {
+  fill: #ccc;
+  width: 30px;
+  height: 30px;
 }
 .main-nav {
   margin-left: 200px;
