@@ -61,9 +61,7 @@ body {
   width: 30px;
   height: 30px;
 }
-.main-nav {
-  margin-left: 200px;
-}
+
 .main-menu svg{
   margin-bottom: -8px;
   width: 30px;
@@ -80,7 +78,7 @@ body {
   font-family: 'Lato' , sans-serif;
 }
 .main-nav {
-  float: right;
+  right: 20px;
   position: absolute;
   z-index: 9000;
   display: flex;
