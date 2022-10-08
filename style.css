@@ -20,12 +20,12 @@ body {
   box-shadow: 0px 0px 5px #444;
 }
 .main-logo {
-  top: 10px;
+  top: 8px;
   left: 10px;
   z-index: 2;
   float: left;
   width: none;
-  height: 20px;
+  height: 30px;
   padding: 0px;
   display: block;
   cursor: pointer;
@@ -33,9 +33,9 @@ body {
   text-align: center;
 }
 .main-logo a {
-  padding: 5px;
+  padding: 7px;
   color: #4e4ded;
-  font-size: 1.00em;
+  font-size: 1.50em;
   text-decoration: none;
   box-sizing: border-box;
   font-family: 'Delius Unicase' , cursive;
