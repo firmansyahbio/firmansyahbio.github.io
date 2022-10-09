@@ -7,7 +7,7 @@ body {
 -------------------------------------*/
 .frasa {
   width: 100%;
-  padding: 10px 10%;
+  padding: 10px 5%;
   display: block;
   align-items: center;
   box-sizing: border-box;
@@ -38,8 +38,8 @@ body {
 }
 /* Animasi Typing Title
 -------------------------------------*/
-.my_title p{
-  width: 18ch;
+.link_flex a{
+  width: 13ch;
   animation: typing 2s steps(20), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -74,7 +74,10 @@ body {
   font-family: 'Saurce Sans Pro',sans-serif;
 }
 @media (max-width: 900px) {
-  .the-root {
+.frasa {
+  padding: 10px 10%;
+  }
+.the-root {
   margin: 5% auto;
   padding: 0 10%;
   }
