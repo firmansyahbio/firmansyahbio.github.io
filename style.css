@@ -37,27 +37,24 @@ body {
 }
 /* Animasi Typing Title
 -------------------------------------*/
-/*.link_flex {
-  width: 5ch;
-  animation: typing 2s steps(20), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 1px solid;
-}*/
-
-@keyframes typing {
-  from {
-    width: 0
-  }
+.scroll {
+  animation: slide-in .7s .5s ease both;
 }
 
-@keyframes blink {
-  50% {
-    border-color: transparent
+@keyframes slide-in { 
+from { 
+  opacity: 0;
+  transform: translateY(2rem); 
+  }
+to { 
+  opacity: 1;
+  transform: translateY(0); 
   }
 }
 
 
+/* Animasi Typing Title
+-------------------------------------*/
 .the-root {
   margin: 5% auto;
   padding: 0 35% 0 15%;
