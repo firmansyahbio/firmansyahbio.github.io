@@ -3,3 +3,23 @@ body {
   padding: 0;
   background: #fff;
 }
+.the-root {
+  margin: 5% auto;
+  padding: 0 40% 0 15%;
+  font-family: 'Saurce Sans Pro',sans-serif;
+  }
+.the-root p {
+  opacity: 0.5;
+  color: indigo;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 15px;
+  line-height: 1.5em;
+  font-family: 'Saurce Sans Pro',sans-serif;
+}
+@media (max-width: 900px) {
+  .the-root {
+  margin: 5% auto;
+  padding: 0 10%;
+  }
+ }
