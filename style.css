@@ -3,6 +3,34 @@ body {
   padding: 0;
   background: #fff;
 }
+/* Head Frasa Block
+-------------------------------------*/
+.frasa {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 150px;
+  }
+.my_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name_flex {
+  color: #00000086;
+  font-size: 2.00em;
+  font-weight: bold;
+}
+.link_flex {
+  color: #4e4ded;
+  font-size: 1.5em;
+  font-weight: 500;
+  height: fit-content;
+  align-self: flex-end;
+}
+
 /* Animasi Typing Title
 -------------------------------------*/
 .my_title p{
