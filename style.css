@@ -38,7 +38,7 @@ body {
 }
 /* Animasi Typing Title
 -------------------------------------*/
-.link_flex a{
+.link_flex {
   width: 13ch;
   animation: typing 2s steps(20), blink .5s step-end infinite alternate;
   white-space: nowrap;
