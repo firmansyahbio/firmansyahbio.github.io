@@ -37,13 +37,13 @@ body {
 }
 /* Animasi Typing Title
 -------------------------------------*/
-.link_flex {
+/*.link_flex {
   width: 5ch;
   animation: typing 2s steps(20), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 1px solid;
-}
+}*/
 
 @keyframes typing {
   from {
