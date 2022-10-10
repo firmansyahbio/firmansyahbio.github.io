@@ -31,7 +31,7 @@ body {
   align-self: flex-end;
 }
 .link_flex a {
-  color: #736f6f;
+  color: dimgray;
   text-decoration: none;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
@@ -92,11 +92,11 @@ to {
   font-family: 'Saurce Sans Pro',sans-serif;
   }
 .the-root h2 {
-  color: #736f6f;
+  color: dimgray;
   font-size: 24px;
 }
 .the-root p {
-  color: #736f6f;
+  color: dimgray;
   font-weight: 500;
   font-size: 14px;
   margin-top: 15px;
