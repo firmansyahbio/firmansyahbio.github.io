@@ -16,7 +16,7 @@ body {
   z-index: 50;
   position: fixed;
   padding: 0;
-  background: #4e4ded;
+  background: deeppink;
 }
 .toggle-container {
   padding: 3px 3px 3px 3px;
