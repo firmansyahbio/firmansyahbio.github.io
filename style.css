@@ -15,6 +15,7 @@ body {
   }
 .my_flex {
   display: flex;
+  margin-top: 20px;
   align-items: center;
   justify-content: space-between;
 }
