@@ -87,7 +87,7 @@ body {
 }
 
 .pricing-container {
-  background: #ff0000;
+  padding: 0 10%;
 }
 .pricing-container h5 {
   text-align: left;
