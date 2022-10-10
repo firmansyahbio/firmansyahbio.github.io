@@ -164,3 +164,11 @@ to {
     transform: translateY(var(--bounce-height));
   }
 }
+
+#nocopy {
+ user-select:none;
+ -moz-user-select:none;
+ -ms-user-select:none;
+ -khtml-user-select:none;
+ -webkit-user-select:none;
+}
