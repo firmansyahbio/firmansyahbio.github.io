@@ -91,6 +91,10 @@ to {
   padding: 0 35% 0 15%;
   font-family: 'Saurce Sans Pro',sans-serif;
   }
+.the-root h2 {
+  color: #736f6f;
+  font-size: 24px;
+}
 .the-root p {
   color: #736f6f;
   font-weight: 500;
@@ -106,6 +110,9 @@ to {
 .the-root {
   margin: 5% auto;
   padding: 0 10%;
+  }
+.the-root h2 {
+  font-size: 27px;
   }
 .the-root p {
   font-size: 17px;
