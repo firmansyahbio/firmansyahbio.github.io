@@ -141,7 +141,7 @@ to {
   animation: bounce var(--animation-duration) infinite alternate cubic-bezier(.2, .65, .6, 1);
 }
 .box.one {
-  --bg: slateblue;
+  --bg: chlorophyllgreen;
   --bounce-height: -20px;
   --animation-duration: 200ms;
 }
