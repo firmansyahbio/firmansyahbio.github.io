@@ -26,7 +26,6 @@ body {
   font-family: 'Saurce Sans Pro',sans-serif;
 }
 .link_flex {
-  color: deeppink;
   font-size: 1.00em;
   font-weight: 500;
   height: fit-content;
@@ -135,14 +134,17 @@ to {
 .box {
   width: 60px;
   height: 60px;
-  color: #fff;
   display: flex;
-  font-size: 30px;
   background: var(--bg);
   border-radius: 5px;
   will-change: transform;
   align-items: center;
   justify-content: center;
+}
+.box span {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
 }
 .box {
   animation: bounce var(--animation-duration) infinite alternate cubic-bezier(.2, .65, .6, 1);
