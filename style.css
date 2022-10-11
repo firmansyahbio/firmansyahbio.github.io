@@ -136,11 +136,11 @@ to {
   width: 60px;
   height: 60px;
   color: #fff;
+  display: flex;
   font-size: 30px;
   background: var(--bg);
   border-radius: 5px;
   will-change: transform;
-  text-align: center;
   align-items: center;
   justify-content: center;
 }
