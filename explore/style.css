@@ -32,6 +32,7 @@ body {
 
 .pricing-container {
   padding: 0 10%;
+  box-sizing: border-box;
 }
  
 .switch-toggle a {
