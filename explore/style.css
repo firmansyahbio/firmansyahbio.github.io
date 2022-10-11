@@ -16,7 +16,8 @@ body {
   z-index: 50;
   position: fixed;
   padding: 0;
-  background: deeppink;
+  background: #eaeef6;
+  border-bottom: 1px dimgray solid;
 }
 .toggle-container {
   padding: 3px 3px 3px 3px;
@@ -24,10 +25,10 @@ body {
   margin-bottom: 0px;
 }
 .toggle-container label {
-  color: #fff;
+  color: dimgray;
 }
 .toggle-container .btn-primary {
-  background: #767eeb;
+  background: deeppink;
 }
 
 .pricing-container {
@@ -216,6 +217,7 @@ body {
   color: dimgray;
   font-weight: 500;
   font-size: 14px;
+  margin-top: 15px;
   line-height: 1.5em;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
