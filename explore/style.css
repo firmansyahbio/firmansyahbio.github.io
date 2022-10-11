@@ -33,11 +33,7 @@ body {
 .pricing-container {
   padding: 0 10%;
 }
-.pricing-container h5 {
-  text-align: left;
-  text-transform: uppercase;
-}
-
+ 
 .switch-toggle a {
   display: none;
 }
@@ -210,6 +206,11 @@ body {
 
 /* Content About
 ----------------------------------*/
+.pricing-container h2.package-title {
+  color: dimgray;
+  text-transform: uppercase;
+}
+
 .content_about p {
   color: dimgray;
   font-weight: 500;
