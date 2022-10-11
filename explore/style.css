@@ -220,7 +220,7 @@ body {
   font-family: 'Saurce Sans Pro',sans-serif;
 }
 
-@media (max-width: 900px;) {
+@media (max-width: 900px) {
 .content_about p {
   font-size: 17px;
   }
