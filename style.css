@@ -135,9 +135,13 @@ to {
 .box {
   width: 60px;
   height: 60px;
+  color: #fff;
+  font-size: 30px;
   background: var(--bg);
   border-radius: 5px;
   will-change: transform;
+  text-align: center;
+  align-items: center;
 }
 .box {
   animation: bounce var(--animation-duration) infinite alternate cubic-bezier(.2, .65, .6, 1);
