@@ -207,3 +207,18 @@ body {
       -webkit-transform: translate3d(0, 0, 0);
     }
   }
+
+/* Content About
+----------------------------------*/
+.content_about p {
+  color: dimgray;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-family: 'Saurce Sans Pro',sans-serif;
+}
+
+@media (max-width: 900px;) {
+.content_about p {
+  font-size: 17px;
+}
