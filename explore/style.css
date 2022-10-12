@@ -256,6 +256,8 @@ body {
 .prolist ul{
   width:100%;
   display: block;
+  position: relative;
+  box-sizing: border-box;
   color:#000 !important;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
