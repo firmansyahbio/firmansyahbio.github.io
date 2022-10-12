@@ -339,6 +339,11 @@ body {
   color: dimgray;
   font-size: 20px;
 }
+.wishlist svg {
+  fill: dimgray;
+  width: 20px;
+  height: 20px;
+}
 .wishlist:hover {
   color: deeppink;
 }
