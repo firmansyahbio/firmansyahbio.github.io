@@ -1,7 +1,21 @@
+/* Mode Tampilan Terang
+-------------------------------*/
+.theme-light {
+  --bg-base: #eaeef6;
+  --cl-body: #191919;
+}
+
+/* Mode Tampilan Gelap
+-------------------------------*/
+.theme-dark {
+  --bg-base: #37474F;
+  --cl-body: #b0bec5;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: var(--bg-base);
   font-family: 'Saurce Sans Pro',sans-serif;
 }
 .pricing-bar {
