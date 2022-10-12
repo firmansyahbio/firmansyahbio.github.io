@@ -1,7 +1,7 @@
 /* Mode Tampilan Terang
 -------------------------------*/
 .theme-light {
-  --bg-base: #eaeef6;
+  --bg-base: #ffffff;
   --cl-body: #191919;
 }
 
@@ -71,7 +71,7 @@ body {
   .switch-toggle *:before,
   .switch-toggle *:after {
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 2px;
   }
   .switch-toggle a {
     display: block;
