@@ -151,5 +151,31 @@
         <symbol id="icon-projects" viewBox="0 0 48 48" enable-background="new 0 0 48 48"><path fill='#455A64' d="M42 18c0 1.657-1.343 3-3 3h-30c-1.657 0-3-1.343-3-3v-10c0-1.657 1.343-3 3-3h30c1.657 0 3 1.343 3 3v10z"/><path fill='#BBDEFB' d="M6 15h36v23h-36z"/><circle fill='#8BC34A' cx=10 cy=11 r="2"/><circle fill='#FFEB3B' cx=16 cy=11 r="2"/><path fill='#FAFAFA' d="M40 12c0 .553-.447 1-1 1h-17c-.553 0-1-.447-1-1v-2c0-.553.447-1 1-1h17c.553 0 1 .447 1 1v2z"/><path fill='#3F51B5' d="M30.5 30h-11c-.182 0-.35-.099-.438-.258s-.097-.354 0-.507l5.507-8c.182-.293.666-.293.848 0l5.507 8c.097.153.102.348.014.507s-.256.258-.438.258zM14.134 40.153c10.599 3.123 12.866-2.916 12.866-10.153h-4c0 7.375-2.243 10.643-8.866 10.153z"/></symbol>
       </defs>
     </svg>
+  <script>
+//<![CDATA[
+const shareButton = document.querySelector('.share-button');
+const shareDialog = document.querySelector('.share-dialog');
+const closeButton = document.querySelector('.close-button');
+
+shareButton.addEventListener('click', event => {
+  if (navigator.share) { 
+   navigator.share({
+      title: 'Firmansyah',
+      text : 'Share',
+      url: ''
+    }).then(() => {
+      console.log('Thanks for sharing!');
+    })
+    .catch(console.error);
+    } else {
+        shareDialog.classList.add('is-open');
+    }
+});
+
+closeButton.addEventListener('click', event => {
+  shareDialog.classList.remove('is-open');
+}); 
+//]]>
+</script>
   </body>
 </html>
