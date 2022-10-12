@@ -227,3 +227,75 @@ body {
   font-size: 17px;
   }
 }
+
+/* Content Prolist
+----------------------------------*/
+.content_prolist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 40px;
+}
+.content_prolist .prolist {
+  box-sizing: border-box;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+@media(max-width: 700px) {
+.content_prolist {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width: 500px) {
+.content_prolist {
+    grid-template-columns: 1fr;
+  }
+}
+/* code for hover notification msg detail start here */
+.prolist ul{
+  position: relative;
+  top:0px;
+  left:0;
+  margin:0;
+  padding:20px;
+  width:100%;
+  background:#fff;
+  box-sizing:border-box;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color:#000 !important;
+  display: block;
+}
+.prolist ul li{
+ list-style:none;
+ border-bottom:1px solid rgba(0,0,0,0.2);
+ padding:8px 0;
+  display:flex;
+}
+.prolist ul li:last-child{
+  border-bottom:none;
+}
+.prolist ul li .icon{
+  width:40px;
+  height:40px;
+  background:#ccc;
+  border-radius: 5px;
+  text-align:center;
+  line-height:24px;
+  margin-right:15px;
+}
+.prolist ul li .icon i{
+  color:#fff;
+  font-size:1.3em;
+  line-height:40px;
+}
+.prolist ul li .text{
+  position:relative;
+  top: 0px;
+  cursor:pointer;
+  font-size:1.2em;
+}
+.prolist ul li:hover .text{
+  color:#ff2c74
+}
