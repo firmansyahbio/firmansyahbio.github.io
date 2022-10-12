@@ -255,7 +255,6 @@ body {
 /* code for hover notification msg detail start here */
 .prolist ul{
   width:100%;
-  display: block;
   position: relative;
   box-sizing: border-box;
   color:#000 !important;
