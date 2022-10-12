@@ -254,24 +254,24 @@ body {
 }
 /* code for hover notification msg detail start here */
 .prolist ul{
-  position: relative;
-  top:0px;
-  left:0;
-  margin:0;
-  padding:20px;
   width:100%;
+  display: block;
   background:#fff;
+  position: relative;
   box-sizing:border-box;
+  color:#000 !important;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  color:#000 !important;
-  display: block;
 }
-.prolist ul li{
- list-style:none;
- border-bottom:1px solid rgba(0,0,0,0.2);
- padding:8px 0;
-  display:flex;
+.prolist ul li {
+  padding:8px 0;
+  display: flex;
+  list-style:none;
+  border-bottom:1px solid rgba(0,0,0,0.2);
+}
+.prolist ul li span a {
+ color: dimgray;
+ text-decoration: none;
 }
 .prolist ul li:last-child{
   border-bottom:none;
