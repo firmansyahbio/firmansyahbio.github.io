@@ -218,7 +218,7 @@ body {
 
 .content p {
   color: dimgray;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   margin-top: 15px;
   line-height: 1.5em;
@@ -229,7 +229,7 @@ body {
 }
 @media (max-width: 900px) {
 .content p {
-  font-size: 17px;
+  font-size: 16px;
   }
 }
 
