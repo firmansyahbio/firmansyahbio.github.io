@@ -19,8 +19,7 @@ header {
   z-index: 15;
   position: fixed;
 }
-.pricing-toggle-container{
-  width: 100%;
+.pricing-toggle-container {
   padding: 0;
   background: #eaeef6;
   box-sizing: border-box;
