@@ -14,22 +14,21 @@ header {
   display: block;
 }
 .header_fixed {
-  top: 0;
-  left: 0;
-  z-index: 15;
-  position: fixed;
+  
 }
 .pricing-toggle-container {
-  display: block;
+  top: 0;
+  left: 0;
   padding: 0;
+  z-index: 15;
+  display: block;
+  position: fixed;
   background: #eaeef6;
   box-sizing: border-box;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 .toggle-container {
-  padding: 0px 0px 0px 0px;
-  border-radius: 0px;
-  margin-bottom: 0px;
+  padding: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 .toggle-container label {
   color: dimgray;
