@@ -235,27 +235,27 @@ body {
 
 /* Contacts Form
 ----------------------------------*/
-#contactsform {
+.contactsform {
   border: 1px solid #4E4DED;
   width: 100%;
   padding:10px;
   border-radius: 5px;
   box-sizing: border-box;
 }
-#contactsform input:focus, textarea:focus{
+.contactsform input:focus, textarea:focus{
     border: 1px solid #767EEB;
 }
-#contactsform textarea{
+.contactsform textarea{
     width: 90%;
 }
-#contactsform input,
-#contactsform textarea{
+.contactsform input,
+.contactsform textarea{
      padding: 10px;
      border: 1px solid #4E4DED;
      border-radius: 5px;
      margin-bottom: 15px; 
 }
-#contactsform input[type="submit"]{
+.contactsform input[type="submit"]{
      cursor: pointer;
      background: -webkit-linear-gradient(top, #efefef, #ddd);
      background: -moz-linear-gradient(top, #efefef, #ddd);
@@ -266,7 +266,7 @@ body {
      text-shadow: 0px 1px 1px rgba(255,255,255,1);
      border: 1px solid #ccc;
 }
-#contactsform input[type="submit"]:hover {
+.contactsform input[type="submit"]:hover {
      background: -webkit-linear-gradient(top, #eee, #ccc);
      background: -moz-linear-gradient(top, #eee, #ccc);
      background: -ms-linear-gradient(top, #eee, #ccc);
