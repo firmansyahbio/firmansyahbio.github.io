@@ -22,10 +22,8 @@ header {
   right: 0;
   padding: 0;
   z-index: 15;
-  display: block;
   position: fixed;
   background: #eaeef6;
-  box-sizing: border-box;
 }
 .toggle-container {
   padding: 0;
