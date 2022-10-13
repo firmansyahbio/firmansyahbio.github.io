@@ -4,15 +4,16 @@ body {
   background: #fff;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
-
+.container {
+  margin: 0;
+  padding: 0;
+}
 .pricing-toggle-container{
   top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 5;
-  padding: 0;
   position: -webkit-sticky;
   position: sticky;
+  width: 100%;
+  padding: 0;
   background: #eaeef6;
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
