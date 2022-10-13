@@ -34,7 +34,7 @@ body {
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 .toggle-container {
-  padding: 3px 3px 3px 3px;
+  padding: 0px 0px 0px 0px;
   border-radius: 0px;
   margin-bottom: 0px;
 }
@@ -71,7 +71,8 @@ body {
   .switch-toggle *:before,
   .switch-toggle *:after {
     box-sizing: border-box;
-    border-radius: 2px;
+    border-radius: 0px;
+    border-bottom: 3px deeppink solid;
   }
   .switch-toggle a {
     display: block;
