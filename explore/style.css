@@ -42,7 +42,7 @@ body {
   color: dimgray;
 }
 .toggle-container .btn-primary {
-  background: dimgrey;
+  border-bottom: 3px deeppink solid;
 }
 
 .pricing-container {
@@ -72,7 +72,6 @@ body {
   .switch-toggle *:after {
     box-sizing: border-box;
     border-radius: 0px;
-    border-bottom: 3px deeppink solid;
   }
   .switch-toggle a {
     display: block;
