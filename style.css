@@ -5,6 +5,11 @@ body {
 }
 /* Head Frasa Block
 -------------------------------------*/
+.bunga {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
 .frasa {
   width: 100%;
   padding: 10px 5%;
