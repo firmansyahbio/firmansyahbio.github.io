@@ -34,10 +34,12 @@ body {
   border-bottom: 3px deeppink solid;
 }
 
-.pricing-container {
+.viewbar_content {
   height: 100%;
-  padding: 0 10%;
   overflow: auto;
+}
+.pricing-container {
+  padding: 0 10%;
   box-sizing: border-box;
 }
  
