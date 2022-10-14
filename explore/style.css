@@ -35,6 +35,7 @@ body {
 }
 
 .pricing-container {
+  height: 100%;
   padding: 0 10%;
   overflow: auto;
   box-sizing: border-box;
