@@ -222,7 +222,9 @@ body {
   color: dimgray;
   text-transform: uppercase;
 }
-
+.content {
+  overflow-y: auto;
+}
 .content p {
   color: dimgray;
   font-weight: 400;
