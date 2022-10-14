@@ -322,6 +322,7 @@ body {
   z-index: 105;
   height: 100%;
   display: block;
+  overflow: auto;
   position: fixed;
   background: #ffffff;
   padding-bottom: 5px;
@@ -331,9 +332,9 @@ body {
   box-shadow: 0px -9px 50px -30px black;
   font-family: 'Montserrat', sans-serif;
   -webkit-transform: translate3d(var(--x), var(--y), var(--z));
-	      transform: translate3d(var(--x), var(--y), var(--z));
-	transition: 2s cubic-bezier(0.33, 1, 0.53, 1);
-	}
+  transform: translate3d(var(--x), var(--y), var(--z));
+  transition: 2s cubic-bezier(0.33, 1, 0.53, 1);
+}
 .main__body[hidden] {--y: 150%;}
 .menu__header {
   display: flex;
