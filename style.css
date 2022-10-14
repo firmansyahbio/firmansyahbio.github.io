@@ -6,6 +6,9 @@ body {
 /* Head Frasa Block
 -------------------------------------*/
 .bunga {
+  width: 100px;
+  height: 200px;
+  margin-bottom: -50px;
   left: 0;
   bottom: 0;
   position: absolute;
