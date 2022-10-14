@@ -37,7 +37,9 @@ body {
 .viewbar_content {
   height: 1000px;
   max-height: 100%;
-  overflow: auto;
+  overflow-y: auto;
+  position: relative;
+  box-sizing: border-box;
 }
 .pricing-container {
   padding: 0 10%;
