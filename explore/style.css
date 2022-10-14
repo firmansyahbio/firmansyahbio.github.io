@@ -305,7 +305,7 @@ background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to right, #941ed2, #2719cd);
+  background: linear-gradient(to right, deeppink, dodgerblue);
   padding: 10px 18px;
   border: 2px #e0e0e0 solid;
   border-radius: 100px 100px 0px 0px;
