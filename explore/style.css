@@ -14,9 +14,11 @@ body {
   display: block;
 }
 .profile {
- display: flex;
- align-items: center;
- justift-content: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justift-content: center;
+  box-sizing: border-box;
 }
 .profile_img {
   width: 100px;
