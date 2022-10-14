@@ -13,6 +13,21 @@ body {
   height: 30px;
   display: block;
 }
+.false1 {
+border: 1px solid rgba(36, 49, 224, 0.27); margin: 5px; 
+overflow: auto; border-radius: 5px;
+width: none; height: 200px;
+background-color: rgb(255, 255, 255);
+}
+
+.false2 {
+  width: 100%;
+  min-height: 900px;
+  background: #ffff;
+  color: #111;
+  padding: 5px;
+  box-sizing: border-box;
+}
 .pricing-toggle-container {
   top: 0;
   left: 0;
