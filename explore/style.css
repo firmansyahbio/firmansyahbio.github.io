@@ -35,7 +35,8 @@ body {
 }
 
 .viewbar_content {
-  height: 100%;
+  height: 1000px;
+  max-height: 100%;
   overflow: auto;
 }
 .pricing-container {
@@ -322,7 +323,6 @@ body {
   z-index: 105;
   height: 100%;
   display: block;
-  overflow: auto;
   position: fixed;
   background: #ffffff;
   padding-bottom: 5px;
