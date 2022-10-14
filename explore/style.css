@@ -14,10 +14,9 @@ body {
   display: block;
 }
 .profile {
-  padding: 10px;
   display: flex;
+  padding: 5px 0px;
   align-items: center;
-  justift-content: center;
   box-sizing: border-box;
 }
 .profile_img {
