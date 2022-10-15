@@ -11,13 +11,17 @@ body {
 header.header {
   width: 100%;
   height: 50px;
-  padding: 5px;
+  padding: 10px;
   background: #100836;
   box-sizing: border-box;
 }
+header.header a {
+  text-decoration: none;
+}
 header.header a span {
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 .false1 {
 border: 1px solid rgba(36, 49, 224, 0.27); margin: 5px; 
