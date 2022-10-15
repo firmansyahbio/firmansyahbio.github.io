@@ -1,12 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: #ffffff;
   font-family: 'Saurce Sans Pro',sans-serif;
+}
+.root {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 .container {
   margin: 0;
