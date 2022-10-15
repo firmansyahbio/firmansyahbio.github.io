@@ -15,7 +15,7 @@ body {
   
 }
 .container {
-  margin: 0;
+  margin-top: 50px;
   padding: 0;
   width: 100%;
   max-width: 700px;
@@ -24,6 +24,7 @@ body {
 }
 @media (max-width: 700px) {
 .container {
+  margin-top: 0px;
   border-radius: 0px;
   }
 .root {
