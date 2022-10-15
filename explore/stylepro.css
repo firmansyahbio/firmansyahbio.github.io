@@ -18,7 +18,7 @@
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
   }
-.container_profile .snip_box img {
+.container_profile .profile_box img {
   width: 100%;
   vertical-align: top;
   opacity: 0.85;
@@ -58,7 +58,7 @@
 .container_profile .profile_box figcaption a:hover {
   opacity: 1;
   }
-.container_profile .snip_box .profile {
+.container_profile .profile_box .profile {
   border-radius: 50%;
   position: absolute;
   bottom: 100%;
@@ -75,6 +75,7 @@
   }
 .container_profile .profile_box h3 {
   color: #fff;
+  font-size: 25px;
   margin: 0 0 5px;
   font-weight: 300;
   }
