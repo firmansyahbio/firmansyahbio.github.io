@@ -1,7 +1,7 @@
 .container_profile .profile_box {
   position: relative;
   overflow: hidden;
-  margin: 0px 0px 5px 0px;
+  margin-top: 5px;
   min-width: 100%;
   max-width: 1500px;
   width: 100%;
