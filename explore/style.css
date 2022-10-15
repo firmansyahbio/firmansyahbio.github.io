@@ -26,6 +26,14 @@ body {
 .container {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
+header.header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  }
+footer.footer {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  }
 }
 @media (max-width: 700px) {
 .container {
@@ -36,14 +44,6 @@ body {
   padding: 0;
   padding-top: 0px;
   }
-header.header {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  }
-footer.footer {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  }
 }
 header.header {
   width: 100%;
@@ -51,8 +51,6 @@ header.header {
   padding: 10px;
   background: #100836;
   box-sizing: border-box;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 header.header a {
   text-decoration: none;
@@ -63,15 +61,12 @@ header.header a span {
   letter-spacing: 2px;
 }
 
-
 footer.footer {
   width: 100%;
   display: flex;
   min-height: 200px;
   background: #100836;
   box-sizing: border-box;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 .false1 {
 border: 1px solid rgba(36, 49, 224, 0.27); margin: 5px; 
