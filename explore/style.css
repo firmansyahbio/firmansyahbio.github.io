@@ -98,9 +98,9 @@ header.header a svg {
 }
 .deskripsi p {
   color: #100836;
-  font-weight: 400;
   font-size: 1em;
-  line-height: 1.5em;
+  font-weight: 400;
+  line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
 .sosial_icon {
