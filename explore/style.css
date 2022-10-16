@@ -52,16 +52,29 @@ body {
   font-size: 17px;
   font-family: 'Oswald';
 }
+.deskripsi {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.deskripsi p {
+  color: dimgray;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
 .line1 {
-  position: relative;
   top: 10px;
-  border: 1px solid #4A5C82;
   width: 50px;
   margin: auto;
+  position: relative;
+  border: 1px solid #4A5C82;
 }
 .line2 {
-  @extend .line1;
-  width: 250px;
+  top: 10px;
+  width: 300px;
+  margin: auto;
+  position: relative;
+  border: 1px solid #4A5C82;
 }
 @media (min-width: 700px) {
 .container {
