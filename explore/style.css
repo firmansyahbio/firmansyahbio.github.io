@@ -97,10 +97,11 @@ header.header a svg {
   box-sizing: border-box;
 }
 .deskripsi p {
-  color: dimgray;
-  font-size: 16px;
+  color: #100836;
   font-weight: 400;
+  font-size: 1em;
   line-height: 1.5em;
+  font-family: "Open Sans", sans-serif;
 }
 .sosial_icon {
   left: 0%;
