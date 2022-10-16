@@ -8,6 +8,8 @@ body {
   background: #ffffff;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
+/* CSS Root 
+----------------------------------*/
 .root {
   width: 100%;
   display: flex;
@@ -16,8 +18,9 @@ body {
   align-items: center;
   box-sizing: border-box;
   justify-content: center;
-  
 }
+/* CSS Container
+----------------------------------*/
 .container {
   margin-top: 50px;
   padding: 0;
@@ -26,6 +29,27 @@ body {
   border-radius: 10px;
   background: #eaeef6;
 }
+
+/* Content Header
+----------------------------------*/
+header.header {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  background: #100836;
+  box-sizing: border-box;
+}
+header.header a {
+  text-decoration: none;
+}
+header.header a svg {
+  fill: #fff;
+  height: 20px;
+  width: 30px;
+}
+
+/* Content Profile
+----------------------------------*/
 .profile {
  width: 100%;
  text-align: center;
@@ -135,21 +159,7 @@ footer.footer {
   padding-top: 0px;
   }
 }
-header.header {
-  width: 100%;
-  height: 50px;
-  padding: 15px;
-  background: #100836;
-  box-sizing: border-box;
-}
-header.header a {
-  text-decoration: none;
-}
-header.header a svg {
-  fill: #fff;
-  height: 20px;
-  width: 30px;
-}
+
 
 footer.footer {
   width: 100%;
