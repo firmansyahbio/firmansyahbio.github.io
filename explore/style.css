@@ -5,7 +5,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #ffffff;
+  background: #eaeef6;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
 /* CSS Root 
@@ -27,7 +27,7 @@ body {
   width: 100%;
   max-width: 700px;
   border-radius: 10px;
-  background: #eaeef6;
+  background: #ffffff;
 }
 
 /* Content Header
@@ -137,6 +137,9 @@ header.header a svg {
   border: 1px solid #4A5C82;
 }
 @media (min-width: 700px) {
+body {
+  background: #ffffff;
+  }
 .container {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
