@@ -28,8 +28,10 @@ body {
 }
 .profile_bar {
   width: 100%;
+  padding: 15px;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
   justify-content: center;
 }
 .profile_img {
@@ -37,6 +39,7 @@ body {
   height: 90px;
   margin-top: 10px;
   border-radius: 50%;
+  transition:.5s ease-out;
   border: 3px #cecece solid;
 }
 .profile_img:hover{
