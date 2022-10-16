@@ -393,8 +393,9 @@ background-color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
 .content {
-  overflow-y: auto;
+
 }
+
 .content p {
   color: dimgray;
   font-weight: 400;
@@ -403,9 +404,32 @@ background-color: rgb(255, 255, 255);
   line-height: 1.5em;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
+
 .content a {
   text-decoration: none;
 }
+
+.content h3 {
+  font-size: 40px;
+  color: #191919;
+  line-height: 1.20em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content h4 {
+  font-size: 32px;
+  color: #191919;
+  line-height: 1.10em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content h5 {
+  font-size: 24px;
+  color: #191919;
+  line-height: 1.00em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 @media (max-width: 900px) {
 .content p {
   font-size: 16px;
