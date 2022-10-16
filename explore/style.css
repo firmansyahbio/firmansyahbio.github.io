@@ -137,9 +137,6 @@ header.header a svg {
   border: 1px solid #4A5C82;
 }
 @media (min-width: 700px) {
-body {
-  background: #ffffff;
-  }
 .container {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
@@ -153,6 +150,9 @@ footer.footer {
   }
 }
 @media (max-width: 700px) {
+body {
+  background: #ffffff;
+  }
 .container {
   margin-top: 0px;
   border-radius: 0px;
