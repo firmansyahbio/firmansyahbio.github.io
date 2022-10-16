@@ -189,7 +189,7 @@ background-color: rgb(255, 255, 255);
   color: dimgray;
 }
 .toggle-container .btn-primary {
-  border-bottom: 3px deeppink solid;
+  border-bottom: 2px #100836 solid;
 }
 
 .viewbar_content {
@@ -246,7 +246,7 @@ background-color: rgb(255, 255, 255);
     outline: none;
    }
   .switch-toggle input:checked + label {
-    color: deeppink;
+    color: #100836;
   }
 }
 
