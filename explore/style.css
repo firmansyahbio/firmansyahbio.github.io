@@ -78,6 +78,26 @@ body {
   font-weight: 400;
   line-height: 1.5em;
 }
+.sosial_icon {
+  left: 0%;
+  padding: 0px;
+  display: flex;
+  transition: bottom 0.3s;
+}
+.sosial_icon a {
+  flex: 1 1 30%;
+  padding: 2px;
+  margin: 5px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 300;
+  text-decoration: none;
+  }
+.sosial_icon a svg {
+  fill: dimgray;
+  width: 20px;
+  height: 20px;
+ }
 .line1 {
   top: 10px;
   width: 50px;
