@@ -39,6 +39,15 @@ body {
   border-radius: 50%;
   border: 3px #cecece solid;
 }
+.profile_img:hover{
+  transform: scale(110%);
+  transition: transform .3s;
+  /* down here you can change the color of the pfp shade */
+  box-shadow: 0px 0px 60px black;
+  height: 90px;
+  width: 90px;
+  filter: saturate(150%);
+}
 .name {
   font-weight: 100;
   font-family: 'Nunito';
