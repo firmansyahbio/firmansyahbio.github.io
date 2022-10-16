@@ -125,10 +125,10 @@ header.header {
 header.header a {
   text-decoration: none;
 }
-header.header a span {
-  color: #fff;
-  font-size: 20px;
-  letter-spacing: 2px;
+header.header a svg {
+  fill: #fff;
+  height: 20px
+  width: 30px;
 }
 
 footer.footer {
