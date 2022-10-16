@@ -138,7 +138,7 @@ footer.footer {
 header.header {
   width: 100%;
   height: 50px;
-  padding: 10px;
+  padding: 15px;
   background: #100836;
   box-sizing: border-box;
 }
@@ -147,8 +147,8 @@ header.header a {
 }
 header.header a svg {
   fill: #fff;
-  height: 30px;
-  width: 40px;
+  height: 20px;
+  width: 30px;
 }
 
 footer.footer {
