@@ -80,13 +80,14 @@ header.header a svg {
   filter: saturate(150%);
 }
 .name {
+  color: #23304a;
   font-weight: 100;
   font-family: 'Nunito';
   font-size: 20px;
   letter-spacing: 0.8px;
 }
 .loca {
-  color: #BED2FF;
+  color: #7083cc;
   font-weight: 100;
   letter-spacing: 0.8px;
   font-size: 17px;
