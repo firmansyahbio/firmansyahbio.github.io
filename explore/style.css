@@ -414,6 +414,7 @@ background-color: rgb(255, 255, 255);
 /* Content About
 ----------------------------------*/
 .pricing-container h2.package-title {
+  font-size: 30px;
   color: dimgray;
   text-transform: uppercase;
 }
@@ -435,7 +436,7 @@ background-color: rgb(255, 255, 255);
 }
 
 .content h3 {
-  font-size: 30px;
+  font-size: 25px;
   color: #191919;
   line-height: 1.20em;
   margin-bottom: -3px;
@@ -444,14 +445,14 @@ background-color: rgb(255, 255, 255);
 }
 
 .content h4 {
-  font-size: 25px;
+  font-size: 23px;
   color: #191919;
   line-height: 1.10em;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .content h5 {
-  font-size: 24px;
+  font-size: 20px;
   color: #191919;
   line-height: 1.00em;
   font-family: 'Source Sans Pro', sans-serif;
