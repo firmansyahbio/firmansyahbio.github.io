@@ -105,6 +105,26 @@ header.header a svg {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
+ul.sosial {
+    list-style: none;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px 0;
+    padding:10px;
+}
+
+ul.sosial li{
+    cursor: pointer;
+    width:30px;
+    height:30px;
+}
+ul.sosial li a svg {
+  fill: dimgray;
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease;
+}
 .sosial_icon {
   left: 0%;
   padding: 0px;
