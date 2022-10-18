@@ -457,7 +457,20 @@ background-color: rgb(255, 255, 255);
   line-height: 1.00em;
   font-family: 'Source Sans Pro', sans-serif;
 }
+ul.list_icon {
+  list-style: none;
+  padding: 0;
+  }
 
+ul.list_icon li {
+  color: #000;
+  line-height: 2.4rem;
+  }
+
+ul.list_icon li i {
+  color: #767EEB;
+  margin-right: 10px;
+  } 
 @media (max-width: 900px) {
 .content p {
   font-size: 16px;
