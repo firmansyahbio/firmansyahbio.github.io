@@ -423,20 +423,20 @@ background-color: rgb(255, 255, 255);
 }
 
 .content p {
-  color: dimgray;
+  color: #100836;
   font-weight: 400;
   font-size: 14px;
   margin-top: 15px;
-  line-height: 1.5em;
+  line-height: 1.5;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
 
-.content a {
+.content p a {
   text-decoration: none;
 }
 
 .content h3 {
-  font-size: 25px;
+  font-size: 23px;
   color: #191919;
   line-height: 1.20em;
   margin-bottom: -3px;
@@ -445,14 +445,14 @@ background-color: rgb(255, 255, 255);
 }
 
 .content h4 {
-  font-size: 23px;
+  font-size: 20px;
   color: #191919;
   line-height: 1.10em;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .content h5 {
-  font-size: 20px;
+  font-size: 18px;
   color: #191919;
   line-height: 1.00em;
   font-family: 'Source Sans Pro', sans-serif;
