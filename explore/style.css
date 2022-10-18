@@ -163,7 +163,7 @@ ul.sosial li a svg {
 }
 @media (min-width: 700px) {
 .container {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 4px 4px 16px #e1e1e1;
   }
 header.header {
   border-top-left-radius: 5px;
@@ -246,8 +246,7 @@ background-color: rgb(255, 255, 255);
 }
 
 @media only screen {
-  /* Radio Switch
- */
+  /* Radio Switch */
   .switch-toggle {
     position: relative;
     display: block;
