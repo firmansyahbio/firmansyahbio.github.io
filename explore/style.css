@@ -47,7 +47,31 @@ header.header a svg {
   height: 20px;
   width: 30px;
 }
-
+/* Content Profile
+----------------------------------*/
+.name_header {
+  width: 250px;
+  height: 46px;
+  background: #34A9E0;
+  position: relative;
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px 0 0 124px;
+  box-sizing: border-box;
+}
+.name_header:before {
+  content: '';
+  display: block;
+  height: 46px;
+  width: 19px;
+  background: #34A9E0;
+  -webkit-transform: skewX(-19deg);
+  position: absolute;
+  right: -8px;
+  top: 0;
+}
 /* Content Profile
 ----------------------------------*/
 .profile {
