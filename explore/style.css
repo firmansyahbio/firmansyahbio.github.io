@@ -629,7 +629,16 @@ background-color: rgb(255, 255, 255);
             perspective: inherit;
     z-index: 2;
 }
-.inner p{color:#fff;}
+.inner p {
+  color:#fff;
+}
+.inner a.btn {
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+  background: #191919;
+  box-sizing: border-box;
+}
 .containerx .back{
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
