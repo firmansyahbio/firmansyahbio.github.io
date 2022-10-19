@@ -541,7 +541,7 @@ background-color: rgb(255, 255, 255);
   box-sizing: border-box;
   display: inline-block;
 }
-@media(max-width: 700px) {
+@media(max-width: 900px) {
 .col {
     grid-template-columns: repeat(2, 1fr);
   }
