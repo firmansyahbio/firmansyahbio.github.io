@@ -19,6 +19,7 @@ body {
   box-sizing: border-box;
   justify-content: center;
 }
+
 /* CSS Container
 ----------------------------------*/
 .container {
@@ -36,17 +37,35 @@ header.header {
   width: 100%;
   height: 50px;
   padding: 15px;
-  background: #99ccff;
   box-sizing: border-box;
 }
 header.header a {
+  width: 30px;
+  height: 20px;
   text-decoration: none;
 }
 header.header a svg {
   fill: #fff;
-  height: 20px;
   width: 30px;
+  height: 20px;
 }
+header.header {
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+  }
+50% {
+  background-position: 100% 50%;
+  }
+100% {
+  background-position: 0% 50%;
+  }
+}
+
 /* Nama Header
 ----------------------------------*/
 .name_header {
@@ -78,6 +97,9 @@ header.header a svg {
  width: 100%;
  text-align: center;
 }
+
+/* Profile Bar
+----------------------------------*/
 .profile_bar {
   width: 100%;
   padding: 15px;
@@ -86,6 +108,9 @@ header.header a svg {
   box-sizing: border-box;
   justify-content: center;
 }
+
+/* Profile Image
+----------------------------------*/
 .profile_img {
   width: 90px;
   height: 90px;
@@ -103,6 +128,9 @@ header.header a svg {
   width: 90px;
   filter: saturate(150%);
 }
+
+/* Profile Nama
+----------------------------------*/
 .name {
   color: #23304a;
   font-weight: 100;
@@ -110,6 +138,9 @@ header.header a svg {
   font-size: 23px;
   letter-spacing: 0.8px;
 }
+
+/* Profile Minat
+----------------------------------*/
 .loca {
   color: #7083cc;
   margin-top: 5px;
@@ -118,6 +149,9 @@ header.header a svg {
   letter-spacing: 0.8px;
   font-family: 'Oswald';
 }
+
+/* Profile Deskripsi
+----------------------------------*/
 .deskripsi {
   padding: 0 10%;
   box-sizing: border-box;
@@ -129,6 +163,9 @@ header.header a svg {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
+
+/* Profile Sosial media
+----------------------------------*/
 ul.sosial {
   list-style: none;
   width:100%;
@@ -151,6 +188,9 @@ ul.sosial li a svg {
   height: 20px;
   transition: all 0.3s ease;
 }
+
+/* Content Profile
+----------------------------------*/
 .sosial_icon {
   left: 0%;
   padding: 0px;
@@ -171,6 +211,9 @@ ul.sosial li a svg {
   width: 20px;
   height: 20px;
  }
+
+/* Profile Garis pemisah
+----------------------------------*/
 .line1 {
   top: 10px;
   width: 50px;
@@ -185,6 +228,7 @@ ul.sosial li a svg {
   position: relative;
   border: 1px solid #4A5C82;
 }
+
 /* Content About
 ----------------------------------*/
 .content {
@@ -207,6 +251,8 @@ ul.sosial li a svg {
   text-decoration: none;
 }
 
+/* Content Heading 1 of 6
+----------------------------------*/
 .content h3 {
   font-size: 23px;
   color: #191919;
@@ -230,6 +276,8 @@ ul.sosial li a svg {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* Content List Icon
+----------------------------------*/
 ul.list_icon {
   list-style: none;
   padding: 0;
@@ -249,6 +297,9 @@ ol.nilai_nilai li {
   color: #100836;
   line-height: 2.4rem;
 }
+
+/* Dasbor media responsive min-width
+----------------------------------*/
 @media (min-width: 700px) {
 .container {
   box-shadow: 4px 4px 16px #e1e1e1;
@@ -262,6 +313,9 @@ footer.footer {
   border-bottom-right-radius: 5px;
   }
 }
+
+/* Dasbor media responsive max-width
+----------------------------------*/
 @media (max-width: 700px) {
 body {
   background: #ffffff;
@@ -289,13 +343,17 @@ ol.nilai_nilai li {
   }
 }
 
-
+/* Content Footer / Kaki
+----------------------------------*/
 footer.footer {
   width: 100%;
   display: flex;
   min-height: 200px;
   box-sizing: border-box;
 }
+
+/* False bar overflow
+----------------------------------*/
 .false1 {
 border: 1px solid rgba(36, 49, 224, 0.27); margin: 5px; 
 overflow: auto; border-radius: 5px;
@@ -310,12 +368,14 @@ background-color: rgb(255, 255, 255);
   padding: 5px;
   box-sizing: border-box;
 }
+
+/*  Pricing Toggle Container
+----------------------------------*/
 .pricing-toggle-container {
   top: 0;
   left: 0;
   right: 0;
   padding: 0;
-  z-index: 15;
   width: 100%;
   background: #ffffff;
 }
