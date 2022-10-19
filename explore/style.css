@@ -47,7 +47,7 @@ header.header a svg {
   height: 20px;
   width: 30px;
 }
-/* Content Profile
+/* Nama Header
 ----------------------------------*/
 .name_header {
   width: 250px;
@@ -58,7 +58,7 @@ header.header a svg {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
   font-size: 20px;
-  padding: 10px 0 0 124px;
+  padding: 10px 0 0 115px;
   box-sizing: border-box;
 }
 .name_header:before {
