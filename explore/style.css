@@ -534,13 +534,11 @@ background-color: rgb(255, 255, 255);
 .col {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  margin-bottom: 40px;
+  grid-gap: 10px;
 }
 
-.col cols {
+.col .cols {
   box-sizing: border-box;
-  margin-bottom: 15px;
   display: inline-block;
 }
 @media(max-width: 700px) {
@@ -556,7 +554,6 @@ background-color: rgb(255, 255, 255);
 .wrapper{
   width: 100%;
   margin: 0 auto;
-  /*max-width: 80rem;*/
   max-width: 100%;
 }
 .col{
