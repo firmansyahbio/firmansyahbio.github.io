@@ -293,8 +293,9 @@ ul.list_icon li i {
   margin-right: 30px;
 }
 
-ol.nilai_nilai li {
+ul.nilai_nilai li {
   color: #100836;
+  margin-top: 25px;
   line-height: 2.4rem;
 }
 
@@ -337,7 +338,7 @@ body {
 ul.list_icon li i {
   margin-right: 10px;
 }
-ol.nilai_nilai li {
+ul.nilai_nilai li {
   margin-top: 15px;
   line-height: 1.5;
   }
