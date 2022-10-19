@@ -186,6 +186,16 @@ body {
   padding: 0;
   padding-top: 0px;
   }
+.content p {
+  font-size: 16px;
+  }
+ul.list_icon li i {
+  margin-right: 10px;
+}
+ol.nilai_nilai li {
+  margin-top: 15px;
+  line-height: 1.5;
+  }
 }
 
 
@@ -469,7 +479,7 @@ ul.list_icon li {
 
 ul.list_icon li i {
   color: #767EEB;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 ol.nilai_nilai li {
@@ -477,11 +487,6 @@ ol.nilai_nilai li {
   line-height: 2.4rem;
 }
 
-@media (max-width: 900px) {
-.content p {
-  font-size: 16px;
-  }
-}
 
 /* Contacts Form
 ----------------------------------*/
