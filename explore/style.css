@@ -636,8 +636,14 @@ background-color: rgb(255, 255, 255);
   color: #fff;
   padding: 5px 10px;
   text-align: center;
+  border-radius: 30px;
   background: #191919;
+  text-decoration: none;
+  border: 2px #fff solid;
   box-sizing: border-box;
+}
+.inner a.btn:hover {
+  color: #eaeef6;
 }
 .containerx .back{
     -webkit-transform: rotateY(180deg);
