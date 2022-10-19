@@ -538,7 +538,7 @@ background-color: rgb(255, 255, 255);
   max-width: 100%;
 }
 .col{
-  margin: 1rem;
+  margin: 10px;
   cursor: pointer;
   width: calc(33.333333% - 2rem);
 }
