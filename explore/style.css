@@ -161,6 +161,72 @@ ul.sosial li a svg {
   position: relative;
   border: 1px solid #4A5C82;
 }
+/* Content About
+----------------------------------*/
+.pricing-container h2.package-title {
+  font-size: 30px;
+  color: dimgray;
+  text-transform: uppercase;
+}
+.content {
+
+}
+
+.content p {
+  color: #100836;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 1.5;
+  font-family: 'Saurce Sans Pro',sans-serif;
+}
+
+.content p a {
+  text-decoration: none;
+}
+
+.content h3 {
+  font-size: 23px;
+  color: #191919;
+  line-height: 1.20em;
+  margin-bottom: -3px;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content h4 {
+  font-size: 20px;
+  color: #191919;
+  line-height: 1.10em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content h5 {
+  font-size: 18px;
+  color: #191919;
+  line-height: 1.00em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul.list_icon {
+  list-style: none;
+  padding: 0;
+}
+
+ul.list_icon li {
+  color: #000;
+  line-height: 2.4rem;
+}
+
+ul.list_icon li i {
+  color: #767EEB;
+  margin-right: 30px;
+}
+
+ol.nilai_nilai li {
+  color: #100836;
+  line-height: 2.4rem;
+}
 @media (min-width: 700px) {
 .container {
   box-shadow: 4px 4px 16px #e1e1e1;
@@ -420,72 +486,7 @@ background-color: rgb(255, 255, 255);
     }
   }
 
-/* Content About
-----------------------------------*/
-.pricing-container h2.package-title {
-  font-size: 30px;
-  color: dimgray;
-  text-transform: uppercase;
-}
-.content {
 
-}
-
-.content p {
-  color: #100836;
-  font-weight: 400;
-  font-size: 14px;
-  margin-top: 15px;
-  line-height: 1.5;
-  font-family: 'Saurce Sans Pro',sans-serif;
-}
-
-.content p a {
-  text-decoration: none;
-}
-
-.content h3 {
-  font-size: 23px;
-  color: #191919;
-  line-height: 1.20em;
-  margin-bottom: -3px;
-  box-sizing: border-box;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.content h4 {
-  font-size: 20px;
-  color: #191919;
-  line-height: 1.10em;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.content h5 {
-  font-size: 18px;
-  color: #191919;
-  line-height: 1.00em;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-ul.list_icon {
-  list-style: none;
-  padding: 0;
-}
-
-ul.list_icon li {
-  color: #000;
-  line-height: 2.4rem;
-}
-
-ul.list_icon li i {
-  color: #767EEB;
-  margin-right: 20px;
-}
-
-ol.nilai_nilai li {
-  color: #100836;
-  line-height: 2.4rem;
-}
 
 
 /* Contacts Form
