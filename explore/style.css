@@ -180,7 +180,10 @@ ul.sosial li a svg {
   line-height: 1.5;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
-
+.content p i.icon {
+  color: dimgray;
+  margin-left: 25px;
+}
 .content p a {
   text-decoration: none;
 }
@@ -255,6 +258,9 @@ body {
 .content p {
   font-size: 16px;
   }
+.content p i.icon {
+  margin-left: 10px;
+}
 ul.list_icon li i {
   margin-right: 10px;
 }
