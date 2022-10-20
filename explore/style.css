@@ -329,7 +329,12 @@ footer.footer {
 .content p i.icon {
   margin-right: 10px;
   }
+ul.nilai_nilai li {
+  margin-top: 15px;
+  line-height: 1.5;
+  }
 }
+
 @media (max-width: 700px) {
 body {
   background: #ffffff;
@@ -348,10 +353,6 @@ body {
 
 ul.list_icon li i {
   margin-right: 10px;
-}
-ul.nilai_nilai li {
-  margin-top: 15px;
-  line-height: 1.5;
   }
 }
 
