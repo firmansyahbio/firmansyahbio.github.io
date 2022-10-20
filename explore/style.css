@@ -223,7 +223,7 @@ ul.sosial li a svg {
   border: 1px solid #4A5C82;
 }
 .line2 {
-  top: 10px;
+  top: 5px;
   width: 300px;
   margin: auto;
   position: relative;
@@ -252,6 +252,13 @@ ul.sosial li a svg {
   text-decoration: none;
 }
 
+.content .full_line {
+  top: 10px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  border: 1px solid #4A5C82;
+}
 /* Content Heading 1 of 6
 ----------------------------------*/
 .content h3 {
