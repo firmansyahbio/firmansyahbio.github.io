@@ -298,7 +298,7 @@ ul.list_icon li {
 
 ul.list_icon li i {
   color: #767EEB;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 ul.nilai_nilai li {
@@ -325,6 +325,11 @@ footer.footer {
 
 /* Dasbor media responsive max-width
 ----------------------------------*/
+@media (max-width: 900px) {
+.content p i.icon {
+  margin-right: 10px;
+  }
+}
 @media (max-width: 700px) {
 body {
   background: #ffffff;
@@ -340,9 +345,7 @@ body {
 .content p {
   font-size: 16px;
   }
-.content p i.icon {
-  margin-right: 10px;
-}
+
 ul.list_icon li i {
   margin-right: 10px;
 }
