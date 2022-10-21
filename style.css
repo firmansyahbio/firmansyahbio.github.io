@@ -131,8 +131,8 @@ to {
 }
 footer.footer {
   width: 100%;
-  heigth: 70px;
-  background: #cecece;
+  height: 70px;
+  background: #ccc;
 }
 @media (max-width: 900px) {
 .header {
