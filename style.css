@@ -122,6 +122,10 @@ to {
   line-height: 1.5em;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
+.the-root p a {
+  color #100836;
+  text-decoration: none;
+}
 @media (max-width: 900px) {
 .frasa {
   padding: 10px 10%;
