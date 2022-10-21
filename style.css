@@ -134,7 +134,7 @@ footer.footer {
   bottom: 0;
   padding: 10px;
   background: #cecece;
-  position: relative;
+  position: absolute;
   box-sizing: border-box;
 }
 @media (max-width: 900px) {
