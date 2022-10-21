@@ -101,6 +101,7 @@ to {
 
 .container {
   min-height: 100%;
+  position: relative;
 }
 .the-root {
   min-height: 100%;
