@@ -126,6 +126,16 @@ to {
   color #100836;
   text-decoration: none;
 }
+footer.footer {
+  width: 100%;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  background: #cecece;
+  position: relative;
+  box-sizing: border-box;
+}
 @media (max-width: 900px) {
 .frasa {
   padding: 10px 10%;
