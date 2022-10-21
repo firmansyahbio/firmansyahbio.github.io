@@ -12,7 +12,7 @@ html, body {
   height: 100%;
 }
 
-.frasa {
+header.header {
   width: 100%;
   padding: 10px 5%;
   display: block;
@@ -135,7 +135,7 @@ footer.footer {
   background: #cecece;
 }
 @media (max-width: 900px) {
-.frasa {
+.header {
   padding: 10px 10%;
   }
 .content {
