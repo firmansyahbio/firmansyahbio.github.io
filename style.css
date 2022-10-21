@@ -99,7 +99,7 @@ to {
 /* Animasi Typing Title
 -------------------------------------*/
 .the-root {
-  height: 100%;
+  min-height: 100%;
   margin: 5% auto;
   padding: 0 35% 0 15%;
   font-family: 'Saurce Sans Pro',sans-serif;
