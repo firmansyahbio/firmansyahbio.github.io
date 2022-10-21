@@ -1,18 +1,17 @@
-body {
+* {
   margin: 0;
   padding: 0;
+}
+html, body {
+  height: 100%;
   background: #fff;
 }
 /* Head Frasa Block
 -------------------------------------*/
-.bunga {
-  width: 350px;
-  height: 350px;
-  margin-top: -90px;
-  left: -100px;
-  bottom: 0;
-  position: relative;
+.container {
+  height: 100%;
 }
+
 .frasa {
   width: 100%;
   padding: 10px 5%;
@@ -96,10 +95,9 @@ to {
 /* Animasi Typing Title
 -------------------------------------*/
 
-.container {
-  min-height: 100%;
-}
+
 .content {
+  height: 100%;
   position: relative;
   margin: 5% auto;
   padding: 0 35% 0 15%;
@@ -131,7 +129,11 @@ to {
   color #100836;
   text-decoration: none;
 }
-
+footer.footer {
+  width: 100%;
+  heigth: 70px;
+  background: #cecece;
+}
 @media (max-width: 900px) {
 .frasa {
   padding: 10px 10%;
