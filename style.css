@@ -135,7 +135,7 @@ footer.footer {
   background: #ccc;
 }
 @media (max-width: 900px) {
-.header {
+.header.header {
   padding: 10px 10%;
   }
 .content {
