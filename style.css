@@ -136,14 +136,14 @@ to {
 .frasa {
   padding: 10px 10%;
   }
-.the-root {
+.content {
   margin: 5% auto;
   padding: 0 10%;
   }
-.the-root h2 {
+.content h2 {
   font-size: 27px;
   }
-.the-root p {
+.content p {
   font-size: 17px;
   }
  }
