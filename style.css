@@ -104,6 +104,7 @@ to {
   position: relative;
 }
 .the-root {
+  position: relative;
   margin: 5% auto;
   padding: 0 35% 0 15%;
   font-family: 'Saurce Sans Pro',sans-serif;
