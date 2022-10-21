@@ -135,6 +135,9 @@ to {
   color #100836;
   text-decoration: none;
 }
+footer.show {
+position: relative;
+}
 footer.footer {
   width: 100%;
   height: 70px;
