@@ -1,6 +1,3 @@
-html, body {
-  height: 100%;
-}
 body {
   margin: 0;
   padding: 0;
@@ -101,15 +98,14 @@ to {
 
 .container {
   min-height: 100%;
-  position: relative;
 }
-.the-root {
+.content {
   position: relative;
   margin: 5% auto;
   padding: 0 35% 0 15%;
   font-family: 'Saurce Sans Pro',sans-serif;
   }
-.the-root h2 {
+.content h2 {
   color: dimgray;
   font-size: 24px;
   text-shadow: 0 1px 0 #CCC,
@@ -123,7 +119,7 @@ to {
                0 9px 0 transparent,
                0 10px 10px rgba(0, 0, 0, .4);
 }
-.the-root p {
+.content p {
   color: dimgray;
   font-weight: 500;
   font-size: 14px;
@@ -131,23 +127,11 @@ to {
   line-height: 1.5em;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
-.the-root p a {
+.content p a {
   color #100836;
   text-decoration: none;
 }
-footer.show {
-position: relative;
-}
-footer.footer {
-  width: 100%;
-  height: 70px;
-  left: 0;
-  bottom: 0;
-  padding: 10px;
-  background: #cecece;
-  position: absolute;
-  box-sizing: border-box;
-}
+
 @media (max-width: 900px) {
 .frasa {
   padding: 10px 10%;
