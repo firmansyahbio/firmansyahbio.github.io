@@ -5,7 +5,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #eaeef6;
+  /*background: #eaeef6;*/
+  background: linear-gradient(0.25turn, #3f87a6, #f69d3c);
   font-family: 'Saurce Sans Pro',sans-serif;
 }
 /* CSS Root 
