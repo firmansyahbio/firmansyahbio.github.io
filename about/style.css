@@ -734,6 +734,55 @@ background-color: rgb(255, 255, 255);
   color:#fff;
 }
 .inner a.btn {
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.inner a.btn_bar {
+  background: #b621fe;
+  border: none;
+  z-index: 1;
+}
+.inner a.btn_bar:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #663dff;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.inner a.btn_bar:hover {
+  color: #fff;
+}
+.inner a.btn_bar:hover:after {
+  left: 0;
+  width: 100%;
+}
+.inner a.btn_bar:active {
+  top: 2px;
+}
+/*.inner a.btn {
   color: #fff;
   padding: 5px 10px;
   text-align: center;
@@ -745,7 +794,7 @@ background-color: rgb(255, 255, 255);
 }
 .inner a.btn:hover {
   color: #eaeef6;
-}
+}*/
 .containerx .back{
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
@@ -805,7 +854,6 @@ background-color: rgb(255, 255, 255);
 
 
 .content_pressing {
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
