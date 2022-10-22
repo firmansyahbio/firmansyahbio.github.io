@@ -22,6 +22,7 @@ header.header svg {
   z-index: 200;
   display: none;
   overflow: auto;
-  position: fixed; 
+  position: fixed;
+  max-height: 100%;
   background: #fff;
 }
