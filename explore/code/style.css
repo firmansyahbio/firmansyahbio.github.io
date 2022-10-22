@@ -16,6 +16,10 @@ div.header svg {
   display: block;
   position: relative;
 }
+.openview {
+  padding: 10px;
+  box-sizing: border-box;
+}
 .main-menu {
   top: 0;
   left: 0; 
