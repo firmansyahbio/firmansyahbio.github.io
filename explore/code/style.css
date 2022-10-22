@@ -11,6 +11,11 @@ div.header svg {
   width: 30px;
   height: 20px;
 }
+.content {
+  width: 100%;
+  display: block;
+  position: relative;
+}
 .main-menu {
   top: 0;
   left: 0; 
