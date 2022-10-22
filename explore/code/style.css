@@ -1,0 +1,13 @@
+.main-menu {
+  top: 0;
+  left: 0; 
+  right: 0;
+  bottom: 0; 
+  display:none;
+  margin: auto;
+  margin-top: 0%; 
+  height: 100%; 
+  width: 100%; 
+  position:fixed; 
+  z-index: 200;
+}
