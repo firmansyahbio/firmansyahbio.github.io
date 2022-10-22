@@ -27,7 +27,7 @@ div.header svg {
   height: 100%;
   z-index: 200;
   display: none;
-  overflow: auto;
+  overflow-y: auto;
   position: fixed;
   max-height: 100%;
   background: #fff;
