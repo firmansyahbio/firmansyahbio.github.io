@@ -139,10 +139,10 @@ to {
 footer.footer {
   width: 100%;
   height: 70px;
-  padding: 10px 5%;
+  padding: 25px 5%;
   background: #ccc;
   text-align: right;
-  box-sixing: border-box;
+  box-sizing: border-box;
 }
 footer.footer span {
   color: #100836;
