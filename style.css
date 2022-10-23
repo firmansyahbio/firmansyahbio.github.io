@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -36,12 +34,12 @@ header.header {
 .name_flex {
   color: #100836;
   font-size: 1.50em;
-  font-weight: 500;
+  font-weight: 400;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
 .link_flex {
   font-size: 1.00em;
-  font-weight: 500;
+  font-weight: 400;
   height: fit-content;
   align-self: flex-end;
 }
@@ -128,7 +126,7 @@ to {
 .content p {
   color: dimgray;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 15px;
   line-height: 1.5em;
   font-family: 'Saurce Sans Pro',sans-serif;
