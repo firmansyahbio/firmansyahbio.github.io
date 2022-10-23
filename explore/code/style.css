@@ -35,4 +35,5 @@ div.header svg {
   position: fixed;
   max-height: 100%;
   background: #fff;
+  transition: 2s cubic-bezier(0.33, 1, 0.53, 1);
 }
