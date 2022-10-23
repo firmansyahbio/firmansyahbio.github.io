@@ -139,7 +139,14 @@ to {
 footer.footer {
   width: 100%;
   height: 70px;
+  padding: 10px 5%;
   background: #ccc;
+  text-align: right;
+  box-sixing: border-box;
+}
+footer.footer span {
+  color: #100836;
+  font-size: 1.50em;
 }
 @media (max-width: 900px) {
 header.header {
