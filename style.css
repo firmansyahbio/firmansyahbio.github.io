@@ -158,6 +158,7 @@ header.header {
   height: none;
   display: flex;
   margin-top: 30px;
+  margin-bottom: 15px;
   align-items: center;
   justify-content: left;
 }
