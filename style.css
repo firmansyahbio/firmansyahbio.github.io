@@ -139,7 +139,7 @@ header.header {
   padding: 10px 10%;
   }
 .content {
-  height: 70%;
+  height: 80%;
   margin: 5% auto;
   padding: 0 10%;
   }
@@ -150,11 +150,7 @@ header.header {
   font-size: 17px;
   }
  }
-@media (max-width: 500px) {
-.content {
-  height: 65%;
-  }
-}
+
 /* Animasi box page
 -------------------------------------*/
 .animasi {
