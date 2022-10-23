@@ -147,6 +147,7 @@ footer.footer {
 footer.footer span {
   color: #100836;
   font-size: 1.50em;
+  font-family: 'Saurce Sans Pro',sans-serif;
 }
 @media (max-width: 900px) {
 header.header {
