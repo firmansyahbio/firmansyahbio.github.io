@@ -201,11 +201,12 @@ ul.sosial li a svg {
 }
 .sosial_icon a {
   flex: 1 1 30%;
-  padding: 2px;
+  padding: 5px;
   margin: 5px;
-  border-radius: 50%;
+  border-radius: 5px;
   text-align: center;
   font-weight: 300;
+  background: #cecece;
   text-decoration: none;
   }
 .sosial_icon a svg {
