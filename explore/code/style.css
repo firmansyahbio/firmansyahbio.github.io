@@ -3,8 +3,8 @@ div.header {
   height: 50px;
   padding: 15px;
   display: block;
+  background: #111111;
   box-sizing: border-box;
-  background: linear-gradient(60deg, rgba(84,58,283,1) 0%, rgba(0,172,293,1) 100%);
 }
 div.header svg {
   fill: #fff;
