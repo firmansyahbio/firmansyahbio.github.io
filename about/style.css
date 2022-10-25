@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   /*background: #eaeef6;*/
-  background: linear-gradient(0.25turn, #3f87a6, #f69d3c);
+  background: linear-gradient(0.25turn, deeppink, #f69d3c);
   font-family: 'Saurce Sans Pro',sans-serif;
 }
 /* CSS Root 
@@ -382,11 +382,13 @@ ul.list_icon li i {
 /* Content Footer / Kaki
 ----------------------------------*/
 footer.footer {
-  width: 100%;
   margin: 0;
   padding: 0;
-  min-height: 200px;
+  width: 100%;
+  height: none;
+  position: relative;
   box-sizing: border-box;
+  border-top: 1px solid rgba(0,0,0,0.2);
 }
 
 
