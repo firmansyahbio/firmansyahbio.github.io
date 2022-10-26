@@ -637,6 +637,10 @@ background-color: rgb(255, 255, 255);
   margin-bottom: 15px; 
   box-shadow:  inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 }
+.contactsform input:focus,
+.contactsform textarea:focus {
+  box-shadow:  inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
+}
 .contactsform input[type="submit"]{
      cursor: pointer;
      background: -webkit-linear-gradient(top, #efefef, #ddd);
