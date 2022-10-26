@@ -193,27 +193,38 @@ ul.sosial li a svg {
 
 /* Content Profile
 ----------------------------------*/
-.sosial_icon {
+.main-menu {
   left: 0%;
   padding: 0px;
   display: flex;
   transition: bottom 0.3s;
 }
-.sosial_icon a {
+.main-menu a {
   flex: 1 1 30%;
   padding: 5px;
   margin: 5px;
+  font-weight: 300;
+  cursor: pointer;
   border-radius: 5px;
   text-align: center;
-  font-weight: 300;
   background: #cecece;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  box-shadow: -5px -5px 20px #fff,  5px 5px 20px #BABECC;
   }
-.sosial_icon a svg {
+.main-menu a svg {
   fill: dimgray;
   width: 20px;
   height: 20px;
  }
+
+.main-menu a:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #BABECC;
+  }
+  
+.main-menu a:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #fff;
+  }
 
 /* Profile Garis pemisah
 ----------------------------------*/
