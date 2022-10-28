@@ -647,9 +647,13 @@ background-color: rgb(255, 255, 255);
   margin-bottom: 15px; 
   box-shadow:  inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 }
+.contactsform input:active,
+.contactsform textarea:active {
+border: 1px #767eeb solod;
+}
 .contactsform input:focus,
 .contactsform textarea:focus {
-  box-shadow:  inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
+  box-shadow:  inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 .contactsform input[type="submit"]{
      cursor: pointer;
