@@ -227,3 +227,74 @@ header.header {
  -khtml-user-select:none;
  -webkit-user-select:none;
 }
+
+#headerfull {
+  left: 0;
+  right: 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #123;
+  background-image: linear-gradient(to bottom, #0003, transparent);
+}
+.linkst {
+  background-color: #123;
+  background-image: linear-gradient(to bottom, #0003, transparent);
+  border-bottom: 1px solid #0003;
+  box-shadow: 0 0 32px #0003;
+  font-size: 1em;
+  font-weight: 300;
+  width: 100%;
+  max-width: 900px;
+}
+.linkst > a {
+	color: #9ab;
+	padding: .75em;
+	text-align: center;
+	text-decoration: none;
+	transition: all .5s;
+}
+.linkst > a:active {
+	color: #adf;
+        background: #ffffff06;
+}
+.linkst a[href^="/about"] {
+  color: #adf;
+  background: #ffffff06;
+}
+.linkst:active a[href^="/about"] {
+  color: #9ab;
+  background: #123;
+}
+.linkst:active a:hover[href^="/about"] {
+  color: #adf;
+  background: #ffffff06;
+}
+/* The Magic */
+.linkst {
+	display: grid;
+	grid-template-columns: repeat(var(--items), 1fr);
+	position: relative;
+}
+
+#content {
+  left: 0;
+  right: 0;
+  display: flex;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.post {
+  padding: 0;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+}
+@media (max-width: 900px) {
+.post {
+  padding: 10px 15px;
+ }
+}
