@@ -3,13 +3,14 @@
   padding: 0;
 }
 .linkst {
-	background-color: #123;
-	background-image: linear-gradient(to bottom, #0003, transparent);
-	border-bottom: 1px solid #0003;
-	box-shadow: 0 0 32px #0003;
-	font-size: 1em;
-	font-weight: 300;
+  background-color: #123;
+  background-image: linear-gradient(to bottom, #0003, transparent);
+  border-bottom: 1px solid #0003;
+  box-shadow: 0 0 32px #0003;
+  font-size: 1em;
+  font-weight: 300;
   width: 100%;
+  max-width: 900px;
 }
 .linkst > a {
 	color: #9ab;
@@ -29,9 +30,12 @@
 }
 /* The Magic */
 #headerfull {
-	position: relative;
-	left: 0;
-	right: 0;
+  display: flex;
+  position: relative;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
 }
 .linkst {
 	display: grid;
