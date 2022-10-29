@@ -55,6 +55,24 @@ body {
 	position: relative;
 }
 
-
+#content {
+  left: 0;
+  right: 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.post {
+  padding: 0;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+}
+@media {max-width: 900px) {
+.post {
+  padding: 10px 15px;
+ }
+}
 
 
