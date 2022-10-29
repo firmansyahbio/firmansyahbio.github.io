@@ -259,17 +259,21 @@ header.header {
 	color: #adf;
         background: #ffffff06;
 }
-.linkst a[href^="/"] {
+.linkst a[href^="#"] {
   color: #adf;
   background: #ffffff06;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
 }
-.linkst:active a[href^="/"] {
+.linkst:active a[href^="#"] {
   color: #9ab;
   background: #123;
 }
-.linkst:active a:hover[href^="/"] {
+.linkst:active a:hover[href^="#"] {
   color: #adf;
   background: #ffffff06;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
 }
 /* The Magic */
 .linkst {
