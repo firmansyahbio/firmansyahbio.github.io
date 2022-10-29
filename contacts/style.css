@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .linkst {
 	background-color: #123;
 	background-image: linear-gradient(to bottom, #0003, transparent);
