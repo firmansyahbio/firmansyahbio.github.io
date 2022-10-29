@@ -31,6 +31,14 @@
 	background: #ffffff06;
 	color: #adf;
 }
+.linkst a[href^="/about"] {
+  color: #adf;
+  background: #ffffff06;
+}
+.linkst:hover a[href^="/about"] {
+  color: #9ab;
+  background: #ffffff06;
+}
 /* The Magic */
 .linkst {
 	display: grid;
