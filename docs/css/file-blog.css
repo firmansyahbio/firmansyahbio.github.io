@@ -142,6 +142,7 @@ h3.entry-title a {
 
 .post-body p code {
   color: #ffffff;
+  font-size: 14px;
   padding: 2px 2px;
   border-radius: 2px;
   background:#111111;
