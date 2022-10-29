@@ -263,11 +263,11 @@ header.header {
   color: #adf;
   background: #ffffff06;
 }
-.linkst:active a[href^="/about"] {
+.linkst:active a[href^="/"] {
   color: #9ab;
   background: #123;
 }
-.linkst:active a:hover[href^="/about"] {
+.linkst:active a:hover[href^="/"] {
   color: #adf;
   background: #ffffff06;
 }
