@@ -259,7 +259,7 @@ header.header {
 	color: #adf;
         background: #ffffff06;
 }
-.linkst a[href^="/about"] {
+.linkst a[href^="/"] {
   color: #adf;
   background: #ffffff06;
 }
