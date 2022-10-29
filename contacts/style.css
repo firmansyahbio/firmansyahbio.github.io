@@ -37,6 +37,10 @@
 }
 .linkst:hover a[href^="/about"] {
   color: #9ab;
+  background: #123;
+}
+.linkst:active a[href^="/about"] {
+  color: #adf;
   background: #ffffff06;
 }
 /* The Magic */
