@@ -59,6 +59,7 @@ body {
   left: 0;
   right: 0;
   display: flex;
+  text-align: center;
   position: relative;
   align-items: center;
   justify-content: center;
