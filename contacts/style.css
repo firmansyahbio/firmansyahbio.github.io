@@ -32,9 +32,9 @@ body {
 	text-decoration: none;
 	transition: all .5s;
 }
-.linkst > a:hover {
-	background: #ffffff06;
+.linkst > a:active {
 	color: #adf;
+        background: #ffffff06;
 }
 .linkst a[href^="/about"] {
   color: #adf;
