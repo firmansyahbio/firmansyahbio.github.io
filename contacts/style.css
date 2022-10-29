@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-image: url('https://dl.dropboxusercontent.com/s/sxwcszat1oysbno/boy-1300136.svg') no-repeat left center/cover;
+}
 #headerfull {
   left: 0;
   right: 0;
