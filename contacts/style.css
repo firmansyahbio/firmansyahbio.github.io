@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
 }
+#headerfull {
+  display: flex;
+  position: relative;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+}
 .linkst {
   background-color: #123;
   background-image: linear-gradient(to bottom, #0003, transparent);
@@ -23,68 +31,13 @@
 	background: #ffffff06;
 	color: #adf;
 }
-.linkst > .line {
-	background: #68a;
-	height: 2px;
-	pointer-events: none;
-}
 /* The Magic */
-#headerfull {
-  display: flex;
-  position: relative;
-  left: 0;
-  right: 0;
-  align-items: center;
-  justify-content: center;
-}
 .linkst {
 	display: grid;
 	grid-template-columns: repeat(var(--items), 1fr);
 	position: relative;
 }
-.linkst > .line {
-	opacity: 0;
-	transition: all .5s;
-	position: absolute;
-	bottom: 0;
-	left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
-	width: var(--width, calc(100% / var(--items)));
-	--index: 0;
-}
-.linkst > a:hover ~ .line {
-	opacity: 1;
-}
-.linkst > a:nth-of-type(1):hover ~ .line { --index: 1; }
-.linkst > a:nth-of-type(2):hover ~ .line { --index: 2; }
-.linkst > a:nth-of-type(3):hover ~ .line { --index: 3; }
-.linkst > a:nth-of-type(4):hover ~ .line { --index: 4; }
-.linkst > a:nth-of-type(5):hover ~ .line { --index: 5; }
-.linkst > a:nth-of-type(6):hover ~ .line { --index: 6; }
-.linkst > a:nth-of-type(7):hover ~ .line { --index: 7; }
-.linkst > a:nth-of-type(8):hover ~ .line { --index: 8; }
-.linkst > a:nth-of-type(9):hover ~ .line { --index: 9; }
-.linkst > a:nth-of-type(10):hover ~ .line { --index: 10; }
-.linkst > a:last-of-type:hover ~ .line { --index: var(--items); }
 
 
-.linksto > a:nth-of-type(1):hover ~ .line { --index: 1; }
-.linksto > a:nth-of-type(2):hover ~ .line { --index: 2; }
-.linksto > a:nth-of-type(3):hover ~ .line { --index: 3; }
-.linksto > a:nth-of-type(4):hover ~ .line { --index: 4; }
-.linksto > a:nth-of-type(5):hover ~ .line { --index: 5; }
-.linksto > a:nth-of-type(6):hover ~ .line { --index: 6; }
-.linksto > a:nth-of-type(7):hover ~ .line { --index: 7; }
-.linksto > a:nth-of-type(8):hover ~ .line { --index: 8; }
-.linksto > a:nth-of-type(9):hover ~ .line { --index: 9; }
-.linksto > a:nth-of-type(10):hover ~ .line { --index: 10; }
-.linksto > a:last-of-type:hover ~ .line { --index: var(--items); }
-.bov-box {
-width: 100%;
-height: none;
-position: relative;
-display:block;
-padding-top: 0px;
-background: #767eeb;
-padding-left: 0px;
-box-sizing: border-box;
-}
+
+
