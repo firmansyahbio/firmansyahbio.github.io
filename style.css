@@ -315,11 +315,13 @@ to {
   box-sizing: border-box;
 }
 .post h1 {
-  font-size: 2em;
+  font-size: 2.30em;
   font-weight: 700;
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Saurce Sans Pro',sans-serif; 
 }
 @media (max-width: 900px) {
 .post {
