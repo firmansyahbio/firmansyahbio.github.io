@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
 }
-html, body {
+/*html, body {
   height: 100%;
-}
+}*/
 body {
   background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhboZh3HFP1TlRUETLIwkXQFb6GjpWvZk5kdfAilynMlPU0E8pB3dVJZOCtwxwiKUKtl60I2hQcB4BJ4ovzRjvJyo4rtXVsyjvyqXiL4BzOmcBTqUNWlT6dq85VdUdw3aeocnB1SKOXNuwN-cP_fmnWz54Qn8xiQjdUIkn8WEBWott-P8sDjGwLtH1Z/s1600/fractal-1405730.jpg")
     no-repeat center center fixed;
