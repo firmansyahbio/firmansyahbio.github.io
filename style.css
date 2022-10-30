@@ -241,7 +241,9 @@ header.header {
   justify-content: center;
   background-color: #123;
   background-image: linear-gradient(to bottom, #0003, transparent);
-  animation: slide-in-top 1.9s 1.8s ease both;
+  }
+.slide-top {
+animation: slide-in-top 1.5s 1.3s ease both;
 }
 @keyframes slide-in-top { 
 from { 
