@@ -396,6 +396,15 @@ header.header {
   letter-spacing: 3px;
   font-family: 'Saurce Sans Pro',sans-serif; 
 }
+.post p {
+  font-size: 1em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Saurce Sans Pro',sans-serif; 
+}
 @media (max-width: 900px) {
 .post {
   padding: 10px 15px;
