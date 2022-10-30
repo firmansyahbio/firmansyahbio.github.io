@@ -394,7 +394,8 @@ header.header {
   line-height: 1em;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-family: 'Saurce Sans Pro',sans-serif; 
+  font-family: 'Saurce Sans Pro',sans-serif;
+  text-shadow: 0px 1px 11px rgba(169,255,252,0.81);
 }
 .post p {
   font-size: 1em;
