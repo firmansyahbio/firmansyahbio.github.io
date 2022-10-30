@@ -241,7 +241,19 @@ header.header {
   justify-content: center;
   background-color: #123;
   background-image: linear-gradient(to bottom, #0003, transparent);
+  animation: slide-in-top 1.9s 1.8s ease both;
 }
+@keyframes slide-in-top { 
+from { 
+  opacity: 0;
+  transform: translateY(-2rem); 
+  }
+to { 
+  opacity: 1;
+  transform: translateY(0); 
+  }
+}
+  
 .linkst {
   background-color: #123;
   background-image: linear-gradient(to bottom, #0003, transparent);
