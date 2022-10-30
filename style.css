@@ -159,7 +159,33 @@ to {
   transform: translateY(0); 
   }
 }
+.slide-bottom2 {
+animation: slide-in-bottom2 1.5s 1.3s ease both;
+}
+@keyframes slide-in-bottom2 { 
+from { 
+  opacity: 0;
+  transform: translateY(2rem); 
+  }
+to { 
+  opacity: 1;
+  transform: translateY(0); 
+  }
+}
 
+.slide-top {
+animation: slide-in-top 1.2s 1.0s ease both;
+}
+@keyframes slide-in-top { 
+from { 
+  opacity: 0;
+  transform: translateY(-2rem); 
+  }
+to { 
+  opacity: 1;
+  transform: translateY(0); 
+  }
+}
 
 /* Animasi Typing Title
 -------------------------------------*/
@@ -302,19 +328,6 @@ header.header {
   background-color: #123;
   background-image: linear-gradient(to bottom, #0003, transparent);
   }
-.slide-top {
-animation: slide-in-top 1.5s 1.3s ease both;
-}
-@keyframes slide-in-top { 
-from { 
-  opacity: 0;
-  transform: translateY(-2rem); 
-  }
-to { 
-  opacity: 1;
-  transform: translateY(0); 
-  }
-}
   
 .linkst {
   background-color: #123;
