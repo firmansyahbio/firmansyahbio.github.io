@@ -152,6 +152,7 @@
 }*/
 .inner button.btn {
   color: #fff;
+  margin-top: 15px;
   padding: 5px 10px;
   text-align: center;
   border-radius: 5px;
