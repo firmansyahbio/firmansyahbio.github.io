@@ -208,7 +208,8 @@ to {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-family: 'Saurce Sans Pro',sans-serif;
-  text-shadow: 0px 1px 11px rgba(169,255,252,0.81);
+  text-shadow: 0px 0px 19px rgba(255,255,255,0.96);
+  /*text-shadow: 0px 1px 11px rgba(169,255,252,0.81);*/
 }
 .post p {
   font-size: 1em;
