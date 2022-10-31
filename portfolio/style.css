@@ -99,7 +99,7 @@
 .inner p {
   color:#fff;
 }
-.inner a.btn {
+/*.inner a.btn {
   width: 150px;
   height: 30px;
   color: #fff;
@@ -149,20 +149,20 @@
 }
 .inner a.btn_bar:active {
   top: 2px;
-}
-/*.inner a.btn {
+}*/
+.inner button.btn {
   color: #fff;
   padding: 5px 10px;
   text-align: center;
-  border-radius: 30px;
+  border-radius: 5px;
   background: #191919;
   text-decoration: none;
   border: 2px #fff solid;
   box-sizing: border-box;
 }
-.inner a.btn:hover {
+.inner button.btn:hover {
   color: #eaeef6;
-}*/
+}
 .portfolio-bar .back{
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
