@@ -10,13 +10,13 @@ ul.sosial {
 
 ul.sosial li{
   cursor: pointer;
-  width:40px;
-  height:40px;
+  width:30px;
+  height:30px;
 }
 
 ul.sosial li a svg {
   fill: #fff;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   transition: all 0.3s ease;
 }
