@@ -108,7 +108,7 @@ to {
 }
 
 .slide-top {
-animation: slide-in-top 1.2s 1.0s ease both;
+animation: slide-in-top 1.0s .9s ease both;
 }
 @keyframes slide-in-top { 
 from { 
