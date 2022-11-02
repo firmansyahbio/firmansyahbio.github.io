@@ -1,1 +1,22 @@
+ul.sosial {
+  list-style: none;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding:10px;
+  box-sizing: border-box;
+}
 
+ul.sosial li{
+  cursor: pointer;
+  width:20px;
+  height:20px;
+}
+
+ul.sosial li a svg {
+  fill: dimgray;
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease;
+}
