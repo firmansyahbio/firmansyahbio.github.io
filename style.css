@@ -94,9 +94,23 @@ to {
   }
 }
 .slide-bottom2 {
-animation: slide-in-bottom2 1.5s 1.3s ease both;
+animation: slide-in-bottom2 1.0s .8s ease both;
 }
 @keyframes slide-in-bottom2 { 
+from { 
+  opacity: 0;
+  transform: translateY(2rem); 
+  }
+to { 
+  opacity: 1;
+  transform: translateY(0); 
+  }
+}
+
+.slide-bottom3 {
+animation: slide-in-bottom3 1.5s 1.3s ease both;
+}
+@keyframes slide-in-bottom3 { 
 from { 
   opacity: 0;
   transform: translateY(2rem); 
