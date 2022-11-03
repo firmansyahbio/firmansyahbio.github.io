@@ -7,6 +7,13 @@
   border-radius: 5px;
   box-sizing: border-box;
 }
+.contactsform div span.title_input {
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
 .contactsform input:focus, textarea:focus{
     border: 1px solid #767EEB;
 }
