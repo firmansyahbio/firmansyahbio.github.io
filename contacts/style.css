@@ -49,3 +49,32 @@
      background: linear-gradient(top, #eee, #ccc);
      border: 1px solid #767EEB;
 }
+
+.contactsform {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  margin-bottom: 0px;
+  max-width: 100%;
+}
+
+.contactsform .inpress {
+  width: 100%;
+  height: none;
+  border-radius: 0px;
+  box-sizing: border-box;
+  display: inline-block;
+  /*box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);*/
+}
+@media(max-width: 900px) {
+.contactsform {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width: 500px) {
+.contactsform {
+    grid-template-columns: 1fr;
+  }
+}
