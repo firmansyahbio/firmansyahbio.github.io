@@ -202,7 +202,14 @@ to {
 	grid-template-columns: repeat(var(--items), 1fr);
 	position: relative;
 }
-
+span.name-post {
+  display: block;
+}
+@media (max-width: 500px) {
+  span.name-post {
+    display: none;
+  }
+}
 #content {
   left: 0;
   right: 0;
