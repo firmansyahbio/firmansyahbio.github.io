@@ -182,9 +182,11 @@ to {
         background: #ffffff06;
         text-shadow: 0 0 10px #000, 0 0 20px #adf, 0 0 10px #adf, 0 0 30px #fff, 0 0 60px #adf;
 }
-.linkst a[href^="#"] i {
+.linkst a[href^="#"] {
   color: #adf;
   background: #ffffff06;
+}
+.linkst a[href^="#"] i {
   text-shadow: 0 0 10px #000, 0 0 20px #adf, 0 0 10px #adf, 0 0 30px #fff, 0 0 60px #adf;
 }
 .linkst:active a[href^="#"] {
