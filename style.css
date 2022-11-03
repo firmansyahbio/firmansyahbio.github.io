@@ -215,6 +215,7 @@ to {
   width: 100%;
   max-width: 900px;
   box-sizing: border-box;
+  font-family: 'Saurce Sans Pro',sans-serif;
 }
 .post h1 {
   font-size: 2.30em;
