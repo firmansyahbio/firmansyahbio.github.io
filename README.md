@@ -1,7 +1,7 @@
 # Firmansyah
 [Website](https://firmansyahbio.github.io) ini sebagai bagian untuk membangun alur kerja yang baik, Cepat, Dan bersih dalam sebuah proyek programming.
-[Firmansyah](https://firmansyahbio.blogspot.com)
-## Daftar Bagian
+[Blog](https://firmansyahbio.blogspot.com)
+## Daftar Halaman
 >### 1. Leading Page
 Halaman utama yang menampilkan foto profil Saya. 
 >### 2. About
