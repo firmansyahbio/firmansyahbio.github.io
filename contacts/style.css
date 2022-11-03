@@ -13,9 +13,9 @@
 
 .contactsform .title_input {
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   text-align: left;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   letter-spacing: 2px;
 }
 .contactsform input:focus, textarea:focus{
