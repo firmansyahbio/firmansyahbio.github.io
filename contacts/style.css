@@ -7,7 +7,11 @@
   border-radius: 5px;
   box-sizing: border-box;
 }
-.contactsform > span.title_input {
+#content .contactsform {
+  text-align: left;
+}
+
+.contactsform .title_input {
   color: #fff;
   font-size: 18px;
   text-align: left;
