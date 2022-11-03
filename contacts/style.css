@@ -1,7 +1,7 @@
 /* Contacts Form
 ----------------------------------*/
 .contactsform {
-  border: 1px solid #4E4DED;
+  border: 0px solid #4E4DED;
   width: 100%;
   padding:10px;
   border-radius: 5px;
@@ -15,10 +15,12 @@
 }
 .contactsform input,
 .contactsform textarea{
+  width: 100%;
   padding: 10px;
+  border-radius: 0px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
   border: 1px solid #4E4DED;
-  border-radius: 5px;
-  margin-bottom: 15px; 
   box-shadow:  inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 }
 
@@ -28,13 +30,14 @@
   box-shadow:  inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 .contactsform input[type="submit"]{
+     width: 100%;
      cursor: pointer;
      background: -webkit-linear-gradient(top, #efefef, #ddd);
      background: -moz-linear-gradient(top, #efefef, #ddd);
      background: -ms-linear-gradient(top, #efefef, #ddd);
      background: -o-linear-gradient(top, #efefef, #ddd);
      background: linear-gradient(top, #efefef, #ddd);
-     color: #333;
+     color: #fff;
      text-shadow: 0px 1px 1px rgba(255,255,255,1);
      border: 1px solid #ccc;
 }
