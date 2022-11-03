@@ -2,16 +2,15 @@
 [Website](https://firmansyahbio.github.io) ini sebagai bagian untuk membangun alur kerja yang baik, Cepat, Dan bersih dalam sebuah proyek programming.
 [Firmansyah](https://firmansyahbio.blogspot.com)
 ## Daftar Bagian
->### 1. Mengukur
-`Membangun` alur kerja yang `baik` dan benar Mengapa?
-Baca di halam web Saya 
->### 2. Kecepatan
-Kinerja yang cepat membuat `situs` website lebih mudah di temukan oleh peramban jelajah Bagian penting kecepatan
->### 3. Kecepatan
-Kinerja yang cepat membuat situs website lebih mudah di temukan oleh peramban jelajah Bagian penting kecepatan
->### 4. Kecepatan
+>### 1. Leading Page
+Halaman utama yang menampilkan foto profil Saya. 
+>### 2. About
+Halaman yang menjelaskan tentang saya dan link profile sosial.
+>### 3. Skills
+Halaman yang menampilkan keterampilan Saya dan bahasa yang Saya gunakan untuk membangun suatu proyek.
+>### 4. Portfolio
 Kinerja yang cepat membuat situs website lebih mudah di temukan oleh peramban jelajah Bagian penting kecepatan 
->### 5. Kecepatan
+>### 5. Contacts
 Kinerja yang `cepat` membuat situs website lebih mudah di temukan oleh peramban jelajah Bagian penting kecepatan seperti contoh berikut
 
 
