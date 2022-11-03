@@ -170,19 +170,19 @@ to {
   width: 100%;
   max-width: 900px;
 }
-.linkst > a {
+.linkst > a{
 	color: #9ab;
 	padding: .75em;
 	text-align: center;
 	text-decoration: none;
 	transition: all .5s;
 }
-.linkst > a:active {
+.linkst > a i:active {
 	color: #adf;
         background: #ffffff06;
         text-shadow: 0 0 10px #000, 0 0 20px #adf, 0 0 10px #adf, 0 0 30px #fff, 0 0 60px #adf;
 }
-.linkst a[href^="#"] {
+.linkst a[href^="#"] i {
   color: #adf;
   background: #ffffff06;
   text-shadow: 0 0 10px #000, 0 0 20px #adf, 0 0 10px #adf, 0 0 30px #fff, 0 0 60px #adf;
