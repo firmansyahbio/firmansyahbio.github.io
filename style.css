@@ -171,11 +171,12 @@ to {
   max-width: 900px;
 }
 .linkst > a{
-	color: #9ab;
-	padding: .75em;
-	text-align: center;
-	text-decoration: none;
-	transition: all .5s;
+  color: #9ab;
+  padding: .75em;
+  text-align: center;
+  text-decoration: none;
+  transition: all .5s;
+  font-family: 'Saurce Sans Pro',sans-serif;
 }
 .linkst > a i:active {
 	color: #adf;
