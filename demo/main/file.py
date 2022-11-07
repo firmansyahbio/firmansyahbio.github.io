@@ -1,5 +1,5 @@
 # buka file
-data = open("puisi.txt", "r")
+data = open("indah.txt", "r")
 
 # baca isi file
 print(data.read())
