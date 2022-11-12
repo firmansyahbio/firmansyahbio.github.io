@@ -254,8 +254,8 @@ span.name-post {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  a.btn-class {
+}
+a.btn-class {
   padding: 15px;
   border: 1px solid #fff;
   color: #fff;
@@ -269,8 +269,8 @@ span.name-post {
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 1px;
-  }
 }
+
 
 @media (max-width: 900px) {
 .post {
