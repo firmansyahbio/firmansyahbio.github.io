@@ -125,6 +125,20 @@ to {
   }
 }
 
+.slide-bottom4 {
+animation: slide-in-bottom4 1.10s 1.8s ease both;
+}
+@keyframes slide-in-bottom4 { 
+from { 
+  opacity: 0;
+  transform: translateY(2rem); 
+  }
+to { 
+  opacity: 1;
+  transform: translateY(0); 
+  }
+}
+
 .slide-top {
 animation: slide-in-top 1.0s .8s ease both;
 }
