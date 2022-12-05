@@ -18,10 +18,10 @@ a.btn-class {
   letter-spacing: 1px;
 }
 a.btn-one {
-border: 2px solid #ffffff;
+  border: 2px solid #ffffff;
 }
 a.btn-two {
-border-top: 2px solid #ffffff;
-border-right: 2px solid #ffffff;
-border-bottom: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
