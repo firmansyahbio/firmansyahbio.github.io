@@ -1,22 +1,20 @@
-ul.sosial {
-  list-style: none;
-  width:100%;
+.button-pass {
   display: flex;
-  justify-content: space-evenly;
-  margin: 0px;
-  padding:10px;
-  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
 }
-
-ul.sosial li{
-  cursor: pointer;
-  width:30px;
-  height:30px;
-}
-
-ul.sosial li a svg {
-  fill: #fff;
-  width: 30px;
-  height: 30px;
-  transition: all 0.3s ease;
+a.btn-class {
+  padding: 15px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  display: inline-block;
+  opacity: 0.65;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
