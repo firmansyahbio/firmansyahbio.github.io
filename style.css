@@ -16,6 +16,7 @@ body {
 -------------------------------------*/
 .container {
   height: 100%;
+  position: relative;
 }
 .icon-footer {
   left: 0;
