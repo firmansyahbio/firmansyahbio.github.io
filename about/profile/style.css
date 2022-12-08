@@ -322,21 +322,23 @@ ul.sosial li a svg {
 
 /* Content List Icon
 ----------------------------------*/
-ul.list_icon {
+.list_icon ul {
   list-style: none;
   padding: 0;
 }
 
-ul.list_icon li {
+.list_icon ul li {
   color: #000;
   line-height: 2.4rem;
 }
 
-ul.list_icon li i {
+.list_icon ul li i {
   color: #767EEB;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
+/* Content List Nilai
+----------------------------------*/
 ul.nilai_nilai li {
   color: #100836;
   margin-top: 25px;
@@ -387,7 +389,7 @@ body {
   font-size: 16px;
   }
 
-ul.list_icon li i {
+.list_icon ul li i {
   margin-right: 10px;
   }
 }
