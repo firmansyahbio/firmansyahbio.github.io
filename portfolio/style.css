@@ -291,11 +291,11 @@ div.backtop svg {
 #responsive-sizing .name-lang-code {
   border-radius: 0 5px 5px 0;
   background-color: #ddd;
-  font-family: 'Quicksand' , sans-serif;
 }
 #responsive-sizing .breakpoint,
 #responsive-sizing .name-lang-code {
   padding: 5px 10px;
+  font-family: 'Quicksand' , sans-serif;
 }
 
 
