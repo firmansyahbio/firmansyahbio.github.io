@@ -151,7 +151,13 @@
   top: 2px;
 }*/
 .inner button.btn {
-  color: #fff;
+   display: inline-block;
+    border-radius: 3px;
+    background: #4caf50;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+  /*color: #fff;
   margin-top: 15px;
   padding: 5px 10px;
   text-align: center;
@@ -159,7 +165,7 @@
   background: #191919;
   text-decoration: none;
   border: 2px #fff solid;
-  box-sizing: border-box;
+  box-sizing: border-box;*/
 }
 .inner button.btn:hover {
   color: #eaeef6;
