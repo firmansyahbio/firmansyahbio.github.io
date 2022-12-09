@@ -254,7 +254,7 @@ ul.sosial li a svg {
 .content p {
   color: #100836;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 15px;
   line-height: 1.5;
   font-family: 'Saurce Sans Pro',sans-serif;
@@ -328,12 +328,13 @@ ul.sosial li a svg {
 }
 
 .list_icon ul li {
+  font-size: 16px;
   color: #000;
   line-height: 2.4rem;
 }
 
 .list_icon ul li i {
-  color: #767EEB;
+  color: dimgray;
   margin-right: 25px;
 }
 
@@ -384,9 +385,6 @@ body {
 .root {
   padding: 0;
   padding-top: 0px;
-  }
-.content p {
-  font-size: 16px;
   }
 
 .list_icon ul li i {
