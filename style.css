@@ -308,10 +308,12 @@ ul.sosial li a svg {
 /* My User withkoji
 --------------------------------*/
 .myuser {
+  left: 0;
   bottom: 0;
   color: #fff;
   width: 200px;
   height: 40px;
+  text-align: left;
   padding: 10px 10px 10px 40px;
   box-sizing: border-box;
   background: #767;
