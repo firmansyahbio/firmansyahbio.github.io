@@ -327,7 +327,7 @@ ul.sosial li a svg {
   position: absolute;
   right: -28px;
   top: 0px;
-  background: #;
+  background-color: #123;
   transform: skewX(26deg);
 }
 .myuser a {
