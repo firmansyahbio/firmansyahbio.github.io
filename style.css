@@ -305,3 +305,29 @@ ul.sosial li a svg {
   height: 30px;
   transition: all 0.3s ease;
 }
+/* My User withkoji
+--------------------------------*/
+.myuser {
+  bottom: 0;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  padding: 10px 10px 10px 40px;
+  box-sizing: border-box;
+  background: #767;
+  position: fixed;
+}
+.myuser:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: -28px;
+  top: 0px;
+  background: #767;
+  transform: skewX(26deg);
+}
+.myuser a {
+  color: #ffff;
+  text-decoration: none;
+}
