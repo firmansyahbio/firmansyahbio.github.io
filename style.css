@@ -4,6 +4,7 @@
 }
 body {
   height: 100%;
+  font-family: 'Saurce Sans Pro',sans-serif;
 }
 body {
     /*background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhboZh3HFP1TlRUETLIwkXQFb6GjpWvZk5kdfAilynMlPU0E8pB3dVJZOCtwxwiKUKtl60I2hQcB4BJ4ovzRjvJyo4rtXVsyjvyqXiL4BzOmcBTqUNWlT6dq85VdUdw3aeocnB1SKOXNuwN-cP_fmnWz54Qn8xiQjdUIkn8WEBWott-P8sDjGwLtH1Z/s1600/fractal-1405730.jpg")
@@ -203,7 +204,6 @@ to {
   text-align: center;
   text-decoration: none;
   transition: all .5s;
-  font-family: 'Saurce Sans Pro',sans-serif;
 }
 .linkst > a i:active {
 	color: #adf;
@@ -314,9 +314,10 @@ ul.sosial li a svg {
   width: 200px;
   height: 40px;
   text-align: left;
+  z-index: 10;
   padding: 10px 10px 10px 40px;
   box-sizing: border-box;
-  background: #767;
+  background-color: #123;
   position: fixed;
 }
 .myuser:before {
@@ -326,7 +327,7 @@ ul.sosial li a svg {
   position: absolute;
   right: -28px;
   top: 0px;
-  background: #767;
+  background: #;
   transform: skewX(26deg);
 }
 .myuser a {
