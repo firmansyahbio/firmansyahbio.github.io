@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+@media (max-width; 1000px) {
+body {display: none;}
+}
 body {
   height: 100%;
   font-family: 'Saurce Sans Pro',sans-serif;
