@@ -3,18 +3,21 @@
   padding: 0;
 }
 @media (min-width: 900px) {
-body {display: none;}
+body {background: #fff;}
+.container {display: none;}
 }
 body {
   height: 100%;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
+@media (max-width: 900px) {
 body {
     /*background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhboZh3HFP1TlRUETLIwkXQFb6GjpWvZk5kdfAilynMlPU0E8pB3dVJZOCtwxwiKUKtl60I2hQcB4BJ4ovzRjvJyo4rtXVsyjvyqXiL4BzOmcBTqUNWlT6dq85VdUdw3aeocnB1SKOXNuwN-cP_fmnWz54Qn8xiQjdUIkn8WEBWott-P8sDjGwLtH1Z/s1600/fractal-1405730.jpg")
     no-repeat center center fixed;*/
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_geQGfZShPhqku8S7i9w_4z0hjJ_nJVkqK-K2IU1EQ2O0DPCDRr8yu3K3LQRgyAn6FT_4Pd6FiAGBeGAbBkqSQFrHsgKE7T-952E4jMe4gjhS3edH11rLqRwHRi45yA-RN9B1JyQKiBNSsaT6D11JjXIpigHmaD82jGaBb0M7uKN7Gl8gErLhHGiPfA/s1600/computer-3174729.jpg")
     no-repeat center center fixed;
     background-size: cover;
+  }
 }
 /* Head Frasa Block
 -------------------------------------*/
