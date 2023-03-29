@@ -4,6 +4,7 @@
 }
 @media (min-width: 900px) {
 body {background: #fff;}
+.icon-footer,
 .container {display: none;}
 }
 body {
