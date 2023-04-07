@@ -26,6 +26,29 @@ a.btn-two {
   border-bottom: 2px solid #ffffff;
 }
 
+
+div.backtop {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  display: block;
+  background: #111111;
+  box-sizing: border-box;
+}
+div.backtop svg {
+  fill: #fff;
+  width: 30px;
+  height: 20px;
+}
+.colbar {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+.openview {
+  padding: 10px;
+  box-sizing: border-box;
+}
 .main-menu-1 {
   top: 0;
   left: 0; 
