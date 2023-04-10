@@ -84,6 +84,7 @@ div.backtop svg {
 .root {
   width: 100%;
   display: flex;
+  background: white;
   padding-top: 30px;
   position: relative;
   align-items: center;
