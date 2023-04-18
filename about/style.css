@@ -42,7 +42,7 @@ a.btn-two {
   position: fixed;
   max-height: 100%;
   background: #191919;
-  overflow: hidden;
+  overflow-y: auto;
 }
 div.backtop {
   width: 100%;
