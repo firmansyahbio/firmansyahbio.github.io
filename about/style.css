@@ -63,7 +63,8 @@ div.backtop svg {
   position: relative;
 }
 .openview {
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
