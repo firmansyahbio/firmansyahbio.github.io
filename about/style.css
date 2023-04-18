@@ -27,28 +27,7 @@ a.btn-two {
 }
 
 
-header.header {
-  width: 100%;
-  height: 50px;
-  padding: 15px;
-  display: block;
-  background: #111111;
-  box-sizing: border-box;
-}
-header.header svg {
-  fill: #fff;
-  width: 30px;
-  height: 20px;
-}
-.colbar {
-  width: 100%;
-  display: block;
-  position: relative;
-}
-.openview {
-  padding: 10px;
-  box-sizing: border-box;
-}
+
 .main-menu-1 {
   top: 0;
   left: 0; 
@@ -66,7 +45,28 @@ header.header svg {
   overflow: hidden;
   opacity: 0.9;
 }
-
+div.backtop {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  display: block;
+  background: #111111;
+  box-sizing: border-box;
+}
+div.backtop svg {
+  fill: #fff;
+  width: 30px;
+  height: 20px;
+}
+.colbar {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+.openview {
+  padding: 10px;
+  box-sizing: border-box;
+}
 
 
 /*.root {
@@ -733,28 +733,7 @@ background-color: rgb(255, 255, 255);
 
 /* Mein Menu 1 of 5
 ----------------------------------*/
-div.backtop {
-  width: 100%;
-  height: 50px;
-  padding: 15px;
-  display: block;
-  background: #111111;
-  box-sizing: border-box;
-}
-div.backtop svg {
-  fill: #fff;
-  width: 30px;
-  height: 20px;
-}
-.colbar {
-  width: 100%;
-  display: block;
-  position: relative;
-}
-.openview {
-  padding: 10px;
-  box-sizing: border-box;
-}
+
 .main-menu-1,
 .main-menu-2,
 .main-menu-3,
