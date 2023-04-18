@@ -43,7 +43,6 @@ a.btn-two {
   max-height: 100%;
   background: #191919;
   overflow: hidden;
-  opacity: 0.9;
 }
 div.backtop {
   width: 100%;
@@ -734,7 +733,7 @@ background-color: rgb(255, 255, 255);
 /* Mein Menu 1 of 5
 ----------------------------------*/
 
-.main-menu-1,
+/*.main-menu-1,
 .main-menu-2,
 .main-menu-3,
 .main-menu-4,
@@ -755,4 +754,4 @@ background-color: rgb(255, 255, 255);
   max-height: 100%;
   background: #191919;
   transition: 2s cubic-bezier(0.33, 1, 0.53, 1);
-}
+}*/
