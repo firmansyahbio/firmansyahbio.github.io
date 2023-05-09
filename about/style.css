@@ -320,7 +320,7 @@ ul.sosial li a svg {
 
 }
 
-.content p {
+.content_box p {
   color: #100836;
   font-weight: 400;
   font-size: 16px;
@@ -328,15 +328,15 @@ ul.sosial li a svg {
   line-height: 1.5;
   font-family: 'Saurce Sans Pro',sans-serif;
 }
-.content p i.icon {
+.content_box p i.icon {
   color: dimgray;
   margin-right: 25px;
 }
-.content p a {
+.content_box p a {
   text-decoration: none;
 }
 
-.content .full_line {
+.content_box .full_line {
   top: 10px;
   width: 100%;
   margin: auto;
@@ -345,7 +345,7 @@ ul.sosial li a svg {
 }
 /* Content Heading 1 of 6
 ----------------------------------*/
-.content h3 {
+.content_box h3 {
   font-size: 23px;
   color: #191919;
   line-height: 1.20em;
@@ -354,14 +354,14 @@ ul.sosial li a svg {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.content h4 {
+.content_box h4 {
   font-size: 20px;
   color: #191919;
   line-height: 1.10em;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.content h5 {
+.content_box h5 {
   font-size: 18px;
   color: #191919;
   line-height: 1.00em;
