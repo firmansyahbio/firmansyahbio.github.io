@@ -40,42 +40,75 @@
       </div>
      </div>
     </div>
-<script>
-//<![CDATA[
-$(function(){
-$("#main-menu").load("div/mainpop.html");
-$("#prodesk1").load("div/prodesk1.html");
-$("#imgpost1").load("img/imgpost1.html");
-});
-//]]>
-</script>
-      <section class="main-menu" id="main-menu-1">
-        <div class="backtop"><svg onclick="closeView1()"><use href="#arrow-left"></use></svg></div>
-	<div class="colbar">
-           <div class="openview">
- <div class="openimageview">
-  <div class="next-wrap">
-  <span id="imgpost1"></span>
-
-  <a class="movepg prever">Prev</a>
-  <a class="movepg nexter">Next</a>
-</div>
-</div>
-<div class="pro-deskripsi" id="prodesk1">
-</div>
+        <script>
+         //<![CDATA[
+           $(function(){
+             $("#main-menu").load("div/mainpop.html");
+	     $("#imgpost1").load("img/imgpost1.html");
+             $("#prodesk1").load("div/prodesk1.html");
+             $("#imgpost2").load("img/imgpost2.html");
+             $("#prodesk2").load("div/prodesk2.html");
+             $("#imgpost3").load("img/imgpost3.html");
+             $("#prodesk3").load("div/prodesk3.html");
+           });//]]>
+        </script>
+        <!-- Main Menu Pop 1 -->
+        <section class="main-menu" id="main-menu-1">
+          <div class="backtop"><svg onclick="closeView1()"><use href="#arrow-left"></use></svg></div>
+          <div class="colbar">
+            <div class="openview">
+              <div class="openimageview">
+                <div class="next-wrap">
+                  <span id="imgpost1"></span>
+                  <a class="movepg prever">Prev</a>
+                  <a class="movepg nexter">Next</a>
+                </div>
+              </div>
+              <div class="pro-deskripsi" id="prodesk1"></div>
+            </div>
           </div>
-        </div>
-      </section>
-      
-      <!-- Klik Pop Up Portofolio END -->
+        </section>
+	<!-- Main Menu Pop 2 -->
+        <section class="main-menu" id="main-menu-2">
+          <div class="backtop"><svg onclick="closeView2()"><use href="#arrow-left"></use></svg></div>
+          <div class="colbar">
+            <div class="openview">
+              <div class="openimageview">
+                <div class="next-wrap">
+                  <span id="imgpost2"></span>
+                  <a class="movepg prever">Prev</a>
+                  <a class="movepg nexter">Next</a>
+                </div>
+              </div>
+              <div class="pro-deskripsi" id="prodesk2"></div>
+            </div>
+          </div>
+        </section>
+        <!-- Main Menu Pop 3 -->
+        <section class="main-menu" id="main-menu-3">
+          <div class="backtop"><svg onclick="closeView3()"><use href="#arrow-left"></use></svg></div>
+          <div class="colbar">
+            <div class="openview">
+              <div class="openimageview">
+                <div class="next-wrap">
+                  <span id="imgpost3"></span>
+                  <a class="movepg prever">Prev</a>
+                  <a class="movepg nexter">Next</a>
+                </div>
+              </div>
+              <div class="pro-deskripsi" id="prodesk3"></div>
+            </div>
+          </div>
+        </section>
+       </div>
+	  
+       <!-- Klik Pop Up Portofolio END -->
       <svg class="hidden">
         <defs>
          <symbol id='arrow-left' title='arrow-left' viewbox='0 0 448 512'><path d='M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z'>@</path></symbol>
         </defs>
       </svg>
-      <!-- Link User Withkoji -->
-       </div>
-	  <script>
+       <script>
 //<![CDATA[
  var index = 0;
 var maxIndex = 5;
