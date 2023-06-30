@@ -1,31 +1,31 @@
 /* Contacts Form
 ----------------------------------*/
-.contactsform {
+.contacts-form {
   border: 0px solid #4E4DED;
   width: 100%;
   padding:10px;
   border-radius: 5px;
   box-sizing: border-box;
 }
-#content .contactsform {
+#content .contacts-form {
   text-align: left;
 }
 
-.contactsform .title_input {
+.contacts-form .title_input {
   color: #fff;
   font-size: 17px;
   text-align: left;
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
-.contactsform input:focus, textarea:focus{
+.contacts-form input:focus, textarea:focus{
     border: 1px solid #767EEB;
 }
-.contactsform textarea{
+.contacts-form textarea{
     width: 90%;
 }
-.contactsform input,
-.contactsform textarea{
+.contacts-form input,
+.contacts-form textarea{
   width: 100%;
   padding: 10px;
   border-radius: 0px;
@@ -35,12 +35,12 @@
   box-shadow:  inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 }
 
-.contactsform input:focus,
-.contactsform textarea:focus {
-  border: 1px #767eeb solod;
+.contacts-form input:focus,
+.contacts-form textarea:focus {
+  border: 1px #767eeb solid;
   box-shadow:  inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
-.contactsform input[type="submit"]{
+.contacts-form input[type="submit"]{
      width: 100%;
      cursor: pointer;
      background: -webkit-linear-gradient(top, #000000, #ddd);
@@ -52,7 +52,7 @@
      text-shadow: 0px 1px 1px rgba(255,255,255,1);
      border: 1px solid #ccc;
 }
-.contactsform input[type="submit"]:hover {
+.contacts-form input[type="submit"]:hover {
      background: -webkit-linear-gradient(top, #eee, #ccc);
      background: -moz-linear-gradient(top, #eee, #ccc);
      background: -ms-linear-gradient(top, #eee, #ccc);
