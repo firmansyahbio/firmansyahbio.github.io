@@ -326,7 +326,7 @@ div.backtop svg {
   display: none;
   position: relative;
   z-index: 900;
-  margin-top: 150px;
+  margin-top: 10px;
   background: #9691F4;
   color: #fff;
   font-weight: 700;
