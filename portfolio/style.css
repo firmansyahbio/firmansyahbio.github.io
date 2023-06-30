@@ -264,7 +264,12 @@ div.backtop svg {
   overflow: hidden;
 }
 
-
+.openimageview {
+	width: none;
+	height: 300px;
+	display: block;
+	position: relative;
+}
 .separator {
   overflow: hidden;
   max-height: 100%;
