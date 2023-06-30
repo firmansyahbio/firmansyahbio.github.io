@@ -264,6 +264,90 @@ div.backtop svg {
   overflow: hidden;
 }
 
+
+.separator {
+  overflow: hidden;
+  max-height: 100%;
+  margin: 0 0 0px 0;
+}
+.separator img {
+  background: #eee;
+  max-width: 100%;
+  vertical-align: middle;
+  background-position: middle;
+  border: 0;
+  height: auto;
+  width: 100%;
+}
+.next-wrap {
+    width: 100%;
+  }
+.next-wrap img,
+.next-wrap video,
+.next-wrap object {
+  max-width: 100%
+}
+.next-wrap {
+  position: relative;
+  max-width: 100%;
+  margin: 0% auto;
+  padding: 0px 0px 0px 0px;
+  background: #ddd;
+  border: 0px red solid;
+  font-family: 'Merriweather', sans-serif;
+  color: #111;
+  font-size: 1em;
+  line-height: 1.9;
+  border-radius: 0px;
+  
+}
+.instruction {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.slidecontentWrap {
+  width: 1000%;
+}
+.slidecontent {
+  float: left;
+  width: 10%;
+  font-size: 16px;
+  line-height: 161%;
+  overflow: hidden;
+}
+.movepg {
+  display: none;
+  position: relative;
+  z-index: 900;
+  margin-top: 5px;
+  background: #9691F4;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 15px;
+  outline: none;
+  border-radius: 3px;
+  transition: background .6s;
+}
+.movepg:hover {
+  color: #fff;
+  background: #111;
+}
+.movepg.prever,
+.movepg.nexter {
+  z-index: 500;
+  position: absolute;
+}
+.movepg.prever {
+  left: 10px;
+}
+.movepg.nexter {
+  right: 10px;
+}
 /* Carousel Image dan Vidio Iframe
 ----------------------------------*/
 #responsive-sizing {
