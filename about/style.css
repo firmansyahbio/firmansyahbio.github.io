@@ -96,11 +96,11 @@ div.backtop svg {
 /* CSS Container
 ----------------------------------*/
 .container_profile {
-  margin-top: 50px;
+  margin-top: 0px;
   padding: 0;
   width: 100%;
   max-width: 700px;
-  border-radius: 10px;
+  border-radius: 0px;
   background: #ffffff;
 }
 
@@ -207,9 +207,9 @@ animation: gradient 15s ease infinite;
 ----------------------------------*/
 .name {
   color: #23304a;
-  font-weight: 100;
+  font-weight: 300;
   font-family: 'Nunito';
-  font-size: 23px;
+  font-size: 25px;
   letter-spacing: 0.8px;
 }
 
@@ -217,9 +217,9 @@ animation: gradient 15s ease infinite;
 ----------------------------------*/
 .loca {
   color: #7083cc;
-  margin-top: 5px;
-  font-size: 17px;
-  font-weight: 100;
+  margin-top: 7px;
+  font-size: 18px;
+  font-weight: 200;
   letter-spacing: 0.8px;
   font-family: 'Oswald';
 }
@@ -349,6 +349,9 @@ ul.sosial li a svg {
   font-size: 23px;
   color: #191919;
   line-height: 1.20em;
+  margin-top: 20px;
+  font-weight: 400;
+  position: relative;
   margin-bottom: -3px;
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
@@ -392,6 +395,7 @@ ul.sosial li a svg {
 /* Content List Icon
 ----------------------------------*/
 .list_icon ul {
+  margin-button: 15px;
   list-style: none;
   padding: 0;
 }
@@ -411,6 +415,7 @@ ul.sosial li a svg {
 ----------------------------------*/
 ul.nilai_nilai li {
   color: #100836;
+  list-style: none;
   margin-top: 25px;
   line-height: 2.4rem;
 }
