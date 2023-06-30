@@ -52,7 +52,7 @@ $(document).ready(function(){
 
 // Main Menu 1
 function openView1() {
-  document.getElementById ("main-menu-1").style.display ="flex";
+  document.getElementById ("main-menu-1").style.display ="block";
   document.getElementById ("closeView1").style.display ="inline";
   document.getElementById ("openView1").style.display ="none";
 }
@@ -65,7 +65,7 @@ function closeView1() {
 
 // Main Menu 2
 function openView2() {
-  document.getElementById ("main-menu-2").style.display ="flex";
+  document.getElementById ("main-menu-2").style.display ="block";
   document.getElementById ("closeView2").style.display ="inline";
   document.getElementById ("openView2").style.display ="none";
 }
