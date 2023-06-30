@@ -150,13 +150,15 @@
 .inner a.btn_bar:active {
   top: 2px;
 }*/
-.inner button.btn {
+.inner > a.btn {
   color: #fff;
+  width: none;
   cursor: pointer;
   margin-top: 25px;
-  display: inline-block;
-  border-radius: 30px;
-  background: #191919;
+  display: block;
+  position: relative;
+  border-radius: 25px;
+  background: navy;
   padding: 10px 20px;
   border: 1px #fff solid;
 }
