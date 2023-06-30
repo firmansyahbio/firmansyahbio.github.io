@@ -86,7 +86,7 @@ div.backtop svg {
   width: 100%;
   display: flex;
   background: white;
-  padding-top: 30px;
+  padding-top: 0px;
   position: relative;
   align-items: center;
   box-sizing: border-box;
@@ -145,7 +145,7 @@ animation: gradient 15s ease infinite;
 .name_header {
   width: 250px;
   height: 46px;
-  background: #34A9E0;
+  background: #ff0000;
   position: relative;
   color: #fff;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -159,7 +159,7 @@ animation: gradient 15s ease infinite;
   display: block;
   height: 46px;
   width: 19px;
-  background: #34A9E0;
+  background: #ff0000;
   -webkit-transform: skewX(-19deg);
   position: absolute;
   right: -8px;
