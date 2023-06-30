@@ -260,7 +260,7 @@ div.backtop svg {
   display: none;
   position: fixed;
   max-height: 100%;
-  background: #191919;
+  background: rgb(25, 25, 25, 0.5);
   overflow: hidden;
 }
 
