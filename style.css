@@ -369,7 +369,7 @@ ul.sosial li a svg {
 }
 @media (min-width: 900px) {
 .rows {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .rows .my_paragraph .wave-container, .footer .my_paragraph .wave-top, .footer .my_paragraph .wave-bottom {
   margin: 0 auto;
