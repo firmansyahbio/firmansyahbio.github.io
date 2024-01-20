@@ -158,22 +158,18 @@ background-color: #123;
   align-items: center;
   justify-content: center;
   & svg {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
+ & .color-icn {
+  fill: #ffffff; /*#B3CEFB;*/
+}
 }
   }
   }
-.container-radio {
-	
-	font-family: Roboto, -apple-system, sans-serif;
+.container {
+font-family: Roboto, -apple-system, sans-serif;
 }
-label span svg {
-  height: 30px;
-  width: 30px;
-& .color-icn {
-  fill: #fff; /*#B3CEFB;*/
-}
-  }
+
 input[id="contact"] ~ #content section.section_contact,
 input[id="portfolio"] ~ #content section.section_portfolio,
 input[id="skills"] ~ #content section.section_skills,
