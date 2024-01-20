@@ -190,6 +190,12 @@ input[id="about"]:checked ~ #content section.section_about,
 input[id="dash-home"]:checked ~ #content section.section_home  {
   display: block;
 }
+input[id="home"]:checked ~ header #radios label span.lab1 svg,
+input[id="about"]:checked ~ header #radios label span.lab2 svg,
+input[id="skills"]:checked ~ header #radios label span.lab3 svg,
+input[id="portfolio"]:checked ~ header #radios label span.lab4 svg,
+input[id="contact"]:checked ~ header #radios label span.lab5 svg {transform: scale(1.1, 1.1);}
+
 .section_home {
   display: block;}
 .color-icn {fill: #fff;}
@@ -416,6 +422,7 @@ span.name-post {
 }
 
 .post {
+  text-align: center;
   padding: 0;
   width: 100%;
   max-width: 900px;
