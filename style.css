@@ -192,7 +192,7 @@ input[id="dash-home"]:checked ~ #content section.section_home  {
 }
 .section_home {
   display: block;}
-
+.color-icn {fill: #fff;}
 .icon-footer {
   left: 0;
   bottom: 0;
