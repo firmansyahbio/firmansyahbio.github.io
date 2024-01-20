@@ -15,31 +15,71 @@
         <script src="script.js"></script>
   </head>
   <body>
-       <div class="container">
-       <div id="headerfull">
-         <nav class="linkst" style="--items: 5;">
-           <a href="#"><i class="fa-solid fa-display"></i><span class="name-post">Home</span></a>
-           <a href="/about"><i class="fa-solid fa-address-card"></i><span class="name-post">About</span></a>
-           <a href="/skills"><i class="fa-solid fa-code"></i><span class="name-post">Skills</span></a>
-           <a href="/portfolio"><i class="fa-solid fa-shield-alt"></i><span class="name-post">Portfolio</span></a>
-           <a href="/contacts"><i class="fa-solid fa-paper-plane"></i><span class="name-post">Contacts</span></a>
-	</nav>
-      </div>
-      <div id="content">
+       <div class="container">       
+        <input type="radio" name="mode" id="home" value="home" checked/>
+	<input type="radio" name="mode" id="about" value="about"/>
+        <input type="radio" name="mode" id="skills" value="skills" />
+	<input type="radio" name="mode" id="portfolio" value="portfolio"/>
+        <input type="radio" name="mode" id="contact" value="contact" />
+         <header>
+          <nav id="radios" class="main_navigasi_page">
+		<label for="home" class="material-icons">
+		<span class="lab1"><svg><use href="#icon-youtube"></use></svg></span>
+		</label>								
+		<label for="about" class="material-icons">
+		<span class="lab2"><svg><use href="#icon-about"></use></svg></span>
+		</label>
+		<label for="skills" class="material-icons">
+		<span class="lab3"><svg><use href="#icon-youtube"></use></svg></span>
+		</label>
+		<label for="portfolio" class="material-icons">
+		<span class="lab4"><svg><use href="#icon-youtube"></use></svg></span>
+		</label>
+		<label for="contact" class="material-icons">
+		<span class="lab5"><svg><use href="#icon-youtube"></use></svg></span>
+		</label>
+	 </nav>
+      </header>
+            <div id="content">
+        <section class="section section_home">
         <div class="post">
            <div class="post-home">
              <div class="conic-bar slide-top">
                <div class="conic">
-                  <img src="profile.jpg" alt="Firmansyah"/>
+                  <img src="About/profile.jpg" alt="Firmansyah"/>
                </div>
              </div>
+	<h1 class="cuma">Google maps radio buttons CSS only</h1>
            <h1 class="heading-1 scroll">Firmansyah</h1><br/><br/>
-           <p class="slide-bottom3">BELAJAR MELIHAT KODE DENGAN LOGIKA UNTUK MENCIPTAKAN SUATU ALGORITMA</p><br/><br/>
-           
+           <p class="paragraph slide-bottom3">Penulis, Blogger, Web Design, Photography, Aktivis Lingkungan, Mengambil nilai yang baik untuk lebih baik.</p>
          </div>
         </div>
+        </section>
+        <section class="section section_about">
+        <div class="post">
+          <h1 class="heading-1 scroll">About</h1><br/><br/>
+        <p class="paragraph slide-bottom3">Daftar Koleksi Portfoli</p>
+        </div>
+        </section>
+        <section class="section section_skills">
+        <div class="post">
+          <h1 class="heading-1 scroll">Skills</h1><br/><br/>
+        <p class="paragraph slide-bottom3">Daftar Koleksi Portfoli</p>
+        </div>
+        </section>
+        <section class="section section_portfolio">
+        <div class="post">
+          <h1 class="heading-1 scroll">Portofolio</h1><br/><br/>
+        <p class="paragraph slide-bottom3">Daftar Koleksi Portfoli</p>
+        </div>
+        </section>
+        <section class="section section_contact">
+        <div class="post">
+          <h1 class="heading-1 scroll">Contact</h1><br/><br/>
+        <p class="paragraph slide-bottom3">Daftar Koleksi Portfoli</p>
+        </div>
+        </section>
       </div>
-   </div>
        <div class="icon-footer slide-bottom4">
            <ul class="sosial">
               <li><a target="_blank" href="https://facebook.com/firmansyahbio"><svg title="Facebook"><use href="#icon-facebook"></use></svg></a></li>
