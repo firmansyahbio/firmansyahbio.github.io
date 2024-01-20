@@ -113,7 +113,9 @@ input[id="contact"]:focus ~ header #radios span.lab5 {
 	color: #fff;	
 	padding: 4px;
 	border-radius: 3px;
-  display: block;
+        display: block;
+	margin-left: 2px;
+	margin-right: 2px;
 }
 
 /* =============================================
@@ -166,8 +168,11 @@ background-color: #123;
 	font-family: Roboto, -apple-system, sans-serif;
 }
 label span svg {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
+& .color-icn {
+  fill: #fff; /*#B3CEFB;*/
+}
   }
 input[id="contact"] ~ #content section.section_contact,
 input[id="portfolio"] ~ #content section.section_portfolio,
