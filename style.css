@@ -13,6 +13,8 @@ body {
 }
 @media (max-width: 900px) {
 body {
+    position: absolute;
+    height: 100%;
     /*background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhboZh3HFP1TlRUETLIwkXQFb6GjpWvZk5kdfAilynMlPU0E8pB3dVJZOCtwxwiKUKtl60I2hQcB4BJ4ovzRjvJyo4rtXVsyjvyqXiL4BzOmcBTqUNWlT6dq85VdUdw3aeocnB1SKOXNuwN-cP_fmnWz54Qn8xiQjdUIkn8WEBWott-P8sDjGwLtH1Z/s1600/fractal-1405730.jpg")
     no-repeat center center fixed;*/
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_geQGfZShPhqku8S7i9w_4z0hjJ_nJVkqK-K2IU1EQ2O0DPCDRr8yu3K3LQRgyAn6FT_4Pd6FiAGBeGAbBkqSQFrHsgKE7T-952E4jMe4gjhS3edH11rLqRwHRi45yA-RN9B1JyQKiBNSsaT6D11JjXIpigHmaD82jGaBb0M7uKN7Gl8gErLhHGiPfA/s1600/computer-3174729.jpg")
@@ -23,9 +25,175 @@ body {
 /* Head Frasa Block
 -------------------------------------*/
 .container {
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  & #content {
   height: 100%;
+  max-height: calc(100% - 90px);
+  overflow: auto;
+  display: block;
+  position: relative;
+ }
+}
+
+
+/* =============================================
+* RADIO BUTTONS
+=============================================== */
+
+#radios label {
+	cursor: pointer;
+	position: relative;
+  margin: 0px;
+	width: 100%;
+	height: 50px;
+}
+
+#radios label {
+	
+}
+
+input[type="radio"] {
+	opacity: 0; 
+	/* hidden but still tabable */
+	position: absolute;
+}
+input[id="home"] ~ header #radios span.lab1,
+input[id="about"] ~ header #radios span.lab2,
+input[id="skills"] ~ header #radios span.lab3,
+input[id="portfolio"] ~ header #radios span.lab4,
+input[id="contact"] ~ header #radios span.lab5
+{
+	font-family: 'Material Icons';
+	fill: #B3CEFB;
+	border-radius: 0%;
+	margin: 0;
+	
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+}
+input[id="home"]:checked ~ header #radios span.lab1,
+input[id="about"]:checked ~ header #radios span.lab2,
+input[id="skills"]:checked ~ header #radios span.lab3,
+input[id="portfolio"]:checked ~ header #radios span.lab4,
+input[id="contact"]:checked ~ header #radios span.lab5 {
+	fill: #D9E7FD;
+filter: drop-shadow(0 0 10px (#000)), (0 0 20px (#adf)),( 0 0 10px (#adf)),( 0 0 30px (#fff)),( 0 0 60px (#adf));
+-webkit-filter: drop-shadow(0 0 10px (#000), 0 0 20px (#adf), 0 0 10px (#adf), 0 0 30px (#fff), 0 0 60px (#adf));
+  /*background-color: #4285F4;*/
+}
+
+input[id="home"]:focus ~ header #radios span.lab1,
+input[id="about"]:focus ~ header #radios span.lab2,
+input[id="skills"]:focus ~ header #radios span.lab3,
+input[id="portfolio"]:focus ~ header #radios span.lab4,
+input[id="contact"]:focus ~ header #radios span.lab5 {
+	color: #fff;
+}
+
+/* ================ TOOLTIPS ================= */
+
+#radios label:hover::before {
+	content: attr(for);
+	font-family: Roboto, -apple-system, sans-serif;
+	text-transform: capitalize;
+	font-size: 11px;
+    width: auto;
+	position: absolute;
+	top: 120%;
+	left: 0;
+	right: 0;
+	opacity: 0.75;
+	background-color: #323232;
+	color: #fff;	
+	padding: 4px;
+	border-radius: 3px;
+  display: block;
+}
+
+/* =============================================
+* CENTERING, CONTAINER STYLING ETC || IGNORE
+=============================================== */
+
+h1.cuma {
+	font-weight: 300;
+	color: #D9E7FD;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#radios {
+  z-index: 8;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	text-align: center;
+	margin: 0 auto;
+background-color: #123;
+  background-image: linear-gradient(to bottom, #0003, transparent);
   position: relative;
 }
+
+.container {
+	margin: 0 auto;
+	& > input {display: none;}
+}
+#radios label {
+  
+  /*background: pink;*/
+}
+#radios label span {
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & svg {
+    width: 25px;
+    height: 25px;
+}
+  }
+  }
+.container-radio {
+	
+	font-family: Roboto, -apple-system, sans-serif;
+}
+label span svg {
+  height: 20px;
+  width: 20px;
+  }
+input[id="contact"] ~ #content section.section_contact,
+input[id="portfolio"] ~ #content section.section_portfolio,
+input[id="skills"] ~ #content section.section_skills,
+input[id="about"] ~ #content section.section_about  {
+  display: none;
+}
+input[id="contact"]:checked ~ #content section.section_home,
+input[id="portfolio"]:checked ~ #content section.section_home,
+input[id="skills"]:checked ~ #content section.section_home,
+input[id="about"]:checked ~ #content section.section_home {
+  display: none;
+}
+  
+input[id="contact"]:checked ~ #content section.section_contact,
+input[id="portfolio"]:checked ~ #content section.section_portfolio,
+input[id="skills"]:checked ~ #content section.section_skills,
+input[id="about"]:checked ~ #content section.section_about,
+input[id="dash-home"]:checked ~ #content section.section_home  {
+  display: block;
+}
+.section_home {
+  display: block;}
+
 .icon-footer {
   left: 0;
   bottom: 0;
@@ -247,15 +415,7 @@ span.name-post {
     display: none;
   }
 }
-#content {
-  left: 0;
-  right: 0;
-  display: flex;
-  text-align: center;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
+
 .post {
   padding: 0;
   width: 100%;
