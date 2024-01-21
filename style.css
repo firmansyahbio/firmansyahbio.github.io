@@ -206,7 +206,7 @@ input[id="skills"]:checked ~ svg defs symbol .color-icn,
 input[id="portfolio"]:checked ~ svg defs symbol .color-icn,
 input[id="contact"]:checked ~ svg defs symbol .color-icn {
 fill:#D9E7FD;}
-svg defs symbol .color-icn {fill:#FFFFFF;}
+/*svg defs symbol .color-icn {fill:#FFFFFF;}*/
 
 .section_home {
   display: block;}
