@@ -194,20 +194,19 @@ input[id="skills"]:checked ~ header #radios label span.lab3 svg,
 input[id="portfolio"]:checked ~ header #radios label span.lab4 svg,
 input[id="contact"]:checked ~ header #radios label span.lab5 svg {transform: scale(1.1, 1.1);}
 
-input[id="home"]:checked ~ svg defs symbol .color-icn,
-input[id="about"]:checked ~ svg defs symbol .color-icn,
-input[id="skills"]:checked ~ svg defs symbol .color-icn,
-input[id="portfolio"]:checked ~ svg defs symbol .color-icn,
-input[id="contact"]:checked ~ svg defs symbol .color-icn {
-	fill: #adf;
-}
 input[id="home"] ~ svg defs symbol .color-icn,
 input[id="about"] ~ svg defs symbol .color-icn,
 input[id="skills"] ~ svg defs symbol .color-icn,
 input[id="portfolio"] ~ svg defs symbol .color-icn,
 input[id="contact"] ~ svg defs symbol .color-icn {
-	fill: #D9E7FD;
-}
+fill:#FFFFFF;}
+input[id="home"]:checked ~ svg defs symbol .color-icn,
+input[id="about"]:checked ~ svg defs symbol .color-icn,
+input[id="skills"]:checked ~ svg defs symbol .color-icn,
+input[id="portfolio"]:checked ~ svg defs symbol .color-icn,
+input[id="contact"]:checked ~ svg defs symbol .color-icn {
+fill:#D9E7FD;}
+svg defs symbol .color-icn {fill:#FFFFFF;}
 
 .section_home {
   display: block;}
