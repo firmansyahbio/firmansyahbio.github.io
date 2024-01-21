@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  cursor: none;
 }
 @media (min-width: 900px) {
 body {background: #fff;}
@@ -160,10 +161,7 @@ background-color: #123;
   & svg {
     width: 30px;
     height: 30px;
- & .color-icn {
-  fill: #ffffff; /*#B3CEFB;*/
-}
-}
+     }
   }
   }
 .container {
@@ -196,9 +194,24 @@ input[id="skills"]:checked ~ header #radios label span.lab3 svg,
 input[id="portfolio"]:checked ~ header #radios label span.lab4 svg,
 input[id="contact"]:checked ~ header #radios label span.lab5 svg {transform: scale(1.1, 1.1);}
 
+input[id="home"]:checked ~ svg defs symbol .color-icn,
+input[id="about"]:checked ~ svg defs symbol .color-icn,
+input[id="skills"]:checked ~ svg defs symbol .color-icn,
+input[id="portfolio"]:checked ~ svg defs symbol .color-icn,
+input[id="contact"]:checked ~ svg defs symbol .color-icn {
+	fill: #adf;
+}
+input[id="home"] ~ svg defs symbol .color-icn,
+input[id="about"] ~ svg defs symbol .color-icn,
+input[id="skills"] ~ svg defs symbol .color-icn,
+input[id="portfolio"] ~ svg defs symbol .color-icn,
+input[id="contact"] ~ svg defs symbol .color-icn {
+	fill: #D9E7FD;
+}
+
 .section_home {
   display: block;}
-.color-icn {fill: #fff;}
+
 .icon-footer {
   left: 0;
   bottom: 0;
