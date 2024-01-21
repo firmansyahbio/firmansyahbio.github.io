@@ -122,7 +122,6 @@ input[id="contact"] ~ header #radios span.lab5
 	fill: #B3CEFB;
 	border-radius: 0%;
 	margin: 0;
-	
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
 }
@@ -196,24 +195,24 @@ h1.cuma {
   }
   }
 
-input[id="contact"] ~ #content section.section_contact,
-input[id="portfolio"] ~ #content section.section_portfolio,
-input[id="skills"] ~ #content section.section_skills,
-input[id="about"] ~ #content section.section_about  {
+input[id="contact"] ~ main section.section_contact,
+input[id="portfolio"] ~ main section.section_portfolio,
+input[id="skills"] ~ main section.section_skills,
+input[id="about"] ~ main section.section_about  {
   display: none;
 }
-input[id="contact"]:checked ~ #content section.section_home,
-input[id="portfolio"]:checked ~ #content section.section_home,
-input[id="skills"]:checked ~ #content section.section_home,
-input[id="about"]:checked ~ #content section.section_home {
+input[id="contact"]:checked ~ main section.section_home,
+input[id="portfolio"]:checked ~ main section.section_home,
+input[id="skills"]:checked ~ main section.section_home,
+input[id="about"]:checked ~ main section.section_home {
   display: none;
 }
   
-input[id="contact"]:checked ~ #content section.section_contact,
-input[id="portfolio"]:checked ~ #content section.section_portfolio,
-input[id="skills"]:checked ~ #content section.section_skills,
-input[id="about"]:checked ~ #content section.section_about,
-input[id="dash-home"]:checked ~ #content section.section_home  {
+input[id="contact"]:checked ~ main section.section_contact,
+input[id="portfolio"]:checked ~ main section.section_portfolio,
+input[id="skills"]:checked ~ main section.section_skills,
+input[id="about"]:checked ~ main section.section_about,
+input[id="dash-home"]:checked ~ main section.section_home  {
   display: block;
 }
 input[id="home"]:checked ~ header #radios label span.lab1 svg,
