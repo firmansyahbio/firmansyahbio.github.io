@@ -206,7 +206,6 @@ input[id="contact"]:focus ~ header #radios span.lab5 {
 	color: #fff;
 }
 
-/* ================ TOOLTIPS ================= */
 
 
 /* =============================================
@@ -519,7 +518,13 @@ span.name-post {
 }
 
 
+/* ================ Content Home ================= */
 
+/* ================ Content About ================= */
+
+/* ================ Content Skills ================= */
+
+/* ================ Content Portfolio ================= */
 .content_portfolio {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -634,6 +639,118 @@ span.name-post {
 .single_project .project ul li a:hover {
     color: #fe302f;
 }
+
+
+
+/* ================ Content Contact ================= */
+.content_contact {
+  border: 0px solid #4E4DED;
+  width: 100%;
+  padding:10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.content_contact {
+  text-align: left;
+}
+.content_contact .date_input {
+  color: #fff;
+  font-size: 17px;
+  text-align: left;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+.content_contact input:focus, textarea:focus{
+    border: 1px solid #767EEB;
+}
+.content_contact textarea{
+    width: 90%;
+}
+.content_contact input,
+.content_contact textarea{
+  width: 100%;
+  padding: 10px;
+  border-radius: 0px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+   border:none;
+    outline: none;
+    box-shadow: 0 2px 6px 0 rgba(136,148,171,.2),0 24px 20px -24px rgba(71,82,107,.1);
+    -moz-box-shadow: 0 2px 6px 0 rgba(136,148,171,.2),0 24px 20px -24px rgba(71,82,107,.1);
+    -wekit-box-shadow: 0 2px 6px 0 rgba(136,148,171,.2),0 24px 20px -24px rgba(71,82,107,.1);
+  /*border: 1px solid #4E4DED;
+  box-shadow:  inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;*/
+}
+.content_contact input:focus,
+.content_contact textarea:focus {
+  border: 0px #767eeb solid;
+  box-shadow:  inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+.content_contact input[type="submit"]{
+     width: 100%;
+     cursor: pointer;
+    /* background: -webkit-linear-gradient(top, #000000, #ddd);
+     background: -moz-linear-gradient(top, #000000, #ddd);
+     background: -ms-linear-gradient(top, #000000, #ddd);
+     background: -o-linear-gradient(top, #000000, #ddd);
+     background: linear-gradient(top, #000000, #ddd);
+     color: #fff;
+     text-shadow: 0px 1px 1px rgba(255,255,255,1);
+     border: 1px solid #ccc;*/
+margin-top:10px;
+padding: 10px 15px;
+background-color: #4E4DED;
+border: 0;
+border-radius: 5px;
+color: white;
+font-size: 1rem;
+font-weight: 500;
+box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.05);
+animation: shadow-pulse 1s infinite;
+cursor:pointer;
+}
+.content_contact input[type="submit"]:hover {
+    /* background: -webkit-linear-gradient(top, #eee, #ccc);
+     background: -moz-linear-gradient(top, #eee, #ccc);
+     background: -ms-linear-gradient(top, #eee, #ccc);
+     background: -o-linear-gradient(top, #eee, #ccc);
+     background: linear-gradient(top, #eee, #ccc);
+     border: 1px solid #767EEB;
+margin-top:20px;
+padding: 5px 10px;
+background-color: #4E4DED;
+border: 0;
+border-radius: 5px;
+color: white;
+font-size: 1rem;
+font-weight: 500;
+box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.05);
+animation: shadow-pulse 1s infinite;
+cursor:pointer;*/
+}
+.form_date {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  margin-top: 0px;
+  max-width: 100%;
+}
+.form_date label {
+  width: 100%;
+  height: none;
+  border-radius: 0px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+@media(max-width: 500px) {
+.form_date {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
 
 
 
