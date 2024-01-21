@@ -5,9 +5,8 @@
 }
 @media (min-width: 900px) {
 body {background: #fff;}
-.icon-footer,
-.container {display: none;}
-}
+.mobile,.container{display:none;}}
+
 body {
   height: 100%;
   font-family: 'Saurce Sans Pro',sans-serif;
@@ -35,27 +34,100 @@ body {
         overflow: hidden;
         position: fixed;
 	font-family: Roboto, -apple-system, sans-serif;
-	& > input {display: none;}
+	& > input[type="radio"] {
+	opacity: 0;
+	display: none;
+	position: absolute;
+	}
 	& header {
          & nav {
-        z-index: 8;
-       height: 50px;
-      display: flex;
-       align-items: center;
-       justify-content: space-between;
-      text-align: center;
-      margin: 0 auto;
-      background-color: #123;
-      background-image: linear-gradient(to bottom, #0003, transparent);
-      position: relative;
-    }
-  }
-  & main {
+         z-index: 8;
+         height: 50px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         text-align: center;
+         margin: 0 auto;
+         background-color: #123;
+         background-image: linear-gradient(to bottom, #0003, transparent);
+         position: relative;
+		 & label {
+		 cursor: pointer;
+	         position: relative;
+                 margin: 0px;
+	         width: 100%;
+	         height: 50px;
+			 &:hover::before {
+	        content: attr(for);
+	        font-family: Roboto, -apple-system, sans-serif;
+	        text-transform: capitalize;
+	        font-size: 11px;
+                width: auto;
+	        position: absolute;
+	        top: 120%;
+	        left: 0;
+	        right: 0;
+	        opacity: 0.75;
+	        background-color: #323232;
+	        color: #fff;	
+	        padding: 4px;
+	        border-radius: 3px;
+                display: block;
+	        margin-left: 2px;
+           	margin-right: 2px;
+                 }
+		& span {
+                width: 100%;
+                height: 50px;
+                margin: 0px;
+                display: flex;
+                align-items: center;
+                 justify-content: center;
+                & svg {
+                width: 30px;
+                height: 30px;
+               }
+               }
+               }
+            }
+          }
+ & main {
   height: 100%;
   max-height: calc(100% - 90px);
   overflow: auto;
   display: block;
   position: relative;
+  & section {
+   & .content, & .post {
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+  font-family: 'Saurce Sans Pro',sans-serif;
+  & > h1 {
+  font-size: 2.30em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Saurce Sans Pro',sans-serif;
+  text-shadow: 0px 0px 19px rgba(255,255,255,0.96);
+  /*text-shadow: 0px 1px 11px rgba(169,255,252,0.81);*/
+  }
+  & > p {
+  font-size: 1em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Saurce Sans Pro',sans-serif; 
+  text-shadow: 0px 1px 11px rgba(169,255,252,0.81);
+  }
+  }
+  }
   }
   & footer {
   left: 0;
@@ -95,23 +167,9 @@ body {
 * RADIO BUTTONS
 =============================================== */
 
-#radios label {
-	cursor: pointer;
-	position: relative;
-  margin: 0px;
-	width: 100%;
-	height: 50px;
-}
 
-#radios label {
-	
-}
 
-input[type="radio"] {
-	opacity: 0; 
-	/* hidden but still tabable */
-	position: absolute;
-}
+
 input[id="home"] ~ header #radios span.lab1,
 input[id="about"] ~ header #radios span.lab2,
 input[id="skills"] ~ header #radios span.lab3,
@@ -146,25 +204,6 @@ input[id="contact"]:focus ~ header #radios span.lab5 {
 
 /* ================ TOOLTIPS ================= */
 
-#radios label:hover::before {
-	content: attr(for);
-	font-family: Roboto, -apple-system, sans-serif;
-	text-transform: capitalize;
-	font-size: 11px;
-    width: auto;
-	position: absolute;
-	top: 120%;
-	left: 0;
-	right: 0;
-	opacity: 0.75;
-	background-color: #323232;
-	color: #fff;	
-	padding: 4px;
-	border-radius: 3px;
-        display: block;
-	margin-left: 2px;
-	margin-right: 2px;
-}
 
 /* =============================================
 * CENTERING, CONTAINER STYLING ETC || IGNORE
@@ -181,19 +220,7 @@ h1.cuma {
 
 
 
-#radios label span {
-  width: 100%;
-  height: 50px;
-  margin: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  & svg {
-    width: 30px;
-    height: 30px;
-     }
-  }
-  }
+
 
 input[id="contact"] ~ main section.section_contact,
 input[id="portfolio"] ~ main section.section_portfolio,
@@ -451,60 +478,11 @@ span.name-post {
   }
 }
 
-.post {
-  text-align: center;
-  padding: 0;
-  width: 100%;
-  max-width: 900px;
-  box-sizing: border-box;
-  font-family: 'Saurce Sans Pro',sans-serif;
-}
-.post h1 {
-  font-size: 2.30em;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: 'Saurce Sans Pro',sans-serif;
-  text-shadow: 0px 0px 19px rgba(255,255,255,0.96);
-  /*text-shadow: 0px 1px 11px rgba(169,255,252,0.81);*/
-}
-.post h1.heading-1 {
-  font-size: 2.30em;
-  font-weight: 700;
-  color: #fff;
-  margin-top: 35px;
-  line-height: 1em;
-  position: relative;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: 'Saurce Sans Pro',sans-serif;
-  text-shadow: 0px 0px 19px rgba(255,255,255,0.96);
-  /*text-shadow: 0px 1px 11px rgba(169,255,252,0.81);*/
-}
-.post p {
-  font-size: 1em;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1.5;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: 'Saurce Sans Pro',sans-serif; 
-  text-shadow: 0px 1px 11px rgba(169,255,252,0.81);
-}
-.post p.paragraph {
-  font-size: 1em;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1.5;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: 'Saurce Sans Pro',sans-serif; 
-  text-shadow: 0px 1px 11px rgba(169,255,252,0.81);
-}
+
+
+
 @media (max-width: 900px) {
-.post {
+.content,.post {
   padding: 10px 15px;
  }
 }
@@ -568,7 +546,7 @@ span.name-post {
   }
 .rows .wave-container, .rows .wave-bottom {
   position: relative;
-  color: #FFF;
+  color: #111;
   text-align:  center;
   overflow: hidden;
   }
@@ -585,16 +563,17 @@ span.name-post {
 .rows .wave-container .deskrip-text p span {
   margin-bottom: 0px;
   line-height: 0.50em;
-  font-size:23px;color:#fff;
+  font-size:23px;
+  color:#111;
   }
 .deskrip-text h3.text-title-pc {
   top: 50px;
-  font-size: 30px;
+  font-size: 50px;
   position: relative;
 }
 .rows .wave-container .deskrip-text p {
-  color: #fff;
-  font-size: 17px;
+  color: #111;
+  font-size: 30px;
   line-height: 1.5em;
   margin: 7rem 1.25rem 2.5rem 1.25rem; 
 }
