@@ -518,6 +518,112 @@ span.name-post {
   text-decoration: none;
 }
 
+
+
+.content_portfolio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  margin-top: 50px;
+}
+.content_portfolio img{
+  width: 100%;
+  border-radius: 5px;
+}
+.content_portfolio div {
+  border-radius: 5px;
+  max-height: 190px;
+  background: white;
+  display: inline-block;
+  color: #0067b8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.content_portfolio div .project {
+  width: 100%;
+}
+@media(max-width: 500px) {
+.content_portfolio {
+    grid-template-columns: 1fr;
+  }
+}
+.single_project .project {
+    position: relative;
+    height: none;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.single_project .project::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+.single_project:hover .project::before {
+  z-index: 5;
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+.single_project .project .discount,
+.section-products .single_project .project new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+.single_project .project .new {
+    left: 0;
+    background-color: #444444;
+}
+.single_project .project ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+.single_project:hover .project ul {
+  z-index: 30;
+    bottom: 30px;
+    opacity: 1;
+}
+.single_project .project ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+.single_project .project ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+.single_project .project ul li a svg {
+	width: 30px;
+	height: 30px;
+}
+.single_project .project ul li a:hover {
+    color: #fe302f;
+}
+
+
+
+
 @media (max-width: 900px) {
 .rows {display: none;}
 }
