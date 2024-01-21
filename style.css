@@ -583,6 +583,20 @@ span.name-post {
     left: 0;
     background-color: #444444;
 }
+.single_project .project .title_project {
+    position: absolute;
+    top: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 5px;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+}
+.single_project:hover .project .title_project {
+    z-index: 30;
+    top: 30px;
+    opacity: 1;
+}
 .single_project .project ul {
     position: absolute;
     bottom: -41px;
