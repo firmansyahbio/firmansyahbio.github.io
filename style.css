@@ -21,28 +21,76 @@ body {
     background-size: cover;
   }
 }
-/* Head Frasa Block
+/* Container
 -------------------------------------*/
 .container {
-  z-index: 5;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  position: fixed;
-  & #content {
+	margin: 0 auto;
+	z-index: 5;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: fixed;
+	font-family: Roboto, -apple-system, sans-serif;
+	& > input {display: none;}
+	& header {
+         & nav {
+        z-index: 8;
+       height: 50px;
+      display: flex;
+       align-items: center;
+       justify-content: space-between;
+      text-align: center;
+      margin: 0 auto;
+      background-color: #123;
+      background-image: linear-gradient(to bottom, #0003, transparent);
+      position: relative;
+    }
+  }
+  & main {
   height: 100%;
   max-height: calc(100% - 90px);
   overflow: auto;
   display: block;
   position: relative;
- }
+  }
+  & footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 10;
+  opacity: 0.9;
+  background: #123;
+  position: fixed;
+  & ul {
+  list-style: none;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding:10px;
+  box-sizing: border-box;
+  & li{
+  cursor: pointer;
+  width:20px;
+  height:20px;
+  & a {
+   & svg {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease;
+   }
+   }
+  }
+  }	  
+  }
 }
-
-
+  
 /* =============================================
 * RADIO BUTTONS
 =============================================== */
@@ -130,27 +178,10 @@ h1.cuma {
 	margin-bottom: 50px;
 }
 
-#radios {
-  z-index: 8;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-	text-align: center;
-	margin: 0 auto;
-background-color: #123;
-  background-image: linear-gradient(to bottom, #0003, transparent);
-  position: relative;
-}
 
-.container {
-	margin: 0 auto;
-	& > input {display: none;}
-}
-#radios label {
-  
-  /*background: pink;*/
-}
+
+
+
 #radios label span {
   width: 100%;
   height: 50px;
@@ -164,9 +195,6 @@ background-color: #123;
      }
   }
   }
-.container {
-font-family: Roboto, -apple-system, sans-serif;
-}
 
 input[id="contact"] ~ #content section.section_contact,
 input[id="portfolio"] ~ #content section.section_portfolio,
@@ -194,33 +222,24 @@ input[id="skills"]:checked ~ header #radios label span.lab3 svg,
 input[id="portfolio"]:checked ~ header #radios label span.lab4 svg,
 input[id="contact"]:checked ~ header #radios label span.lab5 svg {transform: scale(1.1, 1.1);}
 
-input[id="home"] ~ header #radios label span.lab1 svg .color-icn,
-input[id="about"] ~ header #radios label span.lab2 svg .color-icn,
-input[id="skills"] ~ svg defs symbol .color-icn,
-input[id="portfolio"] ~ svg defs symbol .color-icn,
-input[id="contact"] ~ svg defs symbol .color-icn {
-fill:#FFFFFF;}
-input[id="home"]:checked ~ header #radios label span.lab1 svg .color-icn,
-input[id="about"]:checked ~ header #radios label span.lab2 svg .color-icn,
-input[id="skills"]:checked ~ svg defs symbol .color-icn,
-input[id="portfolio"]:checked ~ svg defs symbol .color-icn,
-input[id="contact"]:checked ~ svg defs symbol .color-icn {
+input[id="home"] ~ header nav label span.lab1 svg .color-icn,
+input[id="about"] ~ header nav label span.lab2 svg .color-icn,
+input[id="skills"] ~ header nav label span.lab3 svg .color-icn,
+input[id="portfolio"] ~ header nav label span.lab4 svg .color-icn,
+input[id="contact"] ~ header nav label span.lab5 svg .color-icn {
 fill:#D9E7FD;}
+input[id="home"]:checked ~ header nav label span.lab1 svg .color-icn,
+input[id="about"]:checked ~ header nav label span.lab2 svg .color-icn,
+input[id="skills"]:checked ~ header nav label span.lab3 svg .color-icn,
+input[id="portfolio"]:checked ~ header nav label span.lab4 svg .color-icn,
+input[id="contact"]:checked ~ header nav label span.lab5 svg .color-icn {
+fill:#767EEB;}
 /*svg defs symbol .color-icn {fill:#FFFFFF;}*/
 
 .section_home {
   display: block;}
 
-.icon-footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  z-index: 10;
-  opacity: 0.9;
-  background: #123;
-  position: fixed;
-}
+
 svg.hidden {
   height: 0;
 }
@@ -490,28 +509,8 @@ span.name-post {
   padding: 10px 15px;
  }
 }
-ul.sosial {
-  list-style: none;
-  width:100%;
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0px;
-  padding:10px;
-  box-sizing: border-box;
-}
 
-ul.sosial li{
-  cursor: pointer;
-  width:20px;
-  height:20px;
-}
 
-ul.sosial li a svg {
-  fill: #fff;
-  width: 20px;
-  height: 20px;
-  transition: all 0.3s ease;
-}
 /* My User withkoji
 --------------------------------*/
 .myuser {
