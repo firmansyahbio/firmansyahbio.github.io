@@ -219,7 +219,33 @@ h1.cuma {
 	margin-bottom: 50px;
 }
 
-
+.button-pass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a.btn-class {
+  padding: 15px;
+  color: #ffffff;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  display: inline-block;
+  opacity: 0.65;
+  width: 47%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+a.btn-one {
+  border: 2px solid #ffffff;
+}
+a.btn-two {
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
 
 
 
